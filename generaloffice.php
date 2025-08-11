@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Retail - Querytel Inc</title>
+    <title>General Office - Querytel Inc</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
     <script>
@@ -33,6 +33,14 @@
             --accent-2: #FFB900;
         }
 
+        .qt-line {
+            height: 6px;
+            width: 64px;
+            border-radius: 9999px;
+            background: #D83B01;
+            margin-inline: auto;
+        }
+
         .qt-btn {
             border-radius: 2px;
             font-weight: 600;
@@ -50,11 +58,12 @@
         .qt-btn-secondary {
             background: #fff;
             color: #1b1b1b;
-            border: 1px solid #1b1b1b;
+            border: 1px solid #dcdcdc;
         }
 
         .qt-btn-secondary:hover {
-            background: #f5f5f5;
+            background: #f6f6f6;
+            border-color: #cfcfcf;
         }
 
         .qt-card {
@@ -70,176 +79,185 @@
             box-shadow: 0 10px 24px rgba(0, 0, 0, .08);
             border-color: #D83B01;
         }
-
-        .qt-line {
-            height: 6px;
-            width: 64px;
-            border-radius: 9999px;
-            background: #D83B01;
-            margin-inline: auto;
-        }
     </style>
 </head>
 
 <body class="bg-white text-neutral-900 font-sans">
     <?php include("navbar.php"); ?>
 
-    <!-- HERO (flat, sharp, Microsoft style) -->
+    <!-- HERO -->
     <section class="bg-white py-24 overflow-hidden">
-        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-            <div class="opacity-0 animate-fadeInLeft">
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-7 opacity-0 animate-fadeInLeft">
 
-                <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-neutral-900 leading-tight">
-                    Built for Retail. Ready for Scale.
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight leading-tight">
+                    Looking to Grow your Business?
                 </h1>
-                <p class="mt-6 text-lg text-neutral-700">
-                    From store floors to stockrooms, our smart retail hardware ensures seamless performance, fast
-                    installs, and secure operations — all across Canada.
+                <p class="mt-4 text-xl font-semibold text-[color:var(--accent)]">Our Hardware Can Help</p>
+                <p class="mt-6 max-w-2xl text-base leading-relaxed text-neutral-700">
+                    Standardize your office stack with reliable devices, secure networks, and software that scales
+                    without drama.
                 </p>
-                <div class="mt-8 flex gap-4 opacity-0 animate-fadeIn delay-500">
-                    <a href="#contact"
-                        class="qt-btn qt-btn-primary inline-block px-8 py-3 transition-colors duration-150">Request a
-                        Demo</a>
+                <div class="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
+                    <a href="#request-expert"
+                        class="qt-btn qt-btn-primary inline-flex items-center justify-center px-6 py-3 text-sm transition-colors duration-150">
+                        Request an expert
+                    </a>
                     <a href="<?= $base ?>/contactus"
-                        class="qt-btn qt-btn-secondary inline-block px-8 py-3 transition-colors duration-150">Talk to
-                        Sales</a>
+                        class="qt-btn qt-btn-secondary inline-flex items-center justify-center px-6 py-3 text-sm transition-colors duration-150">
+                        Talk to Sales
+                    </a>
                 </div>
             </div>
-            <div class="opacity-0 animate-fadeInRight delay-200">
-                <img src="<?= $base ?>/assets/images/undraw_shopping_re_3wst.png" alt="Retail Hardware Illustration"
-                    class="w-full max-w-md mx-auto" />
+
+            <div class="lg:col-span-5 opacity-0 animate-fadeInRight delay-200">
+                <div class="mx-auto max-w-lg">
+                    <div class="rounded-2xl border border-black/10 bg-white p-4">
+                        <div
+                            class="aspect-[16/10] w-full overflow-hidden rounded-xl border border-black/5 bg-white p-6">
+                            <img src="<?php echo $base; ?>/assets/images/general-office-hero.jpg"
+                                alt="General Office Overview" class="w-full h-full object-cover" />
+
+                        </div>
+                        <div class="mt-4 flex items-center justify-between gap-4">
+                            <div>
+                                <p class="text-sm font-medium text-neutral-800">Office overview</p>
+                                <p class="text-xs text-neutral-500">Devices, voice, software, security</p>
+                            </div>
+                            <span
+                                class="rounded-full bg-[color:var(--accent)]/10 px-3 py-1 text-xs font-semibold text-[color:var(--accent)]">Live</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- FEATURES -->
-    <section class="bg-[#f9f9f9] py-36">
+    <!-- FEATURES / CARDS -->
+    <section class="bg-[#f9f9f9] py-32 sm:py-36" id="solutions">
         <div class="max-w-[1440px] mx-auto px-6">
-            <header class="text-center mb-28" data-aos="fade-up">
+            <header class="text-center mb-24 sm:mb-28" data-aos="fade-up">
                 <div class="qt-line mb-6"></div>
-                <h2 class="text-[56px] font-light text-[#1B1B1B] leading-tight tracking-tight">
-                    Smarter Hardware for<br />
-                    <span class="font-semibold text-[color:var(--accent)]">Modern Retail Performance</span>
+                <h2 class="text-[40px] sm:text-[56px] font-light text-[#1B1B1B] leading-tight tracking-tight">
+                    Looking to Grow your Business? <br />
+                    <span class="font-semibold text-[color:var(--accent)]">Our Hardware Can Help</span>
                 </h2>
-                <p class="mt-6 text-[20px] text-[#3A3A3A] leading-relaxed max-w-3xl mx-auto">
-                    Engineered for speed, resilience, and control — our retail systems empower scale with seamless
-                    connectivity and secure operation.
-                </p>
             </header>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-x-12 gap-y-24">
-
-                <!-- Card -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-x-8 xl:gap-x-12 gap-y-16 xl:gap-y-24">
+                <!-- Card 1 -->
                 <div class="qt-card overflow-hidden group" data-aos="fade-up">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="https://querytel.com/wp-content/uploads/2021/10/networking.jpg"
-                            alt="Enterprise Networking"
+                        <img src="<?php echo $base; ?>/assets/images/office-1.jpg" alt="Customized Hardware Solutions"
                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div class="p-8">
-                        <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3">Enterprise Networking</h3>
-                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">Scalable switching and routing
-                            infrastructure — built to keep your retail environment fast and resilient.</p>
+                        <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3 tracking-tight">Customized Hardware
+                            Solutions</h3>
+                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">
+                            Secure and reliable networking hardware customized to your exact requirements.
+                        </p>
                     </div>
                 </div>
 
-                <!-- Card -->
+                <!-- Card 2 -->
                 <div class="qt-card overflow-hidden group" data-aos="fade-up" data-aos-delay="100">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="https://querytel.com/wp-content/uploads/2021/10/printer-2.jpg"
-                            alt="Thermal Receipt Printers"
+                        <img src="<?php echo $base; ?>/assets/images/office-2.jpg"
+                            alt="Cost-effective VoIP Phone Systems"
                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div class="p-8">
-                        <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3">Thermal Receipt Printers</h3>
-                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">Clean, crisp output every time — no jams,
-                            no noise. Optimized for frictionless checkouts.</p>
+                        <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3 tracking-tight">Cost-effective VoIP
+                            Phone Systems</h3>
+                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">
+                            Our user-friendly VoIP phones increase employee productivity with remote accessibility.
+                        </p>
                     </div>
                 </div>
 
-                <!-- Card -->
+                <!-- Card 3 -->
                 <div class="qt-card overflow-hidden group" data-aos="fade-up" data-aos-delay="200">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="https://querytel.com/wp-content/uploads/2021/10/RF-Scanners.jpg" alt="RF Scanners"
+                        <img src="<?php echo $base; ?>/assets/images/office-3.jpg"
+                            alt="Ergonomic and Affordable Desktop Hardware"
                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div class="p-8">
-                        <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3">RF Scanners</h3>
-                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">Ergonomic, accurate, fast. Empower
-                            real-time inventory with the right scanning tools.</p>
+                        <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3 tracking-tight">Ergonomic and
+                            Affordable Desktop Hardware</h3>
+                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">
+                            Portable, ergonomic, state-of-the-art desktops to boost efficiency and customer service.
+                        </p>
                     </div>
                 </div>
 
-                <!-- Card -->
+                <!-- Card 4 -->
                 <div class="qt-card overflow-hidden group" data-aos="fade-up" data-aos-delay="300">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="https://querytel.com/wp-content/uploads/2021/10/Wireless.jpg" alt="Retail Wireless"
+                        <img src="<?php echo $base; ?>/assets/images/office-4.jpg"
+                            alt="Sales-Boosting Wireless Technologies"
                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div class="p-8">
-                        <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3">Retail Wireless</h3>
-                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">Whole-floor Wi-Fi coverage, smart install
-                            logic, and seamless roaming for staff and POS devices.</p>
+                        <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3 tracking-tight">Sales-Boosting Wireless
+                            Technologies</h3>
+                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">
+                            Site-wide coverage for fast, reliable connectivity that lifts sales and customer
+                            satisfaction.
+                        </p>
                     </div>
                 </div>
 
-                <!-- Card -->
+                <!-- Card 5 -->
                 <div class="qt-card overflow-hidden group" data-aos="fade-up" data-aos-delay="400">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="https://querytel.com/wp-content/uploads/2021/10/Mobile-Computers.jpg"
-                            alt="Handheld Terminals"
+                        <img src="<?php echo $base; ?>/assets/images/office-5.jpg" alt="Licensed Software"
                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div class="p-8">
-                        <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3">Handheld Terminals</h3>
-                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">Mobile command centers for retail staff —
-                            access orders, stock, and updates instantly.</p>
+                        <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3 tracking-tight">Licensed Software</h3>
+                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">
+                            20+ world-class partners. Only the latest, most cost-effective licensed software solutions.
+                        </p>
                     </div>
                 </div>
 
-                <!-- Card -->
+                <!-- Card 6 -->
                 <div class="qt-card overflow-hidden group" data-aos="fade-up" data-aos-delay="500">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="https://querytel.com/wp-content/uploads/2021/10/security-2.jpg" alt="Retail Firewall"
+                        <img src="<?php echo $base; ?>/assets/images/office-6.jpg" alt="Top-Notch Security"
                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div class="p-8">
-                        <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3">Retail Firewall</h3>
-                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">Protect every device and transaction —
-                            perimeter defense, smart threat detection, always on.</p>
+                        <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3 tracking-tight">Top-Notch Security</h3>
+                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">
+                            Top-of-the-line security hardware to protect your most confidential and critical I.T. data.
+                        </p>
                     </div>
                 </div>
 
             </div>
-        </div>
-    </section>
-
-    <!-- REQUEST EXPERT BUTTON (flat, sharp) -->
-    <section class="py-16 bg-white text-center" data-aos="fade-up">
-        <div class="max-w-4xl mx-auto px-6">
-            <a href="<?= $base ?>/contactus"
-                class="qt-btn qt-btn-primary inline-block px-10 py-4 transition-colors duration-150">Request an
-                Expert</a>
         </div>
     </section>
 
     <!-- CTA -->
-    <section class="py-16 bg-gray-100 text-center">
-        <div class="max-w-3xl mx-auto px-6">
-            <h2 class="text-3xl font-semibold mb-4">Need something custom?</h2>
-            <p class="text-gray-600 mb-6">Our architects can design a deployment tailored to your enterprise.</p>
-            <a href="#contact"
-                class="qt-btn qt-btn-secondary inline-block px-8 py-3 transition-colors duration-150">Let’s Talk</a>
+    <section class="py-20 bg-white text-center" data-aos="fade-up" id="request-expert">
+        <div class="max-w-4xl mx-auto px-6">
+            <a href="<?= $base ?>/contactus"
+                class="qt-btn qt-btn-primary inline-block px-10 py-4 text-lg transition-colors duration-150">
+                Request an Expert
+            </a>
         </div>
     </section>
 
-    <!-- CONTACT FORM -->
+    <!-- CONTACT -->
     <section id="contact" class="py-20">
         <div class="max-w-3xl mx-auto px-6">
             <h3 class="text-2xl font-semibold mb-8 text-center">Contact Us</h3>
