@@ -108,7 +108,6 @@
                         Connect Plans</a>
 
                     <!-- Nested: Cyber Cloud Services -->
-                    <!-- Nested: Cyber Cloud Services -->
                     <div class="nav-hover-group">
                         <button class="w-full flex items-center justify-between px-4 py-2 text-sm hover:bg-gray-100">
                             Cyber Cloud Services
@@ -124,20 +123,40 @@
                                 Backup</a>
                             <a href="<?= $base ?>/cyberprotect" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
                                 Protect</a>
-                            <a href="<?= $base ?>/cyber-notary" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
+                            <a href="<?= $base ?>/cybernotary" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
                                 Notary</a>
-                            <a href="<?= $base ?>/cyber-files" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
+                            <a href="<?= $base ?>/cyberfiles" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
                                 Files</a>
-                            <a href="<?= $base ?>/disaster-recovery-cloud"
+                            <a href="<?= $base ?>/disasterrecoverycloud"
                                 class="block px-4 py-2 text-sm hover:bg-gray-100">Disaster Recovery Cloud</a>
                         </div>
                     </div>
 
-
-                    <a href="<?= $base ?>/malwarebytes" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
-                        Security</a>
+                    <!-- Nested: Cybersecurity -->
+                    <div class="nav-hover-group">
+                        <button class="w-full flex items-center justify-between px-4 py-2 text-sm hover:bg-gray-100">
+                            Cybersecurity
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-500" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <div class="dropdown dropdown-right bg-white shadow-lg rounded min-w-[240px] p-2">
+                            <a href="<?= $base ?>/malwarebytes"
+                                class="block px-4 py-2 text-sm hover:bg-gray-100">Malwarebytes</a>
+                            <a href="<?= $base ?>/fortianalyzer"
+                                class="block px-4 py-2 text-sm hover:bg-gray-100">FortiAnalyzer</a>
+                            <a href="<?= $base ?>/fortinetfirewalls"
+                                class="block px-4 py-2 text-sm hover:bg-gray-100">Fortinet Firewalls</a>
+                            <a href="<?= $base ?>/sdwanassessment"
+                                class="block px-4 py-2 text-sm hover:bg-gray-100">SD-WAN Assessment</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+
 
             <div class="nav-hover-group">
                 <button class="hover:text-black transition">More</button>
