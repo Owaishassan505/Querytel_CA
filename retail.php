@@ -106,7 +106,7 @@
                 </div>
             </div>
             <div class="opacity-0 animate-fadeInRight delay-200">
-                <img src="<?= $base ?>/assets/images/undraw_shopping_re_3wst.png" alt="Retail Hardware Illustration"
+                <img src="<?= $base ?>/assets/images/retail-scaled.jpg" alt="Retail Hardware Illustration"
                     class="w-full max-w-md mx-auto" />
             </div>
         </div>

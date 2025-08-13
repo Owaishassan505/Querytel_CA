@@ -18,12 +18,26 @@
             z-index: 999;
         }
 
-        .nav-hover-group.show .dropdown {
+        /* Only reveal the immediate dropdown of the hovered group */
+        .nav-hover-group.show>.dropdown {
             opacity: 1;
             visibility: visible;
             pointer-events: auto;
             transform: translateY(0);
         }
+    </style>
+    <style>
+        .dropdown-right {
+            left: 100%;
+            top: 0;
+            margin-left: .5rem;
+        }
+
+        .dropdown .nav-hover-group {
+            position: relative;
+        }
+
+        /* ensure nested anchors */
     </style>
 
     <script>
@@ -72,7 +86,7 @@
             <a href="<?= $base ?>/cloud-security" class="hover:text-black transition">Cloud Security</a>
             <a href="<?= $base ?>/warehousing-solutions-and-network-infrastructure"
                 class="hover:text-black transition">Warehousing</a>
-
+            <a href="<?= $base ?>/services" class="hover:text-black transition">Services</a>
             <div class="nav-hover-group">
                 <button class="hover:text-black transition">Industry</button>
                 <div class="dropdown bg-white shadow-lg rounded min-w-[220px] mt-2 p-2">
@@ -92,8 +106,34 @@
                         Connect</a>
                     <a href="<?= $base ?>/officeconnectplans" class="block px-4 py-2 text-sm hover:bg-gray-100">Office
                         Connect Plans</a>
-                    <a href="<?= $base ?>/cybercloudservices" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
-                        Cloud Services</a>
+
+                    <!-- Nested: Cyber Cloud Services -->
+                    <!-- Nested: Cyber Cloud Services -->
+                    <div class="nav-hover-group">
+                        <button class="w-full flex items-center justify-between px-4 py-2 text-sm hover:bg-gray-100">
+                            Cyber Cloud Services
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-500" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <div class="dropdown dropdown-right bg-white shadow-lg rounded min-w-[240px] p-2">
+                            <a href="<?= $base ?>/cyberbackup" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
+                                Backup</a>
+                            <a href="<?= $base ?>/cyberprotect" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
+                                Protect</a>
+                            <a href="<?= $base ?>/cyber-notary" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
+                                Notary</a>
+                            <a href="<?= $base ?>/cyber-files" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
+                                Files</a>
+                            <a href="<?= $base ?>/disaster-recovery-cloud"
+                                class="block px-4 py-2 text-sm hover:bg-gray-100">Disaster Recovery Cloud</a>
+                        </div>
+                    </div>
+
+
                     <a href="<?= $base ?>/malwarebytes" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
                         Security</a>
                 </div>
