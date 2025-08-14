@@ -87,15 +87,7 @@
             <a href="<?= $base ?>/warehousing-solutions-and-network-infrastructure"
                 class="hover:text-black transition">Warehousing</a>
             <a href="<?= $base ?>/services" class="hover:text-black transition">Services</a>
-            <div class="nav-hover-group">
-                <button class="hover:text-black transition">Industry</button>
-                <div class="dropdown bg-white shadow-lg rounded min-w-[220px] mt-2 p-2">
-                    <a href="<?= $base ?>/retail" class="block px-4 py-2 text-sm hover:bg-gray-100">Retail</a>
-                    <a href="<?= $base ?>/healthcare" class="block px-4 py-2 text-sm hover:bg-gray-100">Healthcare</a>
-                    <a href="<?= $base ?>/generaloffice" class="block px-4 py-2 text-sm hover:bg-gray-100">General
-                        Office</a>
-                </div>
-            </div>
+
 
             <div class="nav-hover-group">
                 <button class="hover:text-black transition">Solutions</button>
@@ -107,7 +99,6 @@
                     <a href="<?= $base ?>/officeconnectplans" class="block px-4 py-2 text-sm hover:bg-gray-100">Office
                         Connect Plans</a>
 
-                    <!-- Nested: Cyber Cloud Services -->
                     <!-- Nested: Cyber Cloud Services -->
                     <div class="nav-hover-group">
                         <button class="w-full flex items-center justify-between px-4 py-2 text-sm hover:bg-gray-100">
@@ -124,18 +115,65 @@
                                 Backup</a>
                             <a href="<?= $base ?>/cyberprotect" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
                                 Protect</a>
-                            <a href="<?= $base ?>/cyber-notary" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
+                            <a href="<?= $base ?>/cybernotary" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
                                 Notary</a>
-                            <a href="<?= $base ?>/cyber-files" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
+                            <a href="<?= $base ?>/cyberfiles" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
                                 Files</a>
-                            <a href="<?= $base ?>/disaster-recovery-cloud"
+                            <a href="<?= $base ?>/disasterrecoverycloud"
                                 class="block px-4 py-2 text-sm hover:bg-gray-100">Disaster Recovery Cloud</a>
                         </div>
                     </div>
 
+                    <!-- Nested: Cybersecurity -->
+                    <div class="nav-hover-group">
+                        <button class="w-full flex items-center justify-between px-4 py-2 text-sm hover:bg-gray-100">
+                            Cybersecurity
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-500" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <div class="dropdown dropdown-right bg-white shadow-lg rounded min-w-[240px] p-2">
+                            <!-- USE the same .nav-hover-group + .dropdown pattern for consistent width/behavior -->
+                            <div class="nav-hover-group">
+                                <button
+                                    class="w-full flex items-center justify-between px-4 py-2 text-sm hover:bg-gray-100">
+                                    Malwarebytes
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-500"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                                <div class="dropdown dropdown-right bg-white shadow-lg rounded min-w-[218px] p-2">
+                                    <a href="<?= $base ?>/malwarebytesforhome"
+                                        class="block px-4 py-2 text-sm hover:bg-gray-100">Malwarebytes for Home</a>
+                                    <a href="<?= $base ?>/malwarebytesforbusiness"
+                                        class="block px-4 py-2 text-sm hover:bg-gray-100">Malwarebytes for Business</a>
+                                </div>
+                            </div>
 
-                    <a href="<?= $base ?>/malwarebytes" class="block px-4 py-2 text-sm hover:bg-gray-100">Cyber
-                        Security</a>
+                            <a href="<?= $base ?>/fortianalyzer"
+                                class="block px-4 py-2 text-sm hover:bg-gray-100">FortiAnalyzer</a>
+                            <a href="<?= $base ?>/fortinetfirewalls"
+                                class="block px-4 py-2 text-sm hover:bg-gray-100">Fortinet Firewalls</a>
+                            <a href="<?= $base ?>/sdwanassessment"
+                                class="block px-4 py-2 text-sm hover:bg-gray-100">SD-WAN Assessment</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="nav-hover-group">
+                <button class="hover:text-black transition">Industry</button>
+                <div class="dropdown bg-white shadow-lg rounded min-w-[220px] mt-2 p-2">
+                    <a href="<?= $base ?>/retail" class="block px-4 py-2 text-sm hover:bg-gray-100">Retail</a>
+                    <a href="<?= $base ?>/healthcare" class="block px-4 py-2 text-sm hover:bg-gray-100">Healthcare</a>
+                    <a href="<?= $base ?>/generaloffice" class="block px-4 py-2 text-sm hover:bg-gray-100">General
+                        Office</a>
                 </div>
             </div>
 
@@ -163,6 +201,7 @@
             </div>
 
             <a href="<?= $base ?>/contactus" class="hover:text-black transition">Contact</a>
+            <a href="<?= $base ?>/contactus" class="hover:text-black transition"></a>
         </nav>
 
         <div class="md:hidden">

@@ -64,6 +64,108 @@
       },
     };
   </script>
+  <!-- Schema: Organization -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://querytel.com/#org",
+  "name": "QueryTel Inc",
+  "url": "https://querytel.com/",
+  "logo": "https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png",
+  "description": "Managed IT services, cybersecurity, and cloud solutions across Canada.",
+  "sameAs": [
+    "https://www.linkedin.com/company/querytel"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "7025 Tomken Road, Suite 244",
+    "addressLocality": "Mississauga",
+    "addressRegion": "ON",
+    "postalCode": "L5S 1R6",
+    "addressCountry": "CA"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "Sales",
+      "telephone": "+1-844-447-8379",
+      "areaServed": "CA",
+      "availableLanguage": ["en"]
+    },
+    {
+      "@type": "ContactPoint",
+      "contactType": "Sales (GTA)",
+      "telephone": "+1-416-477-1380",
+      "areaServed": "CA",
+      "availableLanguage": ["en"]
+    },
+    {
+      "@type": "ContactPoint",
+      "contactType": "Sales (Montreal)",
+      "telephone": "+1-514-257-5250",
+      "areaServed": "CA",
+      "availableLanguage": ["en","fr"]
+    },
+    {
+      "@type": "ContactPoint",
+      "contactType": "Technical Support",
+      "email": "support@querytel.com",
+      "url": "https://helpdesk.querytel.com/portal/en/home",
+      "areaServed": "CA",
+      "availableLanguage": ["en"]
+    }
+  ]
+}
+</script>
+
+  <!-- Schema: LocalBusiness (Toronto HQ) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://querytel.com/#hq",
+  "name": "QueryTel Inc — Toronto HQ",
+  "image": "https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png",
+  "url": "https://querytel.com/",
+  "telephone": "+1-416-477-1380",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "7025 Tomken Road, Suite 244",
+    "addressLocality": "Mississauga",
+    "addressRegion": "ON",
+    "postalCode": "L5S 1R6",
+    "addressCountry": "CA"
+  },
+  "openingHours": "Mo-Fr 08:00-17:00",
+  "parentOrganization": { "@id": "https://querytel.com/#org" }
+}
+</script>
+
+  <!-- Schema: Service (Managed IT Services) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Managed IT Services",
+  "provider": {
+    "@type": "Organization",
+    "@id": "https://querytel.com/#org",
+    "name": "QueryTel Inc"
+  },
+  "areaServed": "CA",
+  "description": "Proactive managed IT support, remote helpdesk, and onsite services.",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "IT & Cybersecurity",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cybersecurity" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cloud Backup" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Managed Services" } }
+    ]
+  }
+}
+</script>
 
   <!-- Inside <head> -->
   <style>
