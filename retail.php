@@ -93,8 +93,8 @@
                     Built for Retail. Ready for Scale.
                 </h1>
                 <p class="mt-6 text-lg text-neutral-700">
-                    From store floors to stockrooms, our smart retail hardware ensures seamless performance, fast
-                    installs, and secure operations — all across Canada.
+                    From store floors to stockrooms, our innovative retail hardware ensures seamless performance, fast
+                    installs, and secure operations all across Canada.
                 </p>
                 <div class="mt-8 flex gap-4 opacity-0 animate-fadeIn delay-500">
                     <a href="#contact"
@@ -122,7 +122,7 @@
                     <span class="font-semibold text-[color:var(--accent)]">Modern Retail Performance</span>
                 </h2>
                 <p class="mt-6 text-[20px] text-[#3A3A3A] leading-relaxed max-w-3xl mx-auto">
-                    Engineered for speed, resilience, and control — our retail systems empower scale with seamless
+                    Engineered for speed, resilience, and control, our retail systems empower scale with seamless
                     connectivity and secure operation.
                 </p>
             </header>
@@ -140,7 +140,7 @@
                     <div class="p-8">
                         <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3">Enterprise Networking</h3>
                         <p class="text-[16px] text-[#4A4A4A] leading-relaxed">Scalable switching and routing
-                            infrastructure — built to keep your retail environment fast and resilient.</p>
+                            infrastructure built to keep your retail environment fast and resilient.</p>
                     </div>
                 </div>
 
@@ -154,7 +154,7 @@
                     </div>
                     <div class="p-8">
                         <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3">Thermal Receipt Printers</h3>
-                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">Clean, crisp output every time — no jams,
+                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">Clean, crisp output every time, no jams,
                             no noise. Optimized for frictionless checkouts.</p>
                     </div>
                 </div>
@@ -169,7 +169,7 @@
                     <div class="p-8">
                         <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3">RF Scanners</h3>
                         <p class="text-[16px] text-[#4A4A4A] leading-relaxed">Ergonomic, accurate, fast. Empower
-                            real-time inventory with the right scanning tools.</p>
+                            real-time inventory with the proper scanning tools.</p>
                     </div>
                 </div>
 
@@ -182,8 +182,8 @@
                     </div>
                     <div class="p-8">
                         <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3">Retail Wireless</h3>
-                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">Whole-floor Wi-Fi coverage, smart install
-                            logic, and seamless roaming for staff and POS devices.</p>
+                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">Whole floor Wi-Fi coverage, smart install
+                            logic, and seamless roaming for staff and POS devices. </p>
                     </div>
                 </div>
 
@@ -197,8 +197,8 @@
                     </div>
                     <div class="p-8">
                         <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3">Handheld Terminals</h3>
-                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">Mobile command centers for retail staff —
-                            access orders, stock, and updates instantly.</p>
+                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">Mobile command centers allow retail staff
+                            to instantly access orders, stock, and updates.</p>
                     </div>
                 </div>
 
@@ -211,8 +211,8 @@
                     </div>
                     <div class="p-8">
                         <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3">Retail Firewall</h3>
-                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">Protect every device and transaction —
-                            perimeter defense, smart threat detection, always on.</p>
+                        <p class="text-[16px] text-[#4A4A4A] leading-relaxed">Protect every device and transaction
+                            perimeter defense, intelligent threat detection, always on.</p>
                     </div>
                 </div>
 
@@ -229,34 +229,38 @@
         </div>
     </section>
 
-    <!-- CTA -->
     <section class="py-16 bg-gray-100 text-center">
         <div class="max-w-3xl mx-auto px-6">
             <h2 class="text-3xl font-semibold mb-4">Need something custom?</h2>
-            <p class="text-gray-600 mb-6">Our architects can design a deployment tailored to your enterprise.</p>
+            <p class="text-gray-600 mb-6">
+                Our architects can design a deployment tailored to your enterprise.
+            </p>
             <a href="#contact"
-                class="qt-btn qt-btn-secondary inline-block px-8 py-3 transition-colors duration-150">Let’s Talk</a>
+                class="inline-block bg-neutral-900 text-white px-6 py-3 rounded hover:bg-neutral-800 transition">Let’s
+                Talk</a>
         </div>
     </section>
 
     <!-- CONTACT FORM -->
-    <section id="contact" class="py-20">
+    <section id="contact" class="py-20 bg-gray-50">
         <div class="max-w-3xl mx-auto px-6">
-            <h3 class="text-2xl font-semibold mb-8 text-center">Contact Us</h3>
-            <form class="space-y-6">
+            <h3 class="text-2xl font-semibold mb-8 text-center">Get In Touch</h3>
+            <form class="space-y-6" action="sendmail.php" method="POST">
                 <div class="grid md:grid-cols-2 gap-6">
-                    <input type="text" placeholder="Your Name"
-                        class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
-                    <input type="email" placeholder="Email Address"
-                        class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
+                    <input type="text" name="name" placeholder="Your Name"
+                        class="w-full border border-black px-4 py-3 rounded" required />
+                    <input type="email" name="email" placeholder="Email Address"
+                        class="w-full border border-black px-4 py-3 rounded" required />
                 </div>
-                <input type="tel" placeholder="Phone Number"
-                    class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
-                <textarea rows="4" placeholder="Your Message"
-                    class="w-full border border-neutral-900 px-4 py-3 rounded-[2px] resize-none" required></textarea>
+                <input type="tel" name="phone" placeholder="Phone Number"
+                    class="w-full border border-black px-4 py-3 rounded" required />
+                <textarea rows="4" name="message" placeholder="Your Message"
+                    class="w-full border border-black px-4 py-3 rounded resize-none" required></textarea>
                 <div class="text-center">
-                    <button type="submit" class="qt-btn qt-btn-primary px-8 py-3 transition-colors duration-150">Send
-                        Message</button>
+                    <button type="submit"
+                        class="bg-neutral-900 text-white px-8 py-3 rounded hover:bg-neutral-800 transition">
+                        Send Message
+                    </button>
                 </div>
             </form>
         </div>

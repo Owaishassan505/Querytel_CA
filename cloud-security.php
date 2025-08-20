@@ -4,7 +4,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Microsoft-Style Services</title>
+  <title>Cloud Security & Managed IT Services in Canada | QueryTel</title>
+  <meta name="description"
+    content="Enterprise-grade cloud security, centralized management, and threat prevention. Fortinet-powered managed IT services for Canadian businesses. Speak with QueryTel’s experts today." />
+  <link rel="canonical" href="https://querytel.com/cloud-security/" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="QueryTel Inc" />
+  <meta property="og:title" content="Cloud Security & Managed IT Services in Canada | QueryTel" />
+  <meta property="og:description"
+    content="Enterprise-grade cloud security, centralized management, and threat prevention for Canadian enterprises. Powered by Fortinet." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://querytel.com/cloud-security/" />
+  <meta property="og:image" content="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png" />
+  <meta property="og:locale" content="en_CA" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@QueryTel" />
+  <meta name="twitter:title" content="Cloud Security & Managed IT Services in Canada | QueryTel" />
+  <meta name="twitter:description"
+    content="Fortinet-powered cloud security, built to scale across Canadian enterprises." />
+  <meta name="twitter:image" content="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png" />
+
+  <!-- Structured Data (Local Business + Service) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ITService",
+    "name": "QueryTel Inc",
+    "url": "https://querytel.com/cloud-security/",
+    "logo": "https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png",
+    "description": "Enterprise-grade cloud security and managed IT services for Canadian businesses, powered by Fortinet.",
+    "provider": {
+      "@type": "Organization",
+      "name": "QueryTel Inc",
+      "url": "https://querytel.com"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Canada"
+    }
+  }
+  </script>
+
+  <!-- Performance hints -->
+  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+  <link rel="preload" as="image" href="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png"
+    imagesrcset="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png 1200w"
+    imagesizes="(min-width:1024px) 50vw, 100vw">
+
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -34,6 +84,7 @@
     };
   </script>
 </head>
+
 
 <body class="bg-white text-neutral-900 font-sans">
   <!-- HEADER -->
@@ -89,7 +140,7 @@
           <ul class="space-y-2 text-gray-700 list-disc list-inside">
             <li>DNS Security, App Control, Intrusion Prevention</li>
             <li>High Availability across regions</li>
-            <li>Integrates with AWS, Azure, Hybrid</li>
+            <li>Integrates with AWS, Azure, & Hybrid</li>
           </ul>
         </div>
       </div>
@@ -129,7 +180,7 @@
           <ul class="space-y-2 text-gray-700 list-disc list-inside">
             <li>Powered by FortiGuard Labs</li>
             <li>Ransomware & zero-day blocking</li>
-            <li>Regulatory compliance built-in</li>
+            <li>Regulatory compliance built in</li>
           </ul>
         </div>
       </div>
@@ -149,18 +200,20 @@
   </section>
 
   <!-- CONTACT FORM -->
-  <section id="contact" class="py-20">
+  <section id="contact" class="py-20 bg-gray-50">
     <div class="max-w-3xl mx-auto px-6">
-      <h3 class="text-2xl font-semibold mb-8 text-center">Contact Us</h3>
-      <form class="space-y-6">
+      <h3 class="text-2xl font-semibold mb-8 text-center">Get In Touch</h3>
+      <form class="space-y-6" action="sendmail.php" method="POST">
         <div class="grid md:grid-cols-2 gap-6">
-          <input type="text" placeholder="Your Name" class="w-full border border-black px-4 py-3 rounded" required />
-          <input type="email" placeholder="Email Address" class="w-full border border-black px-4 py-3 rounded"
+          <input type="text" name="name" placeholder="Your Name" class="w-full border border-black px-4 py-3 rounded"
             required />
+          <input type="email" name="email" placeholder="Email Address"
+            class="w-full border border-black px-4 py-3 rounded" required />
         </div>
-        <input type="tel" placeholder="Phone Number" class="w-full border border-black px-4 py-3 rounded" required />
-        <textarea rows="4" placeholder="Your Message" class="w-full border border-black px-4 py-3 rounded resize-none"
-          required></textarea>
+        <input type="tel" name="phone" placeholder="Phone Number" class="w-full border border-black px-4 py-3 rounded"
+          required />
+        <textarea rows="4" name="message" placeholder="Your Message"
+          class="w-full border border-black px-4 py-3 rounded resize-none" required></textarea>
         <div class="text-center">
           <button type="submit" class="bg-neutral-900 text-white px-8 py-3 rounded hover:bg-neutral-800 transition">
             Send Message
@@ -169,74 +222,7 @@
       </form>
     </div>
   </section>
-  <footer class="bg-[#f3f3f3] text-sm text-neutral-600 border-t border-neutral-200">
-    <div class="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-4 gap-10">
-      <!-- Column 1: Logo + Brief -->
-      <div>
-        <img src="https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png"
-          alt="QueryTel Logo" class="h-10 mb-4" />
-        <p>
-          Empowering Canadian businesses with reliable managed IT,
-          cybersecurity, and scalable infrastructure since 1995.
-        </p>
-      </div>
-
-      <!-- Column 2: Solutions -->
-      <div>
-        <h4 class="text-neutral-800 font-semibold mb-3">Solutions</h4>
-        <ul class="space-y-2">
-          <li>
-            <a href="/managedservices/" class="hover:underline">Managed Services</a>
-          </li>
-          <li>
-            <a href="/cloud-security/" class="hover:underline">Cloud Security</a>
-          </li>
-          <li>
-            <a href="/warehousing-solutions-and-network-infrastructure/" class="hover:underline">Warehousing</a>
-          </li>
-          <li>
-            <a href="/cybercloudservices/" class="hover:underline">Cyber Cloud</a>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Column 3: Company -->
-      <div>
-        <h4 class="text-neutral-800 font-semibold mb-3">Company</h4>
-        <ul class="space-y-2">
-          <li>
-            <a href="/it-services-cybersecurity-cloud-solutions/" class="hover:underline">About Us</a>
-          </li>
-          <li><a href="/careers/" class="hover:underline">Careers</a></li>
-          <li><a href="/contactus/" class="hover:underline">Contact</a></li>
-          <li>
-            <a href="/termsandconditions/" class="hover:underline">Terms & Conditions</a>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Column 4: Support -->
-      <div>
-        <h4 class="text-neutral-800 font-semibold mb-3">Support</h4>
-        <ul class="space-y-2">
-          <li>
-            <a href="/remotesupport/" class="hover:underline">Remote Support</a>
-          </li>
-          <li>
-            <a href="https://helpdesk.querytel.com/portal/en/home" class="hover:underline">Support Portal</a>
-          </li>
-          <li>
-            <a href="https://cpxsp1-bell.solutions.sip.bell.ca/Login/" class="hover:underline">Office Connect Portal</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Bottom bar -->
-    <div class="border-t border-neutral-200 text-center text-xs py-6 bg-[#eeeeee]">
-      &copy; 2025 QueryTel Inc. All rights reserved.
-    </div>
-  </footer>
+  <?php include("footer.php"); ?>
 </body>
 
 </html>

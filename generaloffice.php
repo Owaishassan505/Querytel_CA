@@ -258,23 +258,25 @@
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="py-20">
+    <section id="contact" class="py-20 bg-gray-50">
         <div class="max-w-3xl mx-auto px-6">
-            <h3 class="text-2xl font-semibold mb-8 text-center">Contact Us</h3>
-            <form class="space-y-6">
+            <h3 class="text-2xl font-semibold mb-8 text-center">Get In Touch</h3>
+            <form class="space-y-6" action="sendmail.php" method="POST">
                 <div class="grid md:grid-cols-2 gap-6">
-                    <input type="text" placeholder="Your Name"
-                        class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
-                    <input type="email" placeholder="Email Address"
-                        class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
+                    <input type="text" name="name" placeholder="Your Name"
+                        class="w-full border border-black px-4 py-3 rounded" required />
+                    <input type="email" name="email" placeholder="Email Address"
+                        class="w-full border border-black px-4 py-3 rounded" required />
                 </div>
-                <input type="tel" placeholder="Phone Number"
-                    class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
-                <textarea rows="4" placeholder="Your Message"
-                    class="w-full border border-neutral-900 px-4 py-3 rounded-[2px] resize-none" required></textarea>
+                <input type="tel" name="phone" placeholder="Phone Number"
+                    class="w-full border border-black px-4 py-3 rounded" required />
+                <textarea rows="4" name="message" placeholder="Your Message"
+                    class="w-full border border-black px-4 py-3 rounded resize-none" required></textarea>
                 <div class="text-center">
-                    <button type="submit" class="qt-btn qt-btn-primary px-8 py-3 transition-colors duration-150">Send
-                        Message</button>
+                    <button type="submit"
+                        class="bg-neutral-900 text-white px-8 py-3 rounded hover:bg-neutral-800 transition">
+                        Send Message
+                    </button>
                 </div>
             </form>
         </div>

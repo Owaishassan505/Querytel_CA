@@ -150,7 +150,7 @@
                     Office Connect Plans
                 </h1>
                 <p class="mt-4 text-lg text-gray-700 max-w-xl">
-                    Modern voice for modern teams. Clean admin, smart routing, and pricing that’s easy to explain.
+                    Modern voice for modern teams. Clean admin, intelligent routing, and pricing that’s easy to explain.
                 </p>
                 <div class="mt-8 flex gap-3">
                     <a href="#pricing" class="oc-btn oc-btn-primary px-6 py-3">View Plans</a>
@@ -169,7 +169,8 @@
     <section class="bg-gray-50 py-12">
         <div class="max-w-6xl mx-auto px-6 text-center">
             <h2 class="text-2xl md:text-3xl font-semibold">Simple tiers. Enterprise outcomes.</h2>
-            <p class="mt-3 text-gray-600">Choose the plan that fits today—scale features without switching platforms.
+            <p class="mt-3 text-gray-600">You can choose the plan that fits today's scale features without switching
+                platforms.
             </p>
         </div>
     </section>
@@ -328,7 +329,7 @@
                     <li class="flex gap-3"><span class="text-accent mt-1 text-xl">•</span> Hard-to-get DIDs, easy
                         porting, zero downtime cutovers.</li>
                     <li class="flex gap-3"><span class="text-accent mt-1 text-xl">•</span> Analytics that surface
-                        trends—not just raw CDRs.</li>
+                        trends, not just raw CDRs.</li>
                 </ul>
                 <div class="mt-8 flex gap-3">
                     <a href="<?= $base ?>/contactus?s=office-connect-demo"

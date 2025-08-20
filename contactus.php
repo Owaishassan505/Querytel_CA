@@ -5,37 +5,139 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Us - Querytel Inc</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Contact QueryTel Inc — Sales & Support in Canada</title>
+  <meta name="description"
+    content="Reach QueryTel Inc for managed IT, cloud, and cybersecurity. Call Toronto HQ or open a support ticket. Mon–Fri, 8am–5pm. Canada-wide coverage." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://querytel.com/contactus/" />
+  <link rel="alternate" hreflang="en-ca" href="https://querytel.com/contactus/" />
+  <meta name="theme-color" content="#0f172a" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Contact QueryTel Inc — Sales & Support in Canada" />
+  <meta property="og:description"
+    content="Speak with a local expert or reach our helpdesk. Toronto HQ and Canada-wide service." />
+  <meta property="og:url" content="https://querytel.com/contactus/" />
+  <meta property="og:site_name" content="QueryTel Inc." />
+  <meta property="og:locale" content="en_CA" />
+  <meta property="og:image"
+    content="https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Contact QueryTel Inc — Sales & Support in Canada" />
+  <meta name="twitter:description" content="Call our Toronto HQ or open a support ticket. Mon–Fri, 8am–5pm." />
+  <meta name="twitter:image"
+    content="https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png" />
+
+  <!-- Icons -->
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- Performance hints -->
+  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.tailwindcss.com">
+
+  <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind config (kept) -->
   <script>
     tailwind.config = {
       theme: {
         extend: {
           keyframes: {
-            fadeInRight: {
-              "0%": { opacity: 0, transform: "translateX(50px)" },
-              "100%": { opacity: 1, transform: "translateX(0)" },
-            },
-            fadeInLeft: {
-              "0%": { opacity: 0, transform: "translateX(-50px)" },
-              "100%": { opacity: 1, transform: "translateX(0)" },
-            },
-            fadeIn: {
-              "0%": { opacity: 0 },
-              "100%": { opacity: 1 },
-            },
+            fadeInRight: { "0%": { opacity: 0, transform: "translateX(50px)" }, "100%": { opacity: 1, transform: "translateX(0)" } },
+            fadeInLeft: { "0%": { opacity: 0, transform: "translateX(-50px)" }, "100%": { opacity: 1, transform: "translateX(0)" } },
+            fadeIn: { "0%": { opacity: 0 }, "100%": { opacity: 1 } }
           },
           animation: {
             fadeInRight: "fadeInRight 0.8s ease-out forwards",
             fadeInLeft: "fadeInLeft 0.8s ease-out forwards",
-            fadeIn: "fadeIn 1s ease-out forwards",
-          },
-        },
-      },
+            fadeIn: "fadeIn 1s ease-out forwards"
+          }
+        }
+      }
     };
   </script>
+
+  <!-- Schema: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "@id":"https://querytel.com/#org",
+    "name":"QueryTel Inc.",
+    "url":"https://querytel.com/",
+    "logo":"https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png",
+    "sameAs":["https://www.linkedin.com/company/querytel"]
+  }
+  </script>
+
+  <!-- Schema: ContactPage -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ContactPage",
+    "@id":"https://querytel.com/contactus/#contactpage",
+    "url":"https://querytel.com/contactus/",
+    "name":"Contact QueryTel Inc",
+    "inLanguage":"en-CA",
+    "about":{"@id":"https://querytel.com/#org"},
+    "primaryImageOfPage":{"@type":"ImageObject","url":"https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png"},
+    "lastReviewed":"2025-08-18",
+    "breadcrumb":{"@id":"https://querytel.com/contactus/#breadcrumb"}
+  }
+  </script>
+
+  <!-- Schema: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BreadcrumbList",
+    "@id":"https://querytel.com/contactus/#breadcrumb",
+    "itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Home","item":"https://querytel.com/"},
+      {"@type":"ListItem","position":2,"name":"Contact Us","item":"https://querytel.com/contactus/"}
+    ]
+  }
+  </script>
+
+  <!-- Schema: LocalBusiness (HQ info for trust) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "@id":"https://querytel.com/#hq",
+    "name":"QueryTel Inc — Toronto HQ",
+    "url":"https://querytel.com/",
+    "image":"https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png",
+    "telephone":"+1-416-477-1380",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"7025 Tomken Road, Suite 244",
+      "addressLocality":"Mississauga",
+      "addressRegion":"ON",
+      "postalCode":"L5S 1R6",
+      "addressCountry":"CA"
+    },
+    "openingHoursSpecification":[{
+      "@type":"OpeningHoursSpecification",
+      "dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens":"08:00",
+      "closes":"17:00"
+    }],
+    "parentOrganization":{"@id":"https://querytel.com/#org"}
+  }
+  </script>
 </head>
+
 
 <body class="bg-white text-neutral-900 font-sans">
   <!-- HEADER -->
@@ -48,12 +150,11 @@
       <!-- Text Column -->
       <div class="opacity-0 animate-fadeInLeft">
         <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-neutral-900 leading-tight">
-          Let’s connect — your solution starts here.
+          Let’s connect <br> Your solution starts here.
         </h1>
         <p class="mt-6 text-lg text-gray-600">
-          Reach out to us across Canada for IT, cloud, and managed service
-          inquiries. We're always ready to talk tech or solve real-world
-          problems.
+          Contact us across Canada for IT, cloud, and managed service inquiries. We're always ready to discuss tech or
+          solve real-world problems.
         </p>
         <div class="mt-8 flex gap-4 opacity-0 animate-fadeIn delay-500">
           <a href="#contact"
@@ -256,18 +357,20 @@
   </section>
 
   <!-- CONTACT FORM -->
-  <section id="contact" class="py-20">
+  <section id="contact" class="py-20 bg-gray-50">
     <div class="max-w-3xl mx-auto px-6">
-      <h3 class="text-2xl font-semibold mb-8 text-center">Contact Us</h3>
-      <form class="space-y-6">
+      <h3 class="text-2xl font-semibold mb-8 text-center">Get In Touch</h3>
+      <form class="space-y-6" action="sendmail.php" method="POST">
         <div class="grid md:grid-cols-2 gap-6">
-          <input type="text" placeholder="Your Name" class="w-full border border-black px-4 py-3 rounded" required />
-          <input type="email" placeholder="Email Address" class="w-full border border-black px-4 py-3 rounded"
+          <input type="text" name="name" placeholder="Your Name" class="w-full border border-black px-4 py-3 rounded"
             required />
+          <input type="email" name="email" placeholder="Email Address"
+            class="w-full border border-black px-4 py-3 rounded" required />
         </div>
-        <input type="tel" placeholder="Phone Number" class="w-full border border-black px-4 py-3 rounded" required />
-        <textarea rows="4" placeholder="Your Message" class="w-full border border-black px-4 py-3 rounded resize-none"
-          required></textarea>
+        <input type="tel" name="phone" placeholder="Phone Number" class="w-full border border-black px-4 py-3 rounded"
+          required />
+        <textarea rows="4" name="message" placeholder="Your Message"
+          class="w-full border border-black px-4 py-3 rounded resize-none" required></textarea>
         <div class="text-center">
           <button type="submit" class="bg-neutral-900 text-white px-8 py-3 rounded hover:bg-neutral-800 transition">
             Send Message

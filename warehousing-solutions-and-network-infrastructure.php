@@ -4,25 +4,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Microsoft-Style Services</title>
+
+  <!-- Primary SEO -->
+  <title>Enterprise IT & Warehouse Technology Services in Canada | QueryTel</title>
+  <meta name="description"
+    content="Structured cabling, IT & network design, datacenter operations, end-user compute, and surveillance. Secure, scalable solutions for Canadian enterprises." />
+  <link rel="canonical" href="https://querytel.com/services/" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Enterprise IT & Warehouse Technology Services in Canada | QueryTel" />
+  <meta property="og:description"
+    content="Structured cabling, hybrid cloud/datacenter, secure remote access, rugged mobile devices, and AI surveillance—built to scale." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://querytel.com/services/" />
+  <meta property="og:image" content="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Enterprise IT & Warehouse Technology Services in Canada | QueryTel" />
+  <meta name="twitter:description"
+    content="Modernize infrastructure and operations with QueryTel’s enterprise services." />
+  <meta name="twitter:image" content="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png" />
+
+  <!-- Performance hints -->
+  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+  <link rel="preload" as="image" href="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png"
+    imagesrcset="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png 1200w"
+    imagesizes="(min-width:1024px) 50vw, 100vw">
+  <link rel="preload" as="image"
+    href="https://querytel.com/wp-content/uploads/2025/03/Depositphotos_522317172_XL-1-scaled.jpg">
+
+  <!-- Tailwind (kept) -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
           keyframes: {
-            fadeInRight: {
-              "0%": { opacity: 0, transform: "translateX(50px)" },
-              "100%": { opacity: 1, transform: "translateX(0)" },
-            },
-            fadeInLeft: {
-              "0%": { opacity: 0, transform: "translateX(-50px)" },
-              "100%": { opacity: 1, transform: "translateX(0)" },
-            },
-            fadeIn: {
-              "0%": { opacity: 0 },
-              "100%": { opacity: 1 },
-            },
+            fadeInRight: { "0%": { opacity: 0, transform: "translateX(50px)" }, "100%": { opacity: 1, transform: "translateX(0)" } },
+            fadeInLeft: { "0%": { opacity: 0, transform: "translateX(-50px)" }, "100%": { opacity: 1, transform: "translateX(0)" } },
+            fadeIn: { "0%": { opacity: 0 }, "100%": { opacity: 1 } },
           },
           animation: {
             fadeInRight: "fadeInRight 0.8s ease-out forwards",
@@ -33,7 +55,53 @@
       },
     };
   </script>
+
+  <!-- Structured Data: Services on this page -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "@id":"https://querytel.com/services/#list",
+    "name":"Enterprise IT & Warehouse Technology Services",
+    "itemListElement":[
+      { "@type":"ListItem", "position":1,
+        "item": { "@type":"Service", "name":"Structured Cabling",
+          "description":"Long-range Ethernet, cold-rated CAT6, and redundant 10G fiber from MDF to IDFs.",
+          "areaServed":"CA" } },
+      { "@type":"ListItem", "position":2,
+        "item": { "@type":"Service", "name":"IT & Network Infrastructure Design",
+          "description":"IT/OT segregation, standardized naming, HA routing and segmentation.",
+          "areaServed":"CA" } },
+      { "@type":"ListItem", "position":3,
+        "item": { "@type":"Service", "name":"Datacenter Operations",
+          "description":"Hybrid cloud (on-prem, AWS, Azure), WMS/3PL/4PL, VPN and secure remote access.",
+          "areaServed":"CA" } },
+      { "@type":"ListItem", "position":4,
+        "item": { "@type":"Service", "name":"End-User Compute & Mobile Devices",
+          "description":"Rugged/freezer-grade devices, RFID, kiosk/label workflows, password-less auth.",
+          "areaServed":"CA" } },
+      { "@type":"ListItem", "position":5,
+        "item": { "@type":"Service", "name":"Surveillance & Intrusion Prevention",
+          "description":"Access control, HRIS/PayClock integration, license plate scan, AI dock monitoring.",
+          "areaServed":"CA" } }
+    ],
+    "url":"https://querytel.com/services/"
+  }
+  </script>
+
+  <!-- Breadcrumbs -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BreadcrumbList",
+    "itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Home","item":"https://querytel.com/"},
+      {"@type":"ListItem","position":2,"name":"Services","item":"https://querytel.com/services/"}
+    ]
+  }
+  </script>
 </head>
+
 
 <body class="bg-white text-neutral-900 font-sans">
   <!-- HEADER -->
@@ -149,8 +217,8 @@
           End-User Compute & Mobile Devices
         </h2>
         <p class="text-gray-600 mb-4">
-          Customize all endpoints with security in mind. From passwordless
-          auth to rugged mobile devices, we power the warehouse floor.
+          We customize all endpoints with security in mind. From password-less auth to rugged mobile devices, we power
+          the warehouse floor.
         </p>
         <ul class="space-y-2 text-gray-700 list-disc list-inside">
           <li>Warehouse-ready desktops & laptops</li>
@@ -170,7 +238,7 @@
           Surveillance & Intrusion Prevention
         </h2>
         <p class="text-gray-600 mb-4">
-          Smart, connected surveillance that integrates with HRIS, entrance
+          intelligent, connected surveillance that integrates with HRIS, entrance
           control, and truck verification.
         </p>
         <ul class="space-y-2 text-gray-700 list-disc list-inside">
@@ -196,18 +264,20 @@
   </section>
 
   <!-- CONTACT FORM -->
-  <section id="contact" class="py-20">
+  <section id="contact" class="py-20 bg-gray-50">
     <div class="max-w-3xl mx-auto px-6">
-      <h3 class="text-2xl font-semibold mb-8 text-center">Contact Us</h3>
-      <form class="space-y-6">
+      <h3 class="text-2xl font-semibold mb-8 text-center">Get In Touch</h3>
+      <form class="space-y-6" action="sendmail.php" method="POST">
         <div class="grid md:grid-cols-2 gap-6">
-          <input type="text" placeholder="Your Name" class="w-full border border-black px-4 py-3 rounded" required />
-          <input type="email" placeholder="Email Address" class="w-full border border-black px-4 py-3 rounded"
+          <input type="text" name="name" placeholder="Your Name" class="w-full border border-black px-4 py-3 rounded"
             required />
+          <input type="email" name="email" placeholder="Email Address"
+            class="w-full border border-black px-4 py-3 rounded" required />
         </div>
-        <input type="tel" placeholder="Phone Number" class="w-full border border-black px-4 py-3 rounded" required />
-        <textarea rows="4" placeholder="Your Message" class="w-full border border-black px-4 py-3 rounded resize-none"
-          required></textarea>
+        <input type="tel" name="phone" placeholder="Phone Number" class="w-full border border-black px-4 py-3 rounded"
+          required />
+        <textarea rows="4" name="message" placeholder="Your Message"
+          class="w-full border border-black px-4 py-3 rounded resize-none" required></textarea>
         <div class="text-center">
           <button type="submit" class="bg-neutral-900 text-white px-8 py-3 rounded hover:bg-neutral-800 transition">
             Send Message

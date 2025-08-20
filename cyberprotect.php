@@ -25,6 +25,7 @@
                 }
             }
         }
+
     </script>
 </head>
 
@@ -46,8 +47,8 @@
                 </p>
                 <h1 class="mt-4 text-4xl md:text-5xl font-bold leading-tight">Cyber Protect</h1>
                 <p class="mt-4 text-orange-50 max-w-xl">
-                    Unified protection that blends backup, anti-malware, vulnerability assessment, and instant
-                    recovery—managed from one console.
+                    Unified protection that blends backup, anti-malware, vulnerability assessment, and instant recovery
+                    managed from one console.
                 </p>
                 <div class="mt-7 flex flex-wrap gap-3">
                     <a href="#plans"
@@ -61,7 +62,7 @@
             <div class="relative animate-fadeUp md:delay-150">
                 <div class="absolute -inset-8 bg-white/10 blur-3xl rounded-full"></div>
                 <div class="relative z-10 bg-white/95 rounded-2xl ring-1 ring-black/5 p-6 shadow-soft">
-                    <img src="<?= $base ?>/assets/images/undraw_cyber-protect_dashboard.svg" alt="Cyber Protect"
+                    <img src="<?= $base ?>/assets/images/CYBER-SECURITY.webp" alt="Cyber Protect"
                         class="w-full h-72 object-contain">
                 </div>
             </div>
@@ -80,7 +81,8 @@
                     </span>
                     <h3 class="font-semibold">Active Defense</h3>
                 </div>
-                <p class="mt-2 text-sm text-neutral-700">Behavior-based anti-malware with rollback; signed deletes; MFA.
+                <p class="mt-2 text-sm text-neutral-700">Behavior-based anti-malware with rollback, signed deletes, and
+                    MFA.
                 </p>
             </div>
             <div class="rounded-xl bg-white p-5 border border-neutral-200 shadow-sm hover:shadow-md transition">
@@ -92,7 +94,8 @@
                     </span>
                     <h3 class="font-semibold">Unified Console</h3>
                 </div>
-                <p class="mt-2 text-sm text-neutral-700">Backup, AV, patching, and recovery controlled from one pane.
+                <p class="mt-2 text-sm text-neutral-700">Backup, AV, patching, and recovery are controlled from one
+                    pane.
                 </p>
             </div>
             <div class="rounded-xl bg-white p-5 border border-neutral-200 shadow-sm hover:shadow-md transition">
@@ -143,8 +146,8 @@
                         <h3 class="font-semibold text-white text-sm md:text-base">Simplified Onboarding</h3>
                     </div>
                     <p class="mt-3 text-sm text-slate-300">
-                        Discover assets and deploy a single lightweight agent for anti-malware, backup, patching and
-                        more — remotely.
+                        Discover assets and deploy a single lightweight agent remotely for anti-malware, backup,
+                        patching, and more.
                     </p>
                 </article>
 
@@ -158,7 +161,7 @@
                         <h3 class="font-semibold text-white text-sm md:text-base">Zero-Day Malware & Ransomware</h3>
                     </div>
                     <p class="mt-3 text-sm text-slate-300">
-                        Behavior-based detection, rollback and signed deletes guard against evolving threats.
+                        Behavior-based detection, rollback, and signed deletes guard against evolving threats.
                     </p>
                 </article>
 
@@ -187,7 +190,7 @@
                         <h3 class="font-semibold text-white text-sm md:text-base">Better SLAs</h3>
                     </div>
                     <p class="mt-3 text-sm text-slate-300">
-                        Improve availability KPIs with proactive, active and reactive layers of cyber protection.
+                        Improve availability KPIs with proactive, active, and reactive cyber protection layers.
                     </p>
                 </article>
 
@@ -229,7 +232,7 @@
                         <h3 class="font-semibold text-white text-sm md:text-base">Centralized Patching</h3>
                     </div>
                     <p class="mt-3 text-sm text-slate-300">
-                        Patch more than Microsoft — cover client software estate from one multitenant tool.
+                        Patch more than Microsoft covers the client software estate from one multitenant tool.
                     </p>
                 </article>
 
@@ -243,7 +246,7 @@
                         <h3 class="font-semibold text-white text-sm md:text-base">Demonstrate Value</h3>
                     </div>
                     <p class="mt-3 text-sm text-slate-300">
-                        Clear reporting and vuln-assessment tie service to outcomes for easier renewals.
+                        Transparent reporting and vulnerability assessment tie service to outcomes for easier renewals.
                     </p>
                 </article>
 
@@ -257,7 +260,7 @@
                         <h3 class="font-semibold text-white text-sm md:text-base">Real-Time Doc Protection</h3>
                     </div>
                     <p class="mt-3 text-sm text-slate-300">
-                        Continuous data protection saves critical file changes immediately — even between backups.
+                        Continuous data protection saves critical file changes immediately, even between backups.
                     </p>
                 </article>
 
@@ -271,7 +274,8 @@
                         <h3 class="font-semibold text-white text-sm md:text-base">Eliminate Complexity</h3>
                     </div>
                     <p class="mt-3 text-sm text-slate-300">
-                        Integrate cybersecurity and data protection into one platform — less swivel-chair, lower cost.
+                        Integrate cybersecurity and data protection into one platform, fewer swivel-chairs, and lower
+                        cost.
                     </p>
                 </article>
 
@@ -318,22 +322,23 @@
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="py-20">
+    <section id="contact" class="py-20 bg-gray-50">
         <div class="max-w-3xl mx-auto px-6">
-            <h3 class="text-2xl font-semibold mb-8 text-center">Contact Us</h3>
-            <form class="space-y-6">
+            <h3 class="text-2xl font-semibold mb-8 text-center">Get In Touch</h3>
+            <form class="space-y-6" action="sendmail.php" method="POST">
                 <div class="grid md:grid-cols-2 gap-6">
-                    <input type="text" placeholder="Your Name"
-                        class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
-                    <input type="email" placeholder="Email Address"
-                        class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
+                    <input type="text" name="name" placeholder="Your Name"
+                        class="w-full border border-black px-4 py-3 rounded" required />
+                    <input type="email" name="email" placeholder="Email Address"
+                        class="w-full border border-black px-4 py-3 rounded" required />
                 </div>
-                <input type="tel" placeholder="Phone Number"
-                    class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
-                <textarea rows="4" placeholder="Your Message"
-                    class="w-full border border-neutral-900 px-4 py-3 rounded-[2px] resize-none" required></textarea>
+                <input type="tel" name="phone" placeholder="Phone Number"
+                    class="w-full border border-black px-4 py-3 rounded" required />
+                <textarea rows="4" name="message" placeholder="Your Message"
+                    class="w-full border border-black px-4 py-3 rounded resize-none" required></textarea>
                 <div class="text-center">
-                    <button type="submit" class="qt-btn qt-btn-primary px-8 py-3 transition-colors duration-150">
+                    <button type="submit"
+                        class="bg-neutral-900 text-white px-8 py-3 rounded hover:bg-neutral-800 transition">
                         Send Message
                     </button>
                 </div>

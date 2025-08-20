@@ -6,10 +6,44 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Services - Querytel Inc</title>
+
+    <!-- Primary SEO -->
+    <title>IT Services in Canada | Managed IT, Cloud, Cybersecurity & VoIP | QueryTel</title>
+    <meta name="description"
+        content="Explore QueryTel’s enterprise IT services: Managed IT, cloud infrastructure, cybersecurity, warehousing & network builds, and Office Connect VoIP. Built for Canadian businesses." />
+    <link rel="canonical" href="https://querytel.com/services/" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="IT Services in Canada | Managed IT, Cloud, Cybersecurity & VoIP | QueryTel" />
+    <meta property="og:description"
+        content="See all QueryTel services: managed support, cloud, cybersecurity, warehousing & network infrastructure, and Office Connect VoIP." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://querytel.com/services/" />
+    <meta property="og:image"
+        content="https://querytel.com/wp-content/uploads/2021/10/Business-Strategy-Planning-2b-1024x576.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="IT Services in Canada | Managed IT, Cloud, Cybersecurity & VoIP | QueryTel" />
+    <meta name="twitter:description"
+        content="Browse the full QueryTel services portfolio for Canadian organizations." />
+    <meta name="twitter:image"
+        content="https://querytel.com/wp-content/uploads/2021/10/Business-Strategy-Planning-2b-1024x576.png" />
+
+    <!-- Performance hints -->
+    <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preload" as="image"
+        href="https://querytel.com/wp-content/uploads/2021/10/Business-Strategy-Planning-2b-1024x576.png"
+        imagesrcset="https://querytel.com/wp-content/uploads/2021/10/Business-Strategy-Planning-2b-1024x576.png 1024w"
+        imagesizes="(min-width:1024px) 60vw, 100vw">
+
+    <!-- CSS/JS you already use -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
+    <!-- Your existing styles -->
     <style>
         :root {
             --accent: #D83B01;
@@ -79,7 +113,7 @@
 
     <!-- Motion tokens -->
     <style>
-        @media (prefers-reduced-motion: no-preference) {
+        @media (prefers-reduced-motion:no-preference) {
             .anim-backdrop {
                 animation: qtfade .16s ease-out forwards;
             }
@@ -87,8 +121,6 @@
             .anim-sheet-in {
                 animation: qtsheet .18s cubic-bezier(.2, .8, .2, 1) forwards;
             }
-
-            .anim-hero {}
 
             .anim-hero img {
                 animation: qtzoom .6s ease-out forwards;
@@ -176,7 +208,6 @@
             color-scheme: light;
         }
 
-        /* Overlay is closed by default; becomes flex-centered when open */
         #svc-sheet-overlay {
             display: none;
         }
@@ -186,33 +217,55 @@
             align-items: center;
             justify-content: center;
             padding: 1rem;
-            /* keep space from edges on small screens */
             overscroll-behavior: contain;
-            /* stop background scroll chaining */
         }
 
-        /* Bigger, Fluent-y dialog */
         #svc-sheet {
             width: min(98vw, 1280px);
-            /* bigger than 1120px */
             max-height: 92vh;
             border-radius: 14px;
             will-change: transform, opacity;
-            /* smoother */
         }
 
-        /* Acrylic-ish backdrop */
         #svc-sheet-overlay>[data-close] {
             background: rgba(12, 12, 12, .45);
             backdrop-filter: saturate(150%) blur(8px);
         }
 
-        /* Ensure hero image never distorts */
         #svc-sheet-img {
             object-fit: fill !important;
         }
     </style>
+
+    <!-- Structured Data: ItemList of services + Breadcrumbs -->
+    <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "@id":"https://querytel.com/services/#list",
+    "name":"QueryTel Services",
+    "itemListOrder":"https://schema.org/ItemListOrderAscending",
+    "itemListElement":[
+      { "@type":"ListItem", "position":1, "url":"https://querytel.com/managedservices/", "name":"Managed Services" },
+      { "@type":"ListItem", "position":2, "url":"https://querytel.com/cloud-security/", "name":"Cloud Security" },
+      { "@type":"ListItem", "position":3, "url":"https://querytel.com/officeconnect/", "name":"Office Connect (VoIP & SIP Trunking)" },
+      { "@type":"ListItem", "position":4, "url":"https://querytel.com/warehousing-solutions-and-network-infrastructure/", "name":"Warehousing & Network Infrastructure" }
+    ],
+    "url":"https://querytel.com/services/"
+  }
+  </script>
+    <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BreadcrumbList",
+    "itemListElement":[
+      { "@type":"ListItem", "position":1, "name":"Home", "item":"https://querytel.com/" },
+      { "@type":"ListItem", "position":2, "name":"Services", "item":"https://querytel.com/services/" }
+    ]
+  }
+  </script>
 </head>
+
 
 <body class="bg-white text-neutral-900 font-sans">
     <?php include("navbar.php"); ?>
@@ -222,7 +275,7 @@
         <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
             <div>
                 <h1 class="text-4xl md:text-5xl font-semibold tracking-tight leading-tight">
-                    Services that make your IT invisible — and your team faster.
+                    Services that make your IT invisible and your team faster.
                 </h1>
                 <p class="mt-6 text-lg text-neutral-700">
                     From network rollouts to endpoint hardening, pick what you need or bundle it. Flat, predictable,
@@ -262,7 +315,7 @@
                         ["Staff Augmentation / Outsourcing", "Managed Services", "Extra hands or full teams to hit deadlines.", "https://querytel.com/wp-content/uploads/2025/07/SAO1.webp", "staff-augmentation-outsourcing"],
 
                         // Managed Security Services
-                        ["Infrastructure Security", "Managed Security Services", "Harden networks, segment traffic, enforce policy.", "https://querytel.com/wp-content/uploads/2025/08/iNTERNET-SECURITY-1024x761.png", "infrastructure-security"],
+                        ["Infrastructure Security", "Managed Security Services", "Harden networks, segment traffic, & enforce policy.", "https://querytel.com/wp-content/uploads/2025/08/iNTERNET-SECURITY-1024x761.png", "infrastructure-security"],
                         ["24-Hour Monitoring & Mitigation", "Managed Security Services", "Continuous detection and response.", "https://querytel.com/wp-content/uploads/2025/07/24-hour-security.webp", "24-hour-monitoring-mitigation"],
                         ["Patch/Vulnerability Monitoring", "Managed Security Services", "Track CVEs, patch cadence, and exceptions.", "https://querytel.com/wp-content/uploads/2025/07/Vulnerability-Monitoring-Assessment-Mitigation.webp", "patch-vulnerability-monitoring"],
                         ["Securing Segregation of IT/OT Devices", "Managed Security Services", "Segment critical systems safely.", "https://querytel.com/wp-content/uploads/2025/07/SOC-monitoring.png", "securing-segregation-it-ot"],
@@ -271,20 +324,20 @@
                         // Web & Digital Services
                         ["Dynamic Web Development", "Web & Digital Services", "Modern, performant sites on proven stacks.", "https://querytel.com/wp-content/uploads/2025/07/depositphotos_652767038-stock-illustration-man-code-guy-writes-code.webp", "dynamic-web-development"],
                         ["E-Commerce Site Development & Management", "Web & Digital Services", "Secure storefronts with smooth ops.", "https://querytel.com/wp-content/uploads/2025/07/ecommerce.webp", "ecommerce-development-management"],
-                        ["Intranet/SharePoint Development & Management", "Web & Digital Services", "Internal portals that people actually use.", "https://querytel.com/wp-content/uploads/2025/07/intranet.webp", "intranet-sharepoint-development-management"],
-                        ["Web Catalog Development & Management", "Web & Digital Services", "Product catalogs with search that finds things.", "https://querytel.com/wp-content/uploads/2025/07/web-catalog.webp", "web-catalog-development-management"],
+                        ["Intranet/SharePoint Development & Management", "Web & Digital Services", "Internal portals that people use.", "https://querytel.com/wp-content/uploads/2025/07/intranet.webp", "intranet-sharepoint-development-management"],
+                        ["Web Catalog Development & Management", "Web & Digital Services", "Product catalogs with a search that finds things.", "https://querytel.com/wp-content/uploads/2025/07/web-catalog.webp", "web-catalog-development-management"],
                         ["Chatbot Deployment & Training", "Web & Digital Services", "Automate FAQs and workflows safely.", "https://querytel.com/wp-content/uploads/2025/07/chatbot.webp", "chatbot-deployment-training"],
                         ["Workflow Automation", "Web & Digital Services", "Zap the busywork; ship the work that matters.", "https://querytel.com/wp-content/uploads/2025/07/workflow-automation.webp", "workflow-automation"],
 
                         // Application Security
                         ["Secure Onboarding", "Application Security", "Provision users/apps securely from day one.", "https://querytel.com/wp-content/uploads/2025/07/Untitled-design-7.png", "secure-onboarding"],
-                        ["Single Sign-On (SSO)", "Application Security", "One login, strong auth, happy users.", "https://querytel.com/wp-content/uploads/2025/07/Single-Sign-On-SSO.webp", "single-sign-on-sso"],
+                        ["Single Sign-On (SSO)", "Application Security", "One login, strong authentication, happy users.", "https://querytel.com/wp-content/uploads/2025/07/Single-Sign-On-SSO.webp", "single-sign-on-sso"],
                         ["Monitoring", "Application Security", "Watch app health and threats in one place.", "https://querytel.com/wp-content/uploads/2025/07/threat-monitoring.webp", "application-monitoring"],
                         ["Lifecycle Management", "Application Security", "Joiners/movers/leavers done right.", "https://querytel.com/wp-content/uploads/2025/07/undefined.png", "lifecycle-management"],
 
                         // Testing & Auditing
                         ["Penetration Testing", "Testing & Auditing", "Find issues before attackers do.", "https://querytel.com/wp-content/uploads/2025/07/Penetration-testing-1.webp", "penetration-testing"],
-                        ["Auditing Security Controls", "Testing & Auditing", "Evidence, controls, and gaps—documented.", "https://querytel.com/wp-content/uploads/2025/07/Untitled-design-9.png", "auditing-security-controls"],
+                        ["Auditing Security Controls", "Testing & Auditing", "Evidence, controls, and gaps documented.", "https://querytel.com/wp-content/uploads/2025/07/Untitled-design-9.png", "auditing-security-controls"],
                         ["Remediation", "Testing & Auditing", "Fix quickly with prioritized actions.", "https://querytel.com/wp-content/uploads/2025/07/Untitled-design-10.png", "remediation"],
                     ];
                     $cats = array_values(array_unique(array_map(fn($s) => $s[1], $services)));
@@ -370,22 +423,23 @@
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="py-20">
+    <section id="contact" class="py-20 bg-gray-50">
         <div class="max-w-3xl mx-auto px-6">
-            <h3 class="text-2xl font-semibold mb-8 text-center">Contact Us</h3>
-            <form class="space-y-6">
+            <h3 class="text-2xl font-semibold mb-8 text-center">Get In Touch</h3>
+            <form class="space-y-6" action="sendmail.php" method="POST">
                 <div class="grid md:grid-cols-2 gap-6">
-                    <input type="text" placeholder="Your Name"
-                        class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
-                    <input type="email" placeholder="Email Address"
-                        class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
+                    <input type="text" name="name" placeholder="Your Name"
+                        class="w-full border border-black px-4 py-3 rounded" required />
+                    <input type="email" name="email" placeholder="Email Address"
+                        class="w-full border border-black px-4 py-3 rounded" required />
                 </div>
-                <input type="tel" placeholder="Phone Number"
-                    class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
-                <textarea rows="4" placeholder="Your Message"
-                    class="w-full border border-neutral-900 px-4 py-3 rounded-[2px] resize-none" required></textarea>
+                <input type="tel" name="phone" placeholder="Phone Number"
+                    class="w-full border border-black px-4 py-3 rounded" required />
+                <textarea rows="4" name="message" placeholder="Your Message"
+                    class="w-full border border-black px-4 py-3 rounded resize-none" required></textarea>
                 <div class="text-center">
-                    <button type="submit" class="qt-btn qt-btn-primary px-8 py-3 transition-colors duration-150">
+                    <button type="submit"
+                        class="bg-neutral-900 text-white px-8 py-3 rounded hover:bg-neutral-800 transition">
                         Send Message
                     </button>
                 </div>
@@ -482,15 +536,15 @@
                 // Managed Security Services
                 "infrastructure-security": `QueryTel delivers comprehensive Infrastructure Security services to protect critical IT environments from evolving cyber threats. Our approach combines continuous monitoring, proactive threat management, and enforced security controls to safeguard network infrastructure, data centers, and hybrid environments. We help organizations maintain operational resilience, meet compliance standards, and reduce risk across their infrastructure.`,
                 "24-hour-monitoring-mitigation": `QueryTel provides 24-hour security monitoring and threat mitigation to safeguard critical infrastructure. Our continuous surveillance detects anomalies in real time, enabling rapid identification, containment, and resolution of security incidents to minimize operational impact.`,
-                "patch-vulnerability-monitoring": `QueryTel offers proactive vulnerability management, including continuous monitoring, risk assessment, and structured patching. We prioritize remediation aligned with best practices to ensure systems remain protected against known vulnerabilities.`,
+                "patch-vulnerability-monitoring": `QueryTel offers proactive vulnerability management, including continuous monitoring, risk assessment, and structured patching. We prioritize remediation that is aligned with best practices to protect systems against known vulnerabilities. `,
                 "securing-segregation-it-ot": `We implement and enforce security measures to segregate IT and Operational Technology (OT) environments, reducing the risk of cross-contamination between critical systems. Our solutions align with industry frameworks to enhance resilience and maintain regulatory compliance.`,
                 "certificate-management": `QueryTel provides centralized Certificate Management to ensure digital certificates' validity, security, and lifecycle control. We maintain visibility, automate renewals, and enforce policies to protect secure communications and organizational assets.`,
 
                 // Web & Digital Services
                 "dynamic-web-development": `QueryTel delivers Dynamic Web Development tailored to modern business needs. We build responsive, scalable, and secure web applications for customer-facing and internal use cases, aligning technical capabilities with business objectives and long-term maintainability.`,
-                "ecommerce-development-management": `QueryTel provides end-to-end E-Commerce Site Development & Management. We integrate platforms with payment, inventory, and logistics to ensure operational efficiency and data integrity, and we maintain performance, security, and scalability over time.`,
+                "ecommerce-development-management": `QueryTel provides end-to-end E-Commerce Site Development and management. We integrate platforms with payment, inventory, and logistics to ensure operational efficiency and data integrity and maintain performance, security, and scalability over time.`,
                 "intranet-sharepoint-development-management": `QueryTel delivers Intranet/SharePoint solutions to enhance collaboration, document management, and communication. We design secure, scalable platforms aligned with processes and governance, with customization, integration, and lifecycle management.`,
-                "web-catalog-development-management": `QueryTel builds Web Catalogs that handle complex product inventories with search that actually finds things. We integrate with ERP/CRM/e-commerce for real-time accuracy across pricing, stock, and specifications, focusing on integrity and performance.`,
+                "web-catalog-development-management": `QueryTel builds web catalogs that handle complex product inventories with a search function that finds things. We integrate with ERP/CRM/ CRM/e-commerce for real-time accuracy across pricing, stock, and specifications, focusing on integrity and performance.`,
                 "chatbot-deployment-training": `QueryTel deploys enterprise-grade chatbots integrated with CRM, service desks, and knowledge bases to automate FAQs and workflows. We handle data-driven training, conversation optimization, and lifecycle management to keep responses accurate and on-brand.`,
                 "workflow-automation": `QueryTel delivers Workflow Automation that connects systems, triggers actions, and streamlines approvals, reporting, and notifications. We reduce manual intervention without disrupting core processes, emphasizing accuracy, consistency, and maintainability.`,
 

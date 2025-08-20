@@ -3,69 +3,48 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>QueryTel Inc. — Managed IT, Cybersecurity & Cloud Services in Canada</title>
   <meta name="description"
-    content="QueryTel Inc is Canada's trusted IT services provider offering managed IT, cloud hosting, cybersecurity, hardware solutions, and flexible financing for businesses." />
-  <meta name="keywords"
-    content="QueryTel, IT Services Canada, Cloud Hosting, Cybersecurity, Managed IT, Laptop Financing, Tech Solutions Toronto, Lenovo HP Dell Microsoft" />
-  <meta name="author" content="QueryTel Inc" />
+    content="QueryTel provides managed IT, cybersecurity, and enterprise-grade cloud services trusted by Canadian businesses since 1995. Talk to our experts today." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
   <link rel="canonical" href="https://querytel.com/" />
+  <link rel="alternate" hreflang="en-ca" href="https://querytel.com/" />
+  <meta name="theme-color" content="#0f172a" />
 
-  <!-- Open Graph Meta (Social Previews) -->
-  <meta property="og:title" content="QueryTel Inc – Managed IT, Cloud, and Laptop Financing" />
-  <meta property="og:description"
-    content="Flexible IT solutions and secure cloud infrastructure for Canadian businesses. Trusted by top brands." />
-  <meta property="og:image" content="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png" />
-  <meta property="og:url" content="https://querytel.com/" />
   <meta property="og:type" content="website" />
+  <meta property="og:title" content="QueryTel Inc. — Managed IT, Cybersecurity & Cloud Services in Canada" />
+  <meta property="og:description"
+    content="Enterprise IT services, cloud hosting, and Fortinet-powered cybersecurity for Canadian businesses." />
+  <meta property="og:url" content="https://querytel.com/" />
+  <meta property="og:site_name" content="QueryTel Inc." />
+  <meta property="og:locale" content="en_CA" />
+  <meta property="og:image" content="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
-  <!-- Twitter Meta -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="QueryTel Inc – Managed IT, Cloud, and Laptop Financing" />
-  <meta name="twitter:description"
-    content="Flexible IT solutions and secure cloud infrastructure for Canadian businesses. Trusted by top brands." />
+  <meta name="twitter:title" content="QueryTel Inc. — Managed IT, Cybersecurity & Cloud Services in Canada" />
+  <meta name="twitter:description" content="Secure, scalable IT and cloud infrastructure for Canadian enterprises." />
   <meta name="twitter:image" content="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png" />
+
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.tailwindcss.com">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <!-- Optional LCP preload -->
+  <!-- <link rel="preload" as="image" href="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png"> -->
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 
-  <!-- Favicon -->
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <title>QueryTel - Home</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          keyframes: {
-            fadeInRight: {
-              "0%": { opacity: 0, transform: "translateX(50px)" },
-              "100%": { opacity: 1, transform: "translateX(0)" },
-            },
-            fadeInLeft: {
-              "0%": { opacity: 0, transform: "translateX(-50px)" },
-              "100%": { opacity: 1, transform: "translateX(0)" },
-            },
-            fadeIn: {
-              "0%": { opacity: 0 },
-              "100%": { opacity: 1 },
-            },
-            floatY: {
-              "0%, 100%": { transform: "translateY(0)" },
-              "50%": { transform: "translateY(-20px)" },
-            },
-          },
-          animation: {
-            fadeInRight: "fadeInRight 0.8s ease-out forwards",
-            fadeInLeft: "fadeInLeft 0.8s ease-out forwards",
-            fadeIn: "fadeIn 1s ease-out forwards",
-            floatY: "floatY 4s ease-in-out infinite",
-          },
-        },
-      },
-    };
-  </script>
-
-  <!-- Inside <head> -->
+  <!-- Your page styles (restored) -->
   <style>
     .hero-slider {
       display: flex;
@@ -126,7 +105,137 @@
       animation: scrollLogo 40s linear infinite;
     }
   </style>
+
+  <!-- Schema: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://querytel.com/#org",
+    "name": "QueryTel Inc.",
+    "url": "https://querytel.com/",
+    "logo": "https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png",
+    "description": "Managed IT, cybersecurity, and cloud solutions for Canadian businesses.",
+    "foundingDate": "1995",
+    "sameAs": ["https://www.linkedin.com/company/querytel"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "7025 Tomken Road, Suite 244",
+      "addressLocality": "Mississauga",
+      "addressRegion": "ON",
+      "postalCode": "L5S 1R6",
+      "addressCountry": "CA"
+    },
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "contactType": "Sales",
+        "telephone": "+1-844-447-8379",
+        "areaServed": "CA",
+        "availableLanguage": ["en"]
+      },
+      {
+        "@type": "ContactPoint",
+        "contactType": "Technical Support",
+        "email": "support@querytel.com",
+        "url": "https://helpdesk.querytel.com/portal/en/home",
+        "areaServed": "CA",
+        "availableLanguage": ["en"]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Schema: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "@id":"https://querytel.com/#hq",
+    "name":"QueryTel Inc — Toronto HQ",
+    "url":"https://querytel.com/",
+    "image":"https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png",
+    "telephone":"+1-416-477-1380",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"7025 Tomken Road, Suite 244",
+      "addressLocality":"Mississauga",
+      "addressRegion":"ON",
+      "postalCode":"L5S 1R6",
+      "addressCountry":"CA"
+    },
+    "geo":{"@type":"GeoCoordinates","latitude":43.6519,"longitude":-79.6803},
+    "openingHoursSpecification":[{
+      "@type":"OpeningHoursSpecification",
+      "dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens":"08:00","closes":"17:00"
+    }],
+    "parentOrganization":{"@id":"https://querytel.com/#org"}
+  }
+  </script>
+
+  <!-- Schema: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "@id":"https://querytel.com/#website",
+    "url":"https://querytel.com/",
+    "name":"QueryTel Inc.",
+    "inLanguage":"en-CA",
+    "publisher":{"@id":"https://querytel.com/#org"},
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"https://querytel.com/?s={search_term_string}",
+      "query-input":"required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Schema: Service -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Service",
+    "@id":"https://querytel.com/#services",
+    "serviceType":"Managed IT, Cybersecurity & Cloud",
+    "provider":{"@id":"https://querytel.com/#org"},
+    "areaServed":"CA",
+    "offers":{
+      "@type":"OfferCatalog",
+      "name":"IT & Cybersecurity",
+      "itemListElement":[
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Managed IT Services"}},
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Cybersecurity"}},
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Cloud Backup"}}
+      ]
+    }
+  }
+  </script>
+
+  <!-- Tailwind custom animations -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          keyframes: {
+            fadeInRight: { "0%": { opacity: 0, transform: "translateX(50px)" }, "100%": { opacity: 1, transform: "translateX(0)" } },
+            fadeInLeft: { "0%": { opacity: 0, transform: "translateX(-50px)" }, "100%": { opacity: 1, transform: "translateX(0)" } },
+            fadeIn: { "0%": { opacity: 0 }, "100%": { opacity: 1 } },
+            floatY: { "0%,100%": { transform: "translateY(0)" }, "50%": { transform: "translateY(-20px)" } }
+          },
+          animation: {
+            fadeInRight: "fadeInRight 0.8s ease-out forwards",
+            fadeInLeft: "fadeInLeft 0.8s ease-out forwards",
+            fadeIn: "fadeIn 1s ease-out forwards",
+            floatY: "floatY 4s ease-in-out infinite"
+          }
+        }
+      }
+    };
+  </script>
 </head>
+
 
 <body class="bg-white text-neutral-900 font-sans">
   <!-- NAVBAR -->
@@ -263,7 +372,7 @@
           <div class="text-4xl mb-4 text-orange-500">🔒</div>
           <h3 class="text-xl font-semibold mb-2">Cyber Security</h3>
           <p class="text-gray-600 text-sm mb-3">
-            Our cyber security services offer more than just regular firewall
+            Our cybersecurity services offer more than just regular firewall
             and anti-virus protection. Our proactive security mechanism will
             secure your business against cyber-attacks and vulnerabilities.
           </p>
@@ -286,8 +395,7 @@
           <div class="text-4xl mb-4 text-orange-500">⚙️</div>
           <h3 class="text-xl font-semibold mb-2">Managed Services</h3>
           <p class="text-gray-600 text-sm mb-3">
-            We offer cost-effective and tailored managed services in line with
-            your company’s needs.
+            We offer cost-effective and tailored managed services per your company’s needs.
           </p>
           <a href="#" class="text-orange-600 text-sm font-semibold hover:underline">READ MORE</a>
         </div>
@@ -312,8 +420,7 @@
             Cloud Hosting & Co-Location
           </h3>
           <p class="text-gray-600 text-sm mb-3">
-            We deliver faster and full-fledged cloud-based VPS solutions that
-            will enhance your IT infrastructure’s security.
+            We deliver faster and full-fledged cloud-based VPS solutions to enhance your IT infrastructure’s security.
           </p>
           <a href="#" class="text-orange-600 text-sm font-semibold hover:underline">READ MORE</a>
         </div>
@@ -323,8 +430,8 @@
           <div class="text-4xl mb-4 text-orange-500">👔</div>
           <h3 class="text-xl font-semibold mb-2">Business Solution</h3>
           <p class="text-gray-600 text-sm mb-3">
-            We will manage all your vendors and provide your business goods,
-            printing, delivery equipment at affordable rates.
+            We will manage all your vendors and provide your business goods, printing, and delivery equipment at
+            affordable rates.
           </p>
           <a href="#" class="text-orange-600 text-sm font-semibold hover:underline">READ MORE</a>
         </div>
@@ -342,10 +449,8 @@
           Most trusted Managed IT Services provider company
         </p>
         <p class="text-gray-600">
-          QueryTel Inc has been providing Managed IT services across Canada
-          since 1995; with almost two decades of experience in servicing
-          clients, we bring the best of what we have learned to fulfill your
-          company’s needs.
+          QueryTel Inc. has been providing Managed IT services across Canada since 1995. With almost two decades of
+          experience servicing clients, we use what we have learned to fulfill your company’s needs.
         </p>
       </div>
 
@@ -353,18 +458,23 @@
       <div class="relative w-full flex justify-center items-center">
         <!-- Floating Hollow SVG Circle -->
         <svg
-          class="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 w-[360px] h-[360px] md:w-[420px] md:h-[420px] text-indigo-500 z-0 drop-shadow-[0_0_10px_rgba(99,102,241,0.4)] animate-floatY"
+          class="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 w-[360px] h-[360px] md:w-[420px] md:h-[420px] text-indigo-500  drop-shadow-[0_0_10px_rgba(99,102,241,0.4)] animate-floatY"
           viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
           <circle cx="150" cy="150" r="130" stroke="currentColor" stroke-width="16" fill="none" />
         </svg>
 
         <!-- Video iframe -->
-        <div class="relative z-10 rounded-lg overflow-hidden shadow-xl w-full max-w-xl aspect-video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/l0kDQtjy_BM?si=pxo_A4a8whLPGA1w"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="relative z-10 rounded-lg overflow-hidden w-full max-w-xl aspect-video">
+          <!-- Uncomment this to embed the YouTube video -->
+          <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/l0kDQtjy_BM?si=pxo_A4a8whLPGA1w"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+          <img class="object-cover w-full h-full" src="<?= $base . './assets/images/who-we-are.png' ?>"
+            alt="Who we are">
         </div>
+
       </div>
     </div>
   </section>
@@ -398,9 +508,8 @@
         </h3>
         <div class="h-0.5 w-10 bg-neutral-300 my-6"></div>
         <p class="text-gray-600 text-sm leading-relaxed">
-          With over 50 consultants all over Canada and over 26 years of
-          experience in the industry, we aim to provide the best customer
-          service and service offering available for your business!
+          With over 50 consultants all over Canada and over 26 years of experience in the industry, we aim to provide
+          your business with the best customer service and service offering!
         </p>
       </div>
     </div>
@@ -473,9 +582,8 @@
               Solutions
             </div>
             <p class="text-gray-300">
-              QueryTel Inc Flexible Payment Solutions is partnering with some
-              of the biggest technology brands to help you sell more, and
-              support your customer’s new demand for virtual working.
+              QueryTel Inc. Flexible Payment Solutions is partnering with some of the biggest technology brands to help
+              you sell more and support your customers' new demand for virtual working.
             </p>
           </div>
           <!-- Point 2 -->
@@ -503,8 +611,8 @@
 
       <!-- Right Image + Features -->
       <div class="space-y-10">
-        <img src="https://querytel.com/wp-content/uploads/2021/10/leading-laptop-2-1024x512.jpg" alt="Laptop Financing"
-          class="rounded-lg shadow-lg w-full" />
+        <img src="<?= $base . './assets/images/multiple-laptops-laptop-brands-laptop-list.png' ?>"
+          alt="Laptop Financing" class="rounded-lg shadow-lg w-full" />
 
         <div class="space-y-6 text-sm text-white">
           <div class="flex items-center gap-4">
@@ -538,15 +646,17 @@
   <section id="contact" class="py-20 bg-gray-50">
     <div class="max-w-3xl mx-auto px-6">
       <h3 class="text-2xl font-semibold mb-8 text-center">Get In Touch</h3>
-      <form class="space-y-6">
+      <form class="space-y-6" action="sendmail.php" method="POST">
         <div class="grid md:grid-cols-2 gap-6">
-          <input type="text" placeholder="Your Name" class="w-full border border-black px-4 py-3 rounded" required />
-          <input type="email" placeholder="Email Address" class="w-full border border-black px-4 py-3 rounded"
+          <input type="text" name="name" placeholder="Your Name" class="w-full border border-black px-4 py-3 rounded"
             required />
+          <input type="email" name="email" placeholder="Email Address"
+            class="w-full border border-black px-4 py-3 rounded" required />
         </div>
-        <input type="tel" placeholder="Phone Number" class="w-full border border-black px-4 py-3 rounded" required />
-        <textarea rows="4" placeholder="Your Message" class="w-full border border-black px-4 py-3 rounded resize-none"
-          required></textarea>
+        <input type="tel" name="phone" placeholder="Phone Number" class="w-full border border-black px-4 py-3 rounded"
+          required />
+        <textarea rows="4" name="message" placeholder="Your Message"
+          class="w-full border border-black px-4 py-3 rounded resize-none" required></textarea>
         <div class="text-center">
           <button type="submit" class="bg-neutral-900 text-white px-8 py-3 rounded hover:bg-neutral-800 transition">
             Send Message
@@ -555,6 +665,7 @@
       </form>
     </div>
   </section>
+
 
   <!-- Mobile Sidebar Overlay -->
   <div id="mobileSidebar" class="fixed inset-0 z-50 hidden">

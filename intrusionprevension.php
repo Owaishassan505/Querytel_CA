@@ -53,8 +53,8 @@
                     Stop Intrusions <span class="text-orange-500">Before</span> They Happen.
                 </h1>
                 <p class="mt-6 text-lg text-gray-600">
-                    From warehouses to retail, our access control and live video monitoring keep criminals out
-                    and your assets secure — 24/7, across Canada.
+                    From warehouses to retail, our access control and live video monitoring keep criminals out and your
+                    assets secure 24/7, across Canada.
                 </p>
                 <div class="mt-8 flex gap-4 opacity-0 animate-fadeIn delay-500">
                     <a href="#contact"
@@ -140,12 +140,11 @@
                 </h3>
                 <div class="w-12 h-1 bg-orange-500 mb-6"></div>
                 <p class="text-gray-700 text-base md:text-lg mb-4">
-                    Yes, business protection is essential; that is why you should never ignore it.
-
-                    Secure your office building or industrial site, warehouse, residential areas with our Access Control
-                    Systems. Control and monitor entry and exits from the door or main gates through our access systems.
-                    Our altered solutions allow you to control the crimes, entry of unauthorized persons, enhance the
-                    security of office staff, and many more.
+                    Yes, business protection is essential, so you should never ignore it. Secure your office building,
+                    industrial site, warehouse, or residential area with our Access Control Systems. Our access systems
+                    allow you to control and monitor entry and exits from the door or main gates. Our altered solutions
+                    allow you to control crimes and unauthorized persons' entry, enhance the security of office staff,
+                    and more.
                 </p>
                 <ul class="mt-6 space-y-4 text-gray-800 text-base md:text-lg">
                     <li class="flex items-start gap-3">
@@ -245,10 +244,11 @@
                     intruders.
                 </p>
                 <p class="mt-3 text-[15px] leading-relaxed text-slate-200">
-                    Get proactive shopping center monitoring solutions with the ability to actively watch site
-                    activities in real-time
-                    and use specialized com-systems to inform trespassers that you have spotted them and authorities are
-                    on the way.
+                    Shopping center and retail sector crimes are on the rise. You need advanced equipment to catch
+                    intruders.
+                    Get proactive shopping center monitoring solutions that allow you to monitor site activities in real
+                    time and use specialized communication systems to inform trespassers that you have spotted them and
+                    that authorities are on their way.
                 </p>
             </article>
         </div>
@@ -266,7 +266,7 @@
                 </div>
 
                 <p class="mt-6 text-[15px] leading-relaxed text-slate-200">
-                    Hiring security guards ask for a lot of money and is still not very effective.
+                    Hiring security guards requires a lot of money and is still ineffective.
                 </p>
                 <p class="mt-3 text-[15px] leading-relaxed text-slate-200">
                     Get Live Video Monitoring along with gate and building access control to protect your office from
@@ -284,8 +284,8 @@
                 </div>
 
                 <p class="mt-6 text-[15px] leading-relaxed text-slate-200">
-                    The automotive dealership sector faces record burglary, property harm, and other hazards as people
-                    can easily see their high-valued inventory.
+                    The automotive dealership sector faces record burglaries, property harm, and other hazards because
+                    people can easily see their high-value inventory.
                 </p>
                 <p class="mt-3 text-[15px] leading-relaxed text-slate-200">
                     Get a customized security solution that starts with Live Video Monitoring. Start today by asking an
@@ -312,11 +312,11 @@
                     and lights can only do so much.
                 </p>
                 <p class="mt-3 text-[15px] leading-relaxed text-slate-200">
-                    You need to control entry and exit to your factory and allow access to workers based on security
-                    approval
-                    and plan. It limits undesirable visitors while at the same time monitoring presence and movement
-                    throughout
-                    the office.
+                    Anyone who stores inventory or assets outside knows security is critical since fences, gates, and
+                    lights can only do so much.
+                    You need to control entry and exit to your factory and allow workers access based on security
+                    approval and a plan. This limits undesirable visitors while monitoring their presence and movement
+                    throughout the office.
                 </p>
                 <p class="mt-3 text-[15px] leading-relaxed text-slate-200">
                     Get your customized access control and site-wide monitoring system today!
@@ -333,10 +333,9 @@
                 </div>
 
                 <p class="mt-6 text-[15px] leading-relaxed text-slate-200">
-                    Cargo theft is a real problem and costs companies billions of dollars every year. Protect your
-                    valuable
-                    inventory while enhancing your site-wide monitoring and access control capabilities with QueryTel’s
-                    Video Monitoring and access control systems!
+                    Cargo theft is a real problem and costs companies billions annually. Protect your valuable inventory
+                    while enhancing your site-wide monitoring and access control capabilities with QueryTel’s Video
+                    Monitoring and access control systems!
                 </p>
             </article>
         </div>
@@ -658,19 +657,19 @@
     </section>
 
     <!-- CONTACT FORM -->
-    <section id="contact" class="py-20">
+    <section id="contact" class="py-20 bg-gray-50">
         <div class="max-w-3xl mx-auto px-6">
-            <h3 class="text-2xl font-semibold mb-8 text-center">Contact Us</h3>
-            <form class="space-y-6">
+            <h3 class="text-2xl font-semibold mb-8 text-center">Get In Touch</h3>
+            <form class="space-y-6" action="sendmail.php" method="POST">
                 <div class="grid md:grid-cols-2 gap-6">
-                    <input type="text" placeholder="Your Name" class="w-full border border-black px-4 py-3 rounded"
-                        required />
-                    <input type="email" placeholder="Email Address" class="w-full border border-black px-4 py-3 rounded"
-                        required />
+                    <input type="text" name="name" placeholder="Your Name"
+                        class="w-full border border-black px-4 py-3 rounded" required />
+                    <input type="email" name="email" placeholder="Email Address"
+                        class="w-full border border-black px-4 py-3 rounded" required />
                 </div>
-                <input type="tel" placeholder="Phone Number" class="w-full border border-black px-4 py-3 rounded"
-                    required />
-                <textarea rows="4" placeholder="Your Message"
+                <input type="tel" name="phone" placeholder="Phone Number"
+                    class="w-full border border-black px-4 py-3 rounded" required />
+                <textarea rows="4" name="message" placeholder="Your Message"
                     class="w-full border border-black px-4 py-3 rounded resize-none" required></textarea>
                 <div class="text-center">
                     <button type="submit"

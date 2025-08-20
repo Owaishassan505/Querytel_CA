@@ -211,7 +211,7 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center max-w-3xl mx-auto" data-animate>
                 <h2 class="text-3xl md:text-4xl font-bold tracking-tight">Backups that don’t blink</h2>
-                <p class="mt-4 text-neutral-600">Automated policies, zero-trust access, and immutable storage—so
+                <p class="mt-4 text-neutral-600">Automated policies, zero-trust access, and immutable storage so
                     rollbacks are minutes, not days.</p>
             </div>
 
@@ -223,7 +223,7 @@
                     <p class="mt-2 text-neutral-600">Group devices, set frequency & retention, auto-apply on enroll.
                         Reports included.</p>
                     <ul class="mt-3 text-sm text-neutral-700 list-disc list-inside space-y-1">
-                        <li>Hourly / daily / weekly</li>
+                        <li>Hourly/daily/weekly</li>
                         <li>Geo-aware storage</li>
                         <li>Alerts & failed-job retries</li>
                     </ul>
@@ -596,7 +596,7 @@
             <!-- Heading -->
             <div class="text-center max-w-4xl mx-auto">
                 <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-neutral-900">
-                    Protecting a Business’ Most Valuable Asset<br class="hidden sm:block" />
+                    Protecting a Business’s Most Valuable Asset<br class="hidden sm:block" />
                     <span
                         class="bg-gradient-to-r from-neutral-900 via-neutral-800 to-neutral-900 bg-clip-text text-transparent">
                         with Acronis Cyber Backup Cloud
@@ -623,9 +623,9 @@
                         <div>
                             <h3 class="font-semibold text-neutral-900">Protection for Any Workload</h3>
                             <p class="mt-2 text-sm leading-6 text-neutral-700">
-                                Windows & Linux servers/VMs, hypervisors, PCs, Macs, iOS & Android, Microsoft on-prem
-                                apps, SAP HANA,
-                                Oracle DB, M365, Google Workspace, websites—one solution covers it.
+                                One solution covers Windows and Linux servers/VMs, hypervisors, PCs, Macs, iOS and
+                                Android, Microsoft on-prem apps, SAP HANA, Oracle DB, M365, Google Workspace, and
+                                websites.
                             </p>
                         </div>
                     </div>
@@ -687,7 +687,7 @@
                         <div>
                             <h3 class="font-semibold text-neutral-900">Seamless Deployment</h3>
                             <p class="mt-2 text-sm leading-6 text-neutral-700">
-                                Turnkey BaaS—lightweight agent, minimal prerequisites, and no heavy implementation
+                                Turnkey BaaS lightweight agent, minimal prerequisites, and no heavy implementation
                                 projects.
                             </p>
                         </div>
@@ -707,7 +707,7 @@
                         <div>
                             <h3 class="font-semibold text-neutral-900">Intuitive, Self-Service Web Console</h3>
                             <p class="mt-2 text-sm leading-6 text-neutral-700">
-                                Touch-friendly console to back up & restore anywhere. Basic tasks—no MSP tickets
+                                Touch-friendly console to back up & restore anywhere. Basic tasks, no MSP tickets
                                 required.
                             </p>
                         </div>
@@ -728,8 +728,8 @@
                         <div>
                             <h3 class="font-semibold text-neutral-900">Proactive Anti-Ransomware Protection</h3>
                             <p class="mt-2 text-sm leading-6 text-neutral-700">
-                                Industry-leading, AI-based defense protects files, backups, and agents in real time—then
-                                auto-restores.
+                                Industry-leading, AI-based defense protects files, backups, and agents in real time,
+                                then auto-restores.
                             </p>
                         </div>
                     </div>
@@ -748,7 +748,7 @@
                         <div>
                             <h3 class="font-semibold text-neutral-900">Customizable Backup Scheduling</h3>
                             <p class="mt-2 text-sm leading-6 text-neutral-700">
-                                Manual or automated schedules—monthly, weekly, daily, hourly, or every 10 minutes.
+                                Manual or automated schedules monthly, weekly, daily, hourly, or every 10 minutes.
                             </p>
                         </div>
                     </div>
@@ -767,7 +767,7 @@
                         <div>
                             <h3 class="font-semibold text-neutral-900">Flexible Retention Policies</h3>
                             <p class="mt-2 text-sm leading-6 text-neutral-700">
-                                Define per-device or pooled policies—keep indefinitely, or cap by count/duration to
+                                Define per-device or pooled policies to keep indefinitely, or cap by count/duration to
                                 manage cost.
                             </p>
                         </div>
@@ -787,8 +787,10 @@
                         <div>
                             <h3 class="font-semibold text-neutral-900">Secure Cloud Data Centers</h3>
                             <p class="mt-2 text-sm leading-6 text-neutral-700">
-                                Tier-IV designed facilities with ISO 27001 and related certifications. PIPEDA-aligned
+                                Secure Cloud Data Centers
+                                Tier-IV designed facilities with ISO 27001 and related certifications and PIPEDA-aligned
                                 residency options.
+
                             </p>
                         </div>
                     </div>
@@ -832,22 +834,23 @@
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="py-20">
+    <section id="contact" class="py-20 bg-gray-50">
         <div class="max-w-3xl mx-auto px-6">
-            <h3 class="text-2xl font-semibold mb-8 text-center">Contact Us</h3>
-            <form class="space-y-6">
+            <h3 class="text-2xl font-semibold mb-8 text-center">Get In Touch</h3>
+            <form class="space-y-6" action="sendmail.php" method="POST">
                 <div class="grid md:grid-cols-2 gap-6">
-                    <input type="text" placeholder="Your Name"
-                        class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
-                    <input type="email" placeholder="Email Address"
-                        class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
+                    <input type="text" name="name" placeholder="Your Name"
+                        class="w-full border border-black px-4 py-3 rounded" required />
+                    <input type="email" name="email" placeholder="Email Address"
+                        class="w-full border border-black px-4 py-3 rounded" required />
                 </div>
-                <input type="tel" placeholder="Phone Number"
-                    class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
-                <textarea rows="4" placeholder="Your Message"
-                    class="w-full border border-neutral-900 px-4 py-3 rounded-[2px] resize-none" required></textarea>
+                <input type="tel" name="phone" placeholder="Phone Number"
+                    class="w-full border border-black px-4 py-3 rounded" required />
+                <textarea rows="4" name="message" placeholder="Your Message"
+                    class="w-full border border-black px-4 py-3 rounded resize-none" required></textarea>
                 <div class="text-center">
-                    <button type="submit" class="qt-btn qt-btn-primary px-8 py-3 transition-colors duration-150">
+                    <button type="submit"
+                        class="bg-neutral-900 text-white px-8 py-3 rounded hover:bg-neutral-800 transition">
                         Send Message
                     </button>
                 </div>

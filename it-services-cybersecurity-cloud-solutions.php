@@ -5,36 +5,69 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us - Querytel Inc</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Contact QueryTel Inc — Sales & Support in Canada</title>
+    <meta name="description"
+        content="Get in touch with QueryTel Inc. for managed IT, cybersecurity, and cloud services. Call our Toronto HQ or reach our support desk. Open Mon–Fri, 8am–5pm." />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://querytel.com/contactus/" />
+    <link rel="alternate" hreflang="en-ca" href="https://querytel.com/contactus/" />
+    <meta name="theme-color" content="#0f172a" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contact QueryTel Inc — Sales & Support in Canada" />
+    <meta property="og:description"
+        content="Speak with a local expert or open a support ticket. Toronto HQ and Canada-wide service." />
+    <meta property="og:url" content="https://querytel.com/contactus/" />
+    <meta property="og:site_name" content="QueryTel Inc." />
+    <meta property="og:locale" content="en_CA" />
+    <meta property="og:image"
+        content="https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contact QueryTel Inc — Sales & Support in Canada" />
+    <meta name="twitter:description"
+        content="Call our Toronto HQ or reach the support portal. Open Mon–Fri, 8am–5pm." />
+    <meta name="twitter:image"
+        content="https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png" />
+
+    <!-- Icons -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Performance hints -->
+    <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdn.tailwindcss.com">
+
+    <!-- Tailwind (you’re using it inline) -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Page animations (kept) -->
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     keyframes: {
-                        fadeInRight: {
-                            "0%": { opacity: 0, transform: "translateX(50px)" },
-                            "100%": { opacity: 1, transform: "translateX(0)" },
-                        },
-                        fadeInLeft: {
-                            "0%": { opacity: 0, transform: "translateX(-50px)" },
-                            "100%": { opacity: 1, transform: "translateX(0)" },
-                        },
-                        fadeIn: {
-                            "0%": { opacity: 0 },
-                            "100%": { opacity: 1 },
-                        },
+                        fadeInRight: { "0%": { opacity: 0, transform: "translateX(50px)" }, "100%": { opacity: 1, transform: "translateX(0)" } },
+                        fadeInLeft: { "0%": { opacity: 0, transform: "translateX(-50px)" }, "100%": { opacity: 1, transform: "translateX(0)" } },
+                        fadeIn: { "0%": { opacity: 0 }, "100%": { opacity: 1 } }
                     },
                     animation: {
                         fadeInRight: "fadeInRight 0.8s ease-out forwards",
                         fadeInLeft: "fadeInLeft 0.8s ease-out forwards",
-                        fadeIn: "fadeIn 1s ease-out forwards",
-                    },
-                },
-            },
+                        fadeIn: "fadeIn 1s ease-out forwards"
+                    }
+                }
+            }
         };
     </script>
+
     <style>
         @keyframes techPulse {
 
@@ -55,7 +88,119 @@
         }
     </style>
 
+    <!-- Schema: Organization (site-wide entity) -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://querytel.com/#org",
+    "name": "QueryTel Inc.",
+    "url": "https://querytel.com/",
+    "logo": "https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png",
+    "description": "Managed IT, cybersecurity, and cloud solutions for Canadian businesses.",
+    "foundingDate": "1995",
+    "sameAs": ["https://www.linkedin.com/company/querytel"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "7025 Tomken Road, Suite 244",
+      "addressLocality": "Mississauga",
+      "addressRegion": "ON",
+      "postalCode": "L5S 1R6",
+      "addressCountry": "CA"
+    },
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "contactType": "Sales",
+      "telephone": "+1-844-447-8379",
+      "areaServed": "CA",
+      "availableLanguage": ["en"]
+    },{
+      "@type": "ContactPoint",
+      "contactType": "Technical Support",
+      "email": "support@querytel.com",
+      "url": "https://helpdesk.querytel.com/portal/en/home",
+      "areaServed": "CA",
+      "availableLanguage": ["en"]
+    }]
+  }
+  </script>
+
+    <!-- Schema: LocalBusiness (HQ) -->
+    <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "@id":"https://querytel.com/#hq",
+    "name":"QueryTel Inc — Toronto HQ",
+    "url":"https://querytel.com/",
+    "image":"https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png",
+    "telephone":"+1-416-477-1380",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"7025 Tomken Road, Suite 244",
+      "addressLocality":"Mississauga",
+      "addressRegion":"ON",
+      "postalCode":"L5S 1R6",
+      "addressCountry":"CA"
+    },
+    "geo":{"@type":"GeoCoordinates","latitude":43.6519,"longitude":-79.6803},
+    "openingHoursSpecification":[{
+      "@type":"OpeningHoursSpecification",
+      "dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens":"08:00","closes":"17:00"
+    }],
+    "parentOrganization":{"@id":"https://querytel.com/#org"}
+  }
+  </script>
+
+    <!-- Schema: WebSite (sitelinks + search) -->
+    <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "@id":"https://querytel.com/#website",
+    "url":"https://querytel.com/",
+    "name":"QueryTel Inc.",
+    "inLanguage":"en-CA",
+    "publisher":{"@id":"https://querytel.com/#org"},
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"https://querytel.com/?s={search_term_string}",
+      "query-input":"required name=search_term_string"
+    }
+  }
+  </script>
+
+    <!-- Schema: ContactPage (page-specific) -->
+    <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ContactPage",
+    "@id":"https://querytel.com/contactus/#contactpage",
+    "url":"https://querytel.com/contactus/",
+    "name":"Contact QueryTel Inc",
+    "inLanguage":"en-CA",
+    "about":{"@id":"https://querytel.com/#org"},
+    "breadcrumb":{"@id":"https://querytel.com/contactus/#breadcrumb"},
+    "primaryImageOfPage":{"@type":"ImageObject","url":"https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png"},
+    "lastReviewed":"2025-08-18"
+  }
+  </script>
+
+    <!-- Schema: BreadcrumbList (Home > Contact) -->
+    <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BreadcrumbList",
+    "@id":"https://querytel.com/contactus/#breadcrumb",
+    "itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Home","item":"https://querytel.com/"},
+      {"@type":"ListItem","position":2,"name":"Contact Us","item":"https://querytel.com/contactus/"}
+    ]
+  }
+  </script>
 </head>
+
 
 <body class="bg-white text-neutral-900 font-sans">
     <!-- HEADER -->
@@ -97,7 +242,7 @@
                 </h3>
                 <p class="text-gray-700 text-base leading-relaxed">
                     QueryTel provides Managed IT Services, Cybersecurity, and Cloud Solutions in North America to help
-                    businesses stay secure and efficient. Founded in 1995, we specialize in helping businesses across
+                    businesses stay secure and efficient. Founded in 1995, we specialize in helping companies across
                     various industries—manufacturing, cold storage, engineering, and law firms—by delivering secure,
                     scalable, and cost-effective IT solutions tailored to their unique needs.
                     <br /><br />
@@ -106,8 +251,8 @@
                     <strong>Continuous Progression</strong>: Staying ahead with the latest innovations.<br />
                     <strong>Excellence</strong>: Delivering high-quality, reliable IT solutions.
                     <br /><br />
-                    From manufacturing firms and cold storage facilities to engineering and law firms, we help
-                    businesses achieve seamless IT infrastructure and long-term success.
+                    From manufacturing and cold storage facilities to engineering and law firms, we help businesses
+                    achieve seamless IT infrastructure and long-term success.
                 </p>
             </div>
 
@@ -227,8 +372,8 @@
 
             <!-- Center: Image -->
             <div class="flex justify-center">
-                <img src="https://querytel.com/wp-content/uploads/2021/10/professional-experience-1-429-x-469.png"
-                    alt="Happy clients" class="rounded-lg shadow-md w-full max-w-md" />
+                <img src="<?= $base . './assets/images/65781a6615a9a61836084dce_A-Comprehensive-Guide-to-Achieve-Maximum-Results-with-Real-Time-Testing(2).png' ?>"
+                    alt="Happy clients" class="rounded-lg w-full max-w-md h-96" />
             </div>
 
             <!-- Right: 26 Years Experience -->
@@ -238,7 +383,7 @@
                     <span class="text-neutral-900">Solutions & Experience</span>
                 </h3>
                 <div class="h-0.5 w-10 bg-neutral-300 my-6"></div>
-                <p class="text-gray-600 text-sm leading-relaxed">At QueryTel, we invest time to understand your business
+                <p class="text-gray-600 text-sm leading-relaxed">At QueryTel, we invest time understanding your business
                     goals and long-term vision. Our IT experts ensure that your technology aligns perfectly with your
                     <b>growth strategy, modernization needs, and competitive edge.</b>
                 </p>
@@ -273,7 +418,7 @@
                 <p class="text-lg text-gray-700 leading-relaxed">
                     QueryTel harnesses deep-rooted relationships with adept IT partners to provide bespoke, end-to-end
                     managed IT solutions. From ISP selection to individual devices like PCs, printers, and mobile
-                    computers, we ensure seamless integration of technology into your business.
+                    computers, we ensure seamless technology integration into your business.
                 </p>
 
                 <p class="text-lg text-gray-700 leading-relaxed mt-6">
@@ -303,19 +448,19 @@
     </section>
 
     <!-- CONTACT FORM -->
-    <section id="contact" class="py-20">
+    <section id="contact" class="py-20 bg-gray-50">
         <div class="max-w-3xl mx-auto px-6">
-            <h3 class="text-2xl font-semibold mb-8 text-center">Contact Us</h3>
-            <form class="space-y-6">
+            <h3 class="text-2xl font-semibold mb-8 text-center">Get In Touch</h3>
+            <form class="space-y-6" action="sendmail.php" method="POST">
                 <div class="grid md:grid-cols-2 gap-6">
-                    <input type="text" placeholder="Your Name" class="w-full border border-black px-4 py-3 rounded"
-                        required />
-                    <input type="email" placeholder="Email Address" class="w-full border border-black px-4 py-3 rounded"
-                        required />
+                    <input type="text" name="name" placeholder="Your Name"
+                        class="w-full border border-black px-4 py-3 rounded" required />
+                    <input type="email" name="email" placeholder="Email Address"
+                        class="w-full border border-black px-4 py-3 rounded" required />
                 </div>
-                <input type="tel" placeholder="Phone Number" class="w-full border border-black px-4 py-3 rounded"
-                    required />
-                <textarea rows="4" placeholder="Your Message"
+                <input type="tel" name="phone" placeholder="Phone Number"
+                    class="w-full border border-black px-4 py-3 rounded" required />
+                <textarea rows="4" name="message" placeholder="Your Message"
                     class="w-full border border-black px-4 py-3 rounded resize-none" required></textarea>
                 <div class="text-center">
                     <button type="submit"

@@ -102,7 +102,7 @@
                 </h1>
 
                 <p class="mt-6 max-w-2xl text-base leading-relaxed text-neutral-700">
-                    Network, devices, and data—secured, standardized, and scalable. We engineer the plumbing so
+                    Network, devices, and data are secured, standardized, and scalable. We engineer the plumbing so
                     hospitals move faster, safer, and with less noise.
                 </p>
 
@@ -126,26 +126,10 @@
             <div class="lg:col-span-5 opacity-0 animate-fadeInRight delay-200">
                 <div class="mx-auto max-w-lg">
                     <div class="rounded-2xl border border-black/10 bg-white p-4">
-                        <div
-                            class="aspect-[16/10] w-full overflow-hidden rounded-xl border border-black/5 bg-white p-6">
+                        <div class=" w-full overflow-hidden rounded-xl border border-black/5 bg-white">
                             <!-- Placeholder “dashboard” UI (flat) -->
-                            <svg viewBox="0 0 800 500" class="h-full w-full text-neutral-800">
-                                <rect x="40" y="40" width="200" height="16" rx="2" fill="currentColor" opacity="0.25" />
-                                <rect x="40" y="70" width="140" height="12" rx="2" fill="currentColor" opacity="0.2" />
-                                <rect x="40" y="110" width="720" height="280" rx="8" fill="currentColor"
-                                    opacity="0.06" />
-                                <polyline
-                                    points="60,360 140,300 220,330 300,250 380,270 460,210 540,240 620,200 700,220"
-                                    fill="none" stroke="currentColor" stroke-width="4" opacity="0.45" />
-                                <circle cx="300" cy="250" r="6" fill="currentColor" opacity="0.8" />
-                                <circle cx="540" cy="240" r="6" fill="currentColor" opacity="0.8" />
-                                <rect x="40" y="420" width="180" height="40" rx="6" fill="currentColor"
-                                    opacity="0.08" />
-                                <rect x="240" y="420" width="180" height="40" rx="6" fill="currentColor"
-                                    opacity="0.08" />
-                                <rect x="440" y="420" width="180" height="40" rx="6" fill="currentColor"
-                                    opacity="0.08" />
-                            </svg>
+                            <img src="<?= $base ?>/assets/images/How-Workforce-Management-Affects-Satisfaction-4-Opportunities-for-Improvement-Internal-Image-13-Feb-2024.jpg"
+                                alt="Cyber Protect" class="w-full object-contain">
                         </div>
                         <div class="mt-4 flex items-center justify-between gap-4">
                             <div>
@@ -238,7 +222,7 @@
                         <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3 tracking-tight">Latest and Fast
                             Wireless Technologies</h3>
                         <p class="text-[16px] text-[#4A4A4A] leading-relaxed">
-                            We have premium wireless hardware for site-wide coverage providing connectivity where you
+                            We have premium wireless hardware for site-wide coverage, providing connectivity where you
                             need it.
                         </p>
                     </div>
@@ -270,8 +254,8 @@
                         <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3 tracking-tight">Patient Data Security
                         </h3>
                         <p class="text-[16px] text-[#4A4A4A] leading-relaxed">
-                            We have top-of-the-line security hardware to protect your highly confidential and critical
-                            I.T. database.
+                            Our top-of-the-line security hardware protects your highly confidential and critical IT
+                            database.
                         </p>
                     </div>
                 </div>
@@ -301,22 +285,23 @@
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="py-20">
+    <section id="contact" class="py-20 bg-gray-50">
         <div class="max-w-3xl mx-auto px-6">
-            <h3 class="text-2xl font-semibold mb-8 text-center">Contact Us</h3>
-            <form class="space-y-6">
+            <h3 class="text-2xl font-semibold mb-8 text-center">Get In Touch</h3>
+            <form class="space-y-6" action="sendmail.php" method="POST">
                 <div class="grid md:grid-cols-2 gap-6">
-                    <input type="text" placeholder="Your Name"
-                        class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
-                    <input type="email" placeholder="Email Address"
-                        class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
+                    <input type="text" name="name" placeholder="Your Name"
+                        class="w-full border border-black px-4 py-3 rounded" required />
+                    <input type="email" name="email" placeholder="Email Address"
+                        class="w-full border border-black px-4 py-3 rounded" required />
                 </div>
-                <input type="tel" placeholder="Phone Number"
-                    class="w-full border border-neutral-900 px-4 py-3 rounded-[2px]" required />
-                <textarea rows="4" placeholder="Your Message"
-                    class="w-full border border-neutral-900 px-4 py-3 rounded-[2px] resize-none" required></textarea>
+                <input type="tel" name="phone" placeholder="Phone Number"
+                    class="w-full border border-black px-4 py-3 rounded" required />
+                <textarea rows="4" name="message" placeholder="Your Message"
+                    class="w-full border border-black px-4 py-3 rounded resize-none" required></textarea>
                 <div class="text-center">
-                    <button type="submit" class="qt-btn qt-btn-primary px-8 py-3 transition-colors duration-150">
+                    <button type="submit"
+                        class="bg-neutral-900 text-white px-8 py-3 rounded hover:bg-neutral-800 transition">
                         Send Message
                     </button>
                 </div>

@@ -6,42 +6,93 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Office Connect - Querytel Inc</title>
+
+    <!-- Primary SEO -->
+    <title>Office Connect VoIP & SIP Trunking | Hosted PBX for Canadian Businesses | QueryTel</title>
+    <meta name="description"
+        content="Office Connect by QueryTel: enterprise-grade VoIP, SIP trunking, and hosted PBX with low latency, call analytics, and easy number porting. Built for Canadian businesses." />
+    <link rel="canonical" href="https://querytel.com/officeconnect/" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+
+    <!-- Open Graph (social) -->
+    <meta property="og:title" content="Office Connect VoIP & SIP Trunking | Hosted PBX | QueryTel" />
+    <meta property="og:description"
+        content="Cloud-based phone system with SIP trunking, advanced routing, and zero-downtime number porting. See how Office Connect modernizes calling for Canadian teams." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://querytel.com/officeconnect/" />
+    <meta property="og:image" content="https://querytel.com/wp-content/uploads/2021/10/hosted-pbx1-469x500-1.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Office Connect VoIP & SIP Trunking | Hosted PBX | QueryTel" />
+    <meta name="twitter:description"
+        content="Modern, scalable VoIP and SIP trunking for Canadian businesses. Easy setup, clear pricing, expert support." />
+    <meta name="twitter:image" content="https://querytel.com/wp-content/uploads/2021/10/hosted-pbx1-469x500-1.jpg" />
+
+    <!-- Performance hints -->
+    <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="preload" as="image" href="https://querytel.com/wp-content/uploads/2021/10/hosted-pbx1-469x500-1.jpg"
+        imagesrcset="https://querytel.com/wp-content/uploads/2021/10/hosted-pbx1-469x500-1.jpg 800w"
+        imagesizes="(min-width:1024px) 50vw, 100vw">
+
+    <!-- CSS/JS (existing) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     keyframes: {
-                        fadeInRight: {
-                            "0%": { opacity: 0, transform: "translateX(50px)" },
-                            "100%": { opacity: 1, transform: "translateX(0)" },
-                        },
-                        fadeInLeft: {
-                            "0%": { opacity: 0, transform: "translateX(-50px)" },
-                            "100%": { opacity: 1, transform: "translateX(0)" },
-                        },
-                        fadeIn: {
-                            "0%": { opacity: 0 },
-                            "100%": { opacity: 1 },
-                        }, floatSlow: {
-                            '0%, 100%': { transform: 'translateY(0px)' },
-                            '50%': { transform: 'translateY(-12px)' },
-                        },
+                        fadeInRight: { "0%": { opacity: 0, transform: "translateX(50px)" }, "100%": { opacity: 1, transform: "translateX(0)" } },
+                        fadeInLeft: { "0%": { opacity: 0, transform: "translateX(-50px)" }, "100%": { opacity: 1, transform: "translateX(0)" } },
+                        fadeIn: { "0%": { opacity: 0 }, "100%": { opacity: 1 } },
+                        floatSlow: { "0%, 100%": { transform: "translateY(0px)" }, "50%": { transform: "translateY(-12px)" } }
                     },
                     animation: {
                         fadeInRight: "fadeInRight 0.8s ease-out forwards",
                         fadeInLeft: "fadeInLeft 0.8s ease-out forwards",
                         fadeIn: "fadeIn 1s ease-out forwards",
-                        floatSlow: "floatSlow 6s ease-in-out infinite", // ← no hyphen/space
+                        floatSlow: "floatSlow 6s ease-in-out infinite"
                     }
-                    ,
-                },
-            },
+                }
+            }
         };
     </script>
+
+    <!-- Structured Data: Service + Breadcrumbs -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://querytel.com/officeconnect/#service",
+    "name": "Office Connect – Hosted PBX & SIP Trunking",
+    "serviceType": "VoIP, SIP trunking, cloud PBX",
+    "url": "https://querytel.com/officeconnect/",
+    "description": "Cloud-based phone system with SIP trunking, advanced routing, and analytics for Canadian businesses.",
+    "areaServed": "CA",
+    "provider": {
+      "@type": "Organization",
+      "@id": "https://querytel.com/#org",
+      "name": "QueryTel Inc",
+      "url": "https://querytel.com/"
+    }
+  }
+  </script>
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://querytel.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://querytel.com/services/" },
+      { "@type": "ListItem", "position": 3, "name": "Office Connect", "item": "https://querytel.com/officeconnect/" }
+    ]
+  }
+  </script>
 </head>
+
 
 <body class="bg-white text-neutral-900 font-sans">
     <!-- HEADER -->
@@ -109,13 +160,12 @@
                     ACCESSIBLE, SECURE, AND SHARED TEAMWORK
                 </span>
                 <p class="text-gray-700 text-base leading-relaxed mb-3">
-                    Say goodbye to bulky on-premise systems and hello to flexibility. No more juggling wires,
-                    installations,
-                    or hardware headaches.
+                    Say goodbye to bulky on-premise systems and hello to flexibility: no more juggling wires,
+                    installations, or hardware headaches.
                 </p>
                 <p class="text-gray-700 text-base leading-relaxed">
                     Hosted PBX by QueryTel gives your team crystal-clear voice over a secure, private network. Work from
-                    anywhere, scale instantly, and enjoy unified communication — all in one monthly fee.
+                    anywhere, scale instantly, and enjoy unified communication all in one monthly fee.
                 </p>
             </div>
         </div>
@@ -135,8 +185,8 @@
                     <div class="w-16 h-1 bg-white mb-6"></div>
                     <p class="text-lg text-white/90 leading-relaxed max-w-xl">
                         Office Connect from QueryTel helps you cut costs while empowering your team with unmatched
-                        flexibility. Add or remove extensions instantly and take calls anywhere — your desk, tablet,
-                        or even your smartphone. Everything’s managed, secure, and bundled into one simple monthly fee.
+                        flexibility. Add or remove extensions instantly and take calls anywhere—your desk, tablet, or
+                        smartphone. Everything’s managed, secure, and bundled into one simple monthly fee.
                     </p>
                 </div>
 
@@ -169,9 +219,8 @@
 
             <!-- Phone Image Right -->
             <div class="relative z-10 md:order-2">
-                <img src="https://querytel.com/wp-content/uploads/2021/10/Polycom-VVX-411-1024x859.png"
-                    alt="Polycom VVX 411"
-                    class="w-full max-w-lg mx-auto md:ml-auto rounded-xl shadow-2xl animate-floatSlow" />
+                <img src="<?= $base . '/assets/images/polycom.png' ?>" alt="Polycom VVX 411"
+                    class="w-full max-w-lg mx-auto md:ml-auto rounded-xl shadow-2xl animate-floatSlow h-96" />
             </div>
 
             <!-- Offer Content Left -->
@@ -191,7 +240,7 @@
                     <li class="flex items-start gap-4">
                         <span class="text-orange-400 mt-1">•</span>
                         <div>
-                            <strong>$30.00/month/user</strong> with 3-year contract.<br>
+                            <strong>$30.00/month/user</strong> with a 3-year contract.<br>
                             High-quality communication. No hidden fees.
                         </div>
                     </li>
@@ -236,9 +285,9 @@
                         <h3 class="text-2xl font-bold text-neutral-900">Collaborate Anytime, Anywhere</h3>
                     </div>
                     <p class="text-gray-700 text-base leading-relaxed">
-                        Office Connect lets you effortlessly combine documents from Outlook, MS Office, and Windows File
-                        Explorer into SharePoint and Office 365.
-                        It’s user-friendly — your team can add documents, emails, and attachments with one tap.
+                        Office Connect effortlessly combines Outlook, MS Office, and Windows File Explorer documents
+                        into SharePoint and Office 365. It’s user-friendly, so your team can add documents, emails, and
+                        attachments with one tap.
                     </p>
                 </div>
 
@@ -250,9 +299,9 @@
                         <h3 class="text-2xl font-bold text-neutral-900">Collaboration Made Easy</h3>
                     </div>
                     <p class="text-gray-700 text-base leading-relaxed">
-                        Office Connect enables your team to onboard seamlessly with a central admin board — find,
-                        arrange, and manage documents from one platform.
-                        No need to deploy a server — use the built-in web manager for smooth operations.
+                        Office Connect enables your team to onboard seamlessly with a central admin board. Find,
+                        arrange, and manage documents from one platform. There is no need to deploy a server; use the
+                        built-in web manager for smooth operations.
                     </p>
                 </div>
             </div>
@@ -304,7 +353,7 @@
                     </li>
                     <li class="flex gap-3">
                         <div class="mt-2 w-2 h-2 bg-orange-500 rounded-full shrink-0"></div>
-                        One network for data & voice — no extra cabling needed.
+                        One network for data & voice, no extra cabling needed.
                     </li>
                 </ul>
             </div>
@@ -367,8 +416,8 @@
                         <h3 class="text-2xl font-bold text-neutral-900">Save time</h3>
                     </div>
                     <p class="text-gray-700 leading-relaxed">
-                        Move emails and files into your desired location in seconds. With “view” or “edit” permissions,
-                        share items securely with partners.
+                        You can move emails and files into your desired location in seconds. You can share items
+                        securely with partners with “view” or “edit” permissions.
                     </p>
                 </div>
 
@@ -490,19 +539,19 @@
     </section>
 
     <!-- CONTACT FORM -->
-    <section id="contact" class="py-20">
+    <section id="contact" class="py-20 bg-gray-50">
         <div class="max-w-3xl mx-auto px-6">
-            <h3 class="text-2xl font-semibold mb-8 text-center">Contact Us</h3>
-            <form class="space-y-6">
+            <h3 class="text-2xl font-semibold mb-8 text-center">Get In Touch</h3>
+            <form class="space-y-6" action="sendmail.php" method="POST">
                 <div class="grid md:grid-cols-2 gap-6">
-                    <input type="text" placeholder="Your Name" class="w-full border border-black px-4 py-3 rounded"
-                        required />
-                    <input type="email" placeholder="Email Address" class="w-full border border-black px-4 py-3 rounded"
-                        required />
+                    <input type="text" name="name" placeholder="Your Name"
+                        class="w-full border border-black px-4 py-3 rounded" required />
+                    <input type="email" name="email" placeholder="Email Address"
+                        class="w-full border border-black px-4 py-3 rounded" required />
                 </div>
-                <input type="tel" placeholder="Phone Number" class="w-full border border-black px-4 py-3 rounded"
-                    required />
-                <textarea rows="4" placeholder="Your Message"
+                <input type="tel" name="phone" placeholder="Phone Number"
+                    class="w-full border border-black px-4 py-3 rounded" required />
+                <textarea rows="4" name="message" placeholder="Your Message"
                     class="w-full border border-black px-4 py-3 rounded resize-none" required></textarea>
                 <div class="text-center">
                     <button type="submit"

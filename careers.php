@@ -5,9 +5,50 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Careers - Querytel Inc</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Careers at QueryTel Inc — Jobs, Culture & Hiring in Canada</title>
+    <meta name="description"
+        content="Join QueryTel Inc. to build secure, modern IT for Canadian businesses. Explore our culture, perks, and roles in security, cloud, networking, and engineering." />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://querytel.com/careers/" />
+    <link rel="alternate" hreflang="en-ca" href="https://querytel.com/careers/" />
+    <meta name="theme-color" content="#0f172a" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Careers at QueryTel Inc — Jobs, Culture & Hiring in Canada" />
+    <meta property="og:description"
+        content="Protect enterprises, innovate in security, and shape the future of tech with QueryTel. See roles and life at QueryTel." />
+    <meta property="og:url" content="https://querytel.com/careers/" />
+    <meta property="og:site_name" content="QueryTel Inc." />
+    <meta property="og:locale" content="en_CA" />
+    <meta property="og:image"
+        content="https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Careers at QueryTel Inc — Jobs, Culture & Hiring in Canada" />
+    <meta name="twitter:description"
+        content="Grow your career in managed IT, cybersecurity, and cloud. Explore life at QueryTel." />
+    <meta name="twitter:image"
+        content="https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png" />
+
+    <!-- Icons -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Performance hints -->
+    <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdn.tailwindcss.com">
+
+    <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind config (kept/enhanced) -->
     <script>
         tailwind.config = {
             theme: {
@@ -16,24 +57,79 @@
                         segoe: ['"Segoe UI"', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif'],
                     },
                     colors: {
-                        brandorange: '#f97316', // Primary
-                        brandblue: '#0078D4', // Secondary
+                        brandorange: '#f97316',
+                        brandblue: '#0078D4',
                         brandgray: '#f3f2f1'
                     },
                     keyframes: {
-                        fadeUp: {
-                            "0%": { opacity: 0, transform: "translateY(20px)" },
-                            "100%": { opacity: 1, transform: "translateY(0)" },
-                        }
+                        fadeUp: { "0%": { opacity: 0, transform: "translateY(20px)" }, "100%": { opacity: 1, transform: "translateY(0)" } }
                     },
-                    animation: {
-                        fadeUp: "fadeUp 0.8s ease-out forwards"
-                    }
-                },
-            },
+                    animation: { fadeUp: "fadeUp 0.8s ease-out forwards" }
+                }
+            }
         };
     </script>
+
+    <!-- Schema: Organization (site entity) -->
+    <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "@id":"https://querytel.com/#org",
+    "name":"QueryTel Inc.",
+    "url":"https://querytel.com/",
+    "logo":"https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png",
+    "sameAs":["https://www.linkedin.com/company/querytel"]
+  }
+  </script>
+
+    <!-- Schema: WebPage (Careers) -->
+    <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebPage",
+    "@id":"https://querytel.com/careers/#webpage",
+    "url":"https://querytel.com/careers/",
+    "name":"Careers at QueryTel",
+    "inLanguage":"en-CA",
+    "isPartOf":{"@id":"https://querytel.com/#website"},
+    "about":{"@id":"https://querytel.com/#org"},
+    "lastReviewed":"2025-08-18",
+    "breadcrumb":{"@id":"https://querytel.com/careers/#breadcrumb"}
+  }
+  </script>
+
+    <!-- Schema: BreadcrumbList -->
+    <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BreadcrumbList",
+    "@id":"https://querytel.com/careers/#breadcrumb",
+    "itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Home","item":"https://querytel.com/"},
+      {"@type":"ListItem","position":2,"name":"Careers","item":"https://querytel.com/careers/"}
+    ]
+  }
+  </script>
+
+    <!-- Schema: JobPosting (only include when you have a real opening)
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"JobPosting",
+    "title":"Network Security Engineer",
+    "description":"...HTML-escaped description...",
+    "datePosted":"2025-08-18",
+    "employmentType":"FULL_TIME",
+    "hiringOrganization":{"@id":"https://querytel.com/#org"},
+    "jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressCountry":"CA"}},
+    "applicantLocationRequirements":{"@type":"Country","name":"Canada"},
+    "directApply":true
+  }
+  </script>
+  -->
 </head>
+
 
 <body class="bg-brandgray text-neutral-900 font-segoe">
 
@@ -106,8 +202,7 @@
                 <div class="bg-white rounded-xl shadow-sm hover:shadow-md transition p-8">
                     <h3 class="text-xl font-semibold text-gray-900">Impactful Work</h3>
                     <p class="mt-3 text-gray-600">
-                        Join projects that make a real difference in security, networking, and IT solutions across
-                        industries.
+                        Join projects that make a real difference in industries' security, networking, and IT solutions.
                     </p>
                 </div>
             </div>
