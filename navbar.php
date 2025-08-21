@@ -11,7 +11,6 @@
             position: relative;
         }
 
-        /* The dropdown */
         .dropdown {
             position: absolute;
             top: calc(100% + 0px);
@@ -30,7 +29,6 @@
             margin-left: .5rem;
         }
 
-        /* Hover bridge: a tiny invisible zone between trigger and menu */
         .nav-hover-group::after {
             content: "";
             position: absolute;
@@ -38,10 +36,8 @@
             right: 0;
             top: 100%;
             height: var(--hover-bridge);
-            /* adjust if needed */
         }
 
-        /* For right-side nested menus, add a bridge on the side */
         .dropdown .nav-hover-group::after {
             left: 100%;
             top: 0;
@@ -49,7 +45,6 @@
             height: 100%;
         }
 
-        /* Open state class (managed by JS) */
         .nav-hover-group.open>.dropdown {
             opacity: 1;
             visibility: visible;
@@ -57,7 +52,6 @@
             transform: translateY(0);
         }
 
-        /* Desktop hover fallback (still okay) */
         @media (hover:hover) and (pointer:fine) {
             .nav-hover-group:hover>.dropdown {
                 opacity: 1;
@@ -67,15 +61,19 @@
             }
         }
 
-        /* Respect reduced motion */
         @media (prefers-reduced-motion: reduce) {
             .dropdown {
                 transition: none;
                 transform: none;
             }
         }
-    </style>
 
+        .focus-ring:focus {
+            outline: 2px solid #111827;
+            outline-offset: 2px;
+            border-radius: 6px;
+        }
+    </style>
 
     <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center" role="navigation" aria-label="Main">
         <a href="<?= $base ?>/" class="flex items-center gap-2">
@@ -93,11 +91,10 @@
                 Security</a>
             <a role="menuitem" href="<?= $base ?>/warehousing-solutions-and-network-infrastructure/"
                 class="hover:text-black transition focus-ring">Warehousing</a>
+
             <div class="nav-hover-group">
                 <button type="button" class="hover:text-black transition focus-ring" aria-haspopup="true"
-                    aria-expanded="false" aria-controls="nav-solutions-menu">
-                    Solutions
-                </button>
+                    aria-expanded="false" aria-controls="nav-solutions-menu">Solutions</button>
                 <div id="nav-solutions-menu" class="dropdown bg-white shadow-lg rounded min-w-[240px] mt-2 p-2"
                     role="menu" aria-label="Solutions">
                     <a role="menuitem" href="<?= $base ?>/managedservices/"
@@ -107,7 +104,6 @@
                     <a role="menuitem" href="<?= $base ?>/officeconnectplans/"
                         class="block px-4 py-2 text-sm hover:bg-gray-100 focus-ring">Office Connect Plans</a>
 
-                    <!-- Cyber Cloud Services (nested) -->
                     <div class="nav-hover-group">
                         <button type="button"
                             class="w-full flex items-center justify-between px-4 py-2 text-sm hover:bg-gray-100 focus-ring"
@@ -136,7 +132,6 @@
                         </div>
                     </div>
 
-                    <!-- Cybersecurity (nested) -->
                     <div class="nav-hover-group">
                         <button type="button"
                             class="w-full flex items-center justify-between px-4 py-2 text-sm hover:bg-gray-100 focus-ring"
@@ -152,7 +147,6 @@
                         <div id="nav-cybersec-menu"
                             class="dropdown dropdown-right bg-white shadow-lg rounded min-w-[215px] p-2" role="menu"
                             aria-label="Cybersecurity">
-                            <!-- Malwarebytes submenu -->
                             <div class="nav-hover-group">
                                 <button type="button"
                                     class="w-full flex items-center justify-between px-4 py-2 text-sm hover:bg-gray-100 focus-ring"
@@ -186,17 +180,12 @@
                     </div>
                 </div>
             </div>
+
             <a role="menuitem" href="<?= $base ?>/services/" class="hover:text-black transition focus-ring">Services</a>
 
-            <!-- Solutions -->
-
-
-            <!-- Industry -->
             <div class="nav-hover-group">
                 <button type="button" class="hover:text-black transition focus-ring" aria-haspopup="true"
-                    aria-expanded="false" aria-controls="nav-industry-menu">
-                    Industry
-                </button>
+                    aria-expanded="false" aria-controls="nav-industry-menu">Industry</button>
                 <div id="nav-industry-menu" class="dropdown bg-white shadow-lg rounded min-w-[220px] mt-2 p-2"
                     role="menu" aria-label="Industry">
                     <a role="menuitem" href="<?= $base ?>/retail/"
@@ -208,22 +197,25 @@
                 </div>
             </div>
 
-            <!-- More -->
             <div class="nav-hover-group">
                 <button type="button" class="hover:text-black transition focus-ring" aria-haspopup="true"
-                    aria-expanded="false" aria-controls="nav-more-menu">
-                    More
-                </button>
+                    aria-expanded="false" aria-controls="nav-more-menu">More</button>
                 <div id="nav-more-menu" class="dropdown bg-white shadow-lg rounded min-w-[220px] mt-2 p-2" role="menu"
                     aria-label="More">
                     <a role="menuitem" href="<?= $base ?>/intrusionprevension/"
                         class="block px-4 py-2 text-sm hover:bg-gray-100 focus-ring">Intrusion Prevention</a>
+                    <a role="menuitem" href="<?= $base ?>/remotesupport/"
+                        class="block px-4 py-2 text-sm hover:bg-gray-100 focus-ring">Remote Support</a>
                     <a role="menuitem" href="<?= $base ?>/careers/"
                         class="block px-4 py-2 text-sm hover:bg-gray-100 focus-ring">Careers</a>
+
                 </div>
             </div>
 
+
             <a role="menuitem" href="<?= $base ?>/contactus/" class="hover:text-black transition focus-ring">Contact</a>
+            <a role="menuitem" href="https://brokerband.com" target="_blank" rel="noopener"
+                class="hover:text-black transition focus-ring">Online Store</a>
         </nav>
 
         <!-- Mobile menu button -->
@@ -243,9 +235,7 @@
         aria-label="Mobile" aria-hidden="true">
         <div class="p-4 border-b flex items-center justify-between">
             <span class="font-semibold">Menu</span>
-            <button id="mobileMenuClose" class="focus-ring" aria-label="Close menu">
-                ✕
-            </button>
+            <button id="mobileMenuClose" class="focus-ring" aria-label="Close menu">✕</button>
         </div>
         <div class="p-4 space-y-2 overflow-y-auto">
             <a class="block py-2" href="<?= $base ?>/">Home</a>
@@ -295,56 +285,70 @@
                 <div class="pl-4 space-y-2">
                     <a class="block py-2" href="<?= $base ?>/intrusionprevension/">Intrusion Prevention</a>
                     <a class="block py-2" href="<?= $base ?>/careers/">Careers</a>
+                    <a class="block py-2" href="<?= $base ?>/remotesupport/">Remote Support</a>
                 </div>
             </details>
-            <a class="block py-2" href="<?= $base ?>/remotesupport/">Remote Support</a>
+
             <a class="block py-2" href="<?= $base ?>/contactus/">Contact</a>
+            <a class="block py-2" href="https://brokerband.com" target="_blank" rel="noopener">Online Store</a>
         </div>
     </nav>
 
     <script>
-        // Desktop: click toggling + keyboard control for dropdown buttons
+        // Desktop: unify click + keyboard with the same 'open' class
         (function () {
-            const btns = document.querySelectorAll('header [aria-haspopup="true"]');
-            btns.forEach(btn => {
-                const menuId = btn.getAttribute('aria-controls');
-                const menu = menuId ? document.getElementById(menuId) : null;
+            const groups = document.querySelectorAll('header .nav-hover-group');
 
-                // Click toggles (desktop fallback)
-                btn.addEventListener('click', (e) => {
-                    const expanded = btn.getAttribute('aria-expanded') === 'true';
-                    btn.setAttribute('aria-expanded', String(!expanded));
-                    if (menu) {
-                        const open = !expanded;
-                        menu.style.opacity = open ? '1' : '';
-                        menu.style.visibility = open ? 'visible' : '';
-                        menu.style.pointerEvents = open ? 'auto' : '';
-                        menu.style.transform = open ? 'translateY(0)' : '';
+            function closeAll(except) {
+                groups.forEach(g => {
+                    if (g !== except) {
+                        g.classList.remove('open');
+                        const t = g.querySelector(':scope > [aria-haspopup="true"]');
+                        if (t) t.setAttribute('aria-expanded', 'false');
+                    }
+                });
+            }
+
+            groups.forEach(group => {
+                const trigger = group.querySelector(':scope > button,[aria-haspopup="true"]');
+                const dropdown = group.querySelector(':scope > .dropdown');
+                if (!trigger || !dropdown) return;
+
+                // Click toggle
+                trigger.addEventListener('click', (e) => {
+                    const isOpen = group.classList.contains('open');
+                    if (isOpen) {
+                        group.classList.remove('open');
+                        trigger.setAttribute('aria-expanded', 'false');
+                    } else {
+                        closeAll(group);
+                        group.classList.add('open');
+                        trigger.setAttribute('aria-expanded', 'true');
                     }
                 });
 
-                // Close on Escape
-                btn.addEventListener('keydown', (e) => {
+                // Keyboard
+                trigger.addEventListener('keydown', (e) => {
                     if (e.key === 'Escape') {
-                        btn.setAttribute('aria-expanded', 'false');
-                        if (menu) { menu.removeAttribute('style'); }
-                        btn.focus();
+                        group.classList.remove('open');
+                        trigger.setAttribute('aria-expanded', 'false');
+                        trigger.blur();
                     }
                 });
+
+                // Hover intent with delay
+                let closeTimer = null;
+                const open = () => { clearTimeout(closeTimer); closeAll(group); group.classList.add('open'); trigger.setAttribute('aria-expanded', 'true'); };
+                const closeLater = () => { clearTimeout(closeTimer); closeTimer = setTimeout(() => { group.classList.remove('open'); trigger.setAttribute('aria-expanded', 'false'); }, parseInt(getComputedStyle(document.documentElement).getPropertyValue('--dropdown-delay')) || 260); };
+
+                trigger.addEventListener('mouseenter', open);
+                dropdown.addEventListener('mouseenter', open);
+                trigger.addEventListener('mouseleave', closeLater);
+                dropdown.addEventListener('mouseleave', closeLater);
             });
 
-            // Click outside to close
-            document.addEventListener('click', (e) => {
-                const header = e.target.closest('header');
-                if (!header) {
-                    btns.forEach(btn => {
-                        btn.setAttribute('aria-expanded', 'false');
-                        const menuId = btn.getAttribute('aria-controls');
-                        const menu = menuId ? document.getElementById(menuId) : null;
-                        if (menu) menu.removeAttribute('style');
-                    });
-                }
-            });
+            // Click outside closes all
+            document.addEventListener('click', (e) => { if (!e.target.closest('header')) closeAll(); });
         })();
 
         // Mobile menu
@@ -370,61 +374,7 @@
             openBtn.addEventListener('click', openMenu);
             closeBtn.addEventListener('click', closeMenu);
             document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMenu(); });
-            menu.addEventListener('click', (e) => {
-                if (e.target === menu) closeMenu();
-            });
+            menu.addEventListener('click', (e) => { if (e.target === menu) closeMenu(); });
         })();
     </script>
-    <script>
-        // Gentle hover intent with a close delay and gap tolerance
-        (function () {
-            const groups = document.querySelectorAll('.nav-hover-group');
-
-            groups.forEach(group => {
-                let closeTimer = null;
-                const dropdown = group.querySelector(':scope > .dropdown');
-                const trigger = group.querySelector(':scope > button, :scope > a, :scope > [aria-haspopup="true"]');
-
-                if (!dropdown || !trigger) return;
-
-                const open = () => {
-                    clearTimeout(closeTimer);
-                    group.classList.add('open');
-                    trigger.setAttribute('aria-expanded', 'true');
-                };
-                const close = () => {
-                    group.classList.remove('open');
-                    trigger.setAttribute('aria-expanded', 'false');
-                };
-                const closeLater = () => {
-                    clearTimeout(closeTimer);
-                    closeTimer = setTimeout(close, parseInt(getComputedStyle(document.documentElement).getPropertyValue('--dropdown-delay')) || 260);
-                };
-
-                // Entering trigger or dropdown keeps it open
-                trigger.addEventListener('mouseenter', open);
-                dropdown.addEventListener('mouseenter', open);
-
-                // Leaving trigger or dropdown starts the delayed close
-                trigger.addEventListener('mouseleave', closeLater);
-                dropdown.addEventListener('mouseleave', closeLater);
-
-                // Keyboard: open on focus, close on Escape
-                trigger.addEventListener('focus', open);
-                trigger.addEventListener('keydown', (e) => { if (e.key === 'Escape') { close(); trigger.blur(); } });
-            });
-
-            // Click outside closes all
-            document.addEventListener('click', (e) => {
-                if (!e.target.closest('header')) {
-                    document.querySelectorAll('.nav-hover-group.open').forEach(g => {
-                        g.classList.remove('open');
-                        const t = g.querySelector(':scope > [aria-haspopup="true"]');
-                        if (t) t.setAttribute('aria-expanded', 'false');
-                    });
-                }
-            });
-        })();
-    </script>
-
 </header>
