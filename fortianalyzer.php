@@ -41,7 +41,7 @@
     <!-- HEADER -->
     <?php include("navbar.php"); ?>
 
-    <!-- HERO -->
+
 
     <!-- HERO — FortiAnalyzer (clean Fluent-style, new look) -->
     <section class="relative overflow-hidden bg-gradient-to-b from-white to-slate-50 py-20">

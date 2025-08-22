@@ -94,7 +94,7 @@
                 </h1>
                 <p class="mt-6 text-lg text-neutral-700">
                     From store floors to stockrooms, our innovative retail hardware ensures seamless performance, fast
-                    installs, and secure operations all across Canada.
+                    installs, and secure operations all across North America.
                 </p>
                 <div class="mt-8 flex gap-4 opacity-0 animate-fadeIn delay-500">
                     <a href="#contact"

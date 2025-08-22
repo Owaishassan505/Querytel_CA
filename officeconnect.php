@@ -220,8 +220,9 @@
             <!-- Phone Image Right -->
             <div class="relative z-10 md:order-2">
                 <img src="<?= $base . '/assets/images/polycom.png' ?>" alt="Polycom VVX 411"
-                    class="w-full max-w-lg mx-auto md:ml-auto rounded-xl shadow-2xl animate-floatSlow h-96" />
+                    class="w-full md:w-[110%] lg:w-[130%] max-w-5xl mx-auto md:ml-auto rounded-xl shadow-2xl animate-floatSlow h-auto object-contain" />
             </div>
+
 
             <!-- Offer Content Left -->
             <div class="relative z-10 md:order-1">

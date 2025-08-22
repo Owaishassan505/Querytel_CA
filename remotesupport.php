@@ -86,7 +86,7 @@
                         <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M9 12.75 7.5 11.25l-3 3L9 18l10.5-10.5-1.5-1.5z" />
                         </svg>
-                        Canada-wide coverage
+                        North America-wide coverage
                     </div>
                     <div class="flex items-center gap-2">
                         <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
@@ -563,11 +563,12 @@
                             </svg>
                         </summary>
                         <div class="mt-3 text-[15px] leading-7 text-neutral-800 space-y-4">
-                            <p>The QueryTel contracting entity for this agreement is QueryTel Inc. Canada if you are
+                            <p>The QueryTel contracting entity for this agreement is QueryTel Inc. North America if you
+                                are
                                 located in the following countries/regions: Australia, Bangladesh, Hong Kong, India,
                                 Indonesia, Korea, Malaysia, New Zealand, Philippines, Singapore, Sri-Lanka, Taiwan,
                                 Thailand, and Vietnam. The QueryTel contracting entity for this agreement is QueryTel
-                                Inc. Canada, Limited if you are located in any country in Europe, Middle East, or
+                                Inc. North America, Limited if you are located in any country in Europe, Middle East, or
                                 Africa. Last updated: January 2019</p>
                         </div>
                     </details>

@@ -119,7 +119,6 @@
             border: 1px solid #ffd9c6;
         }
 
-        /* Floating accent circle animation (used in PBX section) */
         @keyframes floatFast {
 
             0%,
@@ -157,7 +156,6 @@
                     <a href="<?= $base ?>/contactus" class="oc-btn oc-btn-ghost px-6 py-3">Talk to Sales</a>
                 </div>
             </div>
-
             <div class="animate-fadeInRight">
                 <img src="<?= $base ?>/assets/images/office-connect2.jpg" alt="Office Connect Illustration"
                     class="w-full max-w-lg mx-auto rounded-xl shadow-fluent" />
@@ -170,8 +168,7 @@
         <div class="max-w-6xl mx-auto px-6 text-center">
             <h2 class="text-2xl md:text-3xl font-semibold">Simple tiers. Enterprise outcomes.</h2>
             <p class="mt-3 text-gray-600">You can choose the plan that fits today's scale features without switching
-                platforms.
-            </p>
+                platforms.</p>
         </div>
     </section>
 
@@ -237,137 +234,869 @@
         </div>
     </section>
 
-    <!-- FEATURE TABLES -->
-    <?php
-    function table_block($heading, $rows)
-    {
-        echo '<section class="py-10"><div class="max-w-7xl mx-auto px-6">';
-        echo '<div class="mb-4">';
-        echo '<h3 class="text-2xl font-semibold text-neutral-900">' . $heading . '</h3>';
-        echo '<div class="w-12 h-1 bg-[color:var(--accent,#D83B01)] mt-3"></div>';
-        echo '</div>';
-        echo '<div class="oc-card overflow-x-auto">';
-        echo '<table class="w-full text-left zebra">';
-        echo '<thead class="bg-white sticky top-0 z-10">';
-        echo '<tr>';
-        echo '<th class="py-3 px-4 text-sm text-gray-600 font-semibold w-[44%]">Feature</th>';
-        echo '<th class="py-3 px-4 text-sm text-gray-600 font-semibold">Basic</th>';
-        echo '<th class="py-3 px-4 text-sm text-gray-600 font-semibold">Standard</th>';
-        echo '<th class="py-3 px-4 text-sm text-gray-600 font-semibold">Premium</th>';
-        echo '</tr>';
-        echo '</thead><tbody>';
-        foreach ($rows as $r) {
-            $label = htmlspecialchars($r["label"]);
-            $b = $r["basic"] ? '<span class="tick">✓</span>' : '<span class="xmark">✕</span>';
-            $s = $r["standard"] ? '<span class="tick">✓</span>' : '<span class="xmark">✕</span>';
-            $p = $r["premium"] ? '<span class="tick">✓</span>' : '<span class="xmark">✕</span>';
-            echo "<tr><td class='py-3 px-4 text-[15px]'>$label</td><td class='py-3 px-4'>$b</td><td class='py-3 px-4'>$s</td><td class='py-3 px-4'>$p</td></tr>";
-        }
-        echo '</tbody>';
-        echo '</table>';
-        echo '</div></div></section>';
-    }
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-extrabold text-neutral-900 text-center">Features</h2>
+            <div class="h-px w-20 bg-orange-500 mx-auto mt-2 mb-10"></div>
 
-    $features_main = [
-        ["label" => "SIP trunk / Caller ID", "basic" => 1, "standard" => 1, "premium" => 1],
-        ["label" => "Local + toll-free routing", "basic" => 1, "standard" => 1, "premium" => 1],
-        ["label" => "HD voice", "basic" => 1, "standard" => 1, "premium" => 1],
-        ["label" => "Voicemail to email", "basic" => 1, "standard" => 1, "premium" => 1],
-        ["label" => "Desktop & mobile apps", "basic" => 1, "standard" => 1, "premium" => 1],
-        ["label" => "Auto-attendant / IVR", "basic" => 0, "standard" => 1, "premium" => 1],
-        ["label" => "Call queues & ring groups", "basic" => 0, "standard" => 1, "premium" => 1],
-        ["label" => "Call recording", "basic" => 0, "standard" => 0, "premium" => 1],
-        ["label" => "Advanced analytics", "basic" => 0, "standard" => 0, "premium" => 1],
-    ];
-    $features_user = [
-        ["label" => "Unlimited local calls", "basic" => 1, "standard" => 1, "premium" => 1],
-        ["label" => "Unlimited North America", "basic" => 0, "standard" => 1, "premium" => 1],
-        ["label" => "Voicemail transcription", "basic" => 0, "standard" => 1, "premium" => 1],
-        ["label" => "Number porting", "basic" => 1, "standard" => 1, "premium" => 1],
-        ["label" => "Hot desking", "basic" => 0, "standard" => 0, "premium" => 1],
-    ];
-    $features_group = [
-        ["label" => "Ring groups", "basic" => 0, "standard" => 1, "premium" => 1],
-        ["label" => "Shared voicemail", "basic" => 0, "standard" => 1, "premium" => 1],
-        ["label" => "Overflow rules", "basic" => 0, "standard" => 1, "premium" => 1],
-        ["label" => "Time-based routing", "basic" => 0, "standard" => 1, "premium" => 1],
-        ["label" => "Queue analytics", "basic" => 0, "standard" => 0, "premium" => 1],
-    ];
-    $features_mobility = [
-        ["label" => "iOS & Android apps", "basic" => 1, "standard" => 1, "premium" => 1],
-        ["label" => "Wi-Fi + LTE handover", "basic" => 0, "standard" => 1, "premium" => 1],
-        ["label" => "E911 mobile location", "basic" => 0, "standard" => 1, "premium" => 1],
-        ["label" => "BYOD controls", "basic" => 0, "standard" => 0, "premium" => 1],
-    ];
-    $features_addons = [
-        ["label" => "Fax line", "basic" => 1, "standard" => 1, "premium" => 1],
-        ["label" => "International add-on", "basic" => 1, "standard" => 1, "premium" => 1],
-        ["label" => "Contact center seats", "basic" => 0, "standard" => 0, "premium" => 1],
-    ];
-    ?>
-
-    <?php
-    table_block("Features", $features_main);
-    table_block("Base User Features", $features_user);
-    table_block("Base Group Features", $features_group);
-    table_block("Personal Mobility Package", $features_mobility);
-    table_block("Additional Add-ons", $features_addons);
-    ?>
-
-    <!-- EXPLANATORY BLOCK (PBX) -->
-    <section class="bg-gray-50 py-24">
-        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
-            <div class="animate-fadeInLeft">
-                <p class="text-sm uppercase tracking-wide text-accent font-semibold mb-2">Quality you can hear</p>
-                <h2 class="text-3xl md:text-4xl font-bold text-neutral-900 leading-tight">
-                    Don’t frustrate your customers with low-quality calls
-                </h2>
-                <div class="w-16 h-1 bg-accent mt-5 mb-6"></div>
-                <ul class="space-y-4 text-gray-700 text-base leading-relaxed">
-                    <li class="flex gap-3"><span class="text-accent mt-1 text-xl">•</span> Reliable SIP trunking and
-                        resilient routing.</li>
-                    <li class="flex gap-3"><span class="text-accent mt-1 text-xl">•</span> Hard-to-get DIDs, easy
-                        porting, zero downtime cutovers.</li>
-                    <li class="flex gap-3"><span class="text-accent mt-1 text-xl">•</span> Analytics that surface
-                        trends, not just raw CDRs.</li>
-                </ul>
-                <div class="mt-8 flex gap-3">
-                    <a href="<?= $base ?>/contactus?s=office-connect-demo"
-                        class="oc-btn oc-btn-primary px-6 py-3">Request a Demo</a>
-                    <a href="<?= $base ?>/contactus?s=office-connect-rates" class="oc-btn oc-btn-ghost px-6 py-3">See
-                        Rates</a>
-                </div>
+            <div class="overflow-x-auto">
+                <table class="w-full border border-gray-200 rounded-lg shadow-sm">
+                    <thead class="bg-gray-100">
+                        <tr>
+                            <th class="text-left py-4 px-6 font-semibold text-gray-800">Features</th>
+                            <th class="text-center py-4 px-6 font-semibold text-gray-800">Basic</th>
+                            <th class="text-center py-4 px-6 font-semibold text-gray-800">Standard</th>
+                            <th class="text-center py-4 px-6 font-semibold text-gray-800">Premium</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200 text-gray-700">
+                        <tr>
+                            <td class="py-3 px-6">Call forwarding, Call return</td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-6">Call transfer, Conference calling</td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-6">Hunt group</td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-6">Basic voicemail</td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-6">Port your existing number</td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-6">Sequential ring</td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-6">Simultaneous ring personal</td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-6">Call park, Call pickup</td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                        </tr>
+                        <tr class="bg-orange-50 font-semibold">
+                            <td class="py-3 px-6 text-orange-600">US &amp; Canada long distance 2400 minutes</td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                            <td class="text-center"><span class="text-green-500 text-xl">✔</span></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+        </div>
+    </section>
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-extrabold text-neutral-900 text-center">
+                Base User Features
+            </h2>
+            <div class="h-1 w-20 bg-orange-500 mx-auto mt-4 mb-10"></div>
 
-            <!-- Image with floating accent circle -->
-            <div class="animate-fadeInRight">
-                <div class="relative w-full max-w-md mx-auto">
-                    <!-- Decorative circle -->
-                    <div class="pointer-events-none absolute -top-12 -left-12 w-[340px] h-[340px] rounded-full border-[42px] animate-float-fast"
-                        style="border-color:#0B5FFF; opacity:.22;">
-                    </div>
-                    <!-- Image -->
-                    <img src="https://querytel.com/wp-content/uploads/2021/10/hosted-pbx1-469x500-1.jpg"
-                        alt="Call Quality" class="relative z-10 w-full rounded-xl shadow-fluent" />
-                </div>
+            <div class="overflow-x-auto">
+                <table class="w-full border border-gray-200 text-left shadow-md">
+                    <thead>
+                        <tr class="bg-gray-100">
+                            <th class="p-4 text-gray-900 font-semibold">Features</th>
+                            <th class="p-4 text-center text-gray-900 font-semibold">Basic</th>
+                            <th class="p-4 text-center text-gray-900 font-semibold">Standard</th>
+                            <th class="p-4 text-center text-gray-900 font-semibold">Premium</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr>
+                            <td class="p-4 text-gray-700">Advice of charge, Authentication</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Barge-in exempt, Basic call logs</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Call waiting</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Calling line ID delivery blocking</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Calling name delivery</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Calling name retrieval</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Calling number delivery</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Calling party category</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Charge number</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Client call control</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Customer originated trace</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Connected line identification – presentation and restriction
+                            </td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">External calling line ID delivery</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Intercept user</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Internal calling line ID delivery</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Malicious call trace</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Phone status monitoring</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Physical location</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Preferred carrier user, Privacy</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Service scripts user</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">SMDI message desk</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Third-party MWI control</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Third-party voice mail support</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Zone calling restrictions</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+        </div>
+    </section>
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-extrabold text-neutral-900 text-center">
+                Base Group
+            </h2>
+            <div class="h-1 w-20 bg-orange-500 mx-auto mt-4 mb-10"></div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full border border-gray-200 text-left shadow-md">
+                    <thead>
+                        <tr class="bg-gray-100">
+                            <th class="p-4 text-gray-900 font-semibold">Features</th>
+                            <th class="p-4 text-center text-gray-900 font-semibold">Basic</th>
+                            <th class="p-4 text-center text-gray-900 font-semibold">Standard</th>
+                            <th class="p-4 text-center text-gray-900 font-semibold">Premium</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr>
+                            <td class="p-4 text-gray-700">Call capacity management</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Emergency zones</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Intercept group</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">LDAP integration</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Outgoing call plan</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Voice messaging group (portal)</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-extrabold text-neutral-900 text-center">
+                Business Line User Features
+            </h2>
+            <div class="h-1 w-20 bg-orange-500 mx-auto mt-4 mb-10"></div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full border border-gray-200 text-left shadow-md">
+                    <thead>
+                        <tr class="bg-gray-100">
+                            <th class="p-4 text-gray-900 font-semibold">Features</th>
+                            <th class="p-4 text-center text-gray-900 font-semibold">Basic</th>
+                            <th class="p-4 text-center text-gray-900 font-semibold">Standard</th>
+                            <th class="p-4 text-center text-gray-900 font-semibold">Premium</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr>
+                            <td class="p-4 text-gray-700">Call forwarding always</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Call forwarding busy</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Call forwarding no answer</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Call forwarding not reachable</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Communication barring – user control</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Directory number hunting</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Flash call hold</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Last number redial</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-gray-700">Three-way calling</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                            <td class="p-4 text-center text-green-500">✔</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Standard Enterprise User Features</h2>
+            <div class="h-1 w-24 bg-orange-500 mb-8"></div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full border border-gray-200 text-center">
+                    <thead>
+                        <tr class="bg-gray-100">
+                            <th class="p-4 text-left text-gray-700 font-semibold">Features</th>
+                            <th class="p-4 font-semibold">BASIC</th>
+                            <th class="p-4 font-semibold">STANDARD</th>
+                            <th class="p-4 font-semibold">PREMIUM</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr>
+                            <td class="p-4 text-left">Anonymous call rejection</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Automatic callback</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Call me now</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Diversion inhibitor</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Do not disturb</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Flexible seating guest</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Group night forwarding</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Hoteling guest</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Security classification</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Speed dial 100, Speed dial 8</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Standard Enterprise Group Features</h2>
+            <div class="h-1 w-24 bg-orange-500 mb-8"></div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full border border-gray-200 text-center">
+                    <thead>
+                        <tr class="bg-gray-100">
+                            <th class="p-4 text-left text-gray-700 font-semibold">Features</th>
+                            <th class="p-4 font-semibold">BASIC</th>
+                            <th class="p-4 font-semibold">STANDARD</th>
+                            <th class="p-4 font-semibold">PREMIUM</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr>
+                            <td class="p-4 text-left">Group paging</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Service scripts group</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Premium Enterprise User Features</h2>
+            <div class="h-1 w-24 bg-orange-500 mb-8"></div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full border border-gray-200 text-center">
+                    <thead>
+                        <tr class="bg-gray-100">
+                            <th class="p-4 text-left text-gray-700 font-semibold">Features</th>
+                            <th class="p-4 font-semibold">BASIC</th>
+                            <th class="p-4 font-semibold">STANDARD</th>
+                            <th class="p-4 font-semibold">PREMIUM</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr>
+                            <td class="p-4 text-left">Alternate numbers</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Automatic hold/retrieve</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Busy lamp field</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Call centre monitoring</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Call forwarding selective</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Call notify</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Custom ringback user</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Custom ringback user - video</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Directed call pickup</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Directed call pickup with barge-in</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Executive/executive-assistant</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Hoteling host</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">MOH/VOH enhancement</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">N-way call</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Pre-altering announcement</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Priority alert, Push to talk</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Selective call acceptance</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Selective call rejection</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Shared call appearance 10+</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Toll Free Number</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Virtual on-net enterprise extensions</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Enhanced Group Services Package</h2>
+            <div class="h-1 w-24 bg-orange-500 mb-8"></div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full border border-gray-200 text-center">
+                    <thead>
+                        <tr class="bg-gray-100">
+                            <th class="p-4 text-left text-gray-700 font-semibold">Features</th>
+                            <th class="p-4 font-semibold">BASIC</th>
+                            <th class="p-4 font-semibold">STANDARD</th>
+                            <th class="p-4 font-semibold">PREMIUM</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr>
+                            <td class="p-4 text-left">Account/authorization codes</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Custom ringback group</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Custom ringback group - video</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Enhanced outgoing calling plan</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Instant group call</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Music on hold</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 text-left">Music on hold – video</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-red-500 text-xl">✘</td>
+                            <td class="p-4 text-green-500 text-xl">✔</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="py-12 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">Personal Mobility Package</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full border-collapse text-sm">
+                    <thead>
+                        <tr>
+                            <th class="bg-white text-left py-3 px-4 font-semibold text-gray-700 w-1/3">Features</th>
+                            <th class="bg-orange-500 text-white py-3 px-4 text-center">BASIC</th>
+                            <th class="bg-orange-500 text-white py-3 px-4 text-center">STANDARD</th>
+                            <th class="bg-orange-500 text-white py-3 px-4 text-center">PREMIUM</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200">
+                        <tr>
+                            <td class="py-3 px-4 text-gray-700">Call forwarding (always, busy, no answer, not reachable)
+                            </td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 text-gray-700">CommPilot Call Manager</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 text-gray-700">CommPilot Express</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 text-gray-700">In call service activation</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 text-gray-700">Location-based calling</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 text-gray-700">Multiple call arrangement</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 text-gray-700">Outlook integration</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 text-gray-700">Remote office, Sequential Ring</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 text-gray-700">Shared call appearance (5)</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 text-gray-700">Simultaneous ring personal</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 text-gray-700">Two-stage dialing</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 text-gray-700">Voice portal calling</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 text-gray-700">Voice messaging-user</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 text-gray-700">Voice messaging-user-video</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-green-500">✔</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 text-gray-700">MWI delivery to mobile endpoint</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-green-500">✔</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="max-w-6xl mx-auto my-12 px-4">
+        <h2 class="text-2xl font-bold mb-6 border-b-2 border-orange-500 inline-block pb-1">
+            Additional Add-On
+        </h2>
+
+        <div class="overflow-x-auto shadow-lg rounded-lg">
+            <table class="w-full text-sm text-left border border-gray-200">
+                <thead class="bg-gray-100 text-gray-800 uppercase text-xs">
+                    <tr>
+                        <th class="px-6 py-4">Features</th>
+                        <th class="px-6 py-4">Monthly Recurring Charge (MRC)</th>
+                        <th class="px-6 py-4">Non-Recurring Charge (NRC)</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-200 bg-white">
+                    <tr>
+                        <td class="px-6 py-4 font-medium text-gray-700">Auto-Attendant (Standard)</td>
+                        <td class="px-6 py-4 text-center">$12.00 each</td>
+                        <td class="px-6 py-4 text-center">$105.00 each (x2)</td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 font-medium text-gray-700">Receptionist</td>
+                        <td class="px-6 py-4 text-center">$35.00 each</td>
+                        <td class="px-6 py-4 text-center">$110.00 each (x2)</td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 font-medium text-gray-700">Bundled Connectivity</td>
+                        <td class="px-6 py-4 text-center">Call</td>
+                        <td class="px-6 py-4 text-center">Call</td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 font-medium text-gray-700">Equipment</td>
+                        <td class="px-6 py-4 text-center">Call</td>
+                        <td class="px-6 py-4 text-center">Call</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </section>
 
     <!-- CTA -->
-    <section class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="oc-card p-6 md:p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-                <div>
-                    <h3 class="text-2xl font-bold text-neutral-900">Ready to roll out Office Connect?</h3>
-                    <p class="text-gray-600 mt-1">We’ll scope your deployment and get you live without drama.</p>
-                </div>
-                <div class="flex gap-3">
-                    <a href="<?= $base ?>/contactus?s=office-connect" class="oc-btn oc-btn-primary px-6 py-3">Talk to an
-                        Expert</a>
-                    <a href="<?= $base ?>/contactus?s=quick-quote" class="oc-btn oc-btn-ghost px-6 py-3">Get a Quick
-                        Quote</a>
-                </div>
+    <section class="bg-gray-50 py-20">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-neutral-900">Ready to modernize your voice?</h2>
+            <p class="mt-4 text-gray-600 max-w-2xl mx-auto">QueryTel Office Connect brings clarity, simplicity, and
+                reliability to every call.</p>
+            <div class="mt-8 flex justify-center gap-4">
+                <a href="<?= $base ?>/contactus?s=office-connect" class="oc-btn oc-btn-primary px-8 py-4">Request a
+                    Demo</a>
+                <a href="#pricing" class="oc-btn oc-btn-ghost px-8 py-4">See Pricing</a>
             </div>
         </div>
     </section>

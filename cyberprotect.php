@@ -126,6 +126,191 @@
         </div>
     </section>
 
+    <!-- Included Services (Fluent/Microsoft light style) -->
+    <section id="included-services" class="py-20 bg-neutral-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <header class="text-center">
+                <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight text-neutral-900">Included Services</h2>
+                <div class="mt-3 h-px w-24 mx-auto bg-neutral-300"></div>
+                <p class="mt-3 text-neutral-600 max-w-2xl mx-auto">Everything you need, designed to feel calm, clear,
+                    and efficient—like it should.</p>
+            </header>
+
+            <div class="mt-12 grid gap-8 md:grid-cols-3">
+                <!-- Card 1 -->
+                <article
+                    class="group relative rounded-[14px] border border-neutral-200 bg-white shadow-[0_1px_3px_rgba(0,0,0,.06),0_10px_24px_rgba(0,0,0,.04)] transition-all duration-300 hover:shadow-[0_2px_8px_rgba(0,0,0,.08),0_14px_32px_rgba(0,0,0,.08)] hover:-translate-y-1 focus-within:shadow-[0_2px_8px_rgba(0,0,0,.08),0_14px_32px_rgba(0,0,0,.08)]">
+                    <span class="absolute inset-x-0 top-0 h-0.5 rounded-t-[14px] bg-[#D83B01]"></span>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-neutral-900">Backup and Recovery</h3>
+                        <p class="mt-1 text-neutral-500">Fast and reliable recovery of apps, systems and data on any
+                            device.</p>
+                        <div class="mt-6 overflow-hidden rounded-xl ring-1 ring-neutral-200">
+                            <img src="<?= $base ?? '' ?>/assets/images/Cyber-cloud-services-2-scaled.jpg"
+                                alt="Backup and Recovery"
+                                class="w-full aspect-[16/10] object-fill transition-transform duration-500 ease-out group-hover:scale-[1.02]" />
+                        </div>
+                    </div>
+                    <div
+                        class="pointer-events-none absolute inset-0 rounded-[14px] ring-0 ring-[#D83B01]/0 group-hover:ring-2 group-hover:ring-[#D83B01]/20 transition">
+                    </div>
+                    <button
+                        class="sr-only focus:not-sr-only absolute m-4 top-0 right-0 rounded-md px-3 py-1 text-sm font-medium text-neutral-700 bg-white/90 ring-1 ring-neutral-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#D83B01]">Details</button>
+                </article>
+
+                <!-- Card 2 -->
+                <article
+                    class="group relative rounded-[14px] border border-neutral-200 bg-white shadow-[0_1px_3px_rgba(0,0,0,.06),0_10px_24px_rgba(0,0,0,.04)] transition-all duration-300 hover:shadow-[0_2px_8px_rgba(0,0,0,.08),0_14px_32px_rgba(0,0,0,.08)] hover:-translate-y-1 focus-within:shadow-[0_2px_8px_rgba(0,0,0,.08),0_14px_32px_rgba(0,0,0,.08)]">
+                    <span class="absolute inset-x-0 top-0 h-0.5 rounded-t-[14px] bg-[#D83B01]"></span>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-neutral-900">Anti‑Malware</h3>
+                        <p class="mt-1 text-neutral-500">Next‑gen AI/ML protection against malware, ransomware and
+                            cryptominers.</p>
+                        <div class="mt-6 overflow-hidden rounded-xl ring-1 ring-neutral-200">
+                            <img src="<?= $base ?? '' ?>/assets/images/anti-malware.jpg" alt="Anti‑Malware"
+                                class="w-full aspect-[16/10] object-fill transition-transform duration-500 ease-out group-hover:scale-[1.02]" />
+                        </div>
+                    </div>
+                    <div
+                        class="pointer-events-none absolute inset-0 rounded-[14px] ring-0 ring-[#D83B01]/0 group-hover:ring-2 group-hover:ring-[#D83B01]/20 transition">
+                    </div>
+                    <button
+                        class="sr-only focus:not-sr-only absolute m-4 top-0 right-0 rounded-md px-3 py-1 text-sm font-medium text-neutral-700 bg-white/90 ring-1 ring-neutral-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#D83B01]">Details</button>
+                </article>
+
+                <!-- Card 3 -->
+                <article
+                    class="group relative rounded-[14px] border border-neutral-200 bg-white shadow-[0_1px_3px_rgba(0,0,0,.06),0_10px_24px_rgba(0,0,0,.04)] transition-all duration-300 hover:shadow-[0_2px_8px_rgba(0,0,0,.08),0_14px_32px_rgba(0,0,0,.08)] hover:-translate-y-1 focus-within:shadow-[0_2px_8px_rgba(0,0,0,.08),0_14px_32px_rgba(0,0,0,.08)]">
+                    <span class="absolute inset-x-0 top-0 h-0.5 rounded-t-[14px] bg-[#D83B01]"></span>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-neutral-900">Security and Management</h3>
+                        <p class="mt-1 text-neutral-500">Comprehensive yet simple endpoint management that saves IT
+                            resources.</p>
+                        <div class="mt-6 overflow-hidden rounded-xl ring-1 ring-neutral-200">
+                            <img src="<?= $base ?? '' ?>/assets/images/woman-working-computer-scaled.jpg"
+                                alt="Security and Management"
+                                class="w-full aspect-[16/10] object-fill transition-transform duration-500 ease-out group-hover:scale-[1.02]" />
+                        </div>
+                    </div>
+                    <div
+                        class="pointer-events-none absolute inset-0 rounded-[14px] ring-0 ring-[#D83B01]/0 group-hover:ring-2 group-hover:ring-[#D83B01]/20 transition">
+                    </div>
+                    <button
+                        class="sr-only focus:not-sr-only absolute m-4 top-0 right-0 rounded-md px-3 py-1 text-sm font-medium text-neutral-700 bg-white/90 ring-1 ring-neutral-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#D83B01]">Details</button>
+                </article>
+            </div>
+
+            <!-- subtle footnote -->
+            <p class="mt-10 text-center text-sm text-neutral-500">Need something specific? <a
+                    href="<?= $base ?? '' ?>/contactus" class="font-medium text-[#D83B01] hover:underline">Talk to an
+                    expert</a>.</p>
+        </div>
+    </section>
+
+
+    <!-- Notes
+- Light canvas, white cards, subtle borders/shadows, thin accent line = Fluent feel.
+- Images use fixed aspect ratio so card heights align.
+- Buttons are hidden but accessible for keyboard users (Fluent-style focus ring).
+- Drop into your page where needed; relies on Tailwind only. -->
+
+    <!-- Acronis Cyber Cloud · Premium CTA strip -->
+    <section class="relative overflow-hidden bg-neutral-50 py-20">
+        <!-- ambient pattern -->
+        <div class="pointer-events-none absolute inset-0 opacity-60" style="background:
+        radial-gradient(80rem 40rem at -10% 0%, rgba(255,255,255,.8), transparent 60%),
+        radial-gradient(60rem 30rem at 110% 120%, rgba(30,64,175,.08), transparent 40%);">
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-6">
+            <!-- Heading -->
+            <div class="text-center">
+                <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-neutral-900">
+                    Acronis <span
+                        class="bg-gradient-to-r from-orange-600 to-blue-700 bg-clip-text text-transparent">Cyber
+                        Cloud</span>
+                </h2>
+                <div class="mx-auto mt-5 flex items-center justify-center gap-3">
+                    <span class="h-px w-24 bg-neutral-300"></span>
+                    <span class="h-1.5 w-1.5 rounded-full bg-orange-500"></span>
+                    <span class="h-px w-24 bg-neutral-300"></span>
+                </div>
+                <p class="mt-4 text-neutral-600">Choose your tier to match protection with performance.</p>
+            </div>
+
+            <!-- Cards -->
+            <div class="mt-12 grid gap-6 md:grid-cols-3">
+                <!-- Standard -->
+                <a href="<?= $base . '/acroniscybercloudstandard' ?>"
+                    class="group relative rounded-2xl p-[1px] bg-gradient-to-br from-orange-500/40 via-orange-400/20 to-blue-600/40 transition-shadow hover:shadow-[0_20px_60px_rgba(17,24,39,.15)] focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500">
+                    <div
+                        class="rounded-2xl bg-white/80 backdrop-blur-md ring-1 ring-black/5 p-6 flex items-center justify-between">
+                        <div>
+                            <div class="text-sm font-semibold text-orange-600">Standard</div>
+                            <div class="mt-1 text-base font-medium text-neutral-900">Acronis Cyber Cloud Standard</div>
+                            <p class="mt-2 text-sm text-neutral-600">Core backup & recovery for endpoints.</p>
+                        </div>
+                        <div
+                            class="ml-6 grid h-11 w-11 place-items-center rounded-xl bg-orange-50 text-orange-600 ring-1 ring-orange-200/60 transition-transform group-hover:translate-x-0.5">
+                            <!-- arrow -->
+                            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M13.172 12 8.586 7.414 10 6l6 6-6 6-1.414-1.414L13.172 12z" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Advanced -->
+                <a href="<?= $base . '/acroniscybercloudadvanced' ?>"
+                    class="group relative rounded-2xl p-[1px] bg-gradient-to-br from-orange-500/50 via-orange-400/30 to-blue-700/50 transition-shadow hover:shadow-[0_20px_60px_rgba(17,24,39,.15)] focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500">
+                    <div
+                        class="rounded-2xl bg-white/85 backdrop-blur-md ring-1 ring-black/5 p-6 flex items-center justify-between">
+                        <div>
+                            <div
+                                class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-orange-700">
+                                <span
+                                    class="rounded px-1.5 py-0.5 bg-orange-50 ring-1 ring-orange-200/60">Recommended</span>
+                            </div>
+                            <div class="mt-2 text-base font-medium text-neutral-900">Acronis Cyber Cloud Advanced</div>
+                            <p class="mt-2 text-sm text-neutral-600">Image + file backup, anti-ransomware, rapid
+                                restore.</p>
+                        </div>
+                        <div
+                            class="ml-6 grid h-11 w-11 place-items-center rounded-xl bg-orange-50 text-orange-600 ring-1 ring-orange-200/60 transition-transform group-hover:translate-x-0.5">
+                            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M13.172 12 8.586 7.414 10 6l6 6-6 6-1.414-1.414L13.172 12z" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- DR -->
+                <a href="<?= $base . '/acroniscyberclouddisasterrecovery' ?>"
+                    class="group relative rounded-2xl p-[1px] bg-gradient-to-br from-orange-500/40 via-orange-400/20 to-blue-600/40 transition-shadow hover:shadow-[0_20px_60px_rgba(17,24,39,.15)] focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500">
+                    <div
+                        class="rounded-2xl bg-white/80 backdrop-blur-md ring-1 ring-black/5 p-6 flex items-center justify-between">
+                        <div>
+                            <div class="text-sm font-semibold text-blue-700">Disaster Recovery</div>
+                            <div class="mt-1 text-base font-medium text-neutral-900">Acronis Cyber Cloud Disaster
+                                Recovery</div>
+                            <p class="mt-2 text-sm text-neutral-600">Run workloads in the cloud during outages.</p>
+                        </div>
+                        <div
+                            class="ml-6 grid h-11 w-11 place-items-center rounded-xl bg-orange-50 text-orange-600 ring-1 ring-orange-200/60 transition-transform group-hover:translate-x-0.5">
+                            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M13.172 12 8.586 7.414 10 6l6 6-6 6-1.414-1.414L13.172 12z" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- soft fade bottom -->
+        <div class="pointer-events-none absolute inset-x-0 -bottom-8 h-12 bg-gradient-to-t from-black/5 to-transparent">
+        </div>
+    </section>
+
     <section class="bg-slate-900 py-16">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center">

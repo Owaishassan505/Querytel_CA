@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Careers at QueryTel Inc — Jobs, Culture & Hiring in Canada</title>
+    <title>Careers at QueryTel Inc — Jobs, Culture & Hiring in North America</title>
     <meta name="description"
         content="Join QueryTel Inc. to build secure, modern IT for Canadian businesses. Explore our culture, perks, and roles in security, cloud, networking, and engineering." />
     <meta name="robots" content="index,follow,max-image-preview:large" />
@@ -18,7 +18,7 @@
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Careers at QueryTel Inc — Jobs, Culture & Hiring in Canada" />
+    <meta property="og:title" content="Careers at QueryTel Inc — Jobs, Culture & Hiring in North America" />
     <meta property="og:description"
         content="Protect enterprises, innovate in security, and shape the future of tech with QueryTel. See roles and life at QueryTel." />
     <meta property="og:url" content="https://querytel.com/careers/" />
@@ -31,7 +31,7 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Careers at QueryTel Inc — Jobs, Culture & Hiring in Canada" />
+    <meta name="twitter:title" content="Careers at QueryTel Inc — Jobs, Culture & Hiring in North America" />
     <meta name="twitter:description"
         content="Grow your career in managed IT, cybersecurity, and cloud. Explore life at QueryTel." />
     <meta name="twitter:image"
@@ -123,7 +123,7 @@
     "employmentType":"FULL_TIME",
     "hiringOrganization":{"@id":"https://querytel.com/#org"},
     "jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressCountry":"CA"}},
-    "applicantLocationRequirements":{"@type":"Country","name":"Canada"},
+    "applicantLocationRequirements":{"@type":"Country","name":"North America"},
     "directApply":true
   }
   </script>
@@ -144,7 +144,7 @@
                 </h1>
                 <p class="mt-6 text-lg text-orange-50">
                     Join a team that protects enterprises, innovates in security, and shapes the future of technology in
-                    Canada.
+                    North America.
                 </p>
                 <div class="mt-8 flex gap-4">
                     <a href="#openings"
@@ -173,7 +173,7 @@
                     Join <span class="text-brandorange">QueryTel</span>
                 </h1>
                 <p class="mt-4 text-lg text-gray-600">
-                    Be part of a growing team that’s shaping the future of technology solutions across Canada.
+                    Be part of a growing team that’s shaping the future of technology solutions across North America.
                     Explore opportunities to innovate, learn, and lead.
                 </p>
             </div>

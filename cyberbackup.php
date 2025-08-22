@@ -315,7 +315,7 @@
                 <div class="rounded-xl border border-neutral-200 bg-white p-6" data-animate>
                     <div class="text-sm font-semibold text-orange-700 uppercase">Data residency</div>
                     <ul class="mt-3 text-sm text-neutral-700 space-y-1 list-disc list-inside">
-                        <li>Primary: Canada (default)</li>
+                        <li>Primary: North America (default)</li>
                         <li>Optional geo-replica region</li>
                         <li>PIPEDA & SOC 2 aligned</li>
                     </ul>
@@ -512,7 +512,7 @@
             <!-- Cards -->
             <div class="mt-12 grid gap-6 md:grid-cols-3">
                 <!-- Standard -->
-                <a href="#acronis-standard"
+                <a href="<?= $base . '/acroniscybercloudstandard' ?>"
                     class="group relative rounded-2xl p-[1px] bg-gradient-to-br from-orange-500/40 via-orange-400/20 to-blue-600/40 transition-shadow hover:shadow-[0_20px_60px_rgba(17,24,39,.15)] focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500">
                     <div
                         class="rounded-2xl bg-white/80 backdrop-blur-md ring-1 ring-black/5 p-6 flex items-center justify-between">
@@ -532,7 +532,7 @@
                 </a>
 
                 <!-- Advanced -->
-                <a href="#acronis-advanced"
+                <a href="<?= $base . '/acroniscybercloudadvanced' ?>"
                     class="group relative rounded-2xl p-[1px] bg-gradient-to-br from-orange-500/50 via-orange-400/30 to-blue-700/50 transition-shadow hover:shadow-[0_20px_60px_rgba(17,24,39,.15)] focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500">
                     <div
                         class="rounded-2xl bg-white/85 backdrop-blur-md ring-1 ring-black/5 p-6 flex items-center justify-between">
@@ -556,7 +556,7 @@
                 </a>
 
                 <!-- DR -->
-                <a href="#acronis-dr"
+                <a href="<?= $base . '/acroniscyberclouddisasterrecovery' ?>"
                     class="group relative rounded-2xl p-[1px] bg-gradient-to-br from-orange-500/40 via-orange-400/20 to-blue-600/40 transition-shadow hover:shadow-[0_20px_60px_rgba(17,24,39,.15)] focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500">
                     <div
                         class="rounded-2xl bg-white/80 backdrop-blur-md ring-1 ring-black/5 p-6 flex items-center justify-between">

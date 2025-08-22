@@ -338,6 +338,493 @@
     </div>
   </section>
 
+  <section id="acronis-notary" class="py-20 bg-neutral-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <header class="max-w-4xl">
+        <p class="text-sm font-semibold tracking-wide text-neutral-500">ACRONIS CYBER CLOUD</p>
+        <h2 class="mt-1 text-3xl md:text-4xl font-extrabold tracking-tight text-neutral-900">Part of Acronis Cyber Cloud
+        </h2>
+        <div class="mt-4 h-px w-24 bg-neutral-300"></div>
+        <p class="mt-4 text-neutral-600">
+          Notary Cloud integrates with Acronis Cyber Cloud to deliver notarization, eSignature, and verification
+          alongside
+          backup, DR, and file sync & share—one platform, smooth onboarding, higher ARPU.
+        </p>
+      </header>
+
+      <div class="mt-12 grid gap-8 md:grid-cols-3">
+        <!-- Notarization -->
+        <article
+          class="group relative rounded-[14px] bg-white border border-neutral-200 transition-all duration-300
+               hover:-translate-y-1 hover:border-[#D83B01]/30 hover:shadow-[0_8px_28px_rgba(0,0,0,.08)] focus-within:shadow-[0_8px_28px_rgba(0,0,0,.10)]">
+          <div class="p-6">
+            <div class="flex items-center gap-2">
+              <span class="inline-block h-2 w-2 rounded-full bg-[#D83B01]"></span>
+              <h3 class="text-xl font-semibold text-neutral-900">Notarization Service</h3>
+            </div>
+            <p class="mt-2 text-neutral-600">Anchor any file type to a blockchain ledger for independent proof of
+              integrity and time.</p>
+            <figure class="mt-6 overflow-hidden rounded-xl ring-1 ring-neutral-200">
+              <img src="<?= $base ?? '' ?>/assets/images/Notarization-service.png"
+                alt="Documents notarized and anchored to blockchain"
+                class="w-full aspect-[16/10] object-fill h-64 transition-transform duration-500 ease-out group-hover:scale-[1.015]" />
+            </figure>
+          </div>
+          <div
+            class="pointer-events-none absolute inset-0 rounded-[14px] ring-0 group-hover:ring-2 group-hover:ring-[#D83B01]/15 transition">
+          </div>
+        </article>
+
+        <!-- eSignature -->
+        <article
+          class="group relative rounded-[14px] bg-white border border-neutral-200 transition-all duration-300
+               hover:-translate-y-1 hover:border-[#D83B01]/30 hover:shadow-[0_8px_28px_rgba(0,0,0,.08)] focus-within:shadow-[0_8px_28px_rgba(0,0,0,.10)]">
+          <div class="p-6">
+            <div class="flex items-center gap-2">
+              <span class="inline-block h-2 w-2 rounded-full bg-[#D83B01]"></span>
+              <h3 class="text-xl font-semibold text-neutral-900">eSignature Service</h3>
+            </div>
+            <p class="mt-2 text-neutral-600">Collect compliant digital signatures from every party with a frictionless
+              flow.</p>
+            <figure class="mt-6 overflow-hidden rounded-xl ring-1 ring-neutral-200">
+              <img src="<?= $base ?? '' ?>/assets/images/notary-cloud-e-signature.jpg"
+                alt="Digital signature illustration"
+                class="w-full aspect-[16/10] object-fill h-64 transition-transform duration-500 ease-out group-hover:scale-[1.015]" />
+            </figure>
+          </div>
+          <div
+            class="pointer-events-none absolute inset-0 rounded-[14px] ring-0 group-hover:ring-2 group-hover:ring-[#D83B01]/15 transition">
+          </div>
+        </article>
+
+        <!-- Verification -->
+        <article
+          class="group relative rounded-[14px] bg-white border border-neutral-200 transition-all duration-300
+               hover:-translate-y-1 hover:border-[#D83B01]/30 hover:shadow-[0_8px_28px_rgba(0,0,0,.08)] focus-within:shadow-[0_8px_28px_rgba(0,0,0,.10)]">
+          <div class="p-6">
+            <div class="flex items-center gap-2">
+              <span class="inline-block h-2 w-2 rounded-full bg-[#D83B01]"></span>
+              <h3 class="text-xl font-semibold text-neutral-900">Verification Service</h3>
+            </div>
+            <p class="mt-2 text-neutral-600">Instantly confirm authenticity of notarized files from any device,
+              anywhere.</p>
+            <figure class="mt-6 overflow-hidden rounded-xl ring-1 ring-neutral-200">
+              <img src="<?= $base ?? '' ?>/assets/images/verification-service.jpg"
+                alt="Verification target over document"
+                class="w-full aspect-[16/10] object-fill h-64 transition-transform duration-500 ease-out group-hover:scale-[1.015]" />
+            </figure>
+          </div>
+          <div
+            class="pointer-events-none absolute inset-0 rounded-[14px] ring-0 group-hover:ring-2 group-hover:ring-[#D83B01]/15 transition">
+          </div>
+        </article>
+      </div>
+
+      <div class="mt-12 flex items-center justify-between gap-6 flex-wrap">
+        <p class="text-sm text-neutral-500">Unified experience across services. Seamless onboarding. Enterprise-grade
+          trust.</p>
+        <a href="<?= $base ?? '' ?>/contactus?s=acronis-notary"
+          class="inline-flex items-center gap-2 rounded-lg border border-neutral-200 bg-white px-4 py-2 text-sm font-semibold text-neutral-800
+                hover:border-[#D83B01]/40 hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#D83B01]">
+          Talk to an expert
+          <svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4">
+            <path fill="currentColor"
+              d="M7.2 4.8a1 1 0 0 1 1.4-1.4l6 6a1 1 0 0 1 0 1.4l-6 6a1 1 0 1 1-1.4-1.4L11.6 11H3a1 1 0 1 1 0-2h8.6L7.2 4.8Z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="included-services" class="py-24 bg-neutral-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <header class="text-center">
+        <p class="text-sm font-semibold tracking-wider text-neutral-500">ACRONIS CYBER CLOUD</p>
+        <h2 class="mt-2 text-4xl font-extrabold tracking-tight text-neutral-900">Included Services</h2>
+        <div class="mt-4 h-px w-24 mx-auto bg-neutral-300"></div>
+        <p class="mt-4 text-neutral-600 max-w-3xl mx-auto">
+          Notary, eSignature, and verification—delivered with a calm, Fluent-inspired UI.
+        </p>
+      </header>
+
+      <div class="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <!-- 1: Ethereum Blockchain -->
+        <article
+          class="group relative rounded-2xl border border-neutral-200 bg-white shadow-[0_1px_3px_rgba(0,0,0,.06),0_16px_40px_rgba(0,0,0,.06)]
+                     overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_2px_8px_rgba(0,0,0,.08),0_22px_54px_rgba(0,0,0,.10)]">
+          <span class="absolute inset-x-0 -top-px h-1 bg-[#D83B01]"></span>
+          <div class="p-7">
+            <div class="flex items-center gap-2">
+              <span class="h-2 w-2 rounded-full bg-[#D83B01]"></span>
+              <h3 class="text-xl font-semibold text-neutral-900">Ethereum Blockchain</h3>
+            </div>
+            <figure class="mt-6 overflow-hidden rounded-xl ring-1 ring-neutral-200">
+              <img src="<?= $base ?? '' ?>/assets/images/ETHEREUM-BLOCKCHAIN.jpg" alt="Ethereum Blockchain"
+                class="w-full aspect-[16/10] object-cover transition-transform duration-500 ease-out group-hover:scale-[1.015]">
+            </figure>
+            <div class="mt-6 h-px w-full bg-neutral-100"></div>
+            <p class="mt-4 leading-relaxed text-neutral-600">
+              Tamper-resistant verification on a distributed ledger—high availability, independent proof.
+            </p>
+          </div>
+        </article>
+
+        <!-- 2: Easy-to-Use Web Interface -->
+        <article
+          class="group relative rounded-2xl border border-neutral-200 bg-white shadow-[0_1px_3px_rgba(0,0,0,.06),0_16px_40px_rgba(0,0,0,.06)]
+                     overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_2px_8px_rgba(0,0,0,.08),0_22px_54px_rgba(0,0,0,.10)]">
+          <span class="absolute inset-x-0 -top-px h-1 bg-[#D83B01]"></span>
+          <div class="p-7">
+            <div class="flex items-center gap-2">
+              <span class="h-2 w-2 rounded-full bg-[#D83B01]"></span>
+              <h3 class="text-xl font-semibold text-neutral-900">Easy-to-Use Web Interface</h3>
+            </div>
+            <figure class="mt-6 overflow-hidden rounded-xl ring-1 ring-neutral-200">
+              <img src="<?= $base ?? '' ?>/assets/images/Web-interface.jpg" alt="Web Interface"
+                class="w-full aspect-[16/10] object-cover transition-transform duration-500 ease-out group-hover:scale-[1.015]">
+            </figure>
+            <div class="mt-6 h-px w-full bg-neutral-100"></div>
+            <p class="mt-4 leading-relaxed text-neutral-600">
+              Ready UI for quick onboarding and effortless daily use.
+            </p>
+          </div>
+        </article>
+
+        <!-- 3: Smooth Integration via API -->
+        <article
+          class="group relative rounded-2xl border border-neutral-200 bg-white shadow-[0_1px_3px_rgba(0,0,0,.06),0_16px_40px_rgba(0,0,0,.06)]
+                     overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_2px_8px_rgba(0,0,0,.08),0_22px_54px_rgba(0,0,0,.10)]">
+          <span class="absolute inset-x-0 -top-px h-1 bg-[#D83B01]"></span>
+          <div class="p-7">
+            <div class="flex items-center gap-2">
+              <span class="h-2 w-2 rounded-full bg-[#D83B01]"></span>
+              <h3 class="text-xl font-semibold text-neutral-900">Smooth Integration via API</h3>
+            </div>
+            <figure class="mt-6 overflow-hidden rounded-xl ring-1 ring-neutral-200">
+              <img src="<?= $base ?? '' ?>/assets/images/SMOOTH-INTEGRATION-VIA-API.jpg" alt="API Integration"
+                class="w-full aspect-[16/10] object-cover transition-transform duration-500 ease-out group-hover:scale-[1.015]">
+            </figure>
+            <div class="mt-6 h-px w-full bg-neutral-100"></div>
+            <p class="mt-4 leading-relaxed text-neutral-600">
+              Plug into your apps using the Notary Cloud backend—clean, predictable, documented.
+            </p>
+          </div>
+        </article>
+
+        <!-- 4: Any Type of Data -->
+        <article
+          class="group relative rounded-2xl border border-neutral-200 bg-white shadow-[0_1px_3px_rgba(0,0,0,.06),0_16px_40px_rgba(0,0,0,.06)]
+                     overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_2px_8px_rgba(0,0,0,.08),0_22px_54px_rgba(0,0,0,.10)]">
+          <span class="absolute inset-x-0 -top-px h-1 bg-[#D83B01]"></span>
+          <div class="p-7">
+            <div class="flex items-center gap-2">
+              <span class="h-2 w-2 rounded-full bg-[#D83B01]"></span>
+              <h3 class="text-xl font-semibold text-neutral-900">Any Type of Data</h3>
+            </div>
+            <figure class="mt-6 overflow-hidden rounded-xl ring-1 ring-neutral-200">
+              <img src="<?= $base ?? '' ?>/assets/images/any-type-of-data.jpg" alt="Any Type of Data"
+                class="w-full aspect-[16/10] object-cover transition-transform duration-500 ease-out group-hover:scale-[1.015]">
+            </figure>
+            <div class="mt-6 h-px w-full bg-neutral-100"></div>
+            <p class="mt-4 leading-relaxed text-neutral-600">
+              Notarize/eSign docs, images, video, audio—no format anxiety.
+            </p>
+          </div>
+        </article>
+
+        <!-- 5: Trusted, Independent Verification -->
+        <article
+          class="group relative rounded-2xl border border-neutral-200 bg-white shadow-[0_1px_3px_rgba(0,0,0,.06),0_16px_40px_rgba(0,0,0,.06)]
+                     overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_2px_8px_rgba(0,0,0,.08),0_22px_54px_rgba(0,0,0,.10)]">
+          <span class="absolute inset-x-0 -top-px h-1 bg-[#D83B01]"></span>
+          <div class="p-7">
+            <div class="flex items-center gap-2">
+              <span class="h-2 w-2 rounded-full bg-[#D83B01]"></span>
+              <h3 class="text-xl font-semibold text-neutral-900">Trusted, Independent Verification</h3>
+            </div>
+            <figure class="mt-6 overflow-hidden rounded-xl ring-1 ring-neutral-200">
+              <img src="<?= $base ?? '' ?>/assets/images/independent-verification.jpg" alt="Independent Verification"
+                class="w-full aspect-[16/10] object-cover transition-transform duration-500 ease-out group-hover:scale-[1.015]">
+            </figure>
+            <div class="mt-6 h-px w-full bg-neutral-100"></div>
+            <p class="mt-4 leading-relaxed text-neutral-600">
+              Verify via UI or directly on-chain from any device, anytime.
+            </p>
+          </div>
+        </article>
+
+        <!-- 6: Comprehensive White-Labeling -->
+        <article
+          class="group relative rounded-2xl border border-neutral-200 bg-white shadow-[0_1px_3px_rgba(0,0,0,.06),0_16px_40px_rgba(0,0,0,.06)]
+                     overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_2px_8px_rgba(0,0,0,.08),0_22px_54px_rgba(0,0,0,.10)]">
+          <span class="absolute inset-x-0 -top-px h-1 bg-[#D83B01]"></span>
+          <div class="p-7">
+            <div class="flex items-center gap-2">
+              <span class="h-2 w-2 rounded-full bg-[#D83B01]"></span>
+              <h3 class="text-xl font-semibold text-neutral-900">Comprehensive White-Labeling</h3>
+            </div>
+            <figure class="mt-6 overflow-hidden rounded-xl ring-1 ring-neutral-200">
+              <img src="<?= $base ?? '' ?>/assets/images/COMPREHENSIVE-WHITE-LABELING.jpg" alt="White Labeling"
+                class="w-full aspect-[16/10] object-cover transition-transform duration-500 ease-out group-hover:scale-[1.015]">
+            </figure>
+            <div class="mt-6 h-px w-full bg-neutral-100"></div>
+            <p class="mt-4 leading-relaxed text-neutral-600">
+              Ship under your brand—name, logo, URLs, and colors—without reinventing UX.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="benefits" class="py-24 bg-neutral-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <header class="text-center">
+        <h2 class="text-4xl font-extrabold tracking-tight text-neutral-900">
+          Top 5 Benefits of Acronis Cyber Notary Cloud
+        </h2>
+        <div class="mt-4 h-px w-24 mx-auto bg-neutral-300"></div>
+      </header>
+
+      <div class="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <!-- CARD TEMPLATE (repeat 5x) -->
+        <!-- 1 -->
+        <article
+          class="group relative rounded-[14px] border border-neutral-200 bg-white shadow-[0_1px_3px_rgba(0,0,0,.06),0_14px_36px_rgba(0,0,0,.06)]
+               overflow-hidden transition-all duration-300 hover:-translate-y-[2px] hover:shadow-[0_2px_8px_rgba(0,0,0,.08),0_20px_50px_rgba(0,0,0,.10)]">
+          <span class="absolute inset-x-0 -top-px h-[3px] bg-[#D83B01]"></span>
+          <div class="p-7 flex flex-col h-full">
+            <div class="flex items-center gap-3">
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#D83B01]/10 text-[#D83B01] ring-1 ring-[#D83B01]/20">
+                <!-- Fluent-style file-check icon -->
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M8 3h6l4 4v12a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z" stroke="currentColor"
+                    stroke-width="1.5" />
+                  <path d="M14 3v4h4" stroke="currentColor" stroke-width="1.5" />
+                  <path d="M8.5 14.5 10.8 17l4.7-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </span>
+              <h3 class="text-lg font-semibold text-neutral-900">Verify a file is unchanged</h3>
+            </div>
+            <p class="mt-4 text-neutral-600 leading-relaxed">
+              Prove integrity for contracts, media, medical records, leases, loans, and more.
+            </p>
+          </div>
+        </article>
+
+        <!-- 2 -->
+        <article
+          class="group relative rounded-[14px] border border-neutral-200 bg-white shadow-[0_1px_3px_rgba(0,0,0,.06),0_14px_36px_rgba(0,0,0,.06)]
+               overflow-hidden transition-all duration-300 hover:-translate-y-[2px] hover:shadow-[0_2px_8px_rgba(0,0,0,.08),0_20px_50px_rgba(0,0,0,.10)]">
+          <span class="absolute inset-x-0 -top-px h-[3px] bg-[#D83B01]"></span>
+          <div class="p-7 flex flex-col h-full">
+            <div class="flex items-center gap-3">
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#D83B01]/10 text-[#D83B01] ring-1 ring-[#D83B01]/20">
+                <!-- camera/play icon -->
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect x="4" y="6" width="12" height="12" rx="2" stroke="currentColor" stroke-width="1.5" />
+                  <path d="M16 10.5 20 8v8l-4-2.5V10.5z" stroke="currentColor" stroke-width="1.5" fill="none" />
+                  <path d="M9 9v6l4-3-4-3z" fill="currentColor" />
+                </svg>
+              </span>
+              <h3 class="text-lg font-semibold text-neutral-900">Confirm creation date</h3>
+            </div>
+            <p class="mt-4 text-neutral-600 leading-relaxed">
+              Establish when creative works originated—videos, photos, audio, etc.
+            </p>
+          </div>
+        </article>
+
+        <!-- 3 -->
+        <article
+          class="group relative rounded-[14px] border border-neutral-200 bg-white shadow-[0_1px_3px_rgba(0,0,0,.06),0_14px_36px_rgba(0,0,0,.06)]
+               overflow-hidden transition-all duration-300 hover:-translate-y-[2px] hover:shadow-[0_2px_8px_rgba(0,0,0,.08),0_20px_50px_rgba(0,0,0,.10)]">
+          <span class="absolute inset-x-0 -top-px h-[3px] bg-[#D83B01]"></span>
+          <div class="p-7 flex flex-col h-full">
+            <div class="flex items-center gap-3">
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#D83B01]/10 text-[#D83B01] ring-1 ring-[#D83B01]/20">
+                <!-- receipt icon -->
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M7 4h10v16l-2-1-2 1-2-1-2 1-2-1V4z" stroke="currentColor" stroke-width="1.5" />
+                  <path d="M9 8h6M9 11h6M9 14h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                </svg>
+              </span>
+              <h3 class="text-lg font-semibold text-neutral-900">Prove bills were paid</h3>
+            </div>
+            <p class="mt-4 text-neutral-600 leading-relaxed">
+              Back up financial and insurance documents with tamper-evident proof.
+            </p>
+          </div>
+        </article>
+
+        <!-- 4 -->
+        <article
+          class="group relative rounded-[14px] border border-neutral-200 bg-white shadow-[0_1px_3px_rgba(0,0,0,.06),0_14px_36px_rgba(0,0,0,.06)]
+               overflow-hidden transition-all duration-300 hover:-translate-y-[2px] hover:shadow-[0_2px_8px_rgba(0,0,0,.08),0_20px_50px_rgba(0,0,0,.10)]">
+          <span class="absolute inset-x-0 -top-px h-[3px] bg-[#D83B01]"></span>
+          <div class="p-7 flex flex-col h-full">
+            <div class="flex items-center gap-3">
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#D83B01]/10 text-[#D83B01] ring-1 ring-[#D83B01]/20">
+                <!-- contract stamp icon -->
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M7 3h8l3 3v12a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3z" stroke="currentColor"
+                    stroke-width="1.5" />
+                  <path d="M15 3v4h4" stroke="currentColor" stroke-width="1.5" />
+                  <circle cx="12" cy="14" r="2.5" stroke="currentColor" stroke-width="1.5" />
+                </svg>
+              </span>
+              <h3 class="text-lg font-semibold text-neutral-900">Substantiate document existence</h3>
+            </div>
+            <p class="mt-4 text-neutral-600 leading-relaxed">
+              Prove a legal document existed at a point in time—NDAs, contracts, property records.
+            </p>
+          </div>
+        </article>
+
+        <!-- 5 -->
+        <article
+          class="group relative rounded-[14px] border border-neutral-200 bg-white shadow-[0_1px_3px_rgba(0,0,0,.06),0_14px_36px_rgba(0,0,0,.06)]
+               overflow-hidden transition-all duration-300 hover:-translate-y-[2px] hover:shadow-[0_2px_8px_rgba(0,0,0,.08),0_20px_50px_rgba(0,0,0,.10)] md:col-span-2 lg:col-span-1">
+          <span class="absolute inset-x-0 -top-px h-[3px] bg-[#D83B01]"></span>
+          <div class="p-7 flex flex-col h-full">
+            <div class="flex items-center gap-3">
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#D83B01]/10 text-[#D83B01] ring-1 ring-[#D83B01]/20">
+                <!-- signature icon -->
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M4 17c3-1 4.5-5 6-5 2 0 1 5 4 5 2 0 2.5-2 4-5" stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" />
+                  <path d="M4 20h16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                  <path d="M14 4l6 6" stroke="currentColor" stroke-width="1.5" />
+                  <path d="M20 4l-6 6" stroke="currentColor" stroke-width="1.5" />
+                </svg>
+              </span>
+              <h3 class="text-lg font-semibold text-neutral-900">Prove who signed & when</h3>
+            </div>
+            <p class="mt-4 text-neutral-600 leading-relaxed">
+              Establish signer identity and timestamp for digital contracts, POs, policies, petitions, and more.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section id="notary-advantage" class="py-24 bg-neutral-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid gap-12 lg:grid-cols-2 lg:items-center">
+        <!-- Copy column -->
+        <div>
+          <p class="text-sm font-semibold tracking-wider text-neutral-500">WHY IT MATTERS</p>
+          <h2 class="mt-2 text-4xl font-extrabold tracking-tight text-neutral-900">
+            Gain the Acronis Cyber Notary Cloud Advantage
+          </h2>
+
+          <div class="mt-6 h-px w-16 bg-neutral-300"></div>
+
+          <p class="mt-6 text-lg leading-8 text-neutral-700">
+            Notary Cloud provides blockchain-based notarization, eSigning, and verification for organizations of any
+            size.
+            It creates a cryptographic fingerprint of each file and anchors it to a public blockchain, delivering
+            independent proof of <span class="font-medium text-neutral-900">authenticity</span> and
+            <span class="font-medium text-neutral-900">time of existence</span>.
+          </p>
+
+          <p class="mt-4 leading-7 text-neutral-700">
+            Built for service providers, it helps healthcare, legal, manufacturing, and finance verify the integrity of
+            business-critical data while improving transparency and reducing risk—without adding friction for users.
+          </p>
+
+          <ul class="mt-8 space-y-3">
+            <li class="flex items-start gap-3">
+              <span
+                class="mt-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#D83B01]/10 text-[#D83B01] ring-1 ring-[#D83B01]/20">
+                <svg viewBox="0 0 20 20" width="14" height="14" fill="none" aria-hidden="true">
+                  <path d="M5 10.5l2.5 2.5L15 6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </span>
+              <p class="text-neutral-800">Blockchain-anchored integrity with independent verification.</p>
+            </li>
+            <li class="flex items-start gap-3">
+              <span
+                class="mt-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#D83B01]/10 text-[#D83B01] ring-1 ring-[#D83B01]/20">
+                <svg viewBox="0 0 20 20" width="14" height="14" fill="none" aria-hidden="true">
+                  <path d="M5 10.5l2.5 2.5L15 6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </span>
+              <p class="text-neutral-800">eSignature + notarization in a single, streamlined flow.</p>
+            </li>
+            <li class="flex items-start gap-3">
+              <span
+                class="mt-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#D83B01]/10 text-[#D83B01] ring-1 ring-[#D83B01]/20">
+                <svg viewBox="0 0 20 20" width="14" height="14" fill="none" aria-hidden="true">
+                  <path d="M5 10.5l2.5 2.5L15 6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </span>
+              <p class="text-neutral-800">Designed for providers: faster onboarding, higher trust.</p>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Media / feature card -->
+        <aside class="relative rounded-2xl border border-neutral-200 bg-white shadow-[0_1px_3px_rgba(0,0,0,.06),0_18px_48px_rgba(0,0,0,.08)]
+                    overflow-hidden">
+          <span class="absolute inset-x-0 -top-px h-1 bg-[#D83B01]"></span>
+
+          <div class="p-6">
+            <h3 class="text-lg font-semibold text-neutral-900">All-in-One Protection</h3>
+            <div class="mt-4 overflow-hidden rounded-xl ring-1 ring-neutral-200">
+              <img src="<?= $base ?? '' ?>/assets/images/All-in-one-protection.jpg"
+                alt="Acronis all-in-one protection illustration" class="w-full aspect-[16/9] object-cover" />
+            </div>
+
+            <ul class="mt-6 grid gap-3">
+              <li class="flex items-start gap-3">
+                <span
+                  class="mt-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#D83B01]/10 text-[#D83B01] ring-1 ring-[#D83B01]/20">
+                  <svg viewBox="0 0 20 20" width="14" height="14" fill="none" aria-hidden="true">
+                    <path d="M5 10.5l2.5 2.5L15 6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </span>
+                <span class="text-neutral-800">Backup-as-a-Service with ransomware defense</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span
+                  class="mt-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#D83B01]/10 text-[#D83B01] ring-1 ring-[#D83B01]/20">
+                  <svg viewBox="0 0 20 20" width="14" height="14" fill="none" aria-hidden="true">
+                    <path d="M5 10.5l2.5 2.5L15 6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </span>
+                <span class="text-neutral-800">Integrated data protection and cybersecurity</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span
+                  class="mt-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#D83B01]/10 text-[#D83B01] ring-1 ring-[#D83B01]/20">
+                  <svg viewBox="0 0 20 20" width="14" height="14" fill="none" aria-hidden="true">
+                    <path d="M5 10.5l2.5 2.5L15 6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </span>
+                <span class="text-neutral-800">Disaster-Recovery-as-a-Service</span>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+
   <!-- FEATURES GRID (Acronis Protect Cloud) -->
   <section class="bg-slate-900 py-16">
     <div class="max-w-7xl mx-auto px-6">

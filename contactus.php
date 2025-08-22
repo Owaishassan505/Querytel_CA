@@ -8,9 +8,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Contact QueryTel Inc — Sales & Support in Canada</title>
+  <title>Contact QueryTel Inc — Sales & Support in North America</title>
   <meta name="description"
-    content="Reach QueryTel Inc for managed IT, cloud, and cybersecurity. Call Toronto HQ or open a support ticket. Mon–Fri, 8am–5pm. Canada-wide coverage." />
+    content="Reach QueryTel Inc for managed IT, cloud, and cybersecurity. Call Toronto HQ or open a support ticket. Mon–Fri, 8am–5pm. North America-wide coverage." />
   <meta name="robots" content="index,follow,max-image-preview:large" />
   <link rel="canonical" href="https://querytel.com/contactus/" />
   <link rel="alternate" hreflang="en-ca" href="https://querytel.com/contactus/" />
@@ -18,9 +18,9 @@
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Contact QueryTel Inc — Sales & Support in Canada" />
+  <meta property="og:title" content="Contact QueryTel Inc — Sales & Support in North America" />
   <meta property="og:description"
-    content="Speak with a local expert or reach our helpdesk. Toronto HQ and Canada-wide service." />
+    content="Speak with a local expert or reach our helpdesk. Toronto HQ and North America-wide service." />
   <meta property="og:url" content="https://querytel.com/contactus/" />
   <meta property="og:site_name" content="QueryTel Inc." />
   <meta property="og:locale" content="en_CA" />
@@ -31,7 +31,7 @@
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Contact QueryTel Inc — Sales & Support in Canada" />
+  <meta name="twitter:title" content="Contact QueryTel Inc — Sales & Support in North America" />
   <meta name="twitter:description" content="Call our Toronto HQ or open a support ticket. Mon–Fri, 8am–5pm." />
   <meta name="twitter:image"
     content="https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png" />
@@ -153,7 +153,8 @@
           Let’s connect <br> Your solution starts here.
         </h1>
         <p class="mt-6 text-lg text-gray-600">
-          Contact us across Canada for IT, cloud, and managed service inquiries. We're always ready to discuss tech or
+          Contact us across North America for IT, cloud, and managed service inquiries. We're always ready to discuss
+          tech or
           solve real-world problems.
         </p>
         <div class="mt-8 flex gap-4 opacity-0 animate-fadeIn delay-500">
@@ -184,7 +185,7 @@
         Let’s Talk
       </h1>
       <p class="mt-4 text-gray-600 text-lg">
-        Reach out to us at any of our locations across Canada.
+        Reach out to us at any of our locations across North America.
       </p>
     </div>
   </section>
@@ -334,7 +335,7 @@
           <div class="w-full">
             <div class="w-full aspect-video overflow-hidden">
               <iframe id="map-iframe"
-                data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d369421.4094649415!2d-79.68477!3d43.666791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3f02ae724ab3%3A0x5d9af5abd43879f8!2s7025%20Tomken%20Rd%2C%20Mississauga%2C%20ON%20L5T%202J8%2C%20Canada!5e0!3m2!1sen!2sus!4v1754486829326!5m2!1sen!2sus"
+                data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d369421.4094649415!2d-79.68477!3d43.666791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3f02ae724ab3%3A0x5d9af5abd43879f8!2s7025%20Tomken%20Rd%2C%20Mississauga%2C%20ON%20L5T%202J8%2C%20North America!5e0!3m2!1sen!2sus!4v1754486829326!5m2!1sen!2sus"
                 width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>

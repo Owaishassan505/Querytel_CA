@@ -6,25 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Primary SEO -->
-  <title>Enterprise IT & Warehouse Technology Services in Canada | QueryTel</title>
+  <title>Warehousing Solutions & Network Infrastructure | QueryTel North America</title>
   <meta name="description"
-    content="Structured cabling, IT & network design, datacenter operations, end-user compute, and surveillance. Secure, scalable solutions for Canadian enterprises." />
-  <link rel="canonical" href="https://querytel.com/services/" />
+    content="Structured cabling up to 300m, cold-rated CAT6, redundant 10G fiber, IT/OT network design, hybrid cloud, rugged mobile devices, and AI surveillance for warehouse operations." />
+  <link rel="canonical" href="https://querytel.com/warehousing-solutions-and-network-infrastructure/" />
   <meta name="robots" content="index,follow,max-image-preview:large" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Enterprise IT & Warehouse Technology Services in Canada | QueryTel" />
+  <meta property="og:title" content="Warehousing Solutions & Network Infrastructure | QueryTel" />
   <meta property="og:description"
-    content="Structured cabling, hybrid cloud/datacenter, secure remote access, rugged mobile devices, and AI surveillance—built to scale." />
+    content="Structured cabling, IT/OT segmentation, hybrid cloud, edge compute, rugged mobile, and surveillance—purpose-built for warehouses." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://querytel.com/services/" />
+  <meta property="og:url" content="https://querytel.com/warehousing-solutions-and-network-infrastructure/" />
   <meta property="og:image" content="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Enterprise IT & Warehouse Technology Services in Canada | QueryTel" />
+  <meta name="twitter:title" content="Warehousing Solutions & Network Infrastructure | QueryTel" />
   <meta name="twitter:description"
-    content="Modernize infrastructure and operations with QueryTel’s enterprise services." />
+    content="Modernize warehouse infrastructure and operations with QueryTel’s end-to-end services." />
   <meta name="twitter:image" content="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png" />
 
   <!-- Performance hints -->
@@ -56,36 +56,36 @@
     };
   </script>
 
-  <!-- Structured Data: Services on this page -->
+  <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
     "@type":"ItemList",
-    "@id":"https://querytel.com/services/#list",
-    "name":"Enterprise IT & Warehouse Technology Services",
+    "@id":"https://querytel.com/warehousing-solutions-and-network-infrastructure/#list",
+    "name":"Warehouse Technology & Network Services",
     "itemListElement":[
       { "@type":"ListItem", "position":1,
         "item": { "@type":"Service", "name":"Structured Cabling",
-          "description":"Long-range Ethernet, cold-rated CAT6, and redundant 10G fiber from MDF to IDFs.",
+          "description":"Long-range Ethernet up to 300m, cold-rated CAT6, and redundant 10G fiber between MDF and IDFs.",
           "areaServed":"CA" } },
       { "@type":"ListItem", "position":2,
         "item": { "@type":"Service", "name":"IT & Network Infrastructure Design",
-          "description":"IT/OT segregation, standardized naming, HA routing and segmentation.",
+          "description":"IT/OT segregation, standardized device naming, high-availability routing and segmentation.",
           "areaServed":"CA" } },
       { "@type":"ListItem", "position":3,
         "item": { "@type":"Service", "name":"Datacenter Operations",
-          "description":"Hybrid cloud (on-prem, AWS, Azure), WMS/3PL/4PL, VPN and secure remote access.",
+          "description":"Hybrid cloud (on-prem, AWS, Azure), WMS/3PL/4PL setup, secure VPN/remote access, edge compute.",
           "areaServed":"CA" } },
       { "@type":"ListItem", "position":4,
         "item": { "@type":"Service", "name":"End-User Compute & Mobile Devices",
-          "description":"Rugged/freezer-grade devices, RFID, kiosk/label workflows, password-less auth.",
+          "description":"Passwordless auth, freezer-grade RFID devices, label workflows from reach trucks and kiosks.",
           "areaServed":"CA" } },
       { "@type":"ListItem", "position":5,
         "item": { "@type":"Service", "name":"Surveillance & Intrusion Prevention",
-          "description":"Access control, HRIS/PayClock integration, license plate scan, AI dock monitoring.",
+          "description":"Access control with HRIS/PayClock, LPR truck gates, AI dock monitoring, intercom, biometrics.",
           "areaServed":"CA" } }
     ],
-    "url":"https://querytel.com/services/"
+    "url":"https://querytel.com/warehousing-solutions-and-network-infrastructure/"
   }
   </script>
 
@@ -96,156 +96,143 @@
     "@type":"BreadcrumbList",
     "itemListElement":[
       {"@type":"ListItem","position":1,"name":"Home","item":"https://querytel.com/"},
-      {"@type":"ListItem","position":2,"name":"Services","item":"https://querytel.com/services/"}
+      {"@type":"ListItem","position":2,"name":"Warehousing","item":"https://querytel.com/warehousing-solutions-and-network-infrastructure/"}
     ]
   }
   </script>
 </head>
 
-
 <body class="bg-white text-neutral-900 font-sans">
-  <!-- HEADER -->
   <?php include("navbar.php"); ?>
 
   <!-- HERO -->
-
   <section class="bg-white py-24 overflow-hidden">
     <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-      <!-- Text Column -->
       <div class="opacity-0 animate-fadeInLeft">
         <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-neutral-900 leading-tight">
-          Enterprise-grade cloud solutions.<br />
-          Built to scale.
+          Warehouse tech that just works.<br />Built to scale.
         </h1>
         <p class="mt-6 text-lg text-gray-600">
-          From firewalls to automation — streamline your infrastructure with
-          secure, scalable technology tailored for modern enterprises.
+          Structured cabling, resilient networks, hybrid cloud, rugged mobility, and AI surveillance—engineered for
+          Canadian warehouses.
         </p>
         <div class="mt-8 flex gap-4 opacity-0 animate-fadeIn delay-500">
           <a href="#services"
-            class="inline-block bg-neutral-900 text-white px-6 py-3 rounded hover:bg-neutral-800 transition">
-            Explore Services
-          </a>
+            class="inline-block bg-neutral-900 text-white px-6 py-3 rounded hover:bg-neutral-800 transition">Explore
+            Services</a>
           <a href="#contact"
-            class="inline-block border border-neutral-900 text-neutral-900 px-6 py-3 rounded hover:bg-neutral-100 transition">
-            Contact Sales
-          </a>
+            class="inline-block border border-neutral-900 text-neutral-900 px-6 py-3 rounded hover:bg-neutral-100 transition">Contact
+            Sales</a>
         </div>
       </div>
-
-      <!-- Image Column -->
       <div class="opacity-0 animate-fadeInRight delay-200">
-        <img src="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png" alt="Cloud Architecture"
-          class="w-full rounded-lg shadow-md" />
+        <img src="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png"
+          alt="Warehouse Network Architecture" class="w-full rounded-lg shadow-md" loading="lazy" />
       </div>
     </div>
   </section>
 
   <!-- SERVICES SECTION -->
-  <div class="max-w-6xl mx-auto px-6 space-y-24">
+  <div id="services" class="max-w-6xl mx-auto px-6 space-y-24">
     <!-- Structured Cabling -->
     <div class="grid md:grid-cols-2 items-center gap-10">
       <img src="https://querytel.com/wp-content/uploads/2025/03/Depositphotos_522317172_XL-1-scaled.jpg"
-        alt="Structured Cabling" class="rounded-lg shadow" />
+        alt="Structured Cabling" class="rounded-lg shadow" loading="lazy" />
       <div>
         <h2 class="text-2xl font-semibold mb-4">Structured Cabling</h2>
         <p class="text-gray-600 mb-4">
-          Long-range Ethernet cable rated for extreme temperatures (up to
-          300m). We minimize IDFs and terminate all cables at the MDF using
-          redundant 10G fiber.
+          Structured cabling design includes long-range Ethernet rated for extreme temperatures (up to 300m). We
+          intentionally deploy fewer IDFs and terminate all cables at the MDF. IDF↔MDF connectivity rides on redundant
+          10G fiber.
         </p>
         <ul class="space-y-2 text-gray-700 list-disc list-inside">
-          <li>CAT 6 cabling for dry storage</li>
-          <li>Cold-rated CAT 6 (-20°C)</li>
-          <li>Redundant 10G fiber MDF ↔ IDF</li>
-          <li>WAP placement based on racking layout</li>
+          <li>CAT6 cabling for dry storage</li>
+          <li>Cold storage-rated (-20&nbsp;°C) CAT6 for harsh environments</li>
+          <li>Redundant 10G fiber between MDF and IDF</li>
+          <li>WAP placement driven by racking layout</li>
         </ul>
       </div>
     </div>
 
-    <!-- IT Infra Design -->
+    <!-- IT & Network Infrastructure Design -->
     <div class="grid md:grid-cols-2 items-center gap-10">
       <div class="md:order-2">
         <img src="https://querytel.com/wp-content/uploads/2025/03/Depositphotos_660220058_XL-1024x614.jpg"
-          alt="IT Infrastructure" class="rounded-lg shadow" />
+          alt="IT Infrastructure" class="rounded-lg shadow" loading="lazy" />
       </div>
       <div class="md:order-1">
-        <h2 class="text-2xl font-semibold mb-4">
-          IT & Network Infrastructure Design
-        </h2>
+        <h2 class="text-2xl font-semibold mb-4">IT Solutions & Network Infrastructure Design</h2>
         <p class="text-gray-600 mb-4">
-          Consolidate legacy hardware and migrate essential workloads to the
-          cloud while improving security and visibility.
+          Consolidating on-prem infrastructure migrates essential workloads to the cloud and decommissions legacy
+          systems for operational efficiency.
         </p>
         <ul class="space-y-2 text-gray-700 list-disc list-inside">
-          <li>IT/OT segregation for reduced risk</li>
-          <li>Standardized naming for devices</li>
-          <li>Redundant routing with HA failover</li>
-          <li>Structured segmentation and labeling</li>
+          <li>Logical segregation between IT and OT networks</li>
+          <li>Standardized naming conventions for devices</li>
+          <li>Redundant network infrastructure for high availability</li>
+          <li>Structured segmentation, labeling, and optimized routing to boost visibility and security</li>
         </ul>
       </div>
     </div>
 
-    <!-- Datacenter Ops -->
+    <!-- Datacenter Operations -->
     <div class="grid md:grid-cols-2 items-center gap-10">
       <img
         src="https://querytel.com/wp-content/uploads/2025/03/Network-Infrastructure-Strategy-Best-Practices_blog.webp"
-        alt="Datacenter" class="rounded-lg shadow" />
+        alt="Datacenter" class="rounded-lg shadow" loading="lazy" />
       <div>
         <h2 class="text-2xl font-semibold mb-4">Datacenter Operations</h2>
         <p class="text-gray-600 mb-4">
-          We help you modernize by consolidating infrastructure, offloading to
-          the cloud, and automating data workflows.
+          Modern warehouses need highly available, scalable compute. We consolidate on-prem, move what matters to cloud,
+          and retire legacy—cutting cost and complexity.
         </p>
         <ul class="space-y-2 text-gray-700 list-disc list-inside">
-          <li>Hybrid cloud: On-prem, AWS, Azure</li>
-          <li>WMS, 3PL & 4PL deployment</li>
-          <li>VPN & secure remote access</li>
-          <li>Edge compute for local data processing</li>
+          <li>On-prem / AWS / Azure hybrid cloud solutions</li>
+          <li>WMS, 3PL, and 4PL application setup</li>
+          <li>Secure VPN & remote access solutions</li>
+          <li>Edge computing for real-time warehouse processing</li>
         </ul>
       </div>
     </div>
 
-    <!-- End-User Compute -->
+    <!-- End-User Compute & Mobile Devices -->
     <div class="grid md:grid-cols-2 items-center gap-10">
       <div class="md:order-2">
         <img src="https://querytel.com/wp-content/uploads/2025/03/ed9bcaf7-e1d4-42b8-96c0-056ad38ae827-1024x683.png"
-          alt="Devices" class="rounded-lg shadow" />
+          alt="End-User Compute and Mobile Devices" class="rounded-lg shadow" loading="lazy" />
       </div>
       <div class="md:order-1">
-        <h2 class="text-2xl font-semibold mb-4">
-          End-User Compute & Mobile Devices
-        </h2>
+        <h2 class="text-2xl font-semibold mb-4">End-User Compute & Mobile Devices</h2>
         <p class="text-gray-600 mb-4">
-          We customize all endpoints with security in mind. From password-less auth to rugged mobile devices, we power
-          the warehouse floor.
+          We harden endpoints with passwordless auth and deploy mobility built for the floor—from freezer-grade
+          handhelds with RFID to LTE devices. Front-line teams can print labels directly from reach trucks or designated
+          stations.
         </p>
         <ul class="space-y-2 text-gray-700 list-disc list-inside">
-          <li>Warehouse-ready desktops & laptops</li>
-          <li>Freezer-grade mobile devices with RFID</li>
-          <li>Label printing from ReachTrucks & kiosks</li>
-          <li>Windows Hello / Okta FastPass auth</li>
+          <li>Desktop & notebook computers optimized for warehouses</li>
+          <li>Freezer-grade mobile & vehicle-mounted computers with RFID</li>
+          <li>Employee self-service kiosks and label printing workflows</li>
+          <li>Passwordless auth (Windows Hello / Okta FastPass)</li>
         </ul>
       </div>
     </div>
 
-    <!-- Surveillance -->
-    <div class="grid md:grid-cols-2 items-center gap-10">
+    <!-- Surveillance & Intrusion Prevention -->
+    <div class="grid md:grid-cols-2 items-center gap-10 pb-10">
       <img src="https://querytel.com/wp-content/uploads/2025/03/Depositphotos_227362768_XL-1-scaled.jpg"
-        alt="Surveillance" class="rounded-lg shadow" />
+        alt="Surveillance & Intrusion Prevention" class="rounded-lg shadow" loading="lazy" />
       <div>
-        <h2 class="text-2xl font-semibold mb-4">
-          Surveillance & Intrusion Prevention
-        </h2>
+        <h2 class="text-2xl font-semibold mb-4">Surveillance & Intrusion Prevention</h2>
         <p class="text-gray-600 mb-4">
-          intelligent, connected surveillance that integrates with HRIS, entrance
-          control, and truck verification.
+          Integrated access control ties into PayClock/HRIS, building alarms, and fire systems. Vehicle ingress is
+          automated with license plate capture and driver validation—linked to dispatch via intercom.
         </p>
         <ul class="space-y-2 text-gray-700 list-disc list-inside">
-          <li>Access control with PayClock & HRIS</li>
-          <li>Automated truck entrance & plate scan</li>
-          <li>AI dock door monitoring & alerts</li>
-          <li>Biometric + intercom security layers</li>
+          <li>Access control integrated with PayClock & HRIS</li>
+          <li>Automated truck entrance with LPR & driver validation</li>
+          <li>End-to-end surveillance with AI dock-door monitoring</li>
+          <li>Intercom between truck gates and dispatch</li>
+          <li>Facial recognition & biometric controls for high-security zones</li>
         </ul>
       </div>
     </div>
@@ -255,9 +242,7 @@
   <section class="py-16 bg-gray-100 text-center">
     <div class="max-w-3xl mx-auto px-6">
       <h2 class="text-3xl font-semibold mb-4">Need something custom?</h2>
-      <p class="text-gray-600 mb-6">
-        Our architects can design a deployment tailored to your enterprise.
-      </p>
+      <p class="text-gray-600 mb-6">Our architects can design a deployment tailored to your operation.</p>
       <a href="#contact"
         class="inline-block bg-neutral-900 text-white px-6 py-3 rounded hover:bg-neutral-800 transition">Let’s Talk</a>
     </div>
@@ -279,13 +264,13 @@
         <textarea rows="4" name="message" placeholder="Your Message"
           class="w-full border border-black px-4 py-3 rounded resize-none" required></textarea>
         <div class="text-center">
-          <button type="submit" class="bg-neutral-900 text-white px-8 py-3 rounded hover:bg-neutral-800 transition">
-            Send Message
-          </button>
+          <button type="submit" class="bg-neutral-900 text-white px-8 py-3 rounded hover:bg-neutral-800 transition">Send
+            Message</button>
         </div>
       </form>
     </div>
   </section>
+
   <?php include("footer.php"); ?>
 </body>
 

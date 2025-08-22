@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Managed IT Services in Canada | QueryTel Inc.</title>
+  <title>Managed IT Services in North America | QueryTel Inc.</title>
   <meta name="description"
     content="All-inclusive managed IT services for Canadian businesses: 24/7 monitoring, helpdesk, servers, firewalls, backups, and cloud. Toronto & nationwide coverage." />
   <meta name="robots" content="index,follow,max-image-preview:large" />
@@ -18,7 +18,7 @@
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Managed IT Services in Canada | QueryTel Inc." />
+  <meta property="og:title" content="Managed IT Services in North America | QueryTel Inc." />
   <meta property="og:description"
     content="Proactive MSP support: desktops, servers, firewall monitoring, backups, and cloud. Local experts, national reach." />
   <meta property="og:url" content="https://querytel.com/managedservices/" />
@@ -31,7 +31,7 @@
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Managed IT Services in Canada | QueryTel Inc." />
+  <meta name="twitter:title" content="Managed IT Services in North America | QueryTel Inc." />
   <meta name="twitter:description"
     content="End-to-end managed IT with 24/7 monitoring, helpdesk, and cloud. Talk to our Toronto team." />
   <meta name="twitter:image"
@@ -173,7 +173,7 @@
         Let’s Talk
       </h1>
       <p class="mt-4 text-gray-600 text-lg">
-        Reach out to us at any of our locations across Canada.
+        Reach out to us at any of our locations across North America.
       </p>
     </div>
   </section>
@@ -316,39 +316,34 @@
     </div>
 
     <!-- Image Row -->
-    <div class="mt-24 grid md:grid-cols-2 gap-8 max-w-7xl mx-auto px-6 animate-fadeIn delay-200">
-      <img src="https://querytel.com/wp-content/uploads/2021/10/Insurance-b-768x512.jpg" alt="Insurance Tech"
-        class="w-full h-auto rounded-lg shadow-md" />
-      <img src="https://querytel.com/wp-content/uploads/2021/10/Ultramodern-Server-Location-3b-768x512.jpg"
-        alt="Data Center" class="w-full h-auto rounded-lg shadow-md" />
-    </div>
-
-    <!-- Extra Text Section -->
-    <div class="max-w-7xl mx-auto px-6 mt-12 grid md:grid-cols-2 gap-16 items-start">
-      <div class="space-y-4">
-        <h3 class="text-2xl md:text-3xl font-semibold text-neutral-900 leading-tight">
+    <!-- Insurance Section -->
+    <div class="max-w-7xl mx-auto px-6 mt-20 grid md:grid-cols-2 gap-16 items-center">
+      <!-- Text Column -->
+      <div class="space-y-6">
+        <h3 class="text-3xl md:text-4xl font-semibold text-neutral-900 leading-tight">
           Insured for Liability
         </h3>
-        <div class="h-px w-20 bg-gray-300"></div>
-        <p class="text-gray-700 leading-relaxed text-base">
-          Our in-house server, cloud, cybersecurity, and network experts embody only the highest level of
-          professionalism and etiquette. However, we still allocate $5 million liability insurance for any project or
-          service we provide so that our clients can rest assured that any damage or injury incurred on-site will happen
-          without incident.
+        <div class="h-1 w-24 bg-gradient-to-r from-orange-500 to-orange-300 rounded-full"></div>
+        <p class="text-gray-700 leading-relaxed text-lg">
+          Our in-house server, cloud, cybersecurity, and network experts embody only the highest level
+          of professionalism and etiquette. For smaller projects and services, we provide
+          <span class="font-semibold text-neutral-900">$2 million</span> liability insurance,
+          while larger-scale engagements are covered with
+          <span class="font-semibold text-neutral-900">$5 million</span>.
+          This ensures our clients can rest assured that any damage or injury incurred on-site
+          will be protected without incident.
         </p>
       </div>
-      <div class="space-y-4">
-        <h3 class="text-2xl md:text-3xl font-semibold text-neutral-900 leading-tight">
-          Offensive and Defensive Safety Services
-        </h3>
-        <div class="h-px w-20 bg-gray-300"></div>
-        <p class="text-gray-700 leading-relaxed text-base">
-          At QueryTel, we offer our clients the option to store their critical business data in the heart of the GTA in
-          Toronto at 151 Front Street, in a state-of-the-art facility with temperature, security, and power
-          redundancies.
-        </p>
+
+      <!-- Image Column -->
+      <div class="relative">
+        <img src="https://querytel.com/wp-content/uploads/2021/10/Insurance-b-768x512.jpg" alt="Insurance Tech"
+          class="w-full h-auto rounded-2xl shadow-xl border border-gray-100" />
+        <div class="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent rounded-2xl"></div>
       </div>
     </div>
+
+
   </section>
 
   <section class="bg-gray-50 py-24">
@@ -718,7 +713,7 @@
 
         <div class="space-y-4">
           <div class="flex items-start gap-3">
-            <svg class="w-5 h-5 text-blue-700 mt-1" fill="currentColor" viewBox="0 0 20 20">
+            <svg class="w-5 h-5 text-blue-700 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
               <path
                 d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
             </svg>
@@ -729,7 +724,7 @@
           </div>
 
           <div class="flex items-start gap-3">
-            <svg class="w-5 h-5 text-blue-700 mt-1" fill="currentColor" viewBox="0 0 20 20">
+            <svg class="w-5 h-5 text-blue-700 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
               <path
                 d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
             </svg>
@@ -739,18 +734,17 @@
           </div>
 
           <div class="flex items-start gap-3">
-            <svg class="w-5 h-5 text-blue-700 mt-1" fill="currentColor" viewBox="0 0 20 20">
+            <svg class="w-5 h-5 text-blue-700 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
               <path
                 d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
             </svg>
             <p class="text-gray-700 text-base leading-relaxed">
-              That’s where we come in — offering premium tech solutions while
-              reducing your IT spend.
+              That’s where we come in — offering premium tech solutions while reducing your IT spend.
             </p>
           </div>
 
           <div class="flex items-start gap-3">
-            <svg class="w-5 h-5 text-blue-700 mt-1" fill="currentColor" viewBox="0 0 20 20">
+            <svg class="w-5 h-5 text-blue-700 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
               <path
                 d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
             </svg>
@@ -760,7 +754,7 @@
           </div>
 
           <div class="flex items-start gap-3">
-            <svg class="w-5 h-5 text-blue-700 mt-1" fill="currentColor" viewBox="0 0 20 20">
+            <svg class="w-5 h-5 text-blue-700 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
               <path
                 d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
             </svg>
@@ -769,6 +763,7 @@
             </p>
           </div>
         </div>
+
       </div>
 
       <!-- Network and Email Monitoring -->
@@ -971,8 +966,9 @@
         </div>
 
         <!-- Image -->
-        <img src="https://querytel.com/wp-content/uploads/2021/10/Procurement2-469-x-500.jpg" alt="Procurement"
-          class="relative z-10 w-full max-w-md mx-auto rounded-xl shadow-2xl object-cover" />
+        <img
+          src="<?= $base . '/assets/images/depositphotos_714451488-stock-photo-procurement-process-shown-using-text.jpg' ?>"
+          alt="Procurement" class="h-96 mx-auto object-cover relative rounded-xl shadow-2xl w-full z-10" />
       </div>
     </div>
   </section>
@@ -1029,8 +1025,8 @@
 
         <!-- Right Image -->
         <div>
-          <img src="https://querytel.com/wp-content/uploads/2021/10/online-web-design-idea-scaled.jpg"
-            alt="Website Planning" class="w-full rounded-lg border border-gray-200" />
+          <img src="<?= $base . '/assets/images/webde.jpg' ?>" alt="Website Planning"
+            class="w-full rounded-lg border border-gray-200" />
         </div>
       </div>
     </div>

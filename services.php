@@ -8,14 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Primary SEO -->
-    <title>IT Services in Canada | Managed IT, Cloud, Cybersecurity & VoIP | QueryTel</title>
+    <title>IT Services in North America | Managed IT, Cloud, Cybersecurity & VoIP | QueryTel</title>
     <meta name="description"
         content="Explore QueryTel’s enterprise IT services: Managed IT, cloud infrastructure, cybersecurity, warehousing & network builds, and Office Connect VoIP. Built for Canadian businesses." />
     <link rel="canonical" href="https://querytel.com/services/" />
     <meta name="robots" content="index,follow,max-image-preview:large" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="IT Services in Canada | Managed IT, Cloud, Cybersecurity & VoIP | QueryTel" />
+    <meta property="og:title"
+        content="IT Services in North America | Managed IT, Cloud, Cybersecurity & VoIP | QueryTel" />
     <meta property="og:description"
         content="See all QueryTel services: managed support, cloud, cybersecurity, warehousing & network infrastructure, and Office Connect VoIP." />
     <meta property="og:type" content="website" />
@@ -25,7 +26,8 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="IT Services in Canada | Managed IT, Cloud, Cybersecurity & VoIP | QueryTel" />
+    <meta name="twitter:title"
+        content="IT Services in North America | Managed IT, Cloud, Cybersecurity & VoIP | QueryTel" />
     <meta name="twitter:description"
         content="Browse the full QueryTel services portfolio for Canadian organizations." />
     <meta name="twitter:image"

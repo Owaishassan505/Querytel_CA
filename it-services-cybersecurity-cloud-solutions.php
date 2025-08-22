@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Contact QueryTel Inc — Sales & Support in Canada</title>
+    <title>Contact QueryTel Inc — Sales & Support in North America</title>
     <meta name="description"
         content="Get in touch with QueryTel Inc. for managed IT, cybersecurity, and cloud services. Call our Toronto HQ or reach our support desk. Open Mon–Fri, 8am–5pm." />
     <meta name="robots" content="index,follow,max-image-preview:large" />
@@ -18,9 +18,9 @@
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Contact QueryTel Inc — Sales & Support in Canada" />
+    <meta property="og:title" content="Contact QueryTel Inc — Sales & Support in North America" />
     <meta property="og:description"
-        content="Speak with a local expert or open a support ticket. Toronto HQ and Canada-wide service." />
+        content="Speak with a local expert or open a support ticket. Toronto HQ and North America-wide service." />
     <meta property="og:url" content="https://querytel.com/contactus/" />
     <meta property="og:site_name" content="QueryTel Inc." />
     <meta property="og:locale" content="en_CA" />
@@ -31,7 +31,7 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Contact QueryTel Inc — Sales & Support in Canada" />
+    <meta name="twitter:title" content="Contact QueryTel Inc — Sales & Support in North America" />
     <meta name="twitter:description"
         content="Call our Toronto HQ or reach the support portal. Open Mon–Fri, 8am–5pm." />
     <meta name="twitter:image"
@@ -233,6 +233,7 @@
                     class="relative z-10 rounded-xl shadow-lg" />
             </div>
 
+            <!-- Right: Text -->
             <div>
                 <h2 class="text-2xl md:text-3xl font-semibold text-neutral-900">
                     Managed IT Services, Cybersecurity & Cloud Solutions in North America
@@ -241,23 +242,38 @@
                     Empowering Businesses Since 1995
                 </h3>
                 <p class="text-gray-700 text-base leading-relaxed">
-                    QueryTel provides Managed IT Services, Cybersecurity, and Cloud Solutions in North America to help
-                    businesses stay secure and efficient. Founded in 1995, we specialize in helping companies across
-                    various industries—manufacturing, cold storage, engineering, and law firms—by delivering secure,
-                    scalable, and cost-effective IT solutions tailored to their unique needs.
+                    At <span class="font-semibold">QueryTel</span>, we deliver more than just Managed IT Services,
+                    Cybersecurity,
+                    and Cloud Solutions. Since 1995, we’ve been helping businesses across North America stay
+                    <span class="font-semibold">secure, efficient, and future-ready</span>. Our expertise extends to
+                    industries
+                    such as <span class="font-semibold">manufacturing, cold storage, engineering, and law firms</span>,
+                    where we
+                    provide scalable, reliable, and cost-effective IT solutions.
                     <br /><br />
-                    At QueryTel, we believe in three core principles:<br />
-                    <strong>Continuous Optimization</strong>: Adapting technology to improve efficiency.<br />
-                    <strong>Continuous Progression</strong>: Staying ahead with the latest innovations.<br />
-                    <strong>Excellence</strong>: Delivering high-quality, reliable IT solutions.
+                    In addition to our core IT services, we also offer
+                    <span class="font-semibold">product development and custom programming</span>, enabling companies to
+                    build
+                    smarter solutions that fit their unique needs and drive growth.
                     <br /><br />
-                    From manufacturing and cold storage facilities to engineering and law firms, we help businesses
-                    achieve seamless IT infrastructure and long-term success.
+                    Our core principles guide everything we do:<br /><br />
+                    <span class="font-semibold">Continuous Optimization</span> – Enhancing technology to maximize
+                    efficiency.<br />
+                    <span class="font-semibold">Continuous Progression</span> – Adopting innovations to keep clients
+                    ahead.<br />
+                    <span class="font-semibold">Excellence</span> – Delivering secure, high-quality, and dependable IT
+                    solutions.
+                    <br /><br />
+                    Whether it’s <span class="font-semibold">strengthening IT infrastructure</span> or
+                    <span class="font-semibold">developing custom-built software</span>, QueryTel is your trusted
+                    partner for
+                    seamless technology and long-term success.
                 </p>
             </div>
 
         </div>
     </section>
+
 
     <!-- Optional CSS for animation -->
     <style>
@@ -361,19 +377,20 @@
             <!-- Left: Our Clients -->
             <div>
                 <h3 class="text-2xl text-neutral-900 mb-4">Proud Partners of Over <b>50 Leading IT Consultants</b>
-                    across Canada</h3>
+                    across North America</h3>
                 <div class="h-0.5 w-10 bg-neutral-300 mb-6"></div>
                 <p class="text-gray-600 text-sm leading-relaxed">
-                    QueryTel harnesses our deep-rooted relationships with adept IT partners to help our clients. We
-                    provide bespoke end-to-end managed IT solutions, from ISP selection to individual devices like PCs,
-                    printers, and mobile computers.
+                    At QueryTel, collaboration is at the heart of what we do. We proudly partner with over 50 of
+                    Canada’s top IT consultants, combining their expertise with our innovative solutions to deliver
+                    exceptional value to businesses nationwide. Together, we ensure organizations have access to the
+                    latest technologies, strategic insights, and reliable support that drive long-term success.
                 </p>
             </div>
 
             <!-- Center: Image -->
             <div class="flex justify-center">
-                <img src="<?= $base . './assets/images/65781a6615a9a61836084dce_A-Comprehensive-Guide-to-Achieve-Maximum-Results-with-Real-Time-Testing(2).png' ?>"
-                    alt="Happy clients" class="rounded-lg w-full max-w-md h-96" />
+                <img src="<?= $base . './assets/images/undraw_personal-goals_f9bb.svg' ?>" alt="Happy clients"
+                    class="rounded-lg w-full max-w-md h-96" />
             </div>
 
             <!-- Right: 26 Years Experience -->
@@ -422,7 +439,8 @@
                 </p>
 
                 <p class="text-lg text-gray-700 leading-relaxed mt-6">
-                    With over 26 years of experience, we take a time-tested approach to IT solutions. Our experts invest
+                    With over 30+ years of experience, we take a time-tested approach to IT solutions. Our experts
+                    invest
                     time to understand your business goals and long-term vision, ensuring that your technology aligns
                     perfectly with your growth strategy, modernization needs, and competitive edge.
                 </p>

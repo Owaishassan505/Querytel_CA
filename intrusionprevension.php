@@ -54,7 +54,7 @@
                 </h1>
                 <p class="mt-6 text-lg text-gray-600">
                     From warehouses to retail, our access control and live video monitoring keep criminals out and your
-                    assets secure 24/7, across Canada.
+                    assets secure 24/7, across North America.
                 </p>
                 <div class="mt-8 flex gap-4 opacity-0 animate-fadeIn delay-500">
                     <a href="#contact"
@@ -222,7 +222,7 @@
                 </div>
 
                 <p class="mt-6 text-[15px] leading-relaxed text-slate-200">
-                    According to estimates, construction companies in Canada lose half a billion dollars annually
+                    According to estimates, construction companies in North America lose half a billion dollars annually
                     due to stolen equipment and goods from the site.
                 </p>
                 <p class="mt-3 text-[15px] leading-relaxed text-slate-200">

@@ -118,7 +118,7 @@
                 </div>
 
                 <p class="mt-6 text-sm text-neutral-500">
-                    Trusted by hospitals across Canada. HIPAA-aligned practices. Zero-drama rollouts.
+                    Trusted by hospitals across North America. HIPAA-aligned practices. Zero-drama rollouts.
                 </p>
             </div>
 
