@@ -1,4 +1,4 @@
-<?php $base = "/Querytel_CA"; ?>
+<?php $base = "/"; ?>
 
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
@@ -241,7 +241,7 @@
                     <!-- Screenshot card -->
                     <div
                         class="relative rounded-2xl bg-white ring-1 ring-slate-200 shadow-[0_20px_60px_rgba(2,6,23,0.08)] p-3">
-                        <img src="/Querytel_CA/assets/images/Fabric-Analytics-Reporting.jpg"
+                        <img src="//assets/images/Fabric-Analytics-Reporting.jpg"
                             alt="FortiAnalyzer Fabric Analytics dashboard"
                             class="bg-white object-contain rounded-xl w-96">
                     </div>
