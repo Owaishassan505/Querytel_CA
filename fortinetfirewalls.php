@@ -45,6 +45,44 @@
             animation: floatY 6s ease-in-out infinite;
         }
     </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <style>
+        /* Ken Burns motion for slider images */
+        .kenburns {
+            transform: scale(1.08);
+            animation: kenburns 10s ease-in-out infinite;
+        }
+
+        @keyframes kenburns {
+            0% {
+                transform: scale(1.08) translateY(0);
+            }
+
+            50% {
+                transform: scale(1.14) translateY(-8px);
+            }
+
+            100% {
+                transform: scale(1.08) translateY(0);
+            }
+        }
+
+        /* Fluent-style pagination pills (works without Tailwind variants) */
+        .gate-pagination .swiper-pagination-bullet {
+            width: 24px;
+            height: 10px;
+            border-radius: 9999px;
+            background: rgb(203 213 225);
+            opacity: .7;
+            margin: 0 4px !important;
+        }
+
+        .gate-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+            background: rgb(15 23 42);
+            opacity: 1;
+        }
+    </style>
+
 </head>
 
 <body class="bg-white text-neutral-900 font-sans">
@@ -117,16 +155,53 @@
             </div>
 
             <!-- Illustration (inline SVG appliance + traffic) -->
+            <!-- Right: FortiGate slider -->
             <div class="opacity-0 animate-fadeInRight delay-150">
-                <div class="relative">
-                    <div class="absolute -inset-6 bg-white/60 blur-2xl rounded-3xl"></div>
-                    <div
-                        class="relative z-10 rounded-2xl bg-white ring-1 ring-slate-200 shadow-[0_20px_60px_rgba(2,6,23,0.08)] p-6">
-                        <img src="<?= $base ?>/assets/images/Fortinet-Security-Fabric.jpg" alt="Cyber Protect"
-                            class="w-full h-72 object-contain">
+                <div
+                    class="relative rounded-2xl overflow-hidden ring-1 ring-slate-200 bg-white shadow-[0_20px_60px_rgba(2,6,23,0.08)]">
+                    <div class="swiper gateSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="relative h-80 md:h-96 overflow-hidden">
+                                    <img src="<?= $base ?>/assets/images/s-l1200.jpg" alt="FortiGate appliances in rack"
+                                        class="kenburns absolute inset-0 w-full h-full object-fill" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="relative h-80 md:h-96 overflow-hidden">
+                                    <img src="<?= $base ?>/assets/images/demo-ngfw-1.webp"
+                                        alt="FortiGate policy & SD-WAN dashboard"
+                                        class="kenburns absolute inset-0 w-full h-full object-fill" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pagination (pills) -->
+                        <div class="swiper-pagination gate-pagination !bottom-3"></div>
+
+                        <!-- Custom nav buttons -->
+                        <button class="gate-prev absolute left-3 top-1/2 -translate-y-1/2 z-10
+                     inline-flex items-center justify-center h-10 w-10 rounded-full
+                     bg-white/80 backdrop-blur ring-1 ring-slate-200 text-slate-700
+                     hover:bg-white hover:shadow-md focus:outline-none focus:ring-2 focus:ring-slate-900/20">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                                <path d="M14 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <button class="gate-next absolute right-3 top-1/2 -translate-y-1/2 z-10
+                     inline-flex items-center justify-center h-10 w-10 rounded-full
+                     bg-white/80 backdrop-blur ring-1 ring-slate-200 text-slate-700
+                     hover:bg-white hover:shadow-md focus:outline-none focus:ring-2 focus:ring-slate-900/20">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -509,6 +584,31 @@
     </section>
 
     <?php include("footer.php"); ?>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        const gateSwiper = new Swiper(".gateSwiper", {
+            loop: true,
+            speed: 900,
+            autoplay: { delay: 3800, disableOnInteraction: false },
+            grabCursor: true,
+            keyboard: { enabled: true },
+            navigation: { nextEl: ".gate-next", prevEl: ".gate-prev" },
+            pagination: {
+                el: ".gate-pagination",
+                clickable: true,
+                renderBullet: (i, className) =>
+                    `<span class="${className} !mx-1 !h-2.5 !w-6 !rounded-full !bg-slate-300 !opacity-70
+                       swiper-pagination-bullet-active:!bg-slate-900 swiper-pagination-bullet-active:!opacity-100"></span>`
+            }
+        });
+
+        // Pause on hover
+        const gateEl = document.querySelector(".gateSwiper");
+        gateEl.addEventListener("mouseenter", () => gateSwiper.autoplay.stop());
+        gateEl.addEventListener("mouseleave", () => gateSwiper.autoplay.start());
+    </script>
+
 </body>
 
 </html>

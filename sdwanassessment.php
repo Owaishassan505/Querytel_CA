@@ -39,16 +39,18 @@
             <circle cx="300" cy="300" r="300" fill="url(#ms-accent)" />
         </svg>
 
-        <div class="max-w-7xl mx-auto px-6 py-28 md:py-32">
-            <div class="max-w-3xl opacity-0 animate-fadeInUp">
-                <span
-                    class="inline-block text-xs font-semibold tracking-widest text-orange-600 uppercase">Assessment</span>
+        <div class="max-w-7xl mx-auto px-6 py-28 md:py-32 grid md:grid-cols-2 gap-12 items-center">
+            <!-- Left: Text -->
+            <div class="max-w-3xl">
+                <span class="inline-block text-xs font-semibold tracking-widest text-orange-600 uppercase">
+                    Assessment
+                </span>
                 <h1 class="mt-3 text-4xl md:text-6xl font-bold tracking-tight leading-tight">
                     SD-WAN Assessment
                 </h1>
                 <p class="mt-5 text-lg md:text-xl text-neutral-600">
                     A vendor-neutral review of performance, resilience, and security. Get a clear roadmap, sizing, and a
-                    TCO model to move from MPLS-heavy to application-first networking—without guesswork.
+                    TCO model to move from MPLS-heavy to application-first networking without guesswork.
                 </p>
                 <div class="mt-8 flex flex-wrap gap-4">
                     <a href="#start"
@@ -63,6 +65,15 @@
                 <p class="mt-4 text-sm text-neutral-500">
                     Typical scope: current-state discovery, app SLA baselines, zero-trust readiness, and migration plan.
                 </p>
+            </div>
+
+            <!-- Right: Image (clean Fluent-style card) -->
+            <div>
+                <div
+                    class="rounded-2xl overflow-hidden bg-white ring-1 ring-slate-200 shadow-[0_20px_60px_rgba(2,6,23,0.08)]">
+                    <img src="<?= $base ?>/assets/images/Project258-01.jpg" alt="SD-WAN network visualization"
+                        class="w-full h-96 object-cover" />
+                </div>
             </div>
         </div>
     </section>

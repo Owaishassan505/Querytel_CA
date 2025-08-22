@@ -362,7 +362,9 @@
           </li>
 
           <li class="glide__slide">
-            <div class="max-w-7xl mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-12 items-center min-h-[650px]">
+            <div
+              class="max-w-7xl mx-auto px-6 md:px-12 grid md:grid-cols-[1fr_1.3fr] gap-12 items-center min-h-[650px]">
+
               <div>
                 <!-- Elegant badge -->
                 <div

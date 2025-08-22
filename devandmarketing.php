@@ -285,14 +285,25 @@ export const route = {
 
       <?php
       $items = [
-        ['title' => 'Websites', 'desc' => 'Fast, accessible, SEO‑ready marketing sites with a real design system.', 'pill' => 'Frontend', 'icon' => '<path d="M12 2a10 10 0 100 20 10 10 0 000-20Zm1 2.1c2.5.3 4.6 2 5.4 4.2H13V4.1ZM11 4.1V8H5.7A7 7 0 0111 4.1ZM4.1 11H8v2H4.1a8.2 8.2 0 010-2ZM5.7 16H11v3.9A7 7 0 015.7 16Zm7.3 3.9V16h4.3A7 7 0 0113 19.9ZM20 13h-4v-2h4a8.2 8.2 0 010 2Z" />', 'cta' => 'Start a website', 'color' => 'from-blue-50 to-white'],
-        ['title' => 'Web Apps', 'desc' => 'Auth, roles, dashboards, exports. Component‑driven, testable, documented.', 'pill' => 'Product', 'icon' => '<path d="M8 5 3 12l5 7 2-1.4L6.2 12 10 6.4 8 5Zm8 0-2 1.4L17.8 12 14 17.6 16 19l5-7-5-7Z" />', 'cta' => 'Scope my app', 'color' => 'from-orange-50 to-white'],
-        ['title' => 'APIs', 'desc' => 'REST/GraphQL with observability, rate‑limits, retries, and versioning.', 'pill' => 'Backend', 'icon' => '<path d="M7 2h2v6H7V2zm8 0h2v6h-2V2zM6 10h12v3a6 6 0 01-12 0v-3z" />', 'cta' => 'Design my API', 'color' => 'from-blue-50 to-white'],
-        ['title' => 'E‑commerce', 'desc' => 'Shopify apps/themes, clean checkout, taxes & shipping that behave.', 'pill' => 'Commerce', 'icon' => '<path d="M7 4h13l-1.5 9H8.6L7 4Zm-1 0H3v2h2l2.4 12H19v2H7a2 2 0 01-2-1.6L4 6Z" />', 'cta' => 'Launch my shop', 'color' => 'from-orange-50 to-white'],
-        ['title' => 'Automation', 'desc' => 'Integrations, schedulers, webhooks. Busywork quietly disappears.', 'pill' => 'Ops', 'icon' => '<path d="M11 2h2v6h-2V2ZM2 11h6v2H2v-2Zm14 0h6v2h-6v-2Zm-3 5v6h-2v-6h2Z" />', 'cta' => 'Automate my work', 'color' => 'from-blue-50 to-white'],
-        ['title' => 'Care & Security', 'desc' => 'Monitoring, backups, patches. Stability by design, not accident.', 'pill' => 'Support', 'icon' => '<path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z" />', 'cta' => 'Get ongoing care', 'color' => 'from-orange-50 to-white'],
+        ['title' => 'Websites', 'desc' => 'Modern, responsive sites built with performance, accessibility, and SEO at the core. Structured with a true design system.', 'pill' => 'Frontend', 'icon' => '<path d="M12 2a10 10 0 100 20 10 10 0 000-20Zm1 2.1c2.5.3 4.6 2 5.4 4.2H13V4.1ZM11 4.1V8H5.7A7 7 0 0111 4.1ZM4.1 11H8v2H4.1a8.2 8.2 0 010-2ZM5.7 16H11v3.9A7 7 0 015.7 16Zm7.3 3.9V16h4.3A7 7 0 0113 19.9ZM20 13h-4v-2h4a8.2 8.2 0 010 2Z" />', 'cta' => 'Start a website', 'color' => 'from-blue-50 to-white'],
+        ['title' => 'Web Apps', 'desc' => 'Scalable applications with authentication, dashboards, and data exports. Built component-first, tested, and documented.', 'pill' => 'Product', 'icon' => '<path d="M8 5 3 12l5 7 2-1.4L6.2 12 10 6.4 8 5Zm8 0-2 1.4L17.8 12 14 17.6 16 19l5-7-5-7Z" />', 'cta' => 'Scope my app', 'color' => 'from-orange-50 to-white'],
+        ['title' => 'APIs', 'desc' => 'REST or GraphQL APIs with monitoring, rate-limits, retries, and version control. Designed for resilience and clarity.', 'pill' => 'Backend', 'icon' => '<path d="M7 2h2v6H7V2zm8 0h2v6h-2V2zM6 10h12v3a6 6 0 01-12 0v-3z" />', 'cta' => 'Design my API', 'color' => 'from-blue-50 to-white'],
+        ['title' => 'E-commerce', 'desc' => 'Shopify solutions with elegant checkouts, tax & shipping logic, and reliable storefront performance.', 'pill' => 'Commerce', 'icon' => '<path d="M7 4h13l-1.5 9H8.6L7 4Zm-1 0H3v2h2l2.4 12H19v2H7a2 2 0 01-2-1.6L4 6Z" />', 'cta' => 'Launch my shop', 'color' => 'from-orange-50 to-white'],
+        ['title' => 'Automation', 'desc' => 'Integrations, workflows, and webhooks that remove friction. Background tasks that simply disappear.', 'pill' => 'Ops', 'icon' => '<path d="M11 2h2v6h-2V2ZM2 11h6v2H2v-2Zm14 0h6v2h-6v-2Zm-3 5v6h-2v-6h2Z" />', 'cta' => 'Automate my work', 'color' => 'from-blue-50 to-white'],
+        ['title' => 'Care & Security', 'desc' => 'Proactive monitoring, backups, and patching. Stability engineered from the start, not as an afterthought.', 'pill' => 'Support', 'icon' => '<path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z" />', 'cta' => 'Get ongoing care', 'color' => 'from-orange-50 to-white'],
+
+        // NEW — AI / Chatbot
+        ['title' => 'AI / Chatbot', 'desc' => 'Conversational assistants that handle support, sales, and knowledge retrieval. Built with trust, guardrails, and insights.', 'pill' => 'AI', 'icon' => '<path d="M4 5h16v10H7l-3 3V5zm3 4h10v2H7V9z" />', 'cta' => 'Build my bot', 'color' => 'from-blue-50 to-white'],
+
+        // NEW — ML / DL
+        ['title' => 'ML / DL', 'desc' => 'End-to-end machine learning pipelines. Training, fine-tuning, and deploying models that scale with your data.', 'pill' => 'ML/DL', 'icon' => '<path d="M4 6h16v12H4V6zm3 3h4v6H7V9zm6 0h4v6h-4V9z" />', 'cta' => 'Train my model', 'color' => 'from-orange-50 to-white'],
+
+        // NEW — IoT
+        ['title' => 'IoT', 'desc' => 'Secure device connectivity and telemetry at scale. Real-time cloud dashboards and edge intelligence.', 'pill' => 'IoT', 'icon' => '<path d="M12 2a7 7 0 017 7h-2a5 5 0 10-5 5v2a7 7 0 110-14zm1 9h7v2h-7v-2z" />', 'cta' => 'Connect my devices', 'color' => 'from-blue-50 to-white'],
       ];
       ?>
+
+
 
       <div class="mt-12 grid gap-6 sm:gap-7 md:grid-cols-2 lg:grid-cols-3">
         <?php foreach ($items as $it): ?>
@@ -414,25 +425,25 @@ export const route = {
                 <div class="mt-5 rounded-lg bg-slate-50 p-3 text-[11px] leading-5 text-slate-700 ring-1 ring-slate-100">
                   <?php if ($s['t'] === 'Scope'): ?>
                     <pre><code>Goals:
-                                                                                                                        ✓ Clear definition of success
-                                                                                                                        ✓ Fixed scope from day one</code></pre>
+                                                                                                                                        ✓ Clear definition of success
+                                                                                                                                        ✓ Fixed scope from day one</code></pre>
                   <?php elseif ($s['t'] === 'Design'): ?>
                     <pre><code>Design kit:
-                                                                                                                        ✓ Buttons, forms, layouts
-                                                                                                                        ✓ Empty | Error | Loading states</code></pre>
+                                                                                                                                        ✓ Buttons, forms, layouts
+                                                                                                                                        ✓ Empty | Error | Loading states</code></pre>
                   <?php elseif ($s['t'] === 'Build'): ?>
                     <pre><code>Process:
-                                                                                                                        ✓ Feature branch
-                                                                                                                        ✓ Code review + testing</code></pre>
+                                                                                                                                        ✓ Feature branch
+                                                                                                                                        ✓ Code review + testing</code></pre>
                   <?php elseif ($s['t'] === 'Ship'): ?>
                     <pre><code>Launch flow:
-                                                                                                                        ✓ Preview links
-                                                                                                                        ✓ Gradual rollout
-                                                                                                                        ✓ Real-time logs</code></pre>
+                                                                                                                                        ✓ Preview links
+                                                                                                                                        ✓ Gradual rollout
+                                                                                                                                        ✓ Real-time logs</code></pre>
                   <?php else: ?>
                     <pre><code>After launch:
-                                                                                                                        ✓ Track usage
-                                                                                                                        ✓ Learn → Improve → Repeat</code></pre>
+                                                                                                                                        ✓ Track usage
+                                                                                                                                        ✓ Learn → Improve → Repeat</code></pre>
                   <?php endif; ?>
                 </div>
 

@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us - Querytel Inc</title>
+    <title>FortiAnalyzer - Querytel Inc</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -43,7 +43,7 @@
 
 
 
-    <!-- HERO — FortiAnalyzer (clean Fluent-style, new look) -->
+    <!-- HERO — FortiAnalyzer with animated slider -->
     <section class="relative overflow-hidden bg-gradient-to-b from-white to-slate-50 py-20">
         <!-- subtle accents -->
         <div
@@ -54,7 +54,7 @@
         </div>
 
         <div class="relative max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-            <!-- Text -->
+            <!-- Left: text -->
             <div class="opacity-0 animate-fadeInLeft">
                 <div
                     class="inline-flex items-center gap-2 rounded-full bg-slate-100 text-slate-700 ring-1 ring-slate-200 px-3 py-1 text-xs font-medium">
@@ -73,127 +73,138 @@
 
                 <div class="mt-8 flex flex-col sm:flex-row gap-4 opacity-0 animate-fadeIn delay-300">
                     <a href="#learn-more"
-                        class="inline-flex items-center justify-center rounded-lg bg-slate-900 text-white px-6 py-3 font-semibold hover:bg-slate-800 transition">
-                        Explore Capabilities
-                    </a>
+                        class="inline-flex items-center justify-center rounded-lg bg-slate-900 text-white px-6 py-3 font-semibold hover:bg-slate-800 transition">Explore
+                        Capabilities</a>
                     <a href="<?= $base ?>/contactus"
-                        class="inline-flex items-center justify-center rounded-lg border border-slate-300 text-slate-800 px-6 py-3 font-semibold hover:bg-white transition">
-                        Request a Demo
-                    </a>
+                        class="inline-flex items-center justify-center rounded-lg border border-slate-300 text-slate-800 px-6 py-3 font-semibold hover:bg-white transition">Request
+                        a Demo</a>
                 </div>
 
-                <!-- KPI chips -->
                 <div class="mt-6 flex flex-wrap gap-3 text-sm">
                     <span
                         class="inline-flex items-center gap-2 rounded-lg bg-white ring-1 ring-slate-200 px-3 py-1 text-slate-700">
                         <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M9 12.75 7.5 11.25l-3 3L9 18l10.5-10.5-1.5-1.5z" />
-                        </svg>
-                        Up to 100k EPS
+                        </svg> Up to 100k EPS
                     </span>
                     <span
                         class="inline-flex items-center gap-2 rounded-lg bg-white ring-1 ring-slate-200 px-3 py-1 text-slate-700">
                         <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M6 2h12v2H6zM4 6h16v2H4zM4 10h16v10H4z" />
-                        </svg>
-                        365-day retention
+                        </svg> 365-day retention
                     </span>
                     <span
                         class="inline-flex items-center gap-2 rounded-lg bg-white ring-1 ring-slate-200 px-3 py-1 text-slate-700">
                         <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M12 2l7 4v6c0 6-4 9-7 10-3-1-7-4-7-10V6l7-4z" />
-                        </svg>
-                        MITRE mappings
+                        </svg> MITRE mappings
                     </span>
                 </div>
             </div>
 
-            <!-- Illustration (inline SVG dashboard) -->
+            <!-- Right: Swiper slider -->
             <div class="opacity-0 animate-fadeInRight delay-150">
-                <div class="relative">
-                    <div class="absolute -inset-6 bg-white/60 blur-2xl rounded-3xl"></div>
-                    <div
-                        class="relative z-10 rounded-2xl bg-white ring-1 ring-slate-200 shadow-[0_20px_60px_rgba(2,6,23,0.08)] p-6">
-                        <svg viewBox="0 0 720 430" class="w-full h-72 md:h-80" role="img"
-                            aria-label="Analytics dashboard illustration">
-                            <defs>
-                                <linearGradient id="fa1" x1="0" y1="0" x2="1" y2="1">
-                                    <stop offset="0" stop-color="#ef4444" />
-                                    <stop offset="1" stop-color="#1e40af" />
-                                </linearGradient>
-                            </defs>
+                <div
+                    class="relative rounded-2xl overflow-hidden ring-1 ring-slate-200 bg-white shadow-[0_20px_60px_rgba(2,6,23,0.08)]">
+                    <div class="swiper heroSwiper">
+                        <div class="swiper-wrapper">
+                            <!-- Slide 1 -->
+                            <div class="swiper-slide">
+                                <div class="relative h-80 md:h-96 overflow-hidden">
+                                    <img src="<?= $base ?>/assets/images/10009784_2.jpg" alt="FortiAnalyzer dashboard"
+                                        class="kenburns absolute inset-0 w-full h-full object-cover" />
+                                </div>
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="swiper-slide">
+                                <div class="relative h-80 md:h-96 overflow-hidden">
+                                    <img src="<?= $base ?>/assets/images/f24e96360b1c15da75233dc421563fde_Device Manager.png"
+                                        alt="FortiAnalyzer logs"
+                                        class="kenburns absolute inset-0 w-full h-full object-contain" />
+                                </div>
+                            </div>
+                        </div>
 
-                            <!-- header bar -->
-                            <rect x="40" y="30" width="640" height="360" rx="18" fill="#ffffff" stroke="#e5e7eb" />
-                            <rect x="40" y="30" width="640" height="56" rx="18" fill="#f8fafc" />
-                            <circle cx="70" cy="58" r="6" fill="#ef4444" />
-                            <circle cx="90" cy="58" r="6" fill="#f59e0b" />
-                            <circle cx="110" cy="58" r="6" fill="#22c55e" />
+                        <!-- Pagination (pills) -->
+                        <div class="swiper-pagination !bottom-3"></div>
 
-                            <!-- left nav -->
-                            <rect x="56" y="100" width="150" height="272" rx="10" fill="#f8fafc" />
-                            <rect x="70" y="120" width="122" height="14" rx="7" fill="#cbd5e1" />
-                            <rect x="70" y="146" width="102" height="10" rx="5" fill="#e2e8f0" />
-                            <rect x="70" y="166" width="112" height="10" rx="5" fill="#e2e8f0" />
-                            <rect x="70" y="186" width="96" height="10" rx="5" fill="#e2e8f0" />
-                            <rect x="70" y="206" width="118" height="10" rx="5" fill="#e2e8f0" />
-
-                            <!-- main chart -->
-                            <rect x="230" y="110" width="420" height="160" rx="12" fill="#f8fafc" stroke="#eef2f7" />
-                            <!-- grid -->
-                            <g stroke="#e5e7eb" stroke-width="1">
-                                <path d="M260 150H630" />
-                                <path d="M260 180H630" />
-                                <path d="M260 210H630" />
-                            </g>
-                            <!-- line -->
-                            <path d="M260 220
-                     C300 210, 340 150, 380 170
-                     S460 235, 500 190
-                     S580 160, 630 175" fill="none" stroke="url(#fa1)" stroke-width="6" stroke-linecap="round" />
-
-                            <!-- right KPI tiles -->
-                            <g transform="translate(230,290)">
-                                <rect x="0" y="0" width="200" height="72" rx="12" fill="#ffffff" stroke="#e5e7eb" />
-                                <rect x="220" y="0" width="200" height="72" rx="12" fill="#ffffff" stroke="#e5e7eb" />
-                                <rect x="440" y="0" width="200" height="72" rx="12" fill="#ffffff" stroke="#e5e7eb" />
-
-                                <rect x="18" y="16" width="44" height="44" rx="10" fill="#fee2e2" />
-                                <rect x="238" y="16" width="44" height="44" rx="10" fill="#dbeafe" />
-                                <rect x="458" y="16" width="44" height="44" rx="10" fill="#dcfce7" />
-
-                                <text x="72" y="44" font-size="14" fill="#0f172a" font-weight="700">Events / s</text>
-                                <text x="292" y="44" font-size="14" fill="#0f172a" font-weight="700">Detections</text>
-                                <text x="512" y="44" font-size="14" fill="#0f172a" font-weight="700">Compliance</text>
-                            </g>
-                        </svg>
+                        <!-- Custom nav buttons -->
+                        <button class="hero-prev absolute left-3 top-1/2 -translate-y-1/2 z-10
+                         inline-flex items-center justify-center h-10 w-10 rounded-full
+                         bg-white/80 backdrop-blur ring-1 ring-slate-200 text-slate-700
+                         hover:bg-white hover:shadow-md focus:outline-none focus:ring-2 focus:ring-slate-900/20">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                                <path d="M14 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <button class="hero-next absolute right-3 top-1/2 -translate-y-1/2 z-10
+                         inline-flex items-center justify-center h-10 w-10 rounded-full
+                         bg-white/80 backdrop-blur ring-1 ring-slate-200 text-slate-700
+                         hover:bg-white hover:shadow-md focus:outline-none focus:ring-2 focus:ring-slate-900/20">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
                     </div>
+
+                    <!-- subtle top accent -->
+
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Swiper CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-    <!-- ============ FORTIANALYZER: OVERVIEW + FABRIC ANALYTICS ============ -->
     <style>
-        @keyframes floatY {
+        /* Ken Burns motion */
+        .kenburns {
+            transform: scale(1.08);
+            animation: kenburns 10s ease-in-out infinite;
+        }
+
+        @keyframes kenburns {
             0% {
-                transform: translateY(0);
+                transform: scale(1.08) translateY(0);
             }
 
             50% {
-                transform: translateY(-14px);
+                transform: scale(1.14) translateY(-8px);
             }
 
             100% {
-                transform: translateY(0);
+                transform: scale(1.08) translateY(0);
             }
         }
-
-        .animate-floatY {
-            animation: floatY 6s ease-in-out infinite;
-        }
     </style>
+
+    <script>
+        const swiper = new Swiper(".heroSwiper", {
+            loop: true,
+            speed: 900,                 // smooth slide
+            autoplay: { delay: 3800, disableOnInteraction: false },
+            effect: "slide",
+            grabCursor: true,
+            keyboard: { enabled: true },
+            navigation: { nextEl: ".hero-next", prevEl: ".hero-prev" },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                renderBullet: (i, className) =>
+                    `<span class="${className} !mx-1 !h-2.5 !w-6 !rounded-full !bg-slate-300 !opacity-70
+                       swiper-pagination-bullet-active:!bg-slate-900 swiper-pagination-bullet-active:!opacity-100"></span>`
+            }
+        });
+
+        // Pause on hover (premium touch)
+        const heroEl = document.querySelector(".heroSwiper");
+        heroEl.addEventListener("mouseenter", () => swiper.autoplay.stop());
+        heroEl.addEventListener("mouseleave", () => swiper.autoplay.start());
+    </script>
 
     <section id="overview" class="bg-white py-16">
         <div class="max-w-6xl mx-auto px-6 text-center">

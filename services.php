@@ -289,8 +289,8 @@
                 </div>
             </div>
             <div class="md:block hidden">
-                <img src="https://querytel.com/wp-content/uploads/2025/08/Depositphotos_287797174_XL-1024x576.jpg"
-                    alt="Services Overview" class="w-full rounded-xl border border-neutral-200" />
+                <img src="<?= $base . '/assets/images/business2840.jpg' ?>" alt="Services Overview"
+                    class="w-full rounded-xl " />
             </div>
         </div>
     </section>
