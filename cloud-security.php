@@ -139,8 +139,8 @@
                 </div>
               </div>
               <div class="animate-fadeInRight">
-                <img src="<?= $base . '/assets/images/Web-developer-application-to-cloud-server-1.jpg' ?>"
-                  alt="Automation" class="w-full rounded-xl shadow-lg" />
+                <img src="<?= $base . '/assets/images/gateway.png' ?>" alt="Automation"
+                  class="w-full rounded-xl shadow-lg" />
               </div>
             </div>
           </li>
