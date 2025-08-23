@@ -524,8 +524,7 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
-          <img class="object-cover w-full h-full" src="<?= $base . './assets/images/who-we-are.png' ?>"
-            alt="Who we are">
+          <img class="object-cover w-full h-full" src="<?= $base . '/assets/images/who-we-are.png' ?>" alt="Who we are">
         </div>
 
       </div>
@@ -786,8 +785,8 @@
 
       <!-- Right Image + Features -->
       <div class="space-y-10">
-        <img src="<?= $base . './assets/images/multiple-laptops-laptop-brands-laptop-list.png' ?>"
-          alt="Laptop Financing" class="rounded-lg shadow-lg w-full" />
+        <img src="<?= $base . '/assets/images/multiple-laptops-laptop-brands-laptop-list.png' ?>" alt="Laptop Financing"
+          class="rounded-lg shadow-lg w-full" />
 
         <div class="space-y-6 text-sm text-white">
           <div class="flex items-center gap-4">

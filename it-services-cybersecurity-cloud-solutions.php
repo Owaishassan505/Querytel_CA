@@ -1,4 +1,4 @@
-<?php $base = "/"; ?>
+<?php $base = "https://demo.querytel.ca"; ?>
 
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
@@ -389,7 +389,7 @@
 
             <!-- Center: Image -->
             <div class="flex justify-center">
-                <img src="<?= $base . './assets/images/undraw_personal-goals_f9bb.svg' ?>" alt="Happy clients"
+                <img src="<?= $base . '/assets/images/undraw_personal-goals_f9bb.svg' ?>" alt="Happy clients"
                     class="rounded-lg w-full max-w-md h-96" />
             </div>
 

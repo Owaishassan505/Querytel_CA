@@ -1,4 +1,4 @@
-<?php $base = "/"; ?>
+<?php $base = "https://demo.querytel.ca"; ?>
 
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">

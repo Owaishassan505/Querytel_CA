@@ -1,4 +1,4 @@
-<?php $base = "/"; ?>
+<?php $base = "https://demo.querytel.ca"; ?>
 
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
@@ -346,7 +346,7 @@
                     ?>
                     <span class="pill active" data-cat="all">All</span>
                     <?php foreach ($cats as $c): ?>
-                            <span class="pill" data-cat="<?= htmlspecialchars($c) ?>"><?= htmlspecialchars($c) ?></span>
+                        <span class="pill" data-cat="<?= htmlspecialchars($c) ?>"><?= htmlspecialchars($c) ?></span>
                     <?php endforeach; ?>
                 </div>
             </div>
@@ -354,26 +354,26 @@
             <!-- GRID -->
             <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-8" id="svc-grid">
                 <?php foreach ($services as $s): ?>
-                        <article class="qt-card overflow-hidden svc-card" data-cat="<?= htmlspecialchars($s[1]) ?>"
-                            data-title="<?= htmlspecialchars(strtolower($s[0])) ?>">
-                            <div class="h-2 bg-[color:var(--accent)]"></div>
-                            <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                                <img src="<?= htmlspecialchars($s[3]) ?>" alt="<?= htmlspecialchars($s[0]) ?>"
-                                    class="absolute inset-0 w-full h-full object-fill" />
+                    <article class="qt-card overflow-hidden svc-card" data-cat="<?= htmlspecialchars($s[1]) ?>"
+                        data-title="<?= htmlspecialchars(strtolower($s[0])) ?>">
+                        <div class="h-2 bg-[color:var(--accent)]"></div>
+                        <div class="relative bg-[#FAFAFA] aspect-[3/2]">
+                            <img src="<?= htmlspecialchars($s[3]) ?>" alt="<?= htmlspecialchars($s[0]) ?>"
+                                class="absolute inset-0 w-full h-full object-fill" />
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold mb-2"><?= htmlspecialchars($s[0]) ?></h3>
+                            <p class="text-sm text-neutral-600 leading-relaxed"><?= htmlspecialchars($s[2]) ?></p>
+                            <div class="mt-4">
+                                <button class="qt-btn qt-btn-secondary px-4 py-2 text-sm svc-open"
+                                    data-title="<?= htmlspecialchars($s[0]) ?>" data-desc="<?= htmlspecialchars($s[2]) ?>"
+                                    data-img="<?= htmlspecialchars($s[3]) ?>" data-cat="<?= htmlspecialchars($s[1]) ?>"
+                                    data-slug="<?= htmlspecialchars($s[4]) ?>">
+                                    Quick view
+                                </button>
                             </div>
-                            <div class="p-6">
-                                <h3 class="text-lg font-semibold mb-2"><?= htmlspecialchars($s[0]) ?></h3>
-                                <p class="text-sm text-neutral-600 leading-relaxed"><?= htmlspecialchars($s[2]) ?></p>
-                                <div class="mt-4">
-                                    <button class="qt-btn qt-btn-secondary px-4 py-2 text-sm svc-open"
-                                        data-title="<?= htmlspecialchars($s[0]) ?>" data-desc="<?= htmlspecialchars($s[2]) ?>"
-                                        data-img="<?= htmlspecialchars($s[3]) ?>" data-cat="<?= htmlspecialchars($s[1]) ?>"
-                                        data-slug="<?= htmlspecialchars($s[4]) ?>">
-                                        Quick view
-                                    </button>
-                                </div>
-                            </div>
-                        </article>
+                        </div>
+                    </article>
                 <?php endforeach; ?>
             </div>
         </div>

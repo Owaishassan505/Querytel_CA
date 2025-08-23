@@ -126,7 +126,7 @@
         </div>
       </div>
       <div class="opacity-0 animate-fadeInRight delay-200">
-        <img src="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png"
+        <img src="<?= $base . '/assets/images/Depositphotos_275879498_XL-scaled.jpg' ?>"
           alt="Warehouse Network Architecture" class="w-full rounded-lg shadow-md" loading="lazy" />
       </div>
     </div>
@@ -136,8 +136,8 @@
   <div id="services" class="max-w-6xl mx-auto px-6 space-y-24">
     <!-- Structured Cabling -->
     <div class="grid md:grid-cols-2 items-center gap-10">
-      <img src="https://querytel.com/wp-content/uploads/2025/03/Depositphotos_522317172_XL-1-scaled.jpg"
-        alt="Structured Cabling" class="rounded-lg shadow" loading="lazy" />
+      <img src="<?= $base . '/assets/images/Depositphotos_522317172_XL-1-scaled.jpg' ?>" alt="Structured Cabling"
+        class="rounded-lg shadow" loading="lazy" />
       <div>
         <h2 class="text-2xl font-semibold mb-4">Structured Cabling</h2>
         <p class="text-gray-600 mb-4">
@@ -157,8 +157,8 @@
     <!-- IT & Network Infrastructure Design -->
     <div class="grid md:grid-cols-2 items-center gap-10">
       <div class="md:order-2">
-        <img src="https://querytel.com/wp-content/uploads/2025/03/Depositphotos_660220058_XL-1024x614.jpg"
-          alt="IT Infrastructure" class="rounded-lg shadow" loading="lazy" />
+        <img src="<?= $base . '/assets/images/Depositphotos_660220058_XL-1024x614.jpg' ?>" alt="IT Infrastructure"
+          class="rounded-lg shadow" loading="lazy" />
       </div>
       <div class="md:order-1">
         <h2 class="text-2xl font-semibold mb-4">IT Solutions & Network Infrastructure Design</h2>
@@ -177,8 +177,7 @@
 
     <!-- Datacenter Operations -->
     <div class="grid md:grid-cols-2 items-center gap-10">
-      <img
-        src="https://querytel.com/wp-content/uploads/2025/03/Network-Infrastructure-Strategy-Best-Practices_blog.webp"
+      <img src="<?= $base . '/assets/images/Network-Infrastructure-Strategy-Best-Practices_blog.jpg' ?>"
         alt="Datacenter" class="rounded-lg shadow" loading="lazy" />
       <div>
         <h2 class="text-2xl font-semibold mb-4">Datacenter Operations</h2>
@@ -198,7 +197,7 @@
     <!-- End-User Compute & Mobile Devices -->
     <div class="grid md:grid-cols-2 items-center gap-10">
       <div class="md:order-2">
-        <img src="https://querytel.com/wp-content/uploads/2025/03/ed9bcaf7-e1d4-42b8-96c0-056ad38ae827-1024x683.png"
+        <img src="<?= $base . '/assets/images/ed9bcaf7-e1d4-42b8-96c0-056ad38ae827-1024x683.png' ?>"
           alt="End-User Compute and Mobile Devices" class="rounded-lg shadow" loading="lazy" />
       </div>
       <div class="md:order-1">
@@ -219,7 +218,7 @@
 
     <!-- Surveillance & Intrusion Prevention -->
     <div class="grid md:grid-cols-2 items-center gap-10 pb-10">
-      <img src="https://querytel.com/wp-content/uploads/2025/03/Depositphotos_227362768_XL-1-scaled.jpg"
+      <img src="<?= $base . '/assets/images/Depositphotos_227362768_XL-1-scaled.jpg' ?>"
         alt="Surveillance & Intrusion Prevention" class="rounded-lg shadow" loading="lazy" />
       <div>
         <h2 class="text-2xl font-semibold mb-4">Surveillance & Intrusion Prevention</h2>
