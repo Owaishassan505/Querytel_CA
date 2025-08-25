@@ -607,43 +607,45 @@
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           <?php
           $clients = [
-            "Affinity Luxury Car Rentals",
-            "Cervini Painting & Decorating Ltd.",
-            "Dash Cargo Inc",
-            "Dr. Edward Lam",
-            "Easy Mortgage Pro",
-            "Encore Cellular Int'l Inc.",
-            "Fritz Marketing Inc.",
-            "Iron Link Systems Inc",
-            "King Travel",
-            "Nima Kitchen & Bath Centre",
-            "Nova Cold logistics ULC - CAD",
-            "Roehampton Cable Ltd",
-            "Roehampton Communications Ltd",
-            "SUNNYSIDE Window & Eaves Cleaning Ltd.",
-            "Symposium Cafe - Keswick",
-            "VersaCold Logistics Services",
-            "Americold Logistics, LLC",
-            "Coast Hardware Inc",
-            "Dynamis Capital Partners Inc",
-            "Lineage Logistics, LLC",
-            "NGERP Inc",
-            "Nova Cold logistics ULC",
-            "Parry Sound Auto Parts",
-            "Xediton Pharmaceuticals",
-            "MJRS Associates",
-            "DAY + BORG LLP",
-            "Wheels for Less",
-            "MB Architect",
-            "Suria Professional Corporation",
-            "ABF MFG Group Inc.",
-            "Nova Cold Logistics Calgary",
-            "Canadian Drapery Mfg. Co. Ltd."
+            "Affinity Luxury Car Rentals" => "affinity.png",
+            "Cervini Painting & Decorating Ltd." => "cervini.png",
+            "Dash Cargo Inc" => "dash.png",
+            "Dr. Edward Lam" => "lam.png",
+            "Easy Mortgage Pro" => "easymortgage.png",
+            "Encore Cellular Int'l Inc." => "encore.png",
+            "Fritz Marketing Inc." => "fritz.png",
+            "Iron Link Systems Inc" => "ironlink.png",
+            "King Travel" => "kingtravel.png",
+            "Nima Kitchen & Bath Centre" => "nima.png",
+            "Nova Cold logistics ULC - CAD" => "novacold.png",
+            "Roehampton Cable Ltd" => "roehampton-cable.png",
+            "Roehampton Communications Ltd" => "roehampton-com.png",
+            "SUNNYSIDE Window & Eaves Cleaning Ltd." => "sunnyside.png",
+            "Symposium Cafe - Keswick" => "symposium.png",
+            "VersaCold Logistics Services" => "versacold.png",
+            "Americold Logistics, LLC" => "americold.png",
+            "Coast Hardware Inc" => "coast.png",
+            "Dynamis Capital Partners Inc" => "dynamis.png",
+            "Lineage Logistics, LLC" => "lineage.png",
+            "NGERP Inc" => "ngerp.png",
+            "Nova Cold logistics ULC" => "novacold-ulc.png",
+            "Parry Sound Auto Parts" => "parry.png",
+            "Xediton Pharmaceuticals" => "xediton.png",
+            "MJRS Associates" => "mjrs.png",
+            "DAY + BORG LLP" => "dayborg.png",
+            "Wheels for Less" => "wheels.png",
+            "MB Architect" => "mbarchitect.png",
+            "Suria Professional Corporation" => "suria.png",
+            "ABF MFG Group Inc." => "abf.png",
+            "Nova Cold Logistics Calgary" => "novacold-calgary.png",
+            "Canadian Drapery Mfg. Co. Ltd." => "canadian-drapery.png",
           ];
-          foreach ($clients as $c): ?>
+          foreach ($clients as $name => $logo): ?>
             <div
-              class="border border-neutral-100 p-6 text-center transition duration-300 group hover:bg-orange-50 hover:shadow-md hover:-translate-y-1">
-              <span class="text-gray-800 font-medium text-sm group-hover:text-orange-600 transition"><?= $c; ?></span>
+              class="border border-neutral-100 p-6 flex flex-col items-center gap-3 text-center transition duration-300 group hover:bg-orange-50 hover:shadow-md hover:-translate-y-1">
+              <img src="<?= $base . '/assets/images/' . $logo ?>" alt="<?= $name ?> Logo"
+                class=" object-contain grayscale group-hover:grayscale-0 transition" />
+              <span class="text-gray-800 font-medium text-sm group-hover:text-orange-600 transition"><?= $name; ?></span>
             </div>
           <?php endforeach; ?>
         </div>
@@ -667,6 +669,7 @@
       </div>
     </div>
   </section>
+
 
   <style>
     @keyframes fadeUp {

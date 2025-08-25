@@ -1,4 +1,4 @@
-<?php $base = "https://demo.querytel.ca"; ?>
+<?php $base = "https://itcold.com/"; ?>
 
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
@@ -295,7 +295,6 @@
             animation: pulse-slow 6s infinite;
         }
     </style>
-
     <section class="bg-white py-24">
         <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
@@ -310,28 +309,49 @@
                     <div>
                         <p class="text-sm font-medium text-neutral-800 mb-1">Managed IT Services</p>
                         <div class="h-2 bg-neutral-200 rounded-full overflow-hidden">
-                            <div class="h-full bg-orange-500 w-[90%] rounded-full"></div>
+                            <div class="h-full bg-orange-500 w-[100%] rounded-full"></div>
                         </div>
                     </div>
 
                     <div>
                         <p class="text-sm font-medium text-neutral-800 mb-1">Cybersecurity & Network Security</p>
                         <div class="h-2 bg-neutral-200 rounded-full overflow-hidden">
-                            <div class="h-full bg-emerald-500 w-[85%] rounded-full"></div>
+                            <div class="h-full bg-emerald-600 w-[100%] rounded-full"></div>
                         </div>
                     </div>
 
                     <div>
                         <p class="text-sm font-medium text-neutral-800 mb-1">Cloud Solutions</p>
                         <div class="h-2 bg-neutral-200 rounded-full overflow-hidden">
-                            <div class="h-full bg-blue-500 w-[75%] rounded-full"></div>
+                            <div class="h-full bg-sky-500 w-[100%] rounded-full"></div>
                         </div>
                     </div>
 
                     <div>
                         <p class="text-sm font-medium text-neutral-800 mb-1">Hosting & Domain Services</p>
                         <div class="h-2 bg-neutral-200 rounded-full overflow-hidden">
-                            <div class="h-full bg-rose-500 w-[65%] rounded-full"></div>
+                            <div class="h-full bg-rose-600 w-[100%] rounded-full"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="text-sm font-medium text-neutral-800 mb-1">Development</p>
+                        <div class="h-2 bg-neutral-200 rounded-full overflow-hidden">
+                            <div class="h-full bg-indigo-500 w-[100%] rounded-full"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="text-sm font-medium text-neutral-800 mb-1">Marketing</p>
+                        <div class="h-2 bg-neutral-200 rounded-full overflow-hidden">
+                            <div class="h-full bg-yellow-500 w-[100%] rounded-full"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="text-sm font-medium text-neutral-800 mb-1">Data Analytics</p>
+                        <div class="h-2 bg-neutral-200 rounded-full overflow-hidden">
+                            <div class="h-full bg-purple-500 w-[100%] rounded-full"></div>
                         </div>
                     </div>
 
@@ -346,10 +366,10 @@
 
                 <img src="<?= $base ?>/assets/images/undraw_ideas_vn7a.png" alt="Expertise Illustration"
                     class="relative z-10 w-full max-w-md mx-auto transform scale-x-[-1]" />
-
             </div>
         </div>
     </section>
+
 
     <!-- Animation Style -->
     <style>
