@@ -349,7 +349,7 @@
                     </div>
 
                     <div>
-                        <p class="text-sm font-medium text-neutral-800 mb-1">Data Analytics</p>
+                        <p class="text-sm font-medium text-neutral-800 mb-1">24/7 Helpdesk</p>
                         <div class="h-2 bg-neutral-200 rounded-full overflow-hidden">
                             <div class="h-full bg-purple-500 w-[100%] rounded-full"></div>
                         </div>

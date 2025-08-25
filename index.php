@@ -257,7 +257,7 @@
               <div class="mx-auto px-6 md:px-12 grid md:grid-cols-2 items-center min-h-[680px]">
                 <div class="max-w-xl text-white">
                   <h1 class="text-4xl md:text-5xl font-semibold tracking-tight leading-tight">
-                    Managed IT Services That Drive Growth
+                    Managed IT Services Drive Growth
                   </h1>
                   <p class="mt-5 text-lg text-white/90 leading-relaxed">
                     Scale your business with world-class IT solutions designed for reliability, security, and measurable
@@ -486,9 +486,9 @@
 
           // IT Consulting
           [
-            "icon" => '<i data-lucide="lightbulb" class="h-8 w-8 mx-auto text-pink-500"></i>',
-            "title" => "IT Consulting",
-            "desc" => "Strategic consulting to align technology with your business goals."
+            "icon" => '<i data-lucide="wrench" class="h-8 w-8 mx-auto text-blue-500"></i>',
+            "title" => "Field Services",
+            "desc" => "On-site technical support and maintenance to keep your operations running smoothly."
           ],
 
           // Hardware & Cloud Solution
@@ -557,12 +557,11 @@
       <div>
         <h2 class="text-3xl font-bold mb-4">Who we are?</h2>
         <p class="text-lg text-neutral-700 font-semibold mb-3">
-          Most trusted Managed IT Services provider company
+          Most trusted Managed IT Services Partner
         </p>
         <p class="text-gray-600">
           QueryTel Inc. has been providing Managed IT services across North America since 1995. With almost three
-          decades of
-          experience servicing clients, we use what we have learned to fulfill your company’s needs.
+          decades of experience servicing clients, we use what we have learned to fulfill your company’s needs.
         </p>
       </div>
 
