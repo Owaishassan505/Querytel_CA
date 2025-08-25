@@ -449,13 +449,71 @@
       <div class="grid md:grid-cols-3 gap-10">
         <?php
         $services = [
-          ["icon" => "🛡️", "title" => "Cyber Security", "desc" => "Our proactive security mechanism will secure your business against cyber-attacks and vulnerabilities."],
-          ["icon" => "☁️", "title" => "Cloud Backup", "desc" => "We store your critical data in centrally monitored cloud backup systems."],
-          ["icon" => "🛠️", "title" => "Managed Services", "desc" => "Cost-effective and tailored managed services as per your company needs."],
-          ["icon" => "💻", "title" => "Hardware & Cloud Solution", "desc" => "First-class hardware and cloud solutions from prestigious brands like Lenovo, HP, Microsoft."],
-          ["icon" => "🌐", "title" => "Cloud Hosting & Co-Location", "desc" => "Faster, full-fledged VPS solutions to enhance your IT infrastructure’s security."],
-          ["icon" => "👔", "title" => "Business Solution", "desc" => "Vendor management, goods, printing, and delivery equipment at affordable rates."],
+          // Cyber Security
+          [
+            "icon" => '<i data-lucide="shield-check" class="h-8 w-8 mx-auto text-red-500"></i>',
+            "title" => "Cyber Security",
+            "desc" => "Our proactive security mechanism will secure your business against cyber-attacks and vulnerabilities."
+          ],
+
+          // Cloud Backup
+          [
+            "icon" => '<i data-lucide="cloud-download" class="h-8 w-8 mx-auto text-sky-500"></i>',
+            "title" => "Cloud Backup",
+            "desc" => "We store your critical data in centrally monitored cloud backup systems."
+          ],
+
+          // Managed Services
+          [
+            "icon" => '<i data-lucide="wrench" class="h-8 w-8 mx-auto text-amber-500"></i>',
+            "title" => "Managed Services",
+            "desc" => "Cost-effective and tailored managed services as per your company needs."
+          ],
+
+          // 24/7 Helpdesk
+          [
+            "icon" => '<i data-lucide="headphones" class="h-8 w-8 mx-auto text-green-500"></i>',
+            "title" => "24/7 Helpdesk",
+            "desc" => "Round-the-clock support to resolve your IT issues whenever they arise."
+          ],
+
+          // Development & Marketing
+          [
+            "icon" => '<i data-lucide="code-2" class="h-8 w-8 mx-auto text-purple-500"></i>',
+            "title" => "Development & Marketing",
+            "desc" => "Custom web/app development paired with digital marketing to grow your business."
+          ],
+
+          // IT Consulting
+          [
+            "icon" => '<i data-lucide="lightbulb" class="h-8 w-8 mx-auto text-pink-500"></i>',
+            "title" => "IT Consulting",
+            "desc" => "Strategic consulting to align technology with your business goals."
+          ],
+
+          // Hardware & Cloud Solution
+          [
+            "icon" => '<i data-lucide="monitor" class="h-8 w-8 mx-auto text-indigo-500"></i>',
+            "title" => "Hardware & Cloud Solution",
+            "desc" => "First-class hardware and cloud solutions from prestigious brands like Lenovo, HP, Microsoft."
+          ],
+
+          // Cloud Hosting & Co-Location
+          [
+            "icon" => '<i data-lucide="server" class="h-8 w-8 mx-auto text-cyan-500"></i>',
+            "title" => "Cloud Hosting & Co-Location",
+            "desc" => "Faster, full-fledged VPS solutions to enhance your IT infrastructure’s security."
+          ],
+
+          // Business Solution
+          [
+            "icon" => '<i data-lucide="briefcase" class="h-8 w-8 mx-auto text-orange-500"></i>',
+            "title" => "Business Solution",
+            "desc" => "Vendor management, goods, printing, and delivery equipment at affordable rates."
+          ],
         ];
+
+
 
         foreach ($services as $i => $s): ?>
           <div
@@ -951,6 +1009,10 @@
     hoverpause: true,
     animationDuration: 800,
   }).mount();
+</script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
 </script>
 
 </html>
