@@ -606,44 +606,44 @@
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           <?php
           $clients = [
+            "Americold Logistics, LLC" => "americold.gif",
+            "Lineage Logistics, LLC" => "lineage.png",
+            "Nova Cold logistics ULC - CAD" => "novacold.avif",
             "Affinity Luxury Car Rentals" => "affinity.png",
-            "Cervini Painting & Decorating Ltd." => "cervini.png",
-            "Dash Cargo Inc" => "dash.png",
-            "Dr. Edward Lam" => "lam.png",
+            "VersaCold Logistics Services" => "versacold.png",
+            "Cervini Painting & Decorating Ltd." => "cervini.jpg",
+            "Dash Cargo Inc" => "dash.jpg",
+            "Dr. Edward Lam" => "lam.jpg",
             "Easy Mortgage Pro" => "easymortgage.png",
             "Encore Cellular Int'l Inc." => "encore.png",
-            "Fritz Marketing Inc." => "fritz.png",
+            "Fritz Marketing Inc." => "fritz.jpeg",
             "Iron Link Systems Inc" => "ironlink.png",
-            "King Travel" => "kingtravel.png",
+            "King Travel" => "kingtravel.jpg",
             "Nima Kitchen & Bath Centre" => "nima.png",
-            "Nova Cold logistics ULC - CAD" => "novacold.png",
             "Roehampton Cable Ltd" => "roehampton-cable.png",
-            "Roehampton Communications Ltd" => "roehampton-com.png",
+            "Roehampton Communications Ltd" => "roehampton-com.jpeg",
             "SUNNYSIDE Window & Eaves Cleaning Ltd." => "sunnyside.png",
-            "Symposium Cafe - Keswick" => "symposium.png",
-            "VersaCold Logistics Services" => "versacold.png",
-            "Americold Logistics, LLC" => "americold.png",
-            "Coast Hardware Inc" => "coast.png",
-            "Dynamis Capital Partners Inc" => "dynamis.png",
-            "Lineage Logistics, LLC" => "lineage.png",
+            "Symposium Cafe - Keswick" => "symposium.jpeg",
+            "Coast Hardware Inc" => "coast.jpg",
+            "Dynamis Capital Partners Inc" => "dynamis.jpeg",
             "NGERP Inc" => "ngerp.png",
-            "Nova Cold logistics ULC" => "novacold-ulc.png",
+            "Nova Cold logistics ULC" => "novacold-ulc.avif",
             "Parry Sound Auto Parts" => "parry.png",
-            "Xediton Pharmaceuticals" => "xediton.png",
+            "Xediton Pharmaceuticals" => "xediton.jpeg",
             "MJRS Associates" => "mjrs.png",
-            "DAY + BORG LLP" => "dayborg.png",
+            "DAY + BORG LLP" => "dayborg.webp",
             "Wheels for Less" => "wheels.png",
             "MB Architect" => "mbarchitect.png",
-            "Suria Professional Corporation" => "suria.png",
-            "ABF MFG Group Inc." => "abf.png",
-            "Nova Cold Logistics Calgary" => "novacold-calgary.png",
+            "Suria Professional Corporation" => "suria.jpeg",
+            "ABF MFG Group Inc." => "abf.jpeg",
+
             "Canadian Drapery Mfg. Co. Ltd." => "canadian-drapery.png",
           ];
           foreach ($clients as $name => $logo): ?>
             <div
               class="border border-neutral-100 p-6 flex flex-col items-center gap-3 text-center transition duration-300 group hover:bg-orange-50 hover:shadow-md hover:-translate-y-1">
               <img src="<?= $base . '/assets/images/' . $logo ?>" alt="<?= $name ?> Logo"
-                class=" object-contain grayscale group-hover:grayscale-0 transition" />
+                class="h-10 object-contain grayscale group-hover:grayscale-0 transition" />
               <span class="text-gray-800 font-medium text-sm group-hover:text-orange-600 transition"><?= $name; ?></span>
             </div>
           <?php endforeach; ?>
@@ -806,9 +806,10 @@
       <!-- Left Content -->
       <div>
         <h2 class="text-3xl md:text-4xl font-bold leading-tight mb-6">
-          Less Than 0%* Financing On <br />
-          <span class="text-white font-extrabold">Leading Laptop Brands</span>
+          Power Up with <span class="font-extrabold">0% Financing</span> on <span
+            class="text-white font-extrabold">Laptops*</span>
         </h2>
+
         <div class="space-y-10 text-sm">
           <!-- Point 1 -->
           <div>

@@ -1,4 +1,4 @@
-<?php $base = "https://itcold.com/"; ?>
+<?php $base = "https://itcold.com" ?>
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 
@@ -108,24 +108,24 @@
             ];
             foreach ($plans as $p):
                 ?>
-                    <article
-                        class="rounded-2xl bg-slate-800/90 ring-1 ring-black/10 p-8 text-center text-white shadow-[0_18px_60px_rgba(2,6,23,.18)]">
-                        <p class="text-[11px] tracking-widest text-orange-400 font-semibold">MONTHLY</p>
-                        <h3 class="mt-2 text-3xl font-extrabold leading-tight"><?= $p["title"]; ?></h3>
-                        <p class="mt-2 text-orange-400 text-xs uppercase font-semibold">Call For Pricing</p>
+                <article
+                    class="rounded-2xl bg-slate-800/90 ring-1 ring-black/10 p-8 text-center text-white shadow-[0_18px_60px_rgba(2,6,23,.18)]">
+                    <p class="text-[11px] tracking-widest text-orange-400 font-semibold">MONTHLY</p>
+                    <h3 class="mt-2 text-3xl font-extrabold leading-tight"><?= $p["title"]; ?></h3>
+                    <p class="mt-2 text-orange-400 text-xs uppercase font-semibold">Call For Pricing</p>
 
-                        <div class="mt-6 space-y-4">
-                            <div class="border-t border-white/10 pt-4 text-sm"><?= $p["storage"]; ?></div>
-                            <?php foreach ($features as $f): ?>
-                                    <div class="border-t border-white/10 pt-4 text-sm"><?= $f; ?></div>
-                            <?php endforeach; ?>
-                        </div>
+                    <div class="mt-6 space-y-4">
+                        <div class="border-t border-white/10 pt-4 text-sm"><?= $p["storage"]; ?></div>
+                        <?php foreach ($features as $f): ?>
+                            <div class="border-t border-white/10 pt-4 text-sm"><?= $f; ?></div>
+                        <?php endforeach; ?>
+                    </div>
 
-                        <a href="<?= $base ?>/contactus"
-                            class="mt-8 inline-block bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold px-5 py-2 rounded">
-                            Buy Now
-                        </a>
-                    </article>
+                    <a href="<?= $base ?>/contactus"
+                        class="mt-8 inline-block bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold px-5 py-2 rounded">
+                        Buy Now
+                    </a>
+                </article>
             <?php endforeach; ?>
         </div>
     </section>
