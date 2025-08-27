@@ -257,7 +257,7 @@
               <div class="mx-auto px-6 md:px-12 grid md:grid-cols-2 items-center min-h-[680px]">
                 <div class="max-w-xl text-white">
                   <h1 class="text-4xl md:text-5xl font-semibold tracking-tight leading-tight">
-                    Managed IT Services Drive Growth
+                    Empowering Businesses with Next-Gen IT Solutions
                   </h1>
                   <p class="mt-5 text-lg text-white/90 leading-relaxed">
                     Scale your business with world-class IT solutions designed for reliability, security, and measurable
@@ -593,7 +593,7 @@
     <div class="max-w-7xl mx-auto px-6">
       <!-- Heading -->
       <div class="text-center mb-16 animate-fade-up">
-        <h2 class="text-3xl font-bold text-neutral-900">Our Clients</h2>
+        <h2 class="text-3xl font-bold text-neutral-900">Our Partners</h2>
         <div class="h-0.5 w-12 bg-orange-500 mx-auto mt-4 mb-6"></div>
         <p class="text-lg text-gray-600 max-w-2xl mx-auto">
           Trusted by leading businesses across North America — from logistics and technology to healthcare and design.
@@ -611,33 +611,33 @@
             "Nova Cold logistics ULC - CAD" => "novacold.avif",
             "Affinity Luxury Car Rentals" => "affinity.png",
             "VersaCold Logistics Services" => "versacold.png",
-            "Cervini Painting & Decorating Ltd." => "cervini.jpg",
-            "Dash Cargo Inc" => "dash.jpg",
-            "Dr. Edward Lam" => "lam.jpg",
-            "Easy Mortgage Pro" => "easymortgage.png",
-            "Encore Cellular Int'l Inc." => "encore.png",
+            // "Cervini Painting & Decorating Ltd." => "cervini.jpg",
+            // "Dash Cargo Inc" => "dash.jpg",
+            // "Dr. Edward Lam" => "lam.jpg",
+            // "Easy Mortgage Pro" => "easymortgage.png",
+            // "Encore Cellular Int'l Inc." => "encore.png",
             "Fritz Marketing Inc." => "fritz.jpeg",
-            "Iron Link Systems Inc" => "ironlink.png",
+            // "Iron Link Systems Inc" => "ironlink.png",
             "King Travel" => "kingtravel.jpg",
             "Nima Kitchen & Bath Centre" => "nima.png",
-            "Roehampton Cable Ltd" => "roehampton-cable.png",
-            "Roehampton Communications Ltd" => "roehampton-com.jpeg",
-            "SUNNYSIDE Window & Eaves Cleaning Ltd." => "sunnyside.png",
-            "Symposium Cafe - Keswick" => "symposium.jpeg",
-            "Coast Hardware Inc" => "coast.jpg",
-            "Dynamis Capital Partners Inc" => "dynamis.jpeg",
-            "NGERP Inc" => "ngerp.png",
+            // "Roehampton Cable Ltd" => "roehampton-cable.png",
+            // "Roehampton Communications Ltd" => "roehampton-com.jpeg",
+            // "SUNNYSIDE Window & Eaves Cleaning Ltd." => "sunnyside.png",
+            // "Symposium Cafe - Keswick" => "symposium.jpeg",
+            // "Coast Hardware Inc" => "coast.jpg",
+            // "Dynamis Capital Partners Inc" => "dynamis.jpeg",
+            // "NGERP Inc" => "ngerp.png",
             "Nova Cold logistics ULC" => "novacold-ulc.avif",
             "Parry Sound Auto Parts" => "parry.png",
             "Xediton Pharmaceuticals" => "xediton.jpeg",
             "MJRS Associates" => "mjrs.png",
-            "DAY + BORG LLP" => "dayborg.webp",
-            "Wheels for Less" => "wheels.png",
-            "MB Architect" => "mbarchitect.png",
-            "Suria Professional Corporation" => "suria.jpeg",
-            "ABF MFG Group Inc." => "abf.jpeg",
-
-            "Canadian Drapery Mfg. Co. Ltd." => "canadian-drapery.png",
+            // "DAY + BORG LLP" => "dayborg.webp",
+            // "Wheels for Less" => "wheels.png",
+            // "MB Architect" => "mbarchitect.png",
+            // "Suria Professional Corporation" => "suria.jpeg",
+            // "ABF MFG Group Inc." => "abf.jpeg",
+          
+            // "Canadian Drapery Mfg. Co. Ltd." => "canadian-drapery.png",
           ];
           foreach ($clients as $name => $logo): ?>
             <div
@@ -712,7 +712,7 @@
   <section class="py-16 bg-white overflow-hidden">
     <div class="max-w-7xl mx-auto px-6">
       <h2 class="text-2xl font-bold text-center text-neutral-900 mb-10">
-        Our Partners
+        Our Technology Partners
       </h2>
 
       <div class="relative w-full overflow-hidden">

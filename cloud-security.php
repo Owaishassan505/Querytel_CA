@@ -97,8 +97,8 @@
                   <span class="text-orange-600">Built to scale.</span>
                 </h1>
                 <p class="mt-6 text-lg leading-relaxed text-gray-600 max-w-xl">
-                  From firewalls to automation — streamline your infrastructure with secure, scalable technology
-                  tailored for modern enterprises.
+                  From firewalls to automation, streamline your infrastructure with secure, scalable technology tailored
+                  for modern enterprises.
                 </p>
                 <div class="mt-8 flex flex-wrap gap-4">
                   <a href="#services"

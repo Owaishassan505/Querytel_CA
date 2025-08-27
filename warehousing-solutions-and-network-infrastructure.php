@@ -110,10 +110,10 @@
     <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
       <div class="opacity-0 animate-fadeInLeft">
         <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-neutral-900 leading-tight">
-          Warehouse tech that just works.<br />Built to scale.
+          Warehousing IT Solutions & Network Infrastructure
         </h1>
         <p class="mt-6 text-lg text-gray-600">
-          Structured cabling, resilient networks, hybrid cloud, rugged mobility, and AI surveillance—engineered for
+          Structured cabling, resilient networks, hybrid cloud, rugged mobility, and AI surveillance engineered for
           Canadian warehouses.
         </p>
         <div class="mt-8 flex gap-4 opacity-0 animate-fadeIn delay-500">
@@ -177,13 +177,14 @@
 
     <!-- Datacenter Operations -->
     <div class="grid md:grid-cols-2 items-center gap-10">
-      <img src="<?= $base . '/assets/images/Network-Infrastructure-Strategy-Best-Practices_blog.jpg' ?>"
+      <img src="<?= $base . '/assets/images/Network-Infrastructure-Strategy-Best-Practices_blog.webp' ?>"
         alt="Datacenter" class="rounded-lg shadow" loading="lazy" />
       <div>
         <h2 class="text-2xl font-semibold mb-4">Datacenter Operations</h2>
         <p class="text-gray-600 mb-4">
-          Modern warehouses need highly available, scalable compute. We consolidate on-prem, move what matters to cloud,
-          and retire legacy—cutting cost and complexity.
+          Modern warehouses need highly available, scalable compute. We consolidate on-prem, move what matters to the
+          cloud,
+          and retire legacy, cutting cost and complexity.
         </p>
         <ul class="space-y-2 text-gray-700 list-disc list-inside">
           <li>On-prem / AWS / Azure hybrid cloud solutions</li>
@@ -203,7 +204,8 @@
       <div class="md:order-1">
         <h2 class="text-2xl font-semibold mb-4">End-User Compute & Mobile Devices</h2>
         <p class="text-gray-600 mb-4">
-          We harden endpoints with passwordless auth and deploy mobility built for the floor—from freezer-grade
+          We harden endpoints with passwordless authentication and deploy mobility built for the floor, from
+          freezer-grade
           handhelds with RFID to LTE devices. Front-line teams can print labels directly from reach trucks or designated
           stations.
         </p>
@@ -224,7 +226,7 @@
         <h2 class="text-2xl font-semibold mb-4">Surveillance & Intrusion Prevention</h2>
         <p class="text-gray-600 mb-4">
           Integrated access control ties into PayClock/HRIS, building alarms, and fire systems. Vehicle ingress is
-          automated with license plate capture and driver validation—linked to dispatch via intercom.
+          automated with license plate capture and driver validation linked to dispatch via intercom.
         </p>
         <ul class="space-y-2 text-gray-700 list-disc list-inside">
           <li>Access control integrated with PayClock & HRIS</li>
