@@ -85,14 +85,14 @@
         <nav class="hidden md:flex space-x-6 text-sm font-medium text-gray-700 items-center" role="menubar"
             aria-label="Primary">
             <a role="menuitem" href="<?= $base ?>/" class="hover:text-black transition focus-ring">Home</a>
-            <a role="menuitem" href="<?= $base ?>/it-services-cybersecurity-cloud-solutions/"
-                class="hover:text-black transition focus-ring">About Us</a>
+            <a role="menuitem" href="<?= $base ?>/aboutus/" class="hover:text-black transition focus-ring">About Us</a>
             <a role="menuitem" href="<?= $base ?>/cloud-security/" class="hover:text-black transition focus-ring">Cloud
                 Security</a>
             <a role="menuitem" href="<?= $base ?>/warehousing-solutions-and-network-infrastructure/"
                 class="hover:text-black transition focus-ring">Warehousing</a>
-            <a role="menuitem" href="<?= $base ?>/devandmarketing/"
-                class="hover:text-black transition focus-ring">Development & Marketing</a>
+            <a role="menuitem" href="<?= $base ?>/devandmarketing/" class="hover:text-black transition focus-ring">Dev &
+                Marketing</a>
+
             <div class="nav-hover-group">
                 <button type="button" class="hover:text-black transition focus-ring" aria-haspopup="true"
                     aria-expanded="false" aria-controls="nav-solutions-menu">Solutions</button>
@@ -171,18 +171,20 @@
                                         Business</a>
                                 </div>
                             </div>
-                            <a role="menuitem" href="<?= $base ?>/fortianalyzer/"
-                                class="block px-4 py-2 text-sm hover:bg-gray-100 focus-ring">FortiAnalyzer</a>
-                            <a role="menuitem" href="<?= $base ?>/fortinetfirewalls/"
-                                class="block px-4 py-2 text-sm hover:bg-gray-100 focus-ring">Fortinet Firewalls</a>
+                            <a role="menuitem" href="<?= $base ?>/soc24/"
+                                class="block px-4 py-2 text-sm hover:bg-gray-100 focus-ring">SOC 24</a>
+                            <!-- <a role="menuitem" href="<?= $base ?>/fortinetfirewalls/"
+                                class="block px-4 py-2 text-sm hover:bg-gray-100 focus-ring">Fortinet Firewalls</a> -->
                             <a role="menuitem" href="<?= $base ?>/sdwanassessment/"
                                 class="block px-4 py-2 text-sm hover:bg-gray-100 focus-ring">SD-WAN Assessment</a>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <!-- <a role="menuitem" href="<?= $base ?>/SaaS/" class="hover:text-black transition focus-ring">SaaS</a> -->
             <a role="menuitem" href="<?= $base ?>/services/" class="hover:text-black transition focus-ring">Services</a>
+            <a role="menuitem" href="<?= $base ?>/futureglimpse/" class="hover:text-black transition focus-ring">Future
+                Glimpses</a>
 
             <div class="nav-hover-group">
                 <button type="button" class="hover:text-black transition focus-ring" aria-haspopup="true"
@@ -240,11 +242,11 @@
         </div>
         <div class="p-4 space-y-2 overflow-y-auto">
             <a class="block py-2" href="<?= $base ?>/">Home</a>
-            <a class="block py-2" href="<?= $base ?>/it-services-cybersecurity-cloud-solutions/">About Us</a>
+            <a class="block py-2" href="<?= $base ?>/aboutus/">About Us</a>
             <a class="block py-2" href="<?= $base ?>/cloud-security/">Cloud Security</a>
             <a class="block py-2" href="<?= $base ?>/warehousing-solutions-and-network-infrastructure/">Warehousing</a>
             <a class="block py-2" href="<?= $base ?>/devandmarketing/">Development & Marketing</a>
-
+            <!-- <a class="block py-2" href="<?= $base ?>/SaaS/">SaaS</a> -->
             <a class="block py-2" href="<?= $base ?>/services/">Services</a>
             <details>
                 <summary class="py-2 cursor-pointer select-none">Solutions</summary>
@@ -268,8 +270,8 @@
                             <a class="block py-2" href="<?= $base ?>/malwarebytesforhome/">Malwarebytes for Home</a>
                             <a class="block py-2" href="<?= $base ?>/malwarebytesforbusiness/">Malwarebytes for
                                 Business</a>
-                            <a class="block py-2" href="<?= $base ?>/fortianalyzer/">FortiAnalyzer</a>
-                            <a class="block py-2" href="<?= $base ?>/fortinetfirewalls/">Fortinet Firewalls</a>
+                            <a class="block py-2" href="<?= $base ?>/soc24/">SOC 24</a>
+                            <!-- <a class="block py-2" href="<?= $base ?>/fortinetfirewalls/">Fortinet Firewalls</a> -->
                             <a class="block py-2" href="<?= $base ?>/sdwanassessment/">SD-WAN Assessment</a>
                         </div>
                     </details>

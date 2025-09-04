@@ -59,8 +59,8 @@
                 <li><a href="<?= $base ?>/malwarebytesforhome/" class="hover:underline">Malwarebytes for Home</a></li>
                 <li><a href="<?= $base ?>/malwarebytesforbusiness/" class="hover:underline">Malwarebytes for
                         Business</a></li>
-                <li><a href="<?= $base ?>/fortianalyzer/" class="hover:underline">FortiAnalyzer</a></li>
-                <li><a href="<?= $base ?>/fortinetfirewalls/" class="hover:underline">Fortinet Firewalls</a></li>
+                <li><a href="<?= $base ?>/soc24/" class="hover:underline">SOC 24</a></li>
+                <!-- <li><a href="<?= $base ?>/fortinetfirewalls/" class="hover:underline">Fortinet Firewalls</a></li> -->
                 <li><a href="<?= $base ?>/sdwanassessment/" class="hover:underline">SD-WAN Assessment</a></li>
             </ul>
 
@@ -115,8 +115,8 @@
       "<?= $base ?>/disasterrecoverycloud/",
       "<?= $base ?>/malwarebytesforhome/",
       "<?= $base ?>/malwarebytesforbusiness/",
-      "<?= $base ?>/fortianalyzer/",
-      "<?= $base ?>/fortinetfirewalls/",
+      "<?= $base ?>/soc24/",
+      
       "<?= $base ?>/sdwanassessment/",
       "<?= $base ?>/retail/",
       "<?= $base ?>/healthcare/",

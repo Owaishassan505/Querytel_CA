@@ -453,28 +453,28 @@
           [
             "icon" => '<i data-lucide="shield-check" class="h-8 w-8 mx-auto text-red-500"></i>',
             "title" => "Cyber Security",
-            "desc" => "Our proactive security mechanism will secure your business against cyber-attacks and vulnerabilities."
+            "desc" => "Our AI Powered proactive security mechanism + SOC24 monitoring will secure your business against cyber-attacks and vulnerabilities. "
           ],
 
           // Cloud Backup
           [
             "icon" => '<i data-lucide="cloud-download" class="h-8 w-8 mx-auto text-sky-500"></i>',
             "title" => "Cloud Backup",
-            "desc" => "We store your critical data in centrally monitored cloud backup systems."
+            "desc" => "We store your critical data in an encrypted, ransomware safe, automated policies and with Zero trust access cloud backup systems. "
           ],
 
           // Managed Services
           [
             "icon" => '<i data-lucide="wrench" class="h-8 w-8 mx-auto text-amber-500"></i>',
             "title" => "Managed Services",
-            "desc" => "Cost-effective and tailored managed services as per your company needs."
+            "desc" => "8x 5, 7/24, Cost-effective and tailored managed services customized to your company needs. "
           ],
 
           // 24/7 Helpdesk
           [
             "icon" => '<i data-lucide="headphones" class="h-8 w-8 mx-auto text-green-500"></i>',
             "title" => "24/7 Helpdesk",
-            "desc" => "Round-the-clock support to resolve your IT issues whenever they arise."
+            "desc" => "Round-the-clock live agent to resolve your  issues with 15mins response time."
           ],
 
           // Development & Marketing
@@ -495,21 +495,21 @@
           [
             "icon" => '<i data-lucide="monitor" class="h-8 w-8 mx-auto text-indigo-500"></i>',
             "title" => "Hardware & Cloud Solution",
-            "desc" => "First-class hardware and cloud solutions from prestigious brands like Lenovo, HP, Microsoft."
+            "desc" => "Tailored solutions from AWS, Azure, Open Source, Lenovo, HP, HoneyWell, Zebra, to fit your business’s needs."
           ],
 
           // Cloud Hosting & Co-Location
           [
             "icon" => '<i data-lucide="server" class="h-8 w-8 mx-auto text-cyan-500"></i>',
             "title" => "Cloud Hosting & Co-Location",
-            "desc" => "Faster, full-fledged VPS solutions to enhance your IT infrastructure’s security."
+            "desc" => "Providing Customized Managed Cloud and Co-location Services with 24/7 monitoring."
           ],
 
           // Business Solution
           [
             "icon" => '<i data-lucide="briefcase" class="h-8 w-8 mx-auto text-orange-500"></i>',
-            "title" => "Business Solution",
-            "desc" => "Vendor management, goods, printing, and delivery equipment at affordable rates."
+            "title" => "Staff Augmentation",
+            "desc" => "Our head hunters find the required resource to fulfill your needs by providing a managed off-shore work force . "
           ],
         ];
 
@@ -522,7 +522,11 @@
             <div class="text-4xl mb-4 text-orange-500 animate-pulse"><?= $s["icon"]; ?></div>
             <h3 class="text-xl font-semibold mb-2"><?= $s["title"]; ?></h3>
             <p class="text-gray-600 text-sm mb-3"><?= $s["desc"]; ?></p>
-            <a href="#" class="text-orange-600 text-sm font-semibold hover:underline">READ MORE</a>
+            <a href="#" class="open-service text-orange-600 text-sm font-semibold hover:underline"
+              data-service-id="<?= $i ?>">
+              READ MORE
+            </a>
+
           </div>
         <?php endforeach; ?>
       </div>
@@ -965,7 +969,263 @@
       </nav>
     </div>
   </div>
+  <!-- Service Modal -->
+  <div id="serviceModal" class="fixed inset-0 z-[60] hidden" aria-hidden="true">
+    <!-- Backdrop -->
+    <div id="serviceModalBackdrop"
+      class="absolute inset-0 bg-black/50 backdrop-blur-sm opacity-0 transition-opacity duration-200"></div>
+
+    <!-- Panel -->
+    <div class="absolute inset-0 grid place-items-center p-4">
+      <div id="serviceModalPanel" class="relative w-full max-w-2xl scale-95 opacity-0 transform-gpu transition duration-200
+  rounded-2xl overflow-hidden bg-white ring-1 ring-neutral-200 shadow-2xl
+  before:content-[''] before:absolute before:top-0 before:left-0 before:h-1 before:w-full 
+  before:rounded-t-2xl before:bg-gradient-to-r before:from-orange-500 before:via-yellow-300 before:to-pink-500">
+
+
+
+        <div class="p-6 sm:p-7">
+          <!-- Header -->
+          <div class="flex items-start justify-between gap-6">
+            <div class="flex items-center gap-3">
+              <div class="h-10 w-10 grid place-items-center rounded-xl bg-neutral-900 text-white ring-1 ring-white/10">
+                <i id="serviceIcon" data-lucide="info" class="w-5 h-5"></i>
+              </div>
+              <h3 id="serviceTitle" class="text-xl font-semibold text-neutral-900">Service Title</h3>
+            </div>
+            <button id="serviceModalClose"
+              class="shrink-0 rounded-lg p-2 text-neutral-500 hover:text-neutral-800 hover:bg-neutral-100 transition"
+              aria-label="Close">
+              <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+          </div>
+
+          <p id="serviceSub" class="mt-2 text-sm text-neutral-600">Short subtext goes here.</p>
+
+          <div id="serviceBody" class="mt-5 space-y-4 text-sm text-neutral-700 leading-relaxed"></div>
+
+          <div class="mt-6 flex flex-wrap items-center justify-between gap-3">
+            <div class="text-[12px] text-neutral-500">SOC 24 monitored · 15-min response target</div>
+            <div class="flex items-center gap-3">
+              <a href="#contact"
+                class="inline-flex items-center gap-2 rounded-lg bg-neutral-900 text-white px-4 py-2 font-semibold hover:bg-neutral-800 transition">
+                <i data-lucide="mail" class="w-4 h-4"></i> Contact Sales
+              </a>
+              <a href="<?= $base ?? '' ?>/it-services-cybersecurity-cloud-solutions/"
+                class="inline-flex items-center gap-2 rounded-lg border border-neutral-300 px-4 py-2 font-semibold text-neutral-800 hover:bg-white transition">
+                <i data-lucide="link" class="w-4 h-4"></i> Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
   <?php include("footer.php"); ?>
+  <script>
+    // 1) Per-service details in the SAME ORDER as your $services array
+    const serviceDetails = [
+      // 0 Cyber Security
+      {
+        icon: "shield-check",
+        title: "Cyber Security",
+        sub: "AI-powered defense + 24/7 SOC to reduce risk, detect threats, and respond faster.",
+        bullets: [
+          { icon: "activity", text: "Managed Detection & Response (MDR) with continuous monitoring" },
+          { icon: "fingerprint", text: "Zero Trust access, MFA, conditional policies" },
+          { icon: "scan-line", text: "Endpoint protection, EDR, and vulnerability management" },
+          { icon: "file-lock", text: "Compliance-friendly logging (PIPEDA/HIPAA)" }
+        ]
+      },
+      // 1 Cloud Backup
+      {
+        icon: "cloud-download",
+        title: "Cloud Backup",
+        sub: "Immutable, encrypted backups with automated policies and fast recovery.",
+        bullets: [
+          { icon: "lock", text: "Ransomware-safe storage & immutability windows" },
+          { icon: "clock", text: "Automated schedules with retention policies" },
+          { icon: "hard-drive", text: "Microsoft 365, servers, endpoints — covered" },
+          { icon: "refresh-ccw", text: "DR runbooks and periodic restore testing" }
+        ]
+      },
+      // 2 Managed Services
+      {
+        icon: "wrench",
+        title: "Managed Services",
+        sub: "Proactive care for devices, apps, and networks — tailored to your SLAs.",
+        bullets: [
+          { icon: "badge-check", text: "Preventive patching and baseline hardening" },
+          { icon: "wifi", text: "Network monitoring, optimization, and QoS" },
+          { icon: "users", text: "Onboarding/offboarding with role-based automation" },
+          { icon: "headphones", text: "Helpdesk options: 8x5 or 24x7" }
+        ]
+      },
+      // 3 24/7 Helpdesk
+      {
+        icon: "headphones",
+        title: "24/7 Helpdesk",
+        sub: "Real people, real-time triage — measured against response SLAs.",
+        bullets: [
+          { icon: "clock-8", text: "15-minute initial response target" },
+          { icon: "ticket", text: "Ticketing with clear ownership and updates" },
+          { icon: "bookmark-check", text: "Knowledge-base & known-issue playbooks" },
+          { icon: "phone", text: "Phone, email, and portal support" }
+        ]
+      },
+      // 4 Development & Marketing
+      {
+        icon: "code-2",
+        title: "Development & Marketing",
+        sub: "Custom web/app builds paired with growth-minded digital marketing.",
+        bullets: [
+          { icon: "layout-dashboard", text: "Modern frontends (Next.js, React) & APIs" },
+          { icon: "shopping-bag", text: "E-commerce, payments, and CRM integrations" },
+          { icon: "bar-chart-3", text: "SEO/SEM campaigns, analytics dashboards" },
+          { icon: "server-cog", text: "CI/CD and cloud infra baked in" }
+        ]
+      },
+      // 5 Field Services
+      {
+        icon: "wrench",
+        title: "Field Services",
+        sub: "On-site deployment, cabling, and hardware fixes — without downtime.",
+        bullets: [
+          { icon: "cable", text: "Structured cabling & rack cleanups" },
+          { icon: "router", text: "Switches, Wi-Fi, and firewall rollouts" },
+          { icon: "laptop", text: "Imaging, staging, and user cutovers" },
+          { icon: "map-pin", text: "Canada/US coverage via vetted techs" }
+        ]
+      },
+      // 6 Hardware & Cloud Solution
+      {
+        icon: "monitor",
+        title: "Hardware & Cloud Solution",
+        sub: "Right-sized stacks across AWS, Azure, and best-of-breed hardware.",
+        bullets: [
+          { icon: "cloud", text: "Hybrid cloud architectures (Azure/AWS)" },
+          { icon: "database", text: "Storage, HA clusters, and backups" },
+          { icon: "cpu", text: "Lenovo/HP workstations and servers" },
+          { icon: "shield", text: "Security baselines out of the box" }
+        ]
+      },
+      // 7 Cloud Hosting & Co-Location
+      {
+        icon: "server",
+        title: "Cloud Hosting & Co-Location",
+        sub: "Managed hosting with 24/7 monitoring and predictable costs.",
+        bullets: [
+          { icon: "building-2", text: "Tier-III+ facilities, redundant power & cooling" },
+          { icon: "gauge", text: "Performance monitoring and capacity planning" },
+          { icon: "key-round", text: "Physical & logical access controls" },
+          { icon: "file-cog", text: "Managed OS & patch lifecycle" }
+        ]
+      },
+      // 8 Staff Augmentation
+      {
+        icon: "briefcase",
+        title: "Staff Augmentation",
+        sub: "Curated, managed talent to fill gaps — onshore and offshore.",
+        bullets: [
+          { icon: "users-2", text: "Network, cloud, security, dev — ready roles" },
+          { icon: "clipboard-check", text: "Skills vetting and trial sprints" },
+          { icon: "workflow", text: "We handle payroll, tooling, and onboarding" },
+          { icon: "target", text: "Outcome-driven contracts, flexible terms" }
+        ]
+      }
+    ];
+
+    // 2) Modal plumbing
+    const modal = document.getElementById('serviceModal');
+    const modalBackdrop = document.getElementById('serviceModalBackdrop');
+    const modalPanel = document.getElementById('serviceModalPanel');
+    const modalClose = document.getElementById('serviceModalClose');
+
+    const titleEl = document.getElementById('serviceTitle');
+    const subEl = document.getElementById('serviceSub');
+    const iconEl = document.getElementById('serviceIcon');
+    const bodyEl = document.getElementById('serviceBody');
+
+    let lastFocused = null;
+
+    function buildBullets(items) {
+      return items.map(i => `
+      <div class="flex items-start gap-3">
+        <i data-lucide="${i.icon}" class="w-4 h-4 mt-0.5 text-emerald-600"></i>
+        <span>${i.text}</span>
+      </div>
+    `).join('');
+    }
+
+    function openModal(idx) {
+      const svc = serviceDetails[idx] || serviceDetails[0];
+      titleEl.textContent = svc.title;
+      subEl.textContent = svc.sub;
+      iconEl.setAttribute('data-lucide', svc.icon);
+      bodyEl.innerHTML = `
+      <div class="rounded-xl border border-neutral-200 bg-white p-4">
+        <div class="grid sm:grid-cols-2 gap-3">
+          ${buildBullets(svc.bullets)}
+        </div>
+      </div>
+      <div class="text-[13px] text-neutral-500">
+        Need a tailored plan? We’ll map roles, risk, and budget — then recommend a path.
+      </div>
+    `;
+
+      // ensure icons render
+      if (window.lucide?.createIcons) lucide.createIcons();
+
+      // show with animation
+      modal.classList.remove('hidden');
+      requestAnimationFrame(() => {
+        modalBackdrop.classList.remove('opacity-0');
+        modalPanel.classList.remove('opacity-0', 'scale-95');
+        modal.setAttribute('aria-hidden', 'false');
+      });
+
+      // focus mgmt
+      lastFocused = document.activeElement;
+      modalClose.focus();
+
+      // lock background scroll
+      document.documentElement.classList.add('overflow-y-hidden');
+      document.body.classList.add('overflow-y-hidden');
+    }
+
+    function closeModal() {
+      modalBackdrop.classList.add('opacity-0');
+      modalPanel.classList.add('opacity-0', 'scale-95');
+      modal.setAttribute('aria-hidden', 'true');
+      setTimeout(() => modal.classList.add('hidden'), 180);
+
+      // restore focus
+      if (lastFocused) lastFocused.focus();
+
+      // unlock scroll
+      document.documentElement.classList.remove('overflow-y-hidden');
+      document.body.classList.remove('overflow-y-hidden');
+    }
+
+    // open handlers
+    document.querySelectorAll('.open-service').forEach(btn => {
+      btn.addEventListener('click', e => {
+        e.preventDefault();
+        const idx = parseInt(btn.getAttribute('data-service-id'), 10) || 0;
+        openModal(idx);
+      });
+    });
+
+    // close handlers
+    modalBackdrop.addEventListener('click', closeModal);
+    modalClose.addEventListener('click', closeModal);
+    window.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && !modal.classList.contains('hidden')) closeModal();
+    });
+  </script>
+
 </body>
 <script>
   const sliderTrack = document.getElementById("sliderTrack");
