@@ -923,7 +923,7 @@
       </div>
       <nav class="p-4 space-y-4 text-sm font-medium text-gray-700">
         <a href="/" class="block">Home</a>
-        <a href="/it-services-cybersecurity-cloud-solutions/" class="block">About Us</a>
+        <a href="/aboutus/" class="block">About Us</a>
         <a href="/cloud-security/" class="block">Cloud Security</a>
         <a href="/warehousing-solutions-and-network-infrastructure/" class="block">Warehousing</a>
 
@@ -1011,10 +1011,10 @@
                 class="inline-flex items-center gap-2 rounded-lg bg-neutral-900 text-white px-4 py-2 font-semibold hover:bg-neutral-800 transition">
                 <i data-lucide="mail" class="w-4 h-4"></i> Contact Sales
               </a>
-              <a href="<?= $base ?? '' ?>/it-services-cybersecurity-cloud-solutions/"
+              <!-- <a href="<?= $base ?? '' ?>/it-services-cybersecurity-cloud-solutions/"
                 class="inline-flex items-center gap-2 rounded-lg border border-neutral-300 px-4 py-2 font-semibold text-neutral-800 hover:bg-white transition">
                 <i data-lucide="link" class="w-4 h-4"></i> Learn More
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -1224,6 +1224,17 @@
     window.addEventListener('keydown', e => {
       if (e.key === 'Escape' && !modal.classList.contains('hidden')) closeModal();
     });
+
+    document.querySelector('#serviceModal a[href="#contact"]')?.addEventListener('click', function (e) {
+      e.preventDefault(); // Stop default scroll
+      closeModal();
+
+      // After modal is hidden, then scroll
+      setTimeout(() => {
+        document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+      }, 200); // match closeModal timeout (180ms)
+    });
+
   </script>
 
 </body>

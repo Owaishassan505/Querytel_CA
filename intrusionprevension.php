@@ -73,7 +73,7 @@
                 <!-- Glow effect -->
                 <div class="absolute -inset-6 rounded-full bg-orange-500/20 blur-3xl animate-glow"></div>
                 <img src="<?= $base ?>/assets/images/undraw_projections_fhch.svg" alt="Intrusion Prevention"
-                    class="relative z-10 w-full max-w-md mx-auto rounded-xl shadow-2xl object-cover animate-float" />
+                    class="relative z-10 w-full max-w-md mx-auto rounded-xl object-cover animate-float" />
             </div>
         </div>
     </section>

@@ -21,7 +21,7 @@
             <h4 class="text-neutral-800 font-semibold mb-3">Pages</h4>
             <ul class="space-y-2">
                 <li><a href="<?= $base ?>/" class="hover:underline">Home</a></li>
-                <li><a href="<?= $base ?>/it-services-cybersecurity-cloud-solutions/" class="hover:underline">About
+                <li><a href="<?= $base ?>/aboutus/" class="hover:underline">About
                         Us</a></li>
                 <li><a href="<?= $base ?>/cloud-security/" class="hover:underline">Cloud Security</a></li>
                 <li><a href="<?= $base ?>/warehousing-solutions-and-network-infrastructure/"
@@ -101,7 +101,7 @@
     ],
     "url":[
       "<?= $base ?>/",
-      "<?= $base ?>/it-services-cybersecurity-cloud-solutions/",
+      "<?= $base ?>/aboutus/",
       "<?= $base ?>/cloud-security/",
       "<?= $base ?>/warehousing-solutions-and-network-infrastructure/",
       "<?= $base ?>/services/",

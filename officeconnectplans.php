@@ -954,92 +954,92 @@
                         <tr>
                             <td class="py-3 px-4 text-gray-700">Call forwarding (always, busy, no answer, not reachable)
                             </td>
-                            <td class="text-center text-red-500">✖</td>
-                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✘</td>
+                            <td class="text-center text-red-500">✘</td>
                             <td class="text-center text-green-500">✔</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 text-gray-700">CommPilot Call Manager</td>
-                            <td class="text-center text-red-500">✖</td>
-                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✘</td>
+                            <td class="text-center text-red-500">✘</td>
                             <td class="text-center text-green-500">✔</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 text-gray-700">CommPilot Express</td>
-                            <td class="text-center text-red-500">✖</td>
-                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✘</td>
+                            <td class="text-center text-red-500">✘</td>
                             <td class="text-center text-green-500">✔</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 text-gray-700">In call service activation</td>
-                            <td class="text-center text-red-500">✖</td>
-                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✘</td>
+                            <td class="text-center text-red-500">✘</td>
                             <td class="text-center text-green-500">✔</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 text-gray-700">Location-based calling</td>
-                            <td class="text-center text-red-500">✖</td>
-                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✘</td>
+                            <td class="text-center text-red-500">✘</td>
                             <td class="text-center text-green-500">✔</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 text-gray-700">Multiple call arrangement</td>
-                            <td class="text-center text-red-500">✖</td>
-                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✘</td>
+                            <td class="text-center text-red-500">✘</td>
                             <td class="text-center text-green-500">✔</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 text-gray-700">Outlook integration</td>
-                            <td class="text-center text-red-500">✖</td>
-                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✘</td>
+                            <td class="text-center text-red-500">✘</td>
                             <td class="text-center text-green-500">✔</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 text-gray-700">Remote office, Sequential Ring</td>
-                            <td class="text-center text-red-500">✖</td>
-                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✘</td>
+                            <td class="text-center text-red-500">✘</td>
                             <td class="text-center text-green-500">✔</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 text-gray-700">Shared call appearance (5)</td>
-                            <td class="text-center text-red-500">✖</td>
-                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✘</td>
+                            <td class="text-center text-red-500">✘</td>
                             <td class="text-center text-green-500">✔</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 text-gray-700">Simultaneous ring personal</td>
-                            <td class="text-center text-red-500">✖</td>
-                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✘</td>
+                            <td class="text-center text-red-500">✘</td>
                             <td class="text-center text-green-500">✔</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 text-gray-700">Two-stage dialing</td>
-                            <td class="text-center text-red-500">✖</td>
-                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✘</td>
+                            <td class="text-center text-red-500">✘</td>
                             <td class="text-center text-green-500">✔</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 text-gray-700">Voice portal calling</td>
-                            <td class="text-center text-red-500">✖</td>
-                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✘</td>
+                            <td class="text-center text-red-500">✘</td>
                             <td class="text-center text-green-500">✔</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 text-gray-700">Voice messaging-user</td>
-                            <td class="text-center text-red-500">✖</td>
-                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✘</td>
+                            <td class="text-center text-red-500">✘</td>
                             <td class="text-center text-green-500">✔</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 text-gray-700">Voice messaging-user-video</td>
-                            <td class="text-center text-red-500">✖</td>
-                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✘</td>
+                            <td class="text-center text-red-500">✘</td>
                             <td class="text-center text-green-500">✔</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 text-gray-700">MWI delivery to mobile endpoint</td>
-                            <td class="text-center text-red-500">✖</td>
-                            <td class="text-center text-red-500">✖</td>
+                            <td class="text-center text-red-500">✘</td>
+                            <td class="text-center text-red-500">✘</td>
                             <td class="text-center text-green-500">✔</td>
                         </tr>
                     </tbody>

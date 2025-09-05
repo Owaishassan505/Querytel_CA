@@ -53,13 +53,13 @@
                     TCO model to move from MPLS-heavy to application-first networking without guesswork.
                 </p>
                 <div class="mt-8 flex flex-wrap gap-4">
-                    <a href="#start"
+                    <a href="<?= $base . '/contactus' ?>"
                         class="inline-block bg-neutral-900 text-white px-6 py-3 rounded-lg hover:bg-neutral-800 transition">
                         Start Free Assessment
                     </a>
-                    <a href="<?= $base ?>/assets/docs/SD-WAN-Assessment-Checklist.pdf"
+                    <a href="#sample-report"
                         class="inline-block text-neutral-900 px-6 py-3 rounded-lg border border-neutral-900 hover:bg-neutral-100 transition">
-                        Download Checklist
+                        See Checklist
                     </a>
                 </div>
                 <p class="mt-4 text-sm text-neutral-500">

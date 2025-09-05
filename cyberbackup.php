@@ -127,7 +127,7 @@
                         class="btn-shine inline-flex justify-center rounded-lg bg-white text-orange-600 font-semibold px-6 py-3 hover:bg-orange-50 transition shadow-soft">
                         View Plans
                     </a>
-                    <a href="#demo"
+                    <a href="<?= $base . '/contactus' ?>"
                         class="inline-flex justify-center rounded-lg bg-white/10 ring-1 ring-white/30 px-6 py-3 hover:bg-white/15 transition backdrop-blur-xs">
                         Request Demo
                     </a>
@@ -343,8 +343,8 @@
                     <a href="#plans"
                         class="btn-shine inline-flex rounded-lg bg-orange-600 text-white px-6 py-3 font-semibold hover:bg-orange-700 shadow-glow-orange">See
                         Pricing</a>
-                    <a href="#faq"
-                        class="inline-flex rounded-lg border border-neutral-300 px-6 py-3 hover:bg-white">FAQ</a>
+                    <!-- <a href="#faq"
+                        class="inline-flex rounded-lg border border-neutral-300 px-6 py-3 hover:bg-white">FAQ</a> -->
                 </div>
             </div>
             <div class="relative flex justify-center items-center" data-animate>
@@ -386,7 +386,7 @@
                         <li>Policy engine & reports</li>
                         <li>30–90 day retention</li>
                     </ul>
-                    <a href="#demo"
+                    <a href="<?= $base . '/contactus' ?>"
                         class="mt-6 inline-flex w-full justify-center rounded-lg bg-orange-600 text-white px-4 py-2.5 font-semibold hover:bg-orange-700 btn-shine">Request
                         quote</a>
                 </div>
@@ -410,7 +410,7 @@
                         <li>Application-aware (VSS)</li>
                         <li>Instant restores & DR-ready</li>
                     </ul>
-                    <a href="#demo"
+                    <a href="<?= $base . '/contactus' ?>"
                         class="mt-6 inline-flex w-full justify-center rounded-lg bg-orange-600 text-white px-4 py-2.5 font-semibold hover:bg-orange-700 btn-shine">Request
                         quote</a>
                 </div>
@@ -430,7 +430,7 @@
                         <li>Point-in-time restore</li>
                         <li>Legal hold options</li>
                     </ul>
-                    <a href="#demo"
+                    <a href="<?= $base . '/contactus' ?>"
                         class="mt-6 inline-flex w-full justify-center rounded-lg bg-orange-600 text-white px-4 py-2.5 font-semibold hover:bg-orange-700 btn-shine">Request
                         quote</a>
                 </div>

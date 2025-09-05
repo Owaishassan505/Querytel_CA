@@ -136,7 +136,7 @@
 
 
 
-    <section class="bg-gray-50 py-24 overflow-hidden">
+    <section class="bg-gray-50 py-24 overflow-hidden" id="features">
         <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
 
             <!-- Left Image with Decorative Circle -->

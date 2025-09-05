@@ -186,7 +186,7 @@
           Looking for managed services? We can help!
         </p>
         <h2 class="text-3xl font-bold text-neutral-900 mb-6">
-          Starting from <span class="text-blue-700">$50/User</span>
+          Starting from <span class="text-blue-700">$99/User</span>
         </h2>
         <h3 class="text-xl font-semibold text-neutral-800 mb-6">
           Managed Services Includes:
@@ -409,9 +409,10 @@
               business.
             </p>
             <div>
-              <button class="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-2 rounded transition">
+              <a href="#contact"
+                class="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-2 rounded transition">
                 Book Now
-              </button>
+              </a>
             </div>
           </div>
         </div>

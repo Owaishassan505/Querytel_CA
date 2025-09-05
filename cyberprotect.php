@@ -51,9 +51,9 @@
                     managed from one console.
                 </p>
                 <div class="mt-7 flex flex-wrap gap-3">
-                    <a href="#plans"
+                    <a href="#included-services"
                         class="inline-flex rounded-lg bg-white text-orange-600 font-semibold px-5 py-3 hover:bg-orange-50">See
-                        Plans</a>
+                        Services</a>
                     <a href="#highlights"
                         class="inline-flex rounded-lg bg-white/10 ring-1 ring-white/30 px-5 py-3 hover:bg-white/15">Key
                         Highlights</a>

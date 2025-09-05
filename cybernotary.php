@@ -148,8 +148,8 @@
           <a href="#how"
             class="inline-flex justify-center rounded-lg bg-white text-orange-600 font-semibold px-6 py-3 hover:bg-orange-50 transition">How
             it works</a>
-          <a href="#plans"
-            class="inline-flex justify-center rounded-lg bg-white/10 ring-1 ring-white/30 px-6 py-3 hover:bg-white/15 transition">Pricing</a>
+          <!-- <a href="#plans"
+            class="inline-flex justify-center rounded-lg bg-white/10 ring-1 ring-white/30 px-6 py-3 hover:bg-white/15 transition">Pricing</a> -->
         </div>
         <div class="mt-5 flex flex-wrap items-center gap-4 text-sm text-white/85">
           <!-- SHA-256 hashing (hash grid) -->

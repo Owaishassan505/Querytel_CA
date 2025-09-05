@@ -151,15 +151,15 @@
                         class="inline-block bg-white text-brandorange font-semibold px-6 py-3 rounded hover:bg-orange-50 transition">
                         View Open Roles
                     </a>
-                    <a href="#life"
+                    <!-- <a href="#life"
                         class="inline-block border border-white text-white px-6 py-3 rounded hover:bg-white hover:text-brandorange transition">
                         Life at Querytel
-                    </a>
+                    </a> -->
                 </div>
             </div>
             <div class="relative animate-fadeUp delay-200">
                 <div class="absolute -inset-4 bg-white/10 rounded-full blur-3xl"></div>
-                <img src="<?= $base ?>/assets/images/team-collab.jpg" alt="Team collaboration"
+                <img src="<?= $base ?>/assets/images/careers.jpg" alt="Team collaboration"
                     class="relative z-10 w-full max-w-md mx-auto rounded-xl shadow-2xl object-cover h-96" />
             </div>
         </div>

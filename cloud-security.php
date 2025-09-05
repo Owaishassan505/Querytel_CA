@@ -132,7 +132,7 @@
                   automation solutions.
                 </p>
                 <div class="mt-8">
-                  <a href="#automation"
+                  <a href="#services"
                     class="inline-block bg-neutral-900 text-white px-6 py-3 rounded-md font-medium shadow hover:bg-neutral-800 transition">
                     Learn More
                   </a>
