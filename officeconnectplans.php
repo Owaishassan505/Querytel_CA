@@ -1096,7 +1096,7 @@
             <div class="mt-8 flex justify-center gap-4">
                 <a href="<?= $base ?>/contactus?s=office-connect" class="oc-btn oc-btn-primary px-8 py-4">Request a
                     Demo</a>
-                <a href="#pricing" class="oc-btn oc-btn-ghost px-8 py-4">See Pricing</a>
+                <!-- <a href="#pricing" class="oc-btn oc-btn-ghost px-8 py-4">See Pricing</a> -->
             </div>
         </div>
     </section>

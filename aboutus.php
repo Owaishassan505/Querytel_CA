@@ -255,39 +255,62 @@
                     <br /><br />
                     <span class="font-semibold text-lg block mb-2">Our Core Strengths</span>
                 <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+
                     <div
                         class="rounded-xl bg-neutral-50 border border-neutral-200 p-6 shadow-sm hover:shadow-md transition">
-                        <h4 class="text-lg font-semibold text-neutral-800 mb-2">Managed IT Services</h4>
+                        <h4 class="text-lg font-semibold text-neutral-800 mb-2">Greenfield & Brownfield Projects</h4>
                         <p class="text-sm text-neutral-600 leading-relaxed">
-                            With proactive monitoring, maintenance, and round-the-clock support, we keep your
-                            infrastructure running at peak performance.
+                            Whether building from scratch or reviving legacy systems, we deliver scalable, future-proof
+                            solutions.
                         </p>
                     </div>
+
                     <div
                         class="rounded-xl bg-neutral-50 border border-neutral-200 p-6 shadow-sm hover:shadow-md transition">
-                        <h4 class="text-lg font-semibold text-neutral-800 mb-2">Cybersecurity Solutions</h4>
+                        <h4 class="text-lg font-semibold text-neutral-800 mb-2">Network Security & Firewall Audits</h4>
                         <p class="text-sm text-neutral-600 leading-relaxed">
-                            From AI-powered malware defense to advanced ransomware protection, our SOC-backed
-                            cybersecurity services ensure your business stays one step ahead of threats.
+                            We lock down your network with precision audits, hardened firewalls, and intelligent threat
+                            defense.
                         </p>
                     </div>
+
                     <div
                         class="rounded-xl bg-neutral-50 border border-neutral-200 p-6 shadow-sm hover:shadow-md transition">
-                        <h4 class="text-lg font-semibold text-neutral-800 mb-2">Cloud Solutions</h4>
+                        <h4 class="text-lg font-semibold text-neutral-800 mb-2">Cloud Solutions & Migrations</h4>
                         <p class="text-sm text-neutral-600 leading-relaxed">
-                            Our resilient, scalable, and secure cloud hosting, backup, and disaster recovery solutions
-                            protect your critical assets.
+                            From cloud-first to hybrid, we migrate and manage with zero downtime and bulletproof
+                            reliability.
                         </p>
                     </div>
+
                     <div
                         class="rounded-xl bg-neutral-50 border border-neutral-200 p-6 shadow-sm hover:shadow-md transition">
-                        <h4 class="text-lg font-semibold text-neutral-800 mb-2">Office Connect</h4>
+                        <h4 class="text-lg font-semibold text-neutral-800 mb-2">Secure Hosting & Domain Services</h4>
                         <p class="text-sm text-neutral-600 leading-relaxed">
-                            Next-generation cloud phone systems that boost collaboration and communication without the
-                            complexity.
+                            High-performance hosting with ironclad security, SSL, DNS management, and domain lifecycle
+                            handling.
                         </p>
                     </div>
+
+                    <div
+                        class="rounded-xl bg-neutral-50 border border-neutral-200 p-6 shadow-sm hover:shadow-md transition">
+                        <h4 class="text-lg font-semibold text-neutral-800 mb-2">Custom Development</h4>
+                        <p class="text-sm text-neutral-600 leading-relaxed">
+                            Tailored web and app solutions — built clean, optimized, and aligned with your business
+                            logic.
+                        </p>
+                    </div>
+
+                    <div
+                        class="rounded-xl bg-neutral-50 border border-neutral-200 p-6 shadow-sm hover:shadow-md transition">
+                        <h4 class="text-lg font-semibold text-neutral-800 mb-2">24/7 SOC & Helpdesk</h4>
+                        <p class="text-sm text-neutral-600 leading-relaxed">
+                            Real-time threat monitoring and tech support that never sleeps — your uptime is our mission.
+                        </p>
+                    </div>
+
                 </div>
+
 
                 </p>
 

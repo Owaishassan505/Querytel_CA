@@ -117,16 +117,16 @@
                     class="inline-flex items-center gap-2 rounded-full bg-white/10 ring-1 ring-white/20 px-3 py-1 text-sm backdrop-blur-xs">
                     <span class="h-2 w-2 rounded-full bg-emerald-400"></span> Cyber Cloud Services
                 </p>
-                <h1 class="mt-4 text-4xl md:text-5xl font-bold leading-tight">Cyber Backup Cloud</h1>
+                <h1 class="mt-4 text-4xl md:text-5xl font-bold leading-tight">Cyber Cloud Backup</h1>
                 <p class="mt-5 text-lg text-orange-50">
                     Air-gapped, encrypted, policy-driven backups for endpoints, servers, and SaaS. Fast recovery.
                     Ransomware-safe snapshots.
                 </p>
                 <div class="mt-8 flex flex-col sm:flex-row gap-4">
-                    <a href="#plans"
+                    <!-- <a href="#plans"
                         class="btn-shine inline-flex justify-center rounded-lg bg-white text-orange-600 font-semibold px-6 py-3 hover:bg-orange-50 transition shadow-soft">
                         View Plans
-                    </a>
+                    </a> -->
                     <a href="<?= $base . '/contactus' ?>"
                         class="inline-flex justify-center rounded-lg bg-white/10 ring-1 ring-white/30 px-6 py-3 hover:bg-white/15 transition backdrop-blur-xs">
                         Request Demo

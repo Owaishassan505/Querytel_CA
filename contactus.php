@@ -193,14 +193,15 @@
   <!-- CONTACT CARDS -->
   <section class="bg-gray-50 py-16">
     <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
       <!-- Toronto -->
       <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition group">
         <div class="flex items-center gap-3 mb-4">
           <svg xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 text-blue-600 transition-transform transform group-hover:scale-125 group-hover:text-blue-800"
-            fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M17.657 16.657L13.414 12.414M15 10a3 3 0 11-6 0 3 3 0 016 0zm9 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            class="h-6 w-6 text-blue-600 group-hover:text-blue-800 transition-transform transform group-hover:scale-125"
+            viewBox="0 0 20 20" fill="currentColor">
+            <path
+              d="M4 3a1 1 0 00-1 1v12h14V4a1 1 0 00-1-1H4zm1 3h2v2H5V6zm0 3h2v2H5V9zm0 3h2v2H5v-2zm4-6h2v2H9V6zm0 3h2v2H9V9zm0 3h2v2H9v-2zm4-6h2v2h-2V6zm0 3h2v2h-2V9zm0 3h2v2h-2v-2z" />
           </svg>
           <h2 class="text-xl font-semibold">Toronto Office</h2>
         </div>
@@ -219,7 +220,7 @@
       <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition group">
         <div class="flex items-center gap-3 mb-4">
           <svg xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 text-green-600 transition-transform transform group-hover:scale-125 group-hover:text-green-800"
+            class="h-6 w-6 text-green-600 group-hover:text-green-800 transition-transform transform group-hover:scale-125"
             fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               d="M3 5h2l3.6 7.59-1.35 2.44a1 1 0 00.91 1.48H19v-2H9.42a.25.25 0 01-.23-.16L9.2 14h7.55a1 1 0 00.96-.74l3-10A1 1 0 0019.8 2H5.21l-.94-2H1v2h2l3.6 7.59L5.25 13h14.1l-1.4 5H6v2h12a1 1 0 001-1v-1a1 1 0 00-.99-1H7.42l.58-1.06a.25.25 0 00.02-.22L7 14.1" />
@@ -241,10 +242,10 @@
       <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition group">
         <div class="flex items-center gap-3 mb-4">
           <svg xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 text-red-600 transition-transform transform group-hover:scale-125 group-hover:text-red-800"
-            fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M17 9V7a4 4 0 00-8 0v2a4 4 0 00-4 4v4h16v-4a4 4 0 00-4-4z" />
+            class="h-6 w-6 text-red-600 group-hover:text-red-800 transition-transform transform group-hover:scale-125"
+            viewBox="0 0 20 20" fill="currentColor">
+            <path
+              d="M4 3a1 1 0 00-1 1v12h14V4a1 1 0 00-1-1H4zm1 3h2v2H5V6zm0 3h2v2H5V9zm0 3h2v2H5v-2zm4-6h2v2H9V6zm0 3h2v2H9V9zm0 3h2v2H9v-2zm4-6h2v2h-2V6zm0 3h2v2h-2V9zm0 3h2v2h-2v-2z" />
           </svg>
           <h2 class="text-xl font-semibold">Calgary Office</h2>
         </div>
@@ -253,9 +254,7 @@
           Sun Life Plaza West Tower<br />
           Calgary, AB T2P 3N4
         </p>
-        <p class="text-sm text-gray-500">
-          Mon – Fri · 9:00 a.m. – 5:00 p.m. MST
-        </p>
+        <p class="text-sm text-gray-500">Mon – Fri · 9:00 a.m. – 5:00 p.m. MDT</p>
         <p class="text-gray-700 font-medium mt-2">Email:</p>
         <p class="text-sm">callback@querytel.com</p>
       </div>
@@ -264,10 +263,10 @@
       <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition group">
         <div class="flex items-center gap-3 mb-4">
           <svg xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 text-yellow-600 transition-transform transform group-hover:scale-125 group-hover:text-yellow-800"
-            fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M17 20h5V4H2v16h5m10 0V4m0 0H7v16h10z" />
+            class="h-6 w-6 text-yellow-600 group-hover:text-yellow-800 transition-transform transform group-hover:scale-125"
+            viewBox="0 0 20 20" fill="currentColor">
+            <path
+              d="M4 3a1 1 0 00-1 1v12h14V4a1 1 0 00-1-1H4zm1 3h2v2H5V6zm0 3h2v2H5V9zm0 3h2v2H5v-2zm4-6h2v2H9V6zm0 3h2v2H9V9zm0 3h2v2H9v-2zm4-6h2v2h-2V6zm0 3h2v2h-2V9zm0 3h2v2h-2v-2z" />
           </svg>
           <h2 class="text-xl font-semibold">Edmonton Office</h2>
         </div>
@@ -275,9 +274,7 @@
           101 Street NW, 34th Floor, Suite #10180<br />
           Edmonton, AB T5J 3S4
         </p>
-        <p class="text-sm text-gray-500">
-          Mon – Fri · 9:00 a.m. – 5:00 p.m. MST
-        </p>
+        <p class="text-sm text-gray-500">Mon – Fri · 9:00 a.m. – 5:00 p.m. MDT</p>
         <p class="text-gray-700 font-medium mt-2">Email:</p>
         <p class="text-sm">callback@querytel.com</p>
       </div>
@@ -286,10 +283,10 @@
       <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition group">
         <div class="flex items-center gap-3 mb-4">
           <svg xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 text-indigo-600 transition-transform transform group-hover:scale-125 group-hover:text-indigo-800"
-            fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M12 11c0 1.38-1.12 2.5-2.5 2.5S7 12.38 7 11s1.12-2.5 2.5-2.5S12 9.62 12 11zm5 0c0 1.38-1.12 2.5-2.5 2.5S12 12.38 12 11s1.12-2.5 2.5-2.5S17 9.62 17 11zm5 0c0 1.38-1.12 2.5-2.5 2.5S17 12.38 17 11s1.12-2.5 2.5-2.5S22 9.62 22 11z" />
+            class="h-6 w-6 text-indigo-600 group-hover:text-indigo-800 transition-transform transform group-hover:scale-125"
+            viewBox="0 0 20 20" fill="currentColor">
+            <path
+              d="M4 3a1 1 0 00-1 1v12h14V4a1 1 0 00-1-1H4zm1 3h2v2H5V6zm0 3h2v2H5V9zm0 3h2v2H5v-2zm4-6h2v2H9V6zm0 3h2v2H9V9zm0 3h2v2H9v-2zm4-6h2v2h-2V6zm0 3h2v2h-2V9zm0 3h2v2h-2v-2z" />
           </svg>
           <h2 class="text-xl font-semibold">Halifax Office</h2>
         </div>
@@ -297,9 +294,7 @@
           99 Wyse Rd, Suite #1100<br />
           Dartmouth, NS B3A 4S5
         </p>
-        <p class="text-sm text-gray-500">
-          Mon – Fri · 9:00 a.m. – 5:00 p.m. AST
-        </p>
+        <p class="text-sm text-gray-500">Mon – Fri · 9:00 a.m. – 5:00 p.m. AST</p>
         <p class="text-gray-700 font-medium mt-2">Email:</p>
         <p class="text-sm">callback@querytel.com</p>
       </div>
@@ -308,16 +303,13 @@
       <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition group">
         <div class="flex items-center gap-3 mb-4">
           <svg xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 text-purple-600 transition-transform transform group-hover:scale-125 group-hover:text-purple-800"
+            class="h-6 w-6 text-purple-600 group-hover:text-purple-800 transition-transform transform group-hover:scale-125"
             fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               d="M18 13a4 4 0 01-4 4H8l-4 4V5a2 2 0 012-2h12a2 2 0 012 2v8z" />
           </svg>
           <h2 class="text-xl font-semibold">Support & Helpdesk</h2>
         </div>
-        <!-- <p class="text-gray-600 text-sm mb-2">
-          Mon–Fri · 9:00 a.m. – 6:00 p.m.
-        </p> -->
         <p class="text-gray-700 font-medium">Phone</p>
         <p class="text-sm mb-2 text-gray-700">+1-844-447-8379</p>
         <p class="text-gray-700 font-medium">Portal:</p>
@@ -329,14 +321,15 @@
         <p class="text-gray-700 font-medium">Email:</p>
         <p class="text-sm">support@querytel.com</p>
       </div>
+
       <!-- USA Office -->
       <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition group">
         <div class="flex items-center gap-3 mb-4">
           <svg xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 text-red-500 transition-transform transform group-hover:scale-125 group-hover:text-red-700"
-            fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M3 4a1 1 0 011-1h5l2 2h8a1 1 0 011 1v2H3V4zM3 8h18v11a1 1 0 01-1 1H4a1 1 0 01-1-1V8z" />
+            class="h-6 w-6 text-red-500 group-hover:text-red-700 transition-transform transform group-hover:scale-125"
+            viewBox="0 0 20 20" fill="currentColor">
+            <path
+              d="M4 3a1 1 0 00-1 1v12h14V4a1 1 0 00-1-1H4zm1 3h2v2H5V6zm0 3h2v2H5V9zm0 3h2v2H5v-2zm4-6h2v2H9V6zm0 3h2v2H9V9zm0 3h2v2H9v-2zm4-6h2v2h-2V6zm0 3h2v2h-2V9zm0 3h2v2h-2v-2z" />
           </svg>
           <h2 class="text-xl font-semibold">USA Office</h2>
         </div>
@@ -345,7 +338,7 @@
           New York, NY 10017, USA
         </p>
         <p class="text-sm text-gray-500 mb-4">
-          Mon – Fri · 9:00 a.m. – 5:00 p.m. EST
+          Mon – Fri · 9:00 a.m. – 5:00 p.m. EDT
         </p>
         <p class="text-gray-700 font-medium">Email:</p>
         <p class="text-sm">callback@querytel.com</p>
@@ -355,10 +348,10 @@
       <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition group">
         <div class="flex items-center gap-3 mb-4">
           <svg xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 text-amber-500 transition-transform transform group-hover:scale-125 group-hover:text-amber-700"
-            fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M12 2l2 7h7l-5.5 4.5L17 22l-5-3.5L7 22l1.5-8.5L3 9h7l2-7z" />
+            class="h-6 w-6 text-amber-500 group-hover:text-amber-700 transition-transform transform group-hover:scale-125"
+            viewBox="0 0 20 20" fill="currentColor">
+            <path
+              d="M4 3a1 1 0 00-1 1v12h14V4a1 1 0 00-1-1H4zm1 3h2v2H5V6zm0 3h2v2H5V9zm0 3h2v2H5v-2zm4-6h2v2H9V6zm0 3h2v2H9V9zm0 3h2v2H9v-2zm4-6h2v2h-2V6zm0 3h2v2h-2V9zm0 3h2v2h-2v-2z" />
           </svg>
           <h2 class="text-xl font-semibold">UAE Office</h2>
         </div>
@@ -368,7 +361,7 @@
           Dubai, UAE
         </p>
         <p class="text-sm text-gray-500 mb-4">
-          Sun – Thu · 9:00 a.m. – 5:00 p.m. GST
+          Mon - Fri · 9:00 a.m. – 5:00 p.m. GST
         </p>
         <p class="text-gray-700 font-medium">Email:</p>
         <p class="text-sm">callback@querytel.com</p>
@@ -376,6 +369,7 @@
 
     </div>
   </section>
+
 
   <!-- MAP EMBED -->
   <section class="py-16 bg-white" id="map">

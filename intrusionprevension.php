@@ -406,7 +406,7 @@
                     </article>
 
                     <!-- Slide 4 -->
-                    <article data-slide class="relative w-full shrink-0 h-[420px] md:h-[520px]"
+                    <!-- <article data-slide class="relative w-full shrink-0 h-[420px] md:h-[520px]"
                         aria-roledescription="slide" aria-label="4 of 5">
                         <img src="<?= $base ?>/assets/images/access-control-4.jpg" alt="Automotive Dealerships"
                             class="absolute inset-0 w-full h-full object-contain" loading="lazy">
@@ -422,7 +422,7 @@
                                     and service bays.</p>
                             </div>
                         </div>
-                    </article>
+                    </article> -->
 
 
                 </div>
@@ -466,8 +466,8 @@
                         aria-label="Go to slide 2"></button>
                     <button data-dot class="h-2.5 w-2.5 rounded-full bg-neutral-300"
                         aria-label="Go to slide 3"></button>
-                    <button data-dot class="h-2.5 w-2.5 rounded-full bg-neutral-300"
-                        aria-label="Go to slide 4"></button>
+                    <!-- <button data-dot class="h-2.5 w-2.5 rounded-full bg-neutral-300"
+                        aria-label="Go to slide 4"></button> -->
 
                 </div>
             </div>
@@ -611,14 +611,14 @@
                             <img src="<?= $base ?>/assets/images/dahua.png" alt="Dahua"
                                 class="h-10 md:h-12 grayscale opacity-70 transition duration-300 group-hover:opacity-80 hover:grayscale-0 hover:opacity-100 hover:scale-[1.04]" />
                         </li>
-                        <li class="shrink-0">
+                        <!-- <li class="shrink-0">
                             <img src="<?= $base ?>/assets/images/flir.png" alt="FLIR"
                                 class="h-10 md:h-12 grayscale opacity-70 transition duration-300 group-hover:opacity-80 hover:grayscale-0 hover:opacity-100 hover:scale-[1.04]" />
                         </li>
                         <li class="shrink-0">
                             <img src="<?= $base ?>/assets/images/avcostar.png" alt="AV Costar"
                                 class="h-10 md:h-12 grayscale opacity-70 transition duration-300 group-hover:opacity-80 hover:grayscale-0 hover:opacity-100 hover:scale-[1.04]" />
-                        </li>
+                        </li> -->
 
                     </ul>
                 </div>

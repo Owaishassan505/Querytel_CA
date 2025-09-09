@@ -271,7 +271,7 @@
     <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-start">
       <!-- Left Block -->
       <div class="space-y-6 animate-fadeInLeft">
-        <img src="https://querytel.com/wp-content/uploads/2021/10/Helpdesk-support-768x512.jpg" alt="IT Monitoring"
+        <img src="<?= $base . '/assets/images/Helpdesk-support-768x512.jpg' ?>" alt="IT Monitoring"
           class="w-full max-w-md mx-auto md:mx-0 rounded" />
         <h3 class="text-2xl md:text-3xl font-semibold text-neutral-900 leading-tight">
           We Monitor the IT Infrastructure of Your Business While Your
@@ -292,11 +292,11 @@
 
       <!-- Right Block -->
       <div class="space-y-6 animate-fadeInRight">
-        <img src="https://querytel.com/wp-content/uploads/2021/10/cyber-security-live-monitoring-4-768x512.jpg"
-          alt="Cyber Security" class="w-full max-w-md mx-auto md:mx-0 rounded shadow-lg" />
+        <img src="<?= $base . '/assets/images/cyber-security-live-monitoring-4-768x512.jpg' ?>" alt="Cyber Security"
+          class="w-full max-w-md mx-auto md:mx-0 rounded shadow-lg" />
         <h3 class="text-2xl md:text-3xl font-semibold text-neutral-900 leading-tight">
           Cyber Security Live Monitoring:
-          <span class="block text-blue-700 font-bold mt-2">Your Security Is Our Priority</span>
+          <span class="block text-blue-700 font-bold mt-2">Your Security Is Our Top Priority</span>
         </h3>
         <div class="h-px w-20 bg-gray-300"></div>
         <p class="text-gray-700 leading-relaxed text-base">
@@ -337,7 +337,7 @@
 
       <!-- Image Column -->
       <div class="relative">
-        <img src="https://querytel.com/wp-content/uploads/2021/10/Insurance-b-768x512.jpg" alt="Insurance Tech"
+        <img src="<?= $base . '/assets/images/Insurance-b-768x512.jpg' ?>" alt="Insurance Tech"
           class="w-full h-auto rounded-2xl shadow-xl border border-gray-100" />
         <div class="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent rounded-2xl"></div>
       </div>

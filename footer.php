@@ -1,12 +1,16 @@
 <footer class="bg-[#f3f3f3] text-sm text-neutral-600 border-t border-neutral-200">
     <div class="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-4 gap-10">
-        <!-- Column 1: Logo + Brief + NAP -->
+
+        <!-- Column 1: Logo + Brief + NAP + Social Media -->
         <div>
-            <img src="https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png"
-                alt="QueryTel Logo" class="h-10 mb-4" loading="lazy" />
+            <img src="<?= $base . '/assets/images/querytel.png' ?>" alt="QueryTel Logo" class="h-10 mb-4"
+                loading="lazy" />
+
+
             <b>QueryTel</b> <br>
             <p>Empowering Canadian businesses with reliable managed IT, cybersecurity, and scalable infrastructure since
                 1995.</p>
+
             <div class="mt-4 space-y-1">
                 <p><strong>Address:</strong> 7025 Tomken Road, Suite 244, Mississauga, ON L5S 1R6, Canada</p>
                 <p><strong>Hours:</strong> Mon–Fri 8:00–17:00 (local)</p>
@@ -14,7 +18,47 @@
                 <p><strong>Email:</strong> <a href="mailto:callback@querytel.com"
                         class="hover:underline">callback@querytel.com</a></p>
             </div>
+
+            <!-- Social Media -->
+
+            <div class="mt-6">
+                <h4 class="text-neutral-800 font-semibold mb-2">Follow Us</h4>
+                <div class="flex space-x-4">
+
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/company/querytel" target="_blank" rel="noopener noreferrer"
+                        class="text-neutral-500 hover:text-blue-700 transition" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin fa-lg"></i>
+                    </a>
+
+                    <!-- X / Twitter -->
+                    <a href="https://x.com/askquerytel" target="_blank" rel="noopener noreferrer"
+                        class="text-neutral-500 hover:text-black transition" aria-label="X">
+                        <i class="fab fa-x-twitter fa-lg"></i>
+                    </a>
+
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/askquerytel" target="_blank" rel="noopener noreferrer"
+                        class="text-neutral-500 hover:text-pink-600 transition" aria-label="Instagram">
+                        <i class="fab fa-instagram fa-lg"></i>
+                    </a>
+
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/querytel" target="_blank" rel="noopener noreferrer"
+                        class="text-neutral-500 hover:text-blue-600 transition" aria-label="Facebook">
+                        <i class="fab fa-facebook-f fa-lg"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@querytel9280" target="_blank" rel="noopener noreferrer"
+                        class="text-neutral-500 hover:text-red-600 transition" aria-label="YouTube">
+                        <i class="fab fa-youtube fa-lg"></i>
+                    </a>
+
+                </div>
+            </div>
+
         </div>
+
+
 
         <!-- Column 2: Main Pages (exactly as navbar top-level) -->
         <div>
@@ -81,7 +125,9 @@
             </ul>
         </div>
     </div>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Bottom bar -->
     <div class="border-t border-neutral-200 text-center text-xs py-6 bg-[#eeeeee]">
         &copy; 2025 QueryTel Inc. All rights reserved.
