@@ -207,7 +207,7 @@
     </section>
 
     <!-- FEATURES -->
-    <section class="bg-white py-16">
+    <!-- <section class="bg-white py-16">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center max-w-3xl mx-auto" data-animate>
                 <h2 class="text-3xl md:text-4xl font-bold tracking-tight">Backups that don’t blink</h2>
@@ -255,10 +255,10 @@
                 </article>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- WORKLOADS & COVERAGE -->
-    <section class="bg-neutral-50 py-16">
+    <!-- <section class="bg-neutral-50 py-16">
         <div class="max-w-7xl mx-auto px-6">
             <h2 class="text-2xl md:text-3xl font-bold text-center" data-animate>What you can back up</h2>
             <div class="mt-10 grid lg:grid-cols-3 gap-8">
@@ -322,10 +322,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- HOW IT WORKS -->
-    <section class="bg-white py-16">
+    <!-- <section class="bg-white py-16">
         <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
             <div data-animate>
                 <h2 class="text-2xl md:text-3xl font-bold">How it works</h2>
@@ -343,8 +343,7 @@
                     <a href="#plans"
                         class="btn-shine inline-flex rounded-lg bg-orange-600 text-white px-6 py-3 font-semibold hover:bg-orange-700 shadow-glow-orange">See
                         Pricing</a>
-                    <!-- <a href="#faq"
-                        class="inline-flex rounded-lg border border-neutral-300 px-6 py-3 hover:bg-white">FAQ</a> -->
+
                 </div>
             </div>
             <div class="relative flex justify-center items-center" data-animate>
@@ -359,10 +358,10 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
 
     <!-- PRICING -->
-    <section id="plans" class="bg-neutral-50 py-16">
+    <!-- <section id="plans" class="bg-neutral-50 py-16">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center max-w-3xl mx-auto" data-animate>
                 <h2 class="text-3xl md:text-4xl font-bold tracking-tight">Simple, usage-based pricing</h2>
@@ -371,7 +370,7 @@
             </div>
 
             <div class="mt-10 grid md:grid-cols-3 gap-6">
-                <!-- Endpoints -->
+
                 <div class="rounded-2xl border border-neutral-200 bg-white p-6 hover:shadow-soft hover:-translate-y-0.5 transition"
                     data-animate>
                     <h3 class="font-semibold text-lg">Endpoints</h3>
@@ -391,7 +390,7 @@
                         quote</a>
                 </div>
 
-                <!-- Servers (Recommended) -->
+
                 <div class="relative rounded-2xl border-2 border-orange-600 bg-white p-6 shadow-[0_8px_30px_rgba(249,115,22,.08)] hover:shadow-glow-orange hover:-translate-y-0.5 transition"
                     data-animate>
                     <div class="absolute -inset-px rounded-2xl pointer-events-none animate-ringPulse"></div>
@@ -415,7 +414,7 @@
                         quote</a>
                 </div>
 
-                <!-- SaaS -->
+
                 <div class="rounded-2xl border border-neutral-200 bg-white p-6 hover:shadow-soft hover:-translate-y-0.5 transition"
                     data-animate>
                     <h3 class="font-semibold text-lg">SaaS</h3>
@@ -436,7 +435,7 @@
                 </div>
             </div>
 
-            <!-- Add-ons -->
+
             <div class="mt-10 grid md:grid-cols-3 gap-6">
                 <div class="rounded-xl bg-white border border-neutral-200 p-5 hover:shadow-soft transition"
                     data-animate>
@@ -463,7 +462,7 @@
                 devices/users or 10 TB stored. Egress for restores is included.
             </p>
         </div>
-    </section>
+    </section> -->
 
     <!-- COMPLIANCE STRIP -->
     <section class="bg-white py-10 border-y border-neutral-200">

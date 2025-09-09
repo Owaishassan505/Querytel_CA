@@ -188,7 +188,7 @@
 
             <div class="nav-hover-group">
                 <button type="button" class="hover:text-black transition focus-ring" aria-haspopup="true"
-                    aria-expanded="false" aria-controls="nav-industry-menu">Industry</button>
+                    aria-expanded="false" aria-controls="nav-industry-menu">Industries</button>
                 <div id="nav-industry-menu" class="dropdown bg-white shadow-lg rounded min-w-[220px] mt-2 p-2"
                     role="menu" aria-label="Industry">
                     <a role="menuitem" href="<?= $base ?>/retail/"
@@ -216,7 +216,8 @@
             </div>
 
 
-            <a role="menuitem" href="<?= $base ?>/contactus/" class="hover:text-black transition focus-ring">Contact</a>
+            <a role="menuitem" href="<?= $base ?>/contactus/" class="hover:text-black transition focus-ring">Contact
+                Us</a>
             <a role="menuitem" href="https://brokerband.com" target="_blank" rel="noopener"
                 class="hover:text-black transition focus-ring">Online Store</a>
         </nav>
@@ -278,7 +279,7 @@
                 </div>
             </details>
             <details>
-                <summary class="py-2 cursor-pointer select-none">Industry</summary>
+                <summary class="py-2 cursor-pointer select-none">Industries</summary>
                 <div class="pl-4 space-y-2">
                     <a class="block py-2" href="<?= $base ?>/retail/">Retail</a>
                     <a class="block py-2" href="<?= $base ?>/healthcare/">Healthcare</a>
@@ -294,7 +295,7 @@
                 </div>
             </details>
 
-            <a class="block py-2" href="<?= $base ?>/contactus/">Contact</a>
+            <a class="block py-2" href="<?= $base ?>/contactus/">Contact Us</a>
             <a class="block py-2" href="https://brokerband.com" target="_blank" rel="noopener">Online Store</a>
         </div>
     </nav>

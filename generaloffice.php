@@ -149,7 +149,8 @@
                 <div class="qt-card overflow-hidden group" data-aos="fade-up">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="<?php echo $base; ?>/assets/images/office-1.jpg" alt="Customized Hardware Solutions"
+                        <img src="<?php echo $base; ?>/assets/images/Img_32949129.jpg"
+                            alt="Customized Hardware Solutions"
                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div class="p-8">
@@ -165,7 +166,7 @@
                 <div class="qt-card overflow-hidden group" data-aos="fade-up" data-aos-delay="100">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="<?php echo $base; ?>/assets/images/office-2.jpg"
+                        <img src="<?php echo $base; ?>/assets/images/yealink-phone.png"
                             alt="Cost-effective VoIP Phone Systems"
                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
@@ -182,7 +183,7 @@
                 <div class="qt-card overflow-hidden group" data-aos="fade-up" data-aos-delay="200">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="<?php echo $base; ?>/assets/images/office-3.jpg"
+                        <img src="<?php echo $base; ?>/assets/images/workspace.jpg"
                             alt="Ergonomic and Affordable Desktop Hardware"
                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>

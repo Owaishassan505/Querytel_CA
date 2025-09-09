@@ -106,7 +106,7 @@
                 </div>
             </div>
             <div class="opacity-0 animate-fadeInRight delay-200">
-                <img src="<?= $base ?>/assets/images/retail-scaled.jpg" alt="Retail Hardware Illustration"
+                <img src="<?= $base ?>/assets/images/retail-scaled-2.jpg" alt="Retail Hardware Illustration"
                     class="w-full max-w-md mx-auto" />
             </div>
         </div>
@@ -133,9 +133,8 @@
                 <div class="qt-card overflow-hidden group" data-aos="fade-up">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="https://querytel.com/wp-content/uploads/2021/10/networking.jpg"
-                            alt="Enterprise Networking"
-                            class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                        <img src="<?= $base . '/assets/images/networking-2.webp' ?>" alt="Enterprise Networking"
+                            class="absolute inset-0 w-full h-full object-fill transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div class="p-8">
                         <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3">Enterprise Networking</h3>
@@ -148,8 +147,7 @@
                 <div class="qt-card overflow-hidden group" data-aos="fade-up" data-aos-delay="100">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="https://querytel.com/wp-content/uploads/2021/10/printer-2.jpg"
-                            alt="Thermal Receipt Printers"
+                        <img src="<?= $base . '/assets/images/zebra-gk420d.jpg' ?>" alt="Thermal Receipt Printers"
                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div class="p-8">
@@ -191,9 +189,9 @@
                 <div class="qt-card overflow-hidden group" data-aos="fade-up" data-aos-delay="400">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="https://querytel.com/wp-content/uploads/2021/10/Mobile-Computers.jpg"
+                        <img src="<?= $base . '/assets/images/hon-ia-pss-ct32-productjpg-6.webp' ?>"
                             alt="Handheld Terminals"
-                            class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                            class="absolute inset-0 w-full h-full object-fill transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div class="p-8">
                         <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3">Handheld Terminals</h3>
@@ -206,7 +204,7 @@
                 <div class="qt-card overflow-hidden group" data-aos="fade-up" data-aos-delay="500">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="https://querytel.com/wp-content/uploads/2021/10/security-2.jpg" alt="Retail Firewall"
+                        <img src="<?= $base . '/assets/images/10009784_24.jpg' ?>" alt="Retail Firewall"
                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div class="p-8">

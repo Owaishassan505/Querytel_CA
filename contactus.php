@@ -202,7 +202,7 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               d="M17.657 16.657L13.414 12.414M15 10a3 3 0 11-6 0 3 3 0 016 0zm9 2a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
-          <h2 class="text-xl font-semibold">Toronto HQ</h2>
+          <h2 class="text-xl font-semibold">Toronto Office</h2>
         </div>
         <p class="text-gray-600 text-sm mb-2">
           7025 Tomken Road, Suite #244<br />
@@ -254,8 +254,10 @@
           Calgary, AB T2P 3N4
         </p>
         <p class="text-sm text-gray-500">
-          Mon – Fri · 9:00 a.m. – 3:00 p.m. MST
+          Mon – Fri · 9:00 a.m. – 5:00 p.m. MST
         </p>
+        <p class="text-gray-700 font-medium mt-2">Email:</p>
+        <p class="text-sm">callback@querytel.com</p>
       </div>
 
       <!-- Edmonton -->
@@ -274,8 +276,10 @@
           Edmonton, AB T5J 3S4
         </p>
         <p class="text-sm text-gray-500">
-          Mon – Fri · 9:00 a.m. – 3:00 p.m. MST
+          Mon – Fri · 9:00 a.m. – 5:00 p.m. MST
         </p>
+        <p class="text-gray-700 font-medium mt-2">Email:</p>
+        <p class="text-sm">callback@querytel.com</p>
       </div>
 
       <!-- Halifax -->
@@ -294,8 +298,10 @@
           Dartmouth, NS B3A 4S5
         </p>
         <p class="text-sm text-gray-500">
-          Mon – Fri · 9:00 a.m. – 6:00 p.m. AST
+          Mon – Fri · 9:00 a.m. – 5:00 p.m. AST
         </p>
+        <p class="text-gray-700 font-medium mt-2">Email:</p>
+        <p class="text-sm">callback@querytel.com</p>
       </div>
 
       <!-- Support -->
@@ -309,9 +315,11 @@
           </svg>
           <h2 class="text-xl font-semibold">Support & Helpdesk</h2>
         </div>
-        <p class="text-gray-600 text-sm mb-2">
+        <!-- <p class="text-gray-600 text-sm mb-2">
           Mon–Fri · 9:00 a.m. – 6:00 p.m.
-        </p>
+        </p> -->
+        <p class="text-gray-700 font-medium">Phone</p>
+        <p class="text-sm mb-2 text-gray-700">+1-844-447-8379</p>
         <p class="text-gray-700 font-medium">Portal:</p>
         <p class="text-sm mb-2">
           <a href="https://helpdesk.querytel.com/portal/en/home" class="text-blue-600 hover:underline">
@@ -321,6 +329,51 @@
         <p class="text-gray-700 font-medium">Email:</p>
         <p class="text-sm">support@querytel.com</p>
       </div>
+      <!-- USA Office -->
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition group">
+        <div class="flex items-center gap-3 mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 text-red-500 transition-transform transform group-hover:scale-125 group-hover:text-red-700"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M3 4a1 1 0 011-1h5l2 2h8a1 1 0 011 1v2H3V4zM3 8h18v11a1 1 0 01-1 1H4a1 1 0 01-1-1V8z" />
+          </svg>
+          <h2 class="text-xl font-semibold">USA Office</h2>
+        </div>
+        <p class="text-gray-600 text-sm mb-2">
+          100 Park Avenue, Suite #1600<br />
+          New York, NY 10017, USA
+        </p>
+        <p class="text-sm text-gray-500 mb-4">
+          Mon – Fri · 9:00 a.m. – 5:00 p.m. EST
+        </p>
+        <p class="text-gray-700 font-medium">Email:</p>
+        <p class="text-sm">callback@querytel.com</p>
+      </div>
+
+      <!-- UAE Office -->
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition group">
+        <div class="flex items-center gap-3 mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 text-amber-500 transition-transform transform group-hover:scale-125 group-hover:text-amber-700"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 2l2 7h7l-5.5 4.5L17 22l-5-3.5L7 22l1.5-8.5L3 9h7l2-7z" />
+          </svg>
+          <h2 class="text-xl font-semibold">UAE Office</h2>
+        </div>
+        <p class="text-gray-600 text-sm mb-2">
+          Zentral Building <br />
+          World Trade Centre<br />
+          Dubai, UAE
+        </p>
+        <p class="text-sm text-gray-500 mb-4">
+          Sun – Thu · 9:00 a.m. – 5:00 p.m. GST
+        </p>
+        <p class="text-gray-700 font-medium">Email:</p>
+        <p class="text-sm">callback@querytel.com</p>
+      </div>
+
     </div>
   </section>
 

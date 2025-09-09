@@ -330,49 +330,49 @@
                 <div class="space-y-6">
 
                     <div>
-                        <p class="text-sm font-medium text-neutral-800 mb-1">Managed IT Services</p>
+                        <p class="text-sm font-medium text-neutral-800 mb-1">Greenfield & Brownfield Projects</p>
                         <div class="h-2 bg-neutral-200 rounded-full overflow-hidden">
                             <div class="h-full bg-orange-500 w-[100%] rounded-full"></div>
                         </div>
                     </div>
 
                     <div>
-                        <p class="text-sm font-medium text-neutral-800 mb-1">Cybersecurity & Network Security</p>
+                        <p class="text-sm font-medium text-neutral-800 mb-1">Firewalls Audit & Network Security</p>
                         <div class="h-2 bg-neutral-200 rounded-full overflow-hidden">
                             <div class="h-full bg-emerald-600 w-[100%] rounded-full"></div>
                         </div>
                     </div>
 
                     <div>
-                        <p class="text-sm font-medium text-neutral-800 mb-1">Cloud Solutions</p>
+                        <p class="text-sm font-medium text-neutral-800 mb-1">Cloud Solutions & Migrations</p>
                         <div class="h-2 bg-neutral-200 rounded-full overflow-hidden">
                             <div class="h-full bg-sky-500 w-[100%] rounded-full"></div>
                         </div>
                     </div>
 
                     <div>
-                        <p class="text-sm font-medium text-neutral-800 mb-1">Hosting & Domain Services</p>
+                        <p class="text-sm font-medium text-neutral-800 mb-1">Secure Web Hosting & Domain Services</p>
                         <div class="h-2 bg-neutral-200 rounded-full overflow-hidden">
                             <div class="h-full bg-rose-600 w-[100%] rounded-full"></div>
                         </div>
                     </div>
 
                     <div>
-                        <p class="text-sm font-medium text-neutral-800 mb-1">Development</p>
+                        <p class="text-sm font-medium text-neutral-800 mb-1">Customized Development</p>
                         <div class="h-2 bg-neutral-200 rounded-full overflow-hidden">
                             <div class="h-full bg-indigo-500 w-[100%] rounded-full"></div>
                         </div>
                     </div>
 
                     <div>
-                        <p class="text-sm font-medium text-neutral-800 mb-1">Marketing</p>
+                        <p class="text-sm font-medium text-neutral-800 mb-1">Tailored Marketing Campaigns</p>
                         <div class="h-2 bg-neutral-200 rounded-full overflow-hidden">
                             <div class="h-full bg-yellow-500 w-[100%] rounded-full"></div>
                         </div>
                     </div>
 
                     <div>
-                        <p class="text-sm font-medium text-neutral-800 mb-1">24/7 Helpdesk</p>
+                        <p class="text-sm font-medium text-neutral-800 mb-1">24/7 SOC & Helpdesk</p>
                         <div class="h-2 bg-neutral-200 rounded-full overflow-hidden">
                             <div class="h-full bg-purple-500 w-[100%] rounded-full"></div>
                         </div>
@@ -477,16 +477,19 @@
 
                 <!-- Paragraphs -->
                 <p class="text-lg text-gray-700 leading-relaxed">
-                    At QueryTel, we don’t just deliver technology, we provide peace of mind. Every solution is designed
-                    to cut costs, reduce risk, and unlock growth. For us, client success isn’t a metric; it’s our
-                    reputation.
+                    At QueryTel, every project we take on comes with one promise: <b>we deliver results that last</b>.
+                    We don’t
+                    stop at solving your problem we redefine it, expand the opportunity, and build a solution that is
+                    designed to scale across your entire organization.
+                    No quick fixes. No temporary patches. Our solutions are engineered from the ground up to be robust,
+                    enterprise-ready, and built with performance, cost, and long-term ROI in mind.
                 </p>
 
                 <p class="text-lg text-gray-700 leading-relaxed mt-6">
-                    With over 30+ years of experience, we take a time-tested approach to IT solutions. Our experts
-                    invest
-                    time to understand your business goals and long-term vision, ensuring that your technology aligns
-                    perfectly with your growth strategy, modernization needs, and competitive edge.
+                    Our experts go beyond the obvious, looking at the implications for every corner of your business. We
+                    guarantee technology that reduces risk, cuts costs, drives growth, and aligns perfectly with your
+                    future.
+                    With us, satisfaction isn’t a hope — <b>it’s a certainty.</b>
                 </p>
 
             </div>
@@ -501,8 +504,7 @@
         <div class="max-w-3xl mx-auto px-6">
             <h2 class="text-3xl font-semibold mb-4">Let’s Secure Your Future</h2>
             <p class="text-gray-600 mb-6">
-                Your IT should never hold you back. With QueryTel, you gain a partner ready to protect, optimize, and
-                scale.
+                From an idea on a napkin to a full-scale enterprise solution — we turn your vision into reality.
             </p>
             <a href="#contact"
                 class="inline-block bg-neutral-900 text-white px-6 py-3 rounded hover:bg-neutral-800 transition">Request

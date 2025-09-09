@@ -186,7 +186,7 @@
           Looking for managed services? We can help!
         </p>
         <h2 class="text-3xl font-bold text-neutral-900 mb-6">
-          Starting from <span class="text-blue-700">$99/User</span>
+          Starting from <span class="text-blue-700">$49/User</span>
         </h2>
         <h3 class="text-xl font-semibold text-neutral-800 mb-6">
           Managed Services Includes:
@@ -535,7 +535,7 @@
         </p>
         <p class="text-gray-700 text-base md:text-lg">
           No, the price is not higher. We only charge a low recurring OPEX fee. Our superheroes have set up and managed
-          Nortel, Avaya, Cisco, BroadSoft OnPrem, and Hosted PBX systems for many happy clients.
+          Cisco, BroadSoft OnPrem, and Hosted PBX systems for many happy clients.
         </p>
       </div>
       <!-- Image with circle -->
@@ -642,6 +642,11 @@
             We offer call directing, voicemail, cutting-edge analytics, and
             porting current numbers from over 50 countries with zero cost and
             downtime.
+          </li>
+          <li class="flex gap-2">
+            <span class="mt-1 text-orange-500 text-xl">•</span>
+            Ditch the setup box. Our Virtual Fax Solution gives you a dedicated number, scan-to-fax, inbox/outbox, and
+            digital storage — save trees, save space. All for as low as $99.99.
           </li>
         </ul>
       </div>
@@ -822,7 +827,8 @@
                 d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
             </svg>
             <p class="text-gray-700 text-base leading-relaxed">
-              With QueryTel, we monitor everything — servers, routers, firewalls — and fix issues before they blow up.
+              With QueryTel, our SOC 24 monitors all your hardware and cloud infrastructure and provide proactive
+              support.
             </p>
           </div>
         </div>
@@ -955,6 +961,10 @@
             <span class="text-orange-500 mt-1 text-xl">•</span>
             We have vendors and partners in almost every industry
           </li>
+          <li class="flex items-start gap-3">
+            <span class="text-orange-500 mt-1 text-xl">•</span>
+            Ask us for our customized catalog with Live Inventory.
+          </li>
         </ul>
       </div>
 
@@ -967,9 +977,8 @@
         </div>
 
         <!-- Image -->
-        <img
-          src="<?= $base . '/assets/images/depositphotos_714451488-stock-photo-procurement-process-shown-using-text.jpg' ?>"
-          alt="Procurement" class="h-96 mx-auto object-cover relative rounded-xl shadow-2xl w-full z-10" />
+        <img src="<?= $base . '/assets/images/Depositphotos_714451488_XL1.jpg' ?>" alt="Procurement"
+          class="h-96 mx-auto object-cover relative rounded-xl shadow-2xl w-full z-10" />
       </div>
     </div>
   </section>
@@ -998,30 +1007,31 @@
 
           <div class="space-y-4 text-base text-gray-700 leading-relaxed">
             <p>
-              Throw a curveball and tell us what you envision for your new site via our online interview. Our experts
-              love new challenges.
+              Share your vision through our online interview—our design team thrives on turning big ideas into
+              beautiful, functional websites.
             </p>
             <p>
-              You can monitor your site along the way with 24/7 access to your Design Manager. You can view designs,
-              send files, and leave feedback.
+              Our Portal gives you full control: monitor project progress, upload files, review designs, and leave
+              feedback—anytime, 24/7.
             </p>
             <p>
-              Please keep your site fresh without making changes yourself. As you requested, our staff will make 30
-              minutes of updates every month.
+              Each subscription includes 30 minutes of content updates every month, so your site stays fresh without
+              lifting a finger.
             </p>
             <p>
-              <span class="font-semibold text-neutral-900">Free extras:</span>
-              Every plan includes world-class web hosting, SEO visibility, and more.
+              <span class="font-semibold text-neutral-900">Live campaign monitoring:</span>
+              Track your budget, view campaign performance, and access real-time reports—all from your dashboard.
             </p>
             <p>
-              <span class="font-semibold text-neutral-900">No setup fees:</span> Our subscription covers everything
-              needed to keep your site running, optimized, and modern.
+              <span class="font-semibold text-neutral-900">Monthly reporting:</span>
+              Get a clear view of how your site is doing, with insights delivered straight through the Portal.
             </p>
             <p>
-              <span class="font-semibold text-neutral-900">Optional add-on:</span> a professionally designed Facebook
-              page with monthly content updates.
+              <span class="font-semibold text-neutral-900">No setup fees:</span>
+              Your subscription covers everything needed to keep your online presence live, optimized, and up-to-date.
             </p>
           </div>
+
         </div>
 
         <!-- Right Image -->
@@ -1064,6 +1074,7 @@
       </div>
 
       <!-- Network and Email Monitoring -->
+
       <div class="space-y-6">
         <h3 class="text-3xl font-extrabold text-neutral-900 leading-snug">
           How It Works
@@ -1072,18 +1083,20 @@
 
         <div class="space-y-4">
           <p class="text-gray-700 text-base leading-relaxed">
-            Our design team invests in your success.
+            Our process starts with listening. We sit down with your team, your partners—even peek into how your
+            business runs day to day.
           </p>
           <p class="text-gray-700 text-base leading-relaxed">
-            With our Website Design Service, we don’t just hand you a generic
-            website and send you on your way. We listen to you to make sure
-            your site reflects your style. We help you gain new customers by
-            optimizing your site for maximum exposure. We even keep your site
-            up to date –call us, and we’ll change your text or update your
-            images.
+            Then we do our homework. We uncover what makes your business unique and translate that into a website that
+            tells your story, not just shows your services.
+          </p>
+          <p class="text-gray-700 text-base leading-relaxed">
+            Every element has intent. Every paragraph speaks for you when you're not in the room. This isn’t just web
+            design—it’s brand translation.
           </p>
         </div>
       </div>
+
     </div>
   </section>
 

@@ -166,7 +166,7 @@
     <!-- VALUE BLURB -->
     <section class="bg-gray-50 py-12">
         <div class="max-w-6xl mx-auto px-6 text-center">
-            <h2 class="text-2xl md:text-3xl font-semibold">Simple tiers. Enterprise outcomes.</h2>
+            <h2 class="text-2xl md:text-3xl font-semibold">Simple tiers. Enterprise Results.</h2>
             <p class="mt-3 text-gray-600">You can choose the plan that fits today's scale features without switching
                 platforms.</p>
         </div>
@@ -1064,13 +1064,13 @@
                 <tbody class="divide-y divide-gray-200 bg-white">
                     <tr>
                         <td class="px-6 py-4 font-medium text-gray-700">Auto-Attendant (Standard)</td>
-                        <td class="px-6 py-4 text-center">$12.00 each</td>
-                        <td class="px-6 py-4 text-center">$105.00 each (x2)</td>
+                        <td class="px-6 py-4 text-center">$12.00 </td>
+                        <td class="px-6 py-4 text-center">$105.00</td>
                     </tr>
                     <tr>
                         <td class="px-6 py-4 font-medium text-gray-700">Receptionist</td>
-                        <td class="px-6 py-4 text-center">$35.00 each</td>
-                        <td class="px-6 py-4 text-center">$110.00 each (x2)</td>
+                        <td class="px-6 py-4 text-center">$35.00 </td>
+                        <td class="px-6 py-4 text-center">$110.00</td>
                     </tr>
                     <tr>
                         <td class="px-6 py-4 font-medium text-gray-700">Bundled Connectivity</td>

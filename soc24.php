@@ -58,9 +58,11 @@
                 </h1>
 
                 <p class="mt-4 text-lg text-slate-600 max-w-xl">
-                    Around-the-clock monitoring with real analysts. We correlate signals across your endpoints, cloud,
-                    identity, email and network to spot threats fast—and contain them with click-ready playbooks.
+                    Around-the-clock monitoring with real analytics. We correlate signals across your endpoints, cloud,
+                    identity, email, and network to quickly identify threats and rogue behavior and contain them with
+                    click-ready playbooks.
                 </p>
+
 
                 <div class="mt-8 flex flex-col sm:flex-row gap-4 opacity-0 animate-fadeIn delay-300">
                     <a href="#overview"

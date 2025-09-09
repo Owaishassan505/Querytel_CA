@@ -106,7 +106,7 @@
             <div data-aos="fade-right">
 
                 <h1 class="text-5xl font-bold tracking-tight text-neutral-900 leading-tight">
-                    Office Connect: Seamless Communication, One Platform
+                    <span class="text-orange-600 font-bold">Office Connect:</span> Seamless Communication, One Platform
                 </h1>
                 <p class="mt-6 text-lg text-gray-600">
                     Voice, video, messaging, and more — all unified under one powerful solution.
@@ -165,7 +165,7 @@
                 </p>
                 <p class="text-gray-700 text-base leading-relaxed">
                     Hosted PBX by QueryTel gives your team crystal-clear voice over a secure, private network. Work from
-                    anywhere, scale instantly, and enjoy unified communication all in one monthly fee.
+                    anywhere, scale instantly, and enjoy unified communication all in one low monthly fee.
                 </p>
             </div>
         </div>
@@ -330,48 +330,53 @@
                 <ul class="space-y-6 mt-10 text-gray-700 text-[1.05rem] leading-7">
                     <li class="flex gap-3">
                         <div class="mt-2 w-2 h-2 bg-orange-500 rounded-full shrink-0"></div>
-                        Purchase phone equipment to reduce monthly fees.
+                        Zero upfront cost with pay as you go options available
                     </li>
                     <li class="flex gap-3">
                         <div class="mt-2 w-2 h-2 bg-orange-500 rounded-full shrink-0"></div>
-                        Bundle your phones and save money by avoiding proprietary phone hardware.
+                        Free cell phones available with no need for proprietary hardware
                     </li>
                     <li class="flex gap-3">
                         <div class="mt-2 w-2 h-2 bg-orange-500 rounded-full shrink-0"></div>
-                        Instantly scale your phone service based on your team’s needs.
+                        Easily scale your service by adding moving or suspending users anytime
                     </li>
                     <li class="flex gap-3">
                         <div class="mt-2 w-2 h-2 bg-orange-500 rounded-full shrink-0"></div>
-                        Add users, suspend users, and expand call capacity without technical visits.
+                        Expand call capacity instantly without any technical visits
                     </li>
                     <li class="flex gap-3">
                         <div class="mt-2 w-2 h-2 bg-orange-500 rounded-full shrink-0"></div>
-                        Predictable flat monthly costs.
+                        Flat predictable monthly pricing for complete cost control
                     </li>
                     <li class="flex gap-3">
                         <div class="mt-2 w-2 h-2 bg-orange-500 rounded-full shrink-0"></div>
-                        Hosted PBX is cheaper and easier to manage than traditional phone systems.
+                        Hosted PBX is more cost effective and easier to manage than traditional phone systems
                     </li>
                     <li class="flex gap-3">
                         <div class="mt-2 w-2 h-2 bg-orange-500 rounded-full shrink-0"></div>
-                        One network for data & voice, no extra cabling needed.
+                        Virtual fax service included with secure online portal and delivery confirmation
+                    </li>
+                    <li class="flex gap-3">
+                        <div class="mt-2 w-2 h-2 bg-orange-500 rounded-full shrink-0"></div>
+                        Security is our top priority with encryption and continuous protection
                     </li>
                 </ul>
             </div>
 
+
             <!-- Right: Image + Animated Glow -->
             <div class="relative">
                 <div
-                    class="absolute -top-10 -left-10 w-80 h-80 bg-orange-200 rounded-full blur-3xl opacity-30 animate-floatSlow">
+                    class="absolute -top-10 -left-10 w-80 h-80 bg-orange-200 rounded-full  opacity-30 animate-floatSlow">
                 </div>
                 <img src="<?= $base ?>/assets/images/undraw_calculator_21hp.svg" alt="Save Money"
-                    class="relative z-10 w-full max-w-sm mx-auto rounded-xl shadow-xl">
+                    class="relative z-10 w-full max-w-sm mx-auto rounded-xl ">
             </div>
 
         </div>
     </section>
 
-    <section class="bg-white py-24">
+    <!-- <section class="bg-white py-24">
         <div class="max-w-7xl mx-auto px-6">
             <div class="mb-16 text-center">
                 <h2 class="text-4xl md:text-5xl font-bold text-neutral-900">
@@ -384,12 +389,12 @@
 
             <div class="grid md:grid-cols-2 gap-12">
 
-                <!-- Security -->
+               
                 <div class="bg-orange-50 p-8 rounded-xl shadow-xl relative" data-aos="fade-right">
                     <div class="flex items-center mb-4">
                         <img src="https://cdn-icons-png.flaticon.com/512/3079/3079048.png" alt="Security Icon"
                             class="w-12 h-12 mr-4" />
-                        <h3 class="text-2xl font-bold text-neutral-900">Security is a priority</h3>
+                        <h3 class="text-2xl font-bold text-neutral-900">Security is the top priority</h3>
                     </div>
                     <p class="text-gray-700 leading-relaxed">
                         Office Connect removes compliance risks by adding primary documents into SharePoint and Office
@@ -397,7 +402,7 @@
                     </p>
                 </div>
 
-                <!-- Increased Productivity -->
+               
                 <div class="bg-gray-50 p-8 rounded-xl shadow-xl relative" data-aos="fade-left">
                     <div class="flex items-center mb-4">
                         <img src="https://cdn-icons-png.flaticon.com/512/854/854894.png" alt="Productivity Icon"
@@ -409,7 +414,7 @@
                     </p>
                 </div>
 
-                <!-- Save Time -->
+               
                 <div class="bg-gray-50 p-8 rounded-xl shadow-xl relative" data-aos="fade-right">
                     <div class="flex items-center mb-4">
                         <img src="https://cdn-icons-png.flaticon.com/512/2179/2179261.png" alt="Save Time Icon"
@@ -422,7 +427,7 @@
                     </p>
                 </div>
 
-                <!-- Effective Reporting -->
+               
                 <div class="bg-orange-50 p-8 rounded-xl shadow-xl relative" data-aos="fade-left">
                     <div class="flex items-center mb-4">
                         <img src="https://cdn-icons-png.flaticon.com/512/1302/1302809.png" alt="Reporting Icon"
@@ -437,7 +442,7 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="bg-gray-50 py-24">
         <div class="max-w-7xl mx-auto px-6">

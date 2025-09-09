@@ -163,7 +163,8 @@
                 <div class="qt-card overflow-hidden group" data-aos="fade-up">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="<?php echo $base; ?>/assets/images/health-1.jpg" alt="Customized Hardware Solutions"
+                        <img src="<?php echo $base; ?>/assets/images/Img_32949129.jpg"
+                            alt="Customized Hardware Solutions"
                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div class="p-8">
@@ -180,8 +181,8 @@
                 <div class="qt-card overflow-hidden group" data-aos="fade-up" data-aos-delay="100">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="<?php echo $base; ?>/assets/images/health-2.jpg" alt="Next-Generation Printers"
-                            class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                        <img src="<?php echo $base; ?>/assets/images/health-2.webp" alt="Next-Generation Printers"
+                            class="absolute inset-0 w-full h-full object-fill transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div class="p-8">
                         <h3 class="text-[22px] font-semibold text-[#1B1B1B] mb-3 tracking-tight">Next-Generation
@@ -197,7 +198,7 @@
                 <div class="qt-card overflow-hidden group" data-aos="fade-up" data-aos-delay="200">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="<?php echo $base; ?>/assets/images/health-3.jpg" alt="User-Friendly Scanners"
+                        <img src="<?php echo $base; ?>/assets/images/health-3.webp" alt="User-Friendly Scanners"
                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div class="p-8">
@@ -232,7 +233,7 @@
                 <div class="qt-card overflow-hidden group" data-aos="fade-up" data-aos-delay="400">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="<?php echo $base; ?>/assets/images/health-5.jpg" alt="Mobile Computers"
+                        <img src="<?php echo $base; ?>/assets/images/ck62.webp" alt="Mobile Computers"
                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div class="p-8">

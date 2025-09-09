@@ -400,7 +400,7 @@
                 <details class="qt-card p-5">
                     <summary class="font-medium cursor-pointer">Support &amp; SLAs?</summary>
                     <p class="mt-3 text-sm text-neutral-700">24/7 monitoring options with clear SLAs. We’ll match what
-                        your ops need.</p>
+                        your operations need.</p>
                 </details>
             </div>
         </div>

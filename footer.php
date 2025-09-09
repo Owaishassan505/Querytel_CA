@@ -8,7 +8,7 @@
             <p>Empowering Canadian businesses with reliable managed IT, cybersecurity, and scalable infrastructure since
                 1995.</p>
             <div class="mt-4 space-y-1">
-                <p><strong>HQ:</strong> 7025 Tomken Road, Suite 244, Mississauga, ON L5S 1R6, Canada</p>
+                <p><strong>Address:</strong> 7025 Tomken Road, Suite 244, Mississauga, ON L5S 1R6, Canada</p>
                 <p><strong>Hours:</strong> Mon–Fri 8:00–17:00 (local)</p>
                 <p><strong>Tel:</strong> <a href="tel:+18444478379" class="hover:underline">+1-844-447-8379</a></p>
                 <p><strong>Email:</strong> <a href="mailto:callback@querytel.com"
