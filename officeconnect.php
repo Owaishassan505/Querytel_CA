@@ -126,8 +126,8 @@
 
             <!-- Image Column -->
             <div data-aos="fade-left" data-aos-delay="200">
-                <img src="https://querytel.com/wp-content/uploads/2021/10/Office-Connect.jpg"
-                    alt="Office Connect Video Chat" class="w-full max-w-xl mx-auto rounded-xl" />
+                <img src="<?= $base . '/assets/images/phones.png' ?>" alt="Office Connect Video Chat"
+                    class="w-full max-w-xl mx-auto rounded-xl" />
             </div>
 
         </div>
@@ -330,37 +330,36 @@
                 <ul class="space-y-6 mt-10 text-gray-700 text-[1.05rem] leading-7">
                     <li class="flex gap-3">
                         <div class="mt-2 w-2 h-2 bg-orange-500 rounded-full shrink-0"></div>
-                        Zero upfront cost with pay as you go options available
+                        Zero Upfront Cost
                     </li>
                     <li class="flex gap-3">
                         <div class="mt-2 w-2 h-2 bg-orange-500 rounded-full shrink-0"></div>
-                        Free cell phones available with no need for proprietary hardware
+                        Pay-As-You-Go Model Is Available
                     </li>
                     <li class="flex gap-3">
                         <div class="mt-2 w-2 h-2 bg-orange-500 rounded-full shrink-0"></div>
-                        Easily scale your service by adding moving or suspending users anytime
+                        Free Soft Phones Are Available
                     </li>
                     <li class="flex gap-3">
                         <div class="mt-2 w-2 h-2 bg-orange-500 rounded-full shrink-0"></div>
-                        Expand call capacity instantly without any technical visits
+                        Fixed Monthly Cost
                     </li>
                     <li class="flex gap-3">
                         <div class="mt-2 w-2 h-2 bg-orange-500 rounded-full shrink-0"></div>
-                        Flat predictable monthly pricing for complete cost control
+                        Add/Remove Users With Hassle-Free Maintenance
                     </li>
                     <li class="flex gap-3">
                         <div class="mt-2 w-2 h-2 bg-orange-500 rounded-full shrink-0"></div>
-                        Hosted PBX is more cost effective and easier to manage than traditional phone systems
+                        QueryTel Office Connect Is Cost-Effective And Easier To Manage And Maintain Versus Traditional
+                        Box Phone Systems
                     </li>
                     <li class="flex gap-3">
                         <div class="mt-2 w-2 h-2 bg-orange-500 rounded-full shrink-0"></div>
-                        Virtual fax service included with secure online portal and delivery confirmation
-                    </li>
-                    <li class="flex gap-3">
-                        <div class="mt-2 w-2 h-2 bg-orange-500 rounded-full shrink-0"></div>
-                        Security is our top priority with encryption and continuous protection
+                        Our Virtual Fax Service Allows You To Manage Your Faxes On An Online Portal With Confirmed
+                        Delivery Report
                     </li>
                 </ul>
+
             </div>
 
 
