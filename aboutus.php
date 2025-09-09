@@ -1,4 +1,4 @@
-<?php $base = "https://itcold.com" ?>
+<?php $base = "" ?>
 
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">

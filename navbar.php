@@ -1,4 +1,4 @@
-<?php $base = "https://itcold.com" ?>
+<?php $base = "" ?>
 <header class="border-b border-gray-200 bg-white sticky top-0 z-50">
     <style>
         :root {
