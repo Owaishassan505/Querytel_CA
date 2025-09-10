@@ -1,3 +1,4 @@
+<?php $base = "" ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,6 +26,7 @@
             }
         }
     </script>
+    <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
     <style>
         .vignette::after {
             content: '';
@@ -40,7 +42,14 @@
                 transition: none !important
             }
         }
+
+        #globe-container canvas {
+            pointer-events: none !important;
+            position: absolute !important;
+            inset: 0 !important;
+        }
     </style>
+
 </head>
 
 <body class="bg-white text-neutral-900">
@@ -51,7 +60,7 @@
         class="relative isolate overflow-hidden bg-slate-950 text-white min-h-[800px] flex items-center justify-center">
 
         <!-- glowing background -->
-        <div aria-hidden="true" class="absolute inset-0 -z-10">
+        <div aria-hidden="true" class="absolute inset-0 -z-20">
             <div
                 class="absolute -top-40 left-1/2 -translate-x-1/2 w-[700px] h-[700px] rounded-full bg-blue-600/30 blur-[180px] animate-pulse">
             </div>
@@ -61,13 +70,13 @@
         </div>
 
         <!-- content -->
-        <div class="relative mx-auto max-w-7xl px-6 py-32 sm:py-40 text-center z-10">
+        <div class="relative mx-auto max-w-7xl px-6 py-32 sm:py-40 text-center z-30">
             <span class="inline-block text-sm font-semibold tracking-widest text-orange-400 uppercase animate-fadeInUp">
                 ✦ Glimpse of the Future ✦
             </span>
 
-            <h1
-                class="mt-6 text-4xl sm:text-6xl md:text-7xl font-extrabold leading-tight bg-gradient-to-r from-blue-400 via-white to-orange-400 bg-clip-text text-transparent animate-fadeInUp">
+            <h1 class="mt-6 text-4xl sm:text-6xl md:text-7xl font-extrabold leading-[1.2] sm:leading-[1.25] md:leading-[1.3]
+      bg-gradient-to-r from-blue-400 via-white to-orange-400 bg-clip-text text-transparent animate-fadeInUp">
                 The Next Era of Technology
             </h1>
 
@@ -77,7 +86,7 @@
             </p>
 
             <div class="mt-10 flex justify-center gap-4 animate-fadeInUp">
-                <a href="#future-tech"
+                <a href="#glimpse"
                     class="px-8 py-3 rounded-xl bg-orange-500 hover:bg-orange-600 text-white font-medium shadow-lg shadow-orange-500/30 transition">
                     Explore the Future
                 </a>
@@ -89,8 +98,9 @@
         </div>
 
         <!-- Interactive Globe -->
-        <div id="globe-container" class="absolute inset-0 w-full h-[700px] -z-0"></div>
+        <div id="globe-container" class="absolute inset-0 w-full h-[700px] z-10 pointer-events-none"></div>
     </section>
+
 
 
     <script type="importmap">
@@ -258,7 +268,7 @@
 
 
 
-    <section class="relative isolate overflow-hidden bg-[#0b0f1a] py-32 text-white">
+    <section class="relative isolate overflow-hidden bg-[#0b0f1a] py-32 text-white" id="glimpse">
         <!-- Background Magic -->
         <div aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
             <!-- animated aurora -->
@@ -866,10 +876,10 @@
                             compromise</span>
                     </h2>
                     <p class="mt-6 text-lg md:text-xl text-slate-300/90 leading-relaxed max-w-2xl">
-                        We are building what comes next in AR and VR, IoT, cybersecurity, and intelligent networking.
-                        Think immersive training on real headsets, smart sensors that act without constant cloud calls,
-                        and network access that adjusts based on real behavior. Our goal is not just to ship features,
-                        but to deliver systems that work reliably, scale safely, and actually solve something.
+                        We are building what comes next in AR and VR, IoT, cybersecurity, and intelligent networking. We
+                        are thinking immersive training on real headsets, smart sensors that act without constant cloud
+                        calls, and network access that adjusts based on real behavior. Our goal is not just to ship
+                        features but to deliver systems that work reliably, scale safely, and solve something.
                     </p>
 
                     <div class="mt-8 flex flex-wrap gap-3">
@@ -897,19 +907,21 @@
                 <div class="md:col-span-6 lg:col-span-5">
                     <div class="relative rounded-2xl bg-white/5 ring-1 ring-white/10 p-6 md:p-8 backdrop-blur">
                         <p class="text-slate-300 leading-relaxed">
-                            Our upcoming work includes secure remote access built around identity, AR workflows for
-                            on-site training, and sensor networks that stay smart even without internet. We focus on
-                            speed, safety, and simplicity—because that’s what makes a system feel invisible when it
-                            works.
+                            QueryTel is actively deploying warehouse-grade IT solutions across Canada, including
+                            hardened network infrastructure, AI-powered video surveillance, and identity-based remote
+                            access. From cold-rated CAT6 cabling to redundant 10G fiber, our systems are built for
+                            uptime in the harshest operational environments.
                         </p>
 
-                        <p class="mt-6 text-sm text-slate-400">Less noise, more clarity. Always grounded in real use
-                            cases.</p>
+                        <p class="mt-6 text-sm text-slate-400">
+                            We design for real-world conditions—freezer zones, moving forklifts, and zero-margin
+                            downtime windows.
+                        </p>
 
 
-                        <p class="mt-6 text-sm text-slate-400">Numbers are our guardrails. We trade hype for SLAs.</p>
                     </div>
                 </div>
+
             </div>
 
             <!-- What we will work on: Pillars -->

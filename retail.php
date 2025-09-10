@@ -9,6 +9,7 @@
     <title>Retail - Querytel Inc</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
     <script>
         tailwind.config = {
             theme: {
@@ -175,7 +176,7 @@
                 <div class="qt-card overflow-hidden group" data-aos="fade-up" data-aos-delay="300">
                     <div class="h-2 bg-[color:var(--accent)]"></div>
                     <div class="relative bg-[#FAFAFA] aspect-[3/2]">
-                        <img src="https://querytel.com/wp-content/uploads/2021/10/Wireless.jpg" alt="Retail Wireless"
+                        <img src="<?= $base . '/assets/images/Wireless.jpg' ?>" alt="Retail Wireless"
                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div class="p-8">

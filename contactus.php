@@ -15,7 +15,7 @@
   <link rel="canonical" href="https://querytel.com/contactus/" />
   <link rel="alternate" hreflang="en-ca" href="https://querytel.com/contactus/" />
   <meta name="theme-color" content="#0f172a" />
-
+  <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Contact QueryTel Inc — Sales & Support in North America" />
@@ -24,8 +24,7 @@
   <meta property="og:url" content="https://querytel.com/contactus/" />
   <meta property="og:site_name" content="QueryTel Inc." />
   <meta property="og:locale" content="en_CA" />
-  <meta property="og:image"
-    content="https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png" />
+  <meta property="og:image" content="<?= $base . '/assets/images/querytel-icon.png' ?>" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
@@ -33,11 +32,10 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Contact QueryTel Inc — Sales & Support in North America" />
   <meta name="twitter:description" content="Call our Toronto HQ or open a support ticket. Mon–Fri, 8am–5pm." />
-  <meta name="twitter:image"
-    content="https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png" />
+  <meta name="twitter:image" content="<?= $base . '/assets/images/querytel-icon.png' ?>" />
 
   <!-- Icons -->
-  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
   <!-- Performance hints -->
@@ -75,7 +73,7 @@
     "@id":"https://querytel.com/#org",
     "name":"QueryTel Inc.",
     "url":"https://querytel.com/",
-    "logo":"https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png",
+    "logo":"<?= $base . '/assets/images/querytel-icon.png' ?>",
     "sameAs":["https://www.linkedin.com/company/querytel"]
   }
   </script>
@@ -90,7 +88,7 @@
     "name":"Contact QueryTel Inc",
     "inLanguage":"en-CA",
     "about":{"@id":"https://querytel.com/#org"},
-    "primaryImageOfPage":{"@type":"ImageObject","url":"https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png"},
+    "primaryImageOfPage":{"@type":"ImageObject","url":"<?= $base . '/assets/images/querytel-icon.png' ?>"},
     "lastReviewed":"2025-08-18",
     "breadcrumb":{"@id":"https://querytel.com/contactus/#breadcrumb"}
   }
@@ -117,7 +115,7 @@
     "@id":"https://querytel.com/#hq",
     "name":"QueryTel Inc — Toronto HQ",
     "url":"https://querytel.com/",
-    "image":"https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png",
+    "image":"<?= $base . '/assets/images/querytel-icon.png' ?>",
     "telephone":"+1-416-477-1380",
     "address":{
       "@type":"PostalAddress",

@@ -25,6 +25,7 @@
             }
         }
     </script>
+    <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
     <script>
         tailwind.config = {
             theme: {

@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Office Connect Plans — QueryTel</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
     <script>
         tailwind.config = {
             theme: {

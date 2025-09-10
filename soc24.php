@@ -10,6 +10,7 @@
     <meta name="description"
         content="SOC 24 by QueryTel: 24/7 monitoring, threat detection, triage and incident response. MDR/XDR, SIEM correlation, playbooks, compliance reporting, and clear SLAs." />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
     <script>
         tailwind.config = {
             theme: {

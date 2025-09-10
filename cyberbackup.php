@@ -9,6 +9,7 @@
     <meta name="description"
         content="Air-gapped, encrypted, policy-driven cloud backup for endpoints, servers, and SaaS. Instant recovery. Ransomware-safe snapshots." />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
     <script>
         tailwind.config = {
             theme: {

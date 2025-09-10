@@ -38,7 +38,7 @@
     content="https://querytel.com/wp-content/uploads/2025/02/Blue-Modern-7-Step-Types-Of-Waste-Diagram-Timeline-Infographic-Brainstorm.png" />
 
   <!-- Icons -->
-  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
   <!-- Performance hints -->
@@ -51,6 +51,7 @@
 
   <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
 
   <!-- Page animations (kept) -->
   <script>
@@ -80,7 +81,7 @@
     "@id": "https://querytel.com/#org",
     "name": "QueryTel Inc.",
     "url": "https://querytel.com/",
-    "logo": "https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png",
+    "logo": "<?= $base . '/assets/images/querytel-icon.png' ?>",
     "sameAs": ["https://www.linkedin.com/company/querytel"]
   }
   </script>
@@ -160,7 +161,7 @@
       <!-- Right Column: Image -->
       <div>
         <img
-          src="https://querytel.com/wp-content/uploads/2025/02/Blue-Modern-7-Step-Types-Of-Waste-Diagram-Timeline-Infographic-Brainstorm.png"
+          src="<?= $base . '/assets/images/Blue-Modern-7-Step-Types-Of-Waste-Diagram-Timeline-Infographic-Brainstorm.png' ?>"
           alt="Managed Services Graphic" class="w-full max-w-lg mx-auto rounded-xl shadow-md" />
       </div>
     </div>
@@ -279,14 +280,12 @@
         </h3>
         <div class="h-px w-20 bg-gray-300"></div>
         <p class="text-gray-700 leading-relaxed text-base">
-          Yes, QueryTel offers exclusive 24 hour helpdesk support to all our
-          clients. It means that a dedicated team of IT masters is always
-          available if you need any IT support 24 hours a day.
+          Yes, QueryTel offers exclusive 24-hour helpdesk support to all our clients. This means that a dedicated team
+          of IT masters is always available if you need IT support 24 hours a day.
         </p>
         <p class="text-gray-700 leading-relaxed text-base">
-          We use HIPAA-compliant support software for mission-critical
-          infrastructure as we believe in providing the very best to our
-          clients.
+          We use HIPAA-compliant support software for mission-critical infrastructure as we believe in providing the
+          very best to our clients.
         </p>
       </div>
 
@@ -325,13 +324,12 @@
         </h3>
         <div class="h-1 w-24 bg-gradient-to-r from-orange-500 to-orange-300 rounded-full"></div>
         <p class="text-gray-700 leading-relaxed text-lg">
-          Our in-house server, cloud, cybersecurity, and network experts embody only the highest level
-          of professionalism and etiquette. For smaller projects and services, we provide
-          <span class="font-semibold text-neutral-900">$2 million</span> liability insurance,
-          while larger-scale engagements are covered with
+          Our in-house server, cloud, cybersecurity, and network experts embody only the highest level of
+          professionalism and etiquette. We provide <span class="font-semibold text-neutral-900">$2 million</span>
+          liability insurance for smaller projects and services, while larger-scale engagements are covered with
           <span class="font-semibold text-neutral-900">$5 million</span>.
-          This ensures our clients can rest assured that any damage or injury incurred on-site
-          will be protected without incident.
+          This ensures our clients can rest assured that any damage or injury incurred on-site will be protected without
+          incident.
         </p>
       </div>
 
@@ -439,8 +437,7 @@
     <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8">
       <!-- Backup Card -->
       <div class="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-lg transition duration-300">
-        <img
-          src="https://querytel.com/wp-content/uploads/elementor/thumbs/cloud-backup-2-peyrttrxdpbszezhj8jp7zwnwsjr7z7gja2sxmpl14.png"
+        <img src="<?= $base . '/assets/images/cloud-backup-2-peyrttrxdpbszezhj8jp7zwnwsjr7z7gja2sxmpl14.png' ?>"
           alt="Cloud Backup" class="w-full h-44 object-cover rounded-xl mb-6" />
         <h4 class="text-xl font-semibold text-gray-900 mb-4">
           Backup & Disaster Recovery
@@ -464,8 +461,7 @@
 
       <!-- Migration Card -->
       <div class="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-lg transition duration-300">
-        <img
-          src="https://querytel.com/wp-content/uploads/elementor/thumbs/cloud-migration-peysasr0s0k6lyc0fkn78pqa18wc78kzja4evhjooo.jpg"
+        <img src="<?= $base . '/assets/images/cloud-migration-peysasr0s0k6lyc0fkn78pqa18wc78kzja4evhjooo.jpg' ?>"
           alt="Migration" class="w-full h-44 object-cover rounded-xl mb-6" />
         <h4 class="text-xl font-semibold text-gray-900 mb-4">Migration</h4>
         <ul class="text-gray-700 space-y-3 text-sm text-left">
@@ -484,8 +480,7 @@
 
       <!-- Security Card -->
       <div class="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-lg transition duration-300">
-        <img
-          src="https://querytel.com/wp-content/uploads/elementor/thumbs/cloud-security-peyryzvyyweku7h5cgztxoxxj32fk1qb8v8xyf1mt4.png"
+        <img src="<?= $base . '/assets/images/cloud-security-peyryzvyyweku7h5cgztxoxxj32fk1qb8v8xyf1mt4.png' ?>"
           alt="Cloud Security" class="w-full h-44 object-cover rounded-xl mb-6" />
         <h4 class="text-xl font-semibold text-gray-900 mb-4">
           Cloud Security
@@ -547,7 +542,7 @@
         </div>
 
         <!-- Image -->
-        <img src="https://querytel.com/wp-content/uploads/2021/10/hosted-pbx1-469x500-1.jpg" alt="Cloud PBX"
+        <img src="<?= $base . '/assets/images/hosted-pbx1-469x500-1.jpg' ?>" alt="Cloud PBX"
           class="relative z-10 w-full max-w-md mx-auto rounded-xl shadow-2xl object-cover" />
       </div>
     </div>
@@ -583,37 +578,34 @@
         </h2>
         <hr class="w-16 border-t-2 border-orange-500 mb-6" />
         <p class="text-gray-700 text-base mb-6">
-          Update your VoIP Origination service with our first-rate SIP
-          Trunking and SIP termination Solutions.
+          Update your VoIP Origination service with our first-rate SIP Trunking and SIP termination Solutions.
         </p>
         <ul class="space-y-4 text-sm text-gray-700">
           <li class="flex gap-2">
             <span class="mt-1 text-orange-500 text-xl">•</span>
-            You will easily connect a list of hard-to-get numbers at the most
-            negligible cost, sending directly into your current phone system.
+            You will easily connect a list of hard-to-get numbers at the most negligible cost, sending directly into
+            your current phone system.
           </li>
           <li class="flex gap-2">
             <span class="mt-1 text-orange-500 text-xl">•</span>
-            It doesn’t matter where your calls occurr; enjoy the most
-            trustworthy voice service.
+            It doesn’t matter where your calls occur; enjoy the most trustworthy voice service.
           </li>
           <li class="flex gap-2">
             <span class="mt-1 text-orange-500 text-xl">•</span>
-            QueryTel makes deploying SIP forwarding with your current PBX
-            system as easy as pie.
+            QueryTel makes deploying SIP forwarding with your current PBX system as easy as pie.
           </li>
           <li class="flex gap-2">
             <span class="mt-1 text-orange-500 text-xl">•</span>
-            We don’t charge a single penny for a start-up and to port your
-            current phone numbers, and we don’t make you sign any contract.
+            We don’t charge a single penny for a start-up and to port your current phone numbers, and we don’t make you
+            sign any contract.
           </li>
         </ul>
       </div>
 
       <!-- Center Image -->
       <div class="flex justify-center">
-        <img src="https://querytel.com/wp-content/uploads/2021/10/hosted-pbx2-429x469-1.jpg"
-          alt="Office Connect Diagram" class="w-full max-w-sm rounded-xl shadow-xl" />
+        <img src="<?= $base . '/assets/images/hosted-pbx2-429x469-1.jpg' ?>" alt="Office Connect Diagram"
+          class="w-full max-w-sm rounded-xl shadow-xl" />
       </div>
 
       <!-- Right Column -->
@@ -667,20 +659,19 @@
         </h2>
         <div class="w-16 h-1 bg-blue-500 mb-8"></div>
         <p class="text-gray-300 mb-6 leading-relaxed">
-          Today’s world is digitally connected, so businesses must be extra cautious about the security of their
-          critical data and users' confidential information.
+          Today’s world is digitally connected, so businesses must be extra cautious about protecting their critical
+          data and users' confidential information.
         </p>
         <p class="text-gray-300 mb-6 leading-relaxed">
-          Get peace of mind today with our onsite and remote support, available for all employees, with 15-minute
-          response times via the HIPAA-compliant support tool <strong>LogMeIn Rescue®</strong>.
+          Get peace of mind today with our on-site and remote support, available for all employees. Response times are
+          15 minutes via the HIPAA-compliant support tool <strong>LogMeIn Rescue®</strong>.
         </p>
         <p class="text-gray-300 mb-6 leading-relaxed">
-          We will be your committed partner as we uphold rigorous technical and structural safety practices.
-          Hold secure remote sessions with our two-step verification log-in and highest security protocols.
+          We will be your committed partner as we uphold rigorous technical and structural safety practices. Hold secure
+          remote sessions with our two-step verification log-in and highest security protocols.
         </p>
         <p class="text-gray-300 leading-relaxed">
-          Hold secure remote sessions with our two-step verification log-in
-          and highest security protocols.
+          Hold secure remote sessions with our two-step verification log-in and highest security protocols.
         </p>
       </div>
 
@@ -701,10 +692,10 @@
 
     <!-- Image Row -->
     <div class="relative z-10 mt-24 grid md:grid-cols-2 gap-8 max-w-7xl mx-auto px-6 animate-fadeIn delay-200">
-      <img src="https://querytel.com/wp-content/uploads/2021/10/Business-Strategy-Planning-2b-1024x576.png"
-        alt="IT Strategy Planning" class="w-full h-auto rounded-lg shadow-md" />
-      <img src="https://querytel.com/wp-content/uploads/2021/10/cyber-security-live-monitoring-2-1024x576.jpg"
-        alt="Network Monitoring" class="w-full h-auto rounded-lg shadow-md" />
+      <img src="<?= $base . '/assets/images/Business-Strategy-Planning-2b-1024x576.png' ?>" alt="IT Strategy Planning"
+        class="w-full h-auto rounded-lg shadow-md" />
+      <img src="<?= $base . '/assets/images/cyber-security-live-monitoring-2-1024x576.jpg' ?>" alt="Network Monitoring"
+        class="w-full h-auto rounded-lg shadow-md" />
     </div>
 
     <!-- Text Section -->
@@ -827,7 +818,7 @@
                 d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
             </svg>
             <p class="text-gray-700 text-base leading-relaxed">
-              With QueryTel, our SOC 24 monitors all your hardware and cloud infrastructure and provide proactive
+              With QueryTel, our SOC 24 monitors all your hardware and cloud infrastructure and provides proactive
               support.
             </p>
           </div>
@@ -849,8 +840,8 @@
       <div class="grid md:grid-cols-3 gap-10">
         <!-- Card 1 -->
         <div class="essential-card opacity-0 translate-y-8 transition-all duration-700 ease-out">
-          <img src="https://querytel.com/wp-content/uploads/2021/10/professional-it-consultant-1024x683.jpg"
-            alt="IT Consultation" class="w-full h-56 object-cover rounded-t-2xl" />
+          <img src="<?= $base . '/assets/images/professional-it-consultant-1024x683.jpg' ?>" alt="IT Consultation"
+            class="w-full h-56 object-cover rounded-t-2xl" />
           <div class="bg-gray-50 p-6 rounded-b-2xl shadow-sm hover:shadow-md transition hover:scale-[1.03]">
             <h3 class="text-lg font-semibold text-neutral-900 mb-2">
               Professional IT Consultation
@@ -865,7 +856,7 @@
 
         <!-- Card 2 -->
         <div class="essential-card opacity-0 translate-y-8 transition-all duration-700 ease-out delay-150">
-          <img src="https://querytel.com/wp-content/uploads/2021/10/Mac-Services-b-1024x683.jpg" alt="MAC Services"
+          <img src="<?= $base . '/assets/images/Mac-Services-b-1024x683.jpg' ?>" alt="MAC Services"
             class="w-full h-56 object-cover rounded-t-2xl" />
           <div class="bg-gray-50 p-6 rounded-b-2xl shadow-sm hover:shadow-md transition hover:scale-[1.03]">
             <h3 class="text-lg font-semibold text-neutral-900 mb-2">
@@ -880,7 +871,7 @@
 
         <!-- Card 3 -->
         <div class="essential-card opacity-0 translate-y-8 transition-all duration-700 ease-out delay-300">
-          <img src="https://querytel.com/wp-content/uploads/2021/10/computer-service-4b-1024x683.jpg" alt="Break-Fix"
+          <img src="<?= $base . '/assets/images/computer-service-4b-1024x683.jpg' ?>" alt="Break-Fix"
             class="w-full h-56 object-cover rounded-t-2xl" />
           <div class="bg-gray-50 p-6 rounded-b-2xl shadow-sm hover:shadow-md transition hover:scale-[1.03]">
             <h3 class="text-lg font-semibold text-neutral-900 mb-2">
@@ -1049,10 +1040,10 @@
 
     <!-- Image Row -->
     <div class="relative z-10 mt-24 grid md:grid-cols-2 gap-8 max-w-7xl mx-auto px-6 animate-fadeIn delay-200">
-      <img src="https://querytel.com/wp-content/uploads/2021/10/website-design-working-2-1024x411.jpeg"
-        alt="IT Strategy Planning" class="w-full h-auto rounded-lg shadow-md" />
-      <img src="https://querytel.com/wp-content/uploads/2021/10/web-design-update-b-1024x411.png"
-        alt="Network Monitoring" class="w-full h-auto rounded-lg shadow-md" />
+      <img src="<?= $base . '/assets/images/website-design-working-2-1024x411.jpeg' ?>" alt="IT Strategy Planning"
+        class="w-full h-auto rounded-lg shadow-md" />
+      <img src="<?= $base . '/assets/images/web-design-update-b-1024x411.png' ?>" alt="Network Monitoring"
+        class="w-full h-auto rounded-lg shadow-md" />
     </div>
 
     <!-- Text Section -->
@@ -1083,16 +1074,19 @@
 
         <div class="space-y-4">
           <p class="text-gray-700 text-base leading-relaxed">
-            Our process starts with listening. We sit down with your team, your partners—even peek into how your
+            Our process starts with <b>listening</b>. We sit down with your team, your partners—even peek into how your
             business runs day to day.
           </p>
           <p class="text-gray-700 text-base leading-relaxed">
-            Then we do our homework. We uncover what makes your business unique and translate that into a website that
+            Then we do our <b>homework</b>. We uncover what makes your business unique and translate that into a website
+            that
             tells your story, not just shows your services.
           </p>
           <p class="text-gray-700 text-base leading-relaxed">
-            Every element has intent. Every paragraph speaks for you when you're not in the room. This isn’t just web
-            design—it’s brand translation.
+            Every element has intent. Every paragraph speaks for you when you're not in the room. <b>
+              This isn’t just web
+              design—it’s brand translation.
+            </b>
           </p>
         </div>
       </div>

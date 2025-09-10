@@ -30,7 +30,7 @@
   <meta name="twitter:description" content="Secure, scalable IT and cloud infrastructure for Canadian enterprises." />
   <meta name="twitter:image" content="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png" />
 
-  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
   <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
@@ -116,7 +116,7 @@
     "@id": "https://querytel.com/#org",
     "name": "QueryTel Inc.",
     "url": "https://querytel.com/",
-    "logo": "https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png",
+    "logo": "<?= $base . '/assets/images/querytel-icon.png' ?>",
     "description": "Managed IT, cybersecurity, and cloud solutions for Canadian businesses.",
     "foundingDate": "1995",
     "sameAs": ["https://www.linkedin.com/company/querytel"],
@@ -156,7 +156,7 @@
     "@id":"https://querytel.com/#hq",
     "name":"QueryTel Inc — Toronto HQ",
     "url":"https://querytel.com/",
-    "image":"https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png",
+    "image":"<?= $base . '/assets/images/querytel-icon.png' ?>",
     "telephone":"+1-416-477-1380",
     "address":{
       "@type":"PostalAddress",
@@ -666,7 +666,7 @@
           </p>
         </div>
         <div class="md:w-1/2 flex justify-center">
-          <img src="https://querytel.com/wp-content/uploads/2021/10/professional-experience-1-429-x-469.png"
+          <img src="<?= $base . '/assets/images/professional-experience-1-429-x-469.png' ?>"
             alt="Professional consultants" class="rounded-lg shadow-lg max-w-sm w-full animate-float-slow" />
         </div>
       </div>
@@ -876,7 +876,7 @@
           <img src="https://logo.clearbit.com/lenovo.com" alt="Lenovo" class="h-6 md:h-8 w-auto" />
           <img src="https://logo.clearbit.com/hp.com" alt="HP" class="h-6 md:h-8 w-auto" />
           <img src="https://logo.clearbit.com/intel.com" alt="Intel" class="h-6 md:h-8 w-auto" />
-          <img src="https://logo.clearbit.com/windows.com" alt="Windows" class="h-6 md:h-8 w-auto" />
+
         </div>
       </div>
     </div>

@@ -77,8 +77,7 @@
 
     <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center" role="navigation" aria-label="Main">
         <a href="<?= $base ?>/" class="flex items-center gap-2">
-            <img src="https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png"
-                alt="QueryTel Logo" class="h-12 w-auto" />
+            <img src="<?= $base . '/assets/images/querytel-icon.png' ?>" alt="QueryTel Logo" class="h-12 w-auto" />
         </a>
 
         <!-- Desktop Nav -->

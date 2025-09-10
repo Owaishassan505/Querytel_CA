@@ -10,6 +10,7 @@
         content="Secure, enterprise-grade file sync & share with policy controls, auditing, and deep Microsoft integration. Brand it your way and manage centrally." />
     <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
     <script>
         tailwind.config = {
             theme: {

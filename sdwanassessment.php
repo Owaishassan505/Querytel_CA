@@ -20,6 +20,7 @@
             }
         };
     </script>
+    <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
 </head>
 
 <body class="bg-white text-neutral-900 font-sans">

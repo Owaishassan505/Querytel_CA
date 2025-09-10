@@ -17,7 +17,7 @@
     <title>QueryTel Journal — IT, Security & Cloud</title>
     <meta name="description" content="Field-tested insights on IT, cybersecurity, networking, and cloud." />
     <meta name="theme-color" content="#0f172a" />
-    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <script src="https://cdn.tailwindcss.com"></script>
     <style>

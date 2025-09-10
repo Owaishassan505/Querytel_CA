@@ -13,7 +13,7 @@
         content="Office Connect by QueryTel: enterprise-grade VoIP, SIP trunking, and hosted PBX with low latency, call analytics, and easy number porting. Built for Canadian businesses." />
     <link rel="canonical" href="https://querytel.com/officeconnect/" />
     <meta name="robots" content="index,follow,max-image-preview:large" />
-
+    <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
     <!-- Open Graph (social) -->
     <meta property="og:title" content="Office Connect VoIP & SIP Trunking | Hosted PBX | QueryTel" />
     <meta property="og:description"
@@ -145,8 +145,8 @@
                     <div class="w-[320px] h-[320px] rounded-full border-[40px] border-blue-900 shadow-xl opacity-80">
                     </div>
                 </div>
-                <img src="https://querytel.com/wp-content/uploads/2021/10/office-connect-2b.jpg"
-                    alt="Office Connect Illustration" class="relative z-10 w-full rounded-xl shadow-xl" />
+                <img src="<?= $base . '/assets/images/office-connect-2b.jpg' ?>" alt="Office Connect Illustration"
+                    class="relative z-10 w-full rounded-xl shadow-xl" />
             </div>
 
             <!-- Right Content -->
@@ -173,7 +173,8 @@
 
 
     <section class="relative bg-no-repeat bg-top bg-[length:1600px_auto] md:bg-cover"
-        style="background-image: url('https://querytel.com/wp-content/uploads/2021/10/Callcenterscript-scaled.jpg');">
+        style="background-image: url('<?= $base . '/assets/images/Callcenterscript-scaled.jpg' ?>');">
+
         <div class="bg-black/60 py-24 md:py-32">
             <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center text-white">
 

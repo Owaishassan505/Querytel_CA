@@ -13,7 +13,7 @@
         content="Explore QueryTel’s enterprise IT services: Managed IT, cloud infrastructure, cybersecurity, warehousing & network builds, and Office Connect VoIP. Built for Canadian businesses." />
     <link rel="canonical" href="https://querytel.com/services/" />
     <meta name="robots" content="index,follow,max-image-preview:large" />
-
+    <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
     <!-- Open Graph -->
     <meta property="og:title"
         content="IT Services in North America | Managed IT, Cloud, Cybersecurity & VoIP | QueryTel" />
@@ -307,40 +307,40 @@
                     $services = [
                         // title, category, desc, image(url), slug
                         // Managed Services
-                        ["24/7 Help Desk Support", "Managed Services", "Always-on user support with clear SLAs.", "https://querytel.com/wp-content/uploads/2025/07/SAO.webp", "24-7-help-desk-support"],
-                        ["Field Services", "Managed Services", "On-site install, break/fix, and structured cabling.", "https://querytel.com/wp-content/uploads/2025/07/field-service.jpeg", "field-services"],
-                        ["Datacenter Operations", "Managed Services", "Monitoring, maintenance, and capacity planning.", "https://querytel.com/wp-content/uploads/2025/08/Depositphotos_287797174_XL-1024x576.jpg", "datacenter-operations"],
-                        ["Network Infrastructure Operations", "Managed Services", "Lifecycle, config, and change control for switches/routers.", "https://querytel.com/wp-content/uploads/2025/07/NIO.jpg", "network-infrastructure-operations"],
-                        ["End-User Computing Infrastructure", "Managed Services", "Device imaging, policies, and updates at scale.", "https://querytel.com/wp-content/uploads/2025/07/EUC.webp", "end-user-computing-infrastructure"],
-                        ["Greenfield Projects", "Managed Services", "New-site buildouts from design to go-live.", "https://querytel.com/wp-content/uploads/2025/07/Greenfield-Project.jpg", "greenfield-projects"],
-                        ["Procurement Services", "Managed Services", "Sourcing, licensing, and logistics with preferred pricing.", "https://querytel.com/wp-content/uploads/2025/07/1653946676832-1-1024x683.jpeg", "procurement-services"],
-                        ["Staff Augmentation / Outsourcing", "Managed Services", "Extra hands or full teams to hit deadlines.", "https://querytel.com/wp-content/uploads/2025/07/SAO1.webp", "staff-augmentation-outsourcing"],
+                        ["24/7 Help Desk Support", "Managed Services", "Always-on user support with clear SLAs.", "/assets/images/SAO.webp", "24-7-help-desk-support"],
+                        ["Field Services", "Managed Services", "On-site install, break/fix, and structured cabling.", "/assets/images/field-service.jpeg", "field-services"],
+                        ["Datacenter Operations", "Managed Services", "Monitoring, maintenance, and capacity planning.", "/assets/images/Depositphotos_287797174_XL-1024x576.jpg", "datacenter-operations"],
+                        ["Network Infrastructure Operations", "Managed Services", "Lifecycle, config, and change control for switches/routers.", "/assets/images/NIO.jpg", "network-infrastructure-operations"],
+                        ["End-User Computing Infrastructure", "Managed Services", "Device imaging, policies, and updates at scale.", "/assets/images/EUC.webp", "end-user-computing-infrastructure"],
+                        ["Greenfield Projects", "Managed Services", "New-site buildouts from design to go-live.", "/assets/images/Greenfield-Project.jpg", "greenfield-projects"],
+                        ["Procurement Services", "Managed Services", "Sourcing, licensing, and logistics with preferred pricing.", "/assets/images/1653946676832-1-1024x683.jpeg", "procurement-services"],
+                        ["Staff Augmentation / Outsourcing", "Managed Services", "Extra hands or full teams to hit deadlines.", "/assets/images/SAO1.webp", "staff-augmentation-outsourcing"],
 
                         // Managed Security Services
-                        ["Infrastructure Security", "Managed Security Services", "Harden networks, segment traffic, & enforce policy.", "https://querytel.com/wp-content/uploads/2025/08/iNTERNET-SECURITY-1024x761.png", "infrastructure-security"],
-                        ["24-Hour Monitoring & Mitigation", "Managed Security Services", "Continuous detection and response.", "https://querytel.com/wp-content/uploads/2025/07/24-hour-security.webp", "24-hour-monitoring-mitigation"],
-                        ["Patch/Vulnerability Monitoring", "Managed Security Services", "Track CVEs, patch cadence, and exceptions.", "https://querytel.com/wp-content/uploads/2025/07/Vulnerability-Monitoring-Assessment-Mitigation.webp", "patch-vulnerability-monitoring"],
-                        ["Securing Segregation of IT/OT Devices", "Managed Security Services", "Segment critical systems safely.", "https://querytel.com/wp-content/uploads/2025/07/SOC-monitoring.png", "securing-segregation-it-ot"],
-                        ["Certificate Management", "Managed Security Services", "Issue, rotate, and audit certs without surprises.", "https://querytel.com/wp-content/uploads/2025/07/Certificate-Management.webp", "certificate-management"],
+                        ["Infrastructure Security", "Managed Security Services", "Harden networks, segment traffic, & enforce policy.", "/assets/images/iNTERNET-SECURITY-1024x761.png", "infrastructure-security"],
+                        ["24-Hour Monitoring & Mitigation", "Managed Security Services", "Continuous detection and response.", "/assets/images/24-hour-security.webp", "24-hour-monitoring-mitigation"],
+                        ["Patch/Vulnerability Monitoring", "Managed Security Services", "Track CVEs, patch cadence, and exceptions.", "/assets/images/Vulnerability-Monitoring-Assessment-Mitigation.webp", "patch-vulnerability-monitoring"],
+                        ["Securing Segregation of IT/OT Devices", "Managed Security Services", "Segment critical systems safely.", "/assets/images/SOC-monitoring.png", "securing-segregation-it-ot"],
+                        ["Certificate Management", "Managed Security Services", "Issue, rotate, and audit certs without surprises.", "/assets/images/Certificate-Management.webp", "certificate-management"],
 
                         // Web & Digital Services
-                        ["Dynamic Web Development", "Web & Digital Services", "Modern, performant sites on proven stacks.", "https://querytel.com/wp-content/uploads/2025/07/depositphotos_652767038-stock-illustration-man-code-guy-writes-code.webp", "dynamic-web-development"],
-                        ["E-Commerce Site Development & Management", "Web & Digital Services", "Secure storefronts with smooth ops.", "https://querytel.com/wp-content/uploads/2025/07/ecommerce.webp", "ecommerce-development-management"],
-                        ["Intranet/SharePoint Development & Management", "Web & Digital Services", "Internal portals that people use.", "https://querytel.com/wp-content/uploads/2025/07/intranet.webp", "intranet-sharepoint-development-management"],
-                        ["Web Catalog Development & Management", "Web & Digital Services", "Product catalogs with a search that finds things.", "https://querytel.com/wp-content/uploads/2025/07/web-catalog.webp", "web-catalog-development-management"],
-                        ["Chatbot Deployment & Training", "Web & Digital Services", "Automate FAQs and workflows safely.", "https://querytel.com/wp-content/uploads/2025/07/chatbot.webp", "chatbot-deployment-training"],
-                        ["Workflow Automation", "Web & Digital Services", "Zap the busywork; ship the work that matters.", "https://querytel.com/wp-content/uploads/2025/07/workflow-automation.webp", "workflow-automation"],
+                        ["Dynamic Web Development", "Web & Digital Services", "Modern, performant sites on proven stacks.", "/assets/images/depositphotos_652767038-stock-illustration-man-code-guy-writes-code.webp", "dynamic-web-development"],
+                        ["E-Commerce Site Development & Management", "Web & Digital Services", "Secure storefronts with smooth ops.", "/assets/images/ecommerce.webp", "ecommerce-development-management"],
+                        ["Intranet/SharePoint Development & Management", "Web & Digital Services", "Internal portals that people use.", "/assets/images/intranet.webp", "intranet-sharepoint-development-management"],
+                        ["Web Catalog Development & Management", "Web & Digital Services", "Product catalogs with a search that finds things.", "/assets/images/web-catalog.webp", "web-catalog-development-management"],
+                        ["Chatbot Deployment & Training", "Web & Digital Services", "Automate FAQs and workflows safely.", "/assets/images/chatbot.webp", "chatbot-deployment-training"],
+                        ["Workflow Automation", "Web & Digital Services", "Zap the busywork; ship the work that matters.", "/assets/images/workflow-automation.webp", "workflow-automation"],
 
                         // Application Security
-                        ["Secure Onboarding", "Application Security", "Provision users/apps securely from day one.", "https://querytel.com/wp-content/uploads/2025/07/Untitled-design-7.png", "secure-onboarding"],
-                        ["Single Sign-On (SSO)", "Application Security", "One login, strong authentication, happy users.", "https://querytel.com/wp-content/uploads/2025/07/Single-Sign-On-SSO.webp", "single-sign-on-sso"],
-                        ["Monitoring", "Application Security", "Watch app health and threats in one place.", "https://querytel.com/wp-content/uploads/2025/07/threat-monitoring.webp", "application-monitoring"],
-                        ["Lifecycle Management", "Application Security", "Joiners/movers/leavers done right.", "https://querytel.com/wp-content/uploads/2025/07/undefined.png", "lifecycle-management"],
+                        ["Secure Onboarding", "Application Security", "Provision users/apps securely from day one.", "/assets/images/Untitled-design-7.png", "secure-onboarding"],
+                        ["Single Sign-On (SSO)", "Application Security", "One login, strong authentication, happy users.", "/assets/images/Single-Sign-On-SSO.webp", "single-sign-on-sso"],
+                        ["Monitoring", "Application Security", "Watch app health and threats in one place.", "/assets/images/threat-monitoring.webp", "application-monitoring"],
+                        ["Lifecycle Management", "Application Security", "Joiners/movers/leavers done right.", "/assets/images/undefined.png", "lifecycle-management"],
 
                         // Testing & Auditing
-                        ["Penetration Testing", "Testing & Auditing", "Find issues before attackers do.", "https://querytel.com/wp-content/uploads/2025/07/Penetration-testing-1.webp", "penetration-testing"],
-                        ["Auditing Security Controls", "Testing & Auditing", "Evidence, controls, and gaps documented.", "https://querytel.com/wp-content/uploads/2025/07/Untitled-design-9.png", "auditing-security-controls"],
-                        ["Remediation", "Testing & Auditing", "Fix quickly with prioritized actions.", "https://querytel.com/wp-content/uploads/2025/07/Untitled-design-10.png", "remediation"],
+                        ["Penetration Testing", "Testing & Auditing", "Find issues before attackers do.", "/assets/images/Penetration-testing-1.webp", "penetration-testing"],
+                        ["Auditing Security Controls", "Testing & Auditing", "Evidence, controls, and gaps documented.", "/assets/images/Untitled-design-9.png", "auditing-security-controls"],
+                        ["Remediation", "Testing & Auditing", "Fix quickly with prioritized actions.", "/assets/images/Untitled-design-10.png", "remediation"],
                     ];
                     $cats = array_values(array_unique(array_map(fn($s) => $s[1], $services)));
                     ?>

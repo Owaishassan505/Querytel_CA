@@ -1,3 +1,4 @@
+<?php $base = "" ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,7 +20,7 @@
   <meta property="og:url" content="https://querytel.com/cloud-security/" />
   <meta property="og:image" content="https://querytel.com/wp-content/uploads/2025/07/mynetwork.drawio.png" />
   <meta property="og:locale" content="en_CA" />
-
+  <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@QueryTel" />
@@ -192,109 +193,158 @@
 
 
 
-  <!-- SERVICES -->
-  <section id="services" class="py-16">
-    <div class="max-w-6xl mx-auto px-6 space-y-24">
+  <section id="services" class="relative max-w-[1600px] mx-auto px-8 py-24">
+    <!-- Sticky Scrollspy Nav -->
+    <aside id="scrollspy"
+      class="hidden lg:flex flex-col gap-2 sticky top-28 max-w-[260px] float-left mr-12 text-base font-medium">
+      <a href="#svc-cloud-security"
+        class="spy-link px-4 py-2 rounded-xl transition hover:bg-gray-100 hover:text-black">Cloud
+        Security</a>
+      <a href="#svc-centralized"
+        class="spy-link px-4 py-2 rounded-xl transition hover:bg-gray-100 hover:text-black">Centralized
+        Management</a>
+      <a href="#svc-threats" class="spy-link px-4 py-2 rounded-xl transition hover:bg-gray-100 hover:text-black">Threat
+        Prevention</a>
+      <a href="#svc-deployment"
+        class="spy-link px-4 py-2 rounded-xl transition hover:bg-gray-100 hover:text-black">Flexible
+        Deployment</a>
+      <a href="#svc-performance"
+        class="spy-link px-4 py-2 rounded-xl transition hover:bg-gray-100 hover:text-black">Performance</a>
+    </aside>
+
+    <!-- Services -->
+    <div class="lg:ml-[300px] space-y-40">
 
       <!-- Service 1 -->
-      <div class="grid md:grid-cols-2 items-center gap-10">
-        <img src="<?= $base . '/assets/images/Web-developer-application-to-cloud-server-1.jpg' ?>"
-          alt="Cloud Security Icon" class="rounded-lg shadow" />
-        <div>
-          <h2 class="text-2xl font-semibold mb-4">Scalable Security for Cloud Environments</h2>
-          <p class="text-gray-600 mb-4">
-            Our cloud-native firewall solutions automatically scale with dynamic workloads,
-            providing comprehensive protection without performance trade-offs.
-          </p>
-          <ul class="space-y-2 text-gray-700 list-disc list-inside">
-            <li>Next-Gen Firewall Capabilities: Intrusion Prevention, Web Filtering, DNS Security, and Application
-              Control</li>
-            <li>High Availability: Uninterrupted security across multiple cloud regions and availability zones</li>
-            <li>Cloud Integration: Seamless compatibility with AWS, Azure, and hybrid cloud environments</li>
-          </ul>
+      <article id="svc-cloud-security" class="scroll-mt-32">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+          <img src="<?= $base . '/assets/images/Web-developer-application-to-cloud-server-1.jpg' ?>"
+            alt="Cloud Security Icon" class="rounded-2xl shadow-lg object-cover aspect-[4/3] w-full" />
+          <div>
+            <h2 class="text-4xl font-bold tracking-tight">Scalable Security for Cloud Environments</h2>
+            <p class="text-gray-600 mt-6 leading-relaxed">
+              Our cloud-native firewall solutions automatically scale with dynamic workloads,
+              providing comprehensive protection without performance trade-offs.
+            </p>
+            <ul class="mt-6 space-y-3 text-gray-700 list-disc list-inside">
+              <li>Next-Gen Firewall: Intrusion Prevention, Web Filtering, DNS Security, App Control</li>
+              <li>High Availability across multiple cloud regions & zones</li>
+              <li>Seamless integration with AWS, Azure, and hybrid cloud</li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </article>
 
       <!-- Service 2 -->
-      <div class="grid md:grid-cols-2 items-center gap-10">
-        <div class="md:order-2">
+      <article id="svc-centralized" class="scroll-mt-32">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+          <div class="order-2 md:order-1">
+            <h2 class="text-4xl font-bold tracking-tight">Centralized Management & Visibility</h2>
+            <p class="text-gray-600 mt-6 leading-relaxed">
+              Simplify cloud security with centralized policy management and intuitive control,
+              leveraging Fortinet's powerful tools with QueryTel expertise.
+            </p>
+            <ul class="mt-6 space-y-3 text-gray-700 list-disc list-inside">
+              <li>Unified security policies across all environments</li>
+              <li>Real-time visibility into traffic, usage, and threats</li>
+              <li>Automated policy enforcement via threat intelligence</li>
+            </ul>
+          </div>
           <img src="<?= $base . '/assets/images/Depositphotos_281544310_XL-2048x801.jpg' ?>"
-            alt="Centralized Cloud Management" class="rounded-lg shadow" />
+            alt="Centralized Cloud Management"
+            class="rounded-2xl shadow-lg object-cover aspect-[4/3] w-full order-1 md:order-2" />
         </div>
-        <div class="md:order-1">
-          <h2 class="text-2xl font-semibold mb-4">Centralized Management and Visibility</h2>
-          <p class="text-gray-600 mb-4">
-            Simplify cloud security with centralized policy management and intuitive control
-            provided by QueryTel, leveraging Fortinet's powerful tools.
-          </p>
-          <ul class="space-y-2 text-gray-700 list-disc list-inside">
-            <li>Unified Security Policies: Easily define, assign, and manage policies across environments</li>
-            <li>Real-time Visibility: Gain deep insights into traffic, usage, and threats</li>
-            <li>Automated Enforcement: Dynamic policy adjustments via metadata and threat intelligence</li>
-          </ul>
-        </div>
-      </div>
+      </article>
 
       <!-- Service 3 -->
-      <div class="grid md:grid-cols-2 items-center gap-10">
-        <img src="<?= $base . '/assets/images/Depositphotos_529470832_XL-2048x1365.jpg' ?>"
-          alt="Cybersecurity Cloud Lock" class="rounded-lg shadow" />
-        <div>
-          <h2 class="text-2xl font-semibold mb-4">Advanced Threat Prevention</h2>
-          <p class="text-gray-600 mb-4">
-            Stay ahead of evolving cybersecurity threats with our advanced threat protection,
-            enhanced by Fortinet’s globally trusted intelligence.
-          </p>
-          <ul class="space-y-2 text-gray-700 list-disc list-inside">
-            <li>Proactive Intrusion Prevention powered by FortiGuard Labs</li>
-            <li>Malware and Ransomware Protection</li>
-            <li>Compliance Enforcement with built-in frameworks</li>
-          </ul>
+      <article id="svc-threats" class="scroll-mt-32">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+          <img src="<?= $base . '/assets/images/Depositphotos_529470832_XL-2048x1365.jpg' ?>"
+            alt="Cybersecurity Cloud Lock" class="rounded-2xl shadow-lg object-cover aspect-[4/3] w-full" />
+          <div>
+            <h2 class="text-4xl font-bold tracking-tight">Advanced Threat Prevention</h2>
+            <p class="text-gray-600 mt-6 leading-relaxed">
+              Stay ahead of evolving cybersecurity threats with advanced protection,
+              enhanced by Fortinet’s globally trusted intelligence.
+            </p>
+            <ul class="mt-6 space-y-3 text-gray-700 list-disc list-inside">
+              <li>Proactive Intrusion Prevention (FortiGuard Labs)</li>
+              <li>Malware & Ransomware Protection</li>
+              <li>Compliance enforcement with built-in frameworks</li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </article>
 
       <!-- Service 4 -->
-      <div class="grid md:grid-cols-2 items-center gap-10">
-        <div class="md:order-2">
+      <article id="svc-deployment" class="scroll-mt-32">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+          <div class="order-2 md:order-1">
+            <h2 class="text-4xl font-bold tracking-tight">Flexible Deployment Options</h2>
+            <p class="text-gray-600 mt-6 leading-relaxed">
+              We provide versatile deployment models aligned with your organization's strategy,
+              ensuring seamless security everywhere.
+            </p>
+            <ul class="mt-6 space-y-3 text-gray-700 list-disc list-inside">
+              <li>Available on AWS & Azure Marketplaces</li>
+              <li>Hybrid integration with existing on-premises infra</li>
+              <li>Cost-effective 1, 3, and 5-year subscriptions</li>
+            </ul>
+          </div>
           <img src="<?= $base . '/assets/images/Depositphotos_811146458_XL-2048x1188.jpg' ?>"
-            alt="Flexible Cloud Deployment" class="rounded-lg shadow" />
+            alt="Flexible Cloud Deployment"
+            class="rounded-2xl shadow-lg object-cover aspect-[4/3] w-full order-1 md:order-2" />
         </div>
-        <div class="md:order-1">
-          <h2 class="text-2xl font-semibold mb-4">Flexible Deployment Tailored to Your Needs</h2>
-          <p class="text-gray-600 mb-4">
-            We offer versatile deployment models aligned perfectly with your organization's strategy and architecture.
-          </p>
-          <ul class="space-y-2 text-gray-700 list-disc list-inside">
-            <li>Cloud Marketplace Availability: Flexible subscription models via AWS and Azure marketplaces</li>
-            <li>Hybrid Cloud Integration: Smooth integration into existing on-premises infrastructure</li>
-            <li>Cost-Effective Solutions: One, three, and five year subscription models</li>
-          </ul>
-        </div>
-      </div>
+      </article>
 
       <!-- Service 5 -->
-      <div class="grid md:grid-cols-2 items-center gap-10">
-        <img src="<?= $base . '/assets/images/114_V2F2eV9CdXMtMjNfU2luZ2xlLTEx-1-1.jpg' ?>"
-          alt="Performance Optimization Graphic" class="rounded-lg shadow" />
-        <div>
-          <h2 class="text-2xl font-semibold mb-4">Optimized Performance and Efficiency</h2>
-          <p class="text-gray-600 mb-4">
-            High-performance Security: Specifically optimized for minimal latency and maximum throughput. Automatic
-            Scaling: Efficiently adapts to varying traffic patterns, eliminating wasted resources. Cost Savings:
-            Eliminate hardware and overhead costs with a fully cloud-managed security infrastructure.
-          </p>
-          <ul class="space-y-2 text-gray-700 list-disc list-inside">
-            <li>Integrated Access Control Systems with PayClock & HRIS integration.</li>
-            <li>Automated Truck Entrance with License Plate Recognition & Driver Validation.</li>
-            <li>End-to-End Warehouse Surveillance with AI-powered individual dock door monitoring.</li>
-            <li>Intercom solutions between truck entrances and dispatch centers.</li>
-            <li>Facial recognition & biometric authentication for high-security areas.</li>
-          </ul>
+      <article id="svc-performance" class="scroll-mt-32">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+          <img src="<?= $base . '/assets/images/114_V2F2eV9CdXMtMjNfU2luZ2xlLTEx-1-1.jpg' ?>"
+            alt="Performance Optimization Graphic" class="rounded-2xl shadow-lg object-cover aspect-[4/3] w-full" />
+          <div>
+            <h2 class="text-4xl font-bold tracking-tight">Optimized Performance & Efficiency</h2>
+            <p class="text-gray-600 mt-6 leading-relaxed">
+              Our high-performance security stack is optimized for minimal latency,
+              maximum throughput, and automatic scaling to match workload patterns.
+            </p>
+            <ul class="mt-6 space-y-3 text-gray-700 list-disc list-inside">
+              <li>Security that adapts instantly to traffic spikes</li>
+              <li>Fully cloud-managed, no hardware overhead</li>
+              <li>Massive cost savings with elastic scaling</li>
+            </ul>
+          </div>
         </div>
-      </div>
-
+      </article>
     </div>
   </section>
+
+  <script>
+    const links2 = document.querySelectorAll('.spy-link');
+    const sections2 = [...links2].map(l => document.querySelector(l.getAttribute('href')));
+
+    const observer2 = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        const id = entry.target.getAttribute('id');
+        const link = document.querySelector(`.spy-link[href="#${id}"]`);
+        if (entry.isIntersecting) {
+          links2.forEach(l => l.classList.remove('bg-orange-600', 'text-white'));
+          link.classList.add('bg-orange-600', 'text-white');
+        }
+      });
+    }, { rootMargin: "-40% 0px -50% 0px" });
+
+    sections2.forEach(sec => observer2.observe(sec));
+
+    links2.forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(link.getAttribute('href'))
+          .scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  </script>
+
 
 
   <!-- CTA -->

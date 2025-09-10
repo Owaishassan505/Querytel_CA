@@ -24,8 +24,7 @@
     <meta property="og:url" content="https://querytel.com/careers/" />
     <meta property="og:site_name" content="QueryTel Inc." />
     <meta property="og:locale" content="en_CA" />
-    <meta property="og:image"
-        content="https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png" />
+    <meta property="og:image" content="<?= $base . '/assets/images/querytel-icon.png' ?>" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
@@ -34,11 +33,10 @@
     <meta name="twitter:title" content="Careers at QueryTel Inc — Jobs, Culture & Hiring in North America" />
     <meta name="twitter:description"
         content="Grow your career in managed IT, cybersecurity, and cloud. Explore life at QueryTel." />
-    <meta name="twitter:image"
-        content="https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png" />
+    <meta name="twitter:image" content="<?= $base . '/assets/images/querytel-icon.png' ?>" />
 
     <!-- Icons -->
-    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
     <!-- Performance hints -->
@@ -78,7 +76,7 @@
     "@id":"https://querytel.com/#org",
     "name":"QueryTel Inc.",
     "url":"https://querytel.com/",
-    "logo":"https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png",
+    "logo":"<?= $base . '/assets/images/querytel-icon.png' ?>",
     "sameAs":["https://www.linkedin.com/company/querytel"]
   }
   </script>

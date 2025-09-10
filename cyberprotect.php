@@ -9,6 +9,7 @@
     <meta name="description"
         content="Next-gen cyber protection: backup, anti-malware, patching, and recovery in one lightweight platform." />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
     <script>
         tailwind.config = {
             theme: {

@@ -24,8 +24,7 @@
     <meta property="og:url" content="https://querytel.com/contactus/" />
     <meta property="og:site_name" content="QueryTel Inc." />
     <meta property="og:locale" content="en_CA" />
-    <meta property="og:image"
-        content="https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png" />
+    <meta property="og:image" content="<?= $base . '/assets/images/querytel-icon.png' ?>" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
@@ -34,11 +33,10 @@
     <meta name="twitter:title" content="Contact QueryTel Inc — Sales & Support in North America" />
     <meta name="twitter:description"
         content="Call our Toronto HQ or reach the support portal. Open Mon–Fri, 8am–5pm." />
-    <meta name="twitter:image"
-        content="https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png" />
+    <meta name="twitter:image" content="<?= $base . '/assets/images/querytel-icon.png' ?>" />
 
     <!-- Icons -->
-    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
     <!-- Performance hints -->
@@ -96,7 +94,7 @@
     "@id": "https://querytel.com/#org",
     "name": "QueryTel Inc.",
     "url": "https://querytel.com/",
-    "logo": "https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png",
+    "logo": "<?= $base . '/assets/images/querytel-icon.png' ?>",
     "description": "Managed IT, cybersecurity, and cloud solutions for Canadian businesses.",
     "foundingDate": "1995",
     "sameAs": ["https://www.linkedin.com/company/querytel"],
@@ -133,7 +131,7 @@
     "@id":"https://querytel.com/#hq",
     "name":"QueryTel Inc — Toronto HQ",
     "url":"https://querytel.com/",
-    "image":"https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png",
+    "image":"<?= $base . '/assets/images/querytel-icon.png' ?>",
     "telephone":"+1-416-477-1380",
     "address":{
       "@type":"PostalAddress",
@@ -182,7 +180,7 @@
     "inLanguage":"en-CA",
     "about":{"@id":"https://querytel.com/#org"},
     "breadcrumb":{"@id":"https://querytel.com/contactus/#breadcrumb"},
-    "primaryImageOfPage":{"@type":"ImageObject","url":"https://querytel.com/wp-content/uploads/2021/09/cropped-QueryTel-Logo-350-x-100.png"},
+    "primaryImageOfPage":{"@type":"ImageObject","url":"<?= $base . '/assets/images/querytel-icon.png' ?>"},
     "lastReviewed":"2025-08-18"
   }
   </script>
@@ -238,22 +236,26 @@
                 <h2 class="text-2xl md:text-3xl font-semibold text-neutral-900">
                     Managed IT Services, Cybersecurity & Cloud Solutions in North America
                 </h2>
+
                 <h3 class="text-xl font-medium text-neutral-700 mt-2 mb-4">
                     Powering Businesses with Secure IT Since 1995
                 </h3>
+
                 <p class="text-gray-700 text-base leading-relaxed">
-                    At <span class="font-semibold">QueryTel</span>, we’ve been delivering cutting-edge IT solutions
+                    At <span class="font-semibold">QueryTel</span>, we’ve delivered cutting-edge IT solutions
                     across North America for over two decades.
                     Founded in 1995, our mission has always been clear: help businesses embrace technology with
                     <span class="font-semibold">confidence, security, and reliability</span>.
                     <br /><br />
-                    With <span class="font-semibold">50+ expert consultants</span> and a proven track record serving
-                    industries like
-                    <span class="font-semibold">healthcare, retail, warehousing, and professional services</span>, we
-                    combine deep experience
-                    with modern innovation to keep your business <span class="font-semibold">future-ready</span>.
+                    With <span class="font-semibold">50+ certified IT consultants</span> and hands-on experience across
+                    <span class="font-semibold">healthcare, warehousing, retail, and professional services</span>,
+                    we blend time-tested expertise with modern infrastructure to help clients scale, secure, and
+                    succeed.
                     <br /><br />
-                    <span class="font-semibold text-lg block mb-2">Our Core Strengths</span>
+
+                </p>
+
+                <span class="font-semibold text-lg block mb-2">Our Core Strengths</span>
                 <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
 
                     <div
@@ -445,7 +447,7 @@
                 <h3 class="text-2xl text-neutral-900 mb-4">Proud Partners of Over <b>50 Leading IT Consultants</b>
                     across North America</h3>
                 <div class="h-0.5 w-10 bg-neutral-300 mb-6"></div>
-                <p class="text-gray-600 text-sm leading-relaxed">
+                <p class="text-gray-600 text-md leading-relaxed">
                     At QueryTel, collaboration is at the heart of what we do. We proudly partner with over 50 of
                     North America’s top IT consultants, combining their expertise with our innovative solutions to
                     deliver
@@ -467,7 +469,7 @@
                     <span class="text-neutral-900">Solutions & Experience</span>
                 </h3>
                 <div class="h-0.5 w-10 bg-neutral-300 my-6"></div>
-                <p class="text-gray-600 text-sm leading-relaxed">At QueryTel, we invest time understanding your business
+                <p class="text-gray-600 text-md leading-relaxed">At QueryTel, we invest time understanding your business
                     goals and long-term vision. Our IT experts ensure that your technology aligns perfectly with your
                     <b>growth strategy, modernization needs, and competitive edge.</b>
                 </p>

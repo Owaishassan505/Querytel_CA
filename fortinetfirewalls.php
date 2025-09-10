@@ -26,6 +26,7 @@
             }
         }
     </script>
+    <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
     <style>
         @keyframes floatY {
             0% {

@@ -1,4 +1,4 @@
-<?php $base = "/Querytel_CA"; ?>
+<?php $base = ""; ?>
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 
@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Code Services — Web, Software & APIs | Querytel Inc</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
   <script>
     tailwind.config = {
       theme: {
@@ -425,25 +426,25 @@ export const route = {
                 <div class="mt-5 rounded-lg bg-slate-50 p-3 text-[11px] leading-5 text-slate-700 ring-1 ring-slate-100">
                   <?php if ($s['t'] === 'Scope'): ?>
                     <pre><code>Goals:
-                                                                                                                                                                ✓ Clear definition of success
-                                                                                                                                                                ✓ Fixed scope from day one</code></pre>
+                                                                                                                                                                            ✓ Clear definition of success
+                                                                                                                                                                            ✓ Fixed scope from day one</code></pre>
                   <?php elseif ($s['t'] === 'Design'): ?>
                     <pre><code>Design kit:
-                                                                                                                                                                ✓ Buttons, forms, layouts
-                                                                                                                                                                ✓ Empty | Error | Loading states</code></pre>
+                                                                                                                                                                            ✓ Buttons, forms, layouts
+                                                                                                                                                                            ✓ Empty | Error | Loading states</code></pre>
                   <?php elseif ($s['t'] === 'Build'): ?>
                     <pre><code>Process:
-                                                                                                                                                                ✓ Feature branch
-                                                                                                                                                                ✓ Code review + testing</code></pre>
+                                                                                                                                                                            ✓ Feature branch
+                                                                                                                                                                            ✓ Code review + testing</code></pre>
                   <?php elseif ($s['t'] === 'Ship'): ?>
                     <pre><code>Launch flow:
-                                                                                                                                                                ✓ Preview links
-                                                                                                                                                                ✓ Gradual rollout
-                                                                                                                                                                ✓ Real-time logs</code></pre>
+                                                                                                                                                                            ✓ Preview links
+                                                                                                                                                                            ✓ Gradual rollout
+                                                                                                                                                                            ✓ Real-time logs</code></pre>
                   <?php else: ?>
                     <pre><code>After launch:
-                                                                                                                                                                ✓ Track usage
-                                                                                                                                                                ✓ Learn → Improve → Repeat</code></pre>
+                                                                                                                                                                            ✓ Track usage
+                                                                                                                                                                            ✓ Learn → Improve → Repeat</code></pre>
                   <?php endif; ?>
                 </div>
 
