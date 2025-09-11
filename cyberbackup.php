@@ -38,6 +38,17 @@
                 }
             }
         }
+            <!-- Google Tag Manager -->
+            < script > (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-57GG72GW');</script>
+    <!-- End Google Tag Manager -->
+
     </script>
     <style>
         /* AOS-lite: reveal on scroll */
@@ -801,26 +812,26 @@
 
     <!-- Optional: staggered reveal if you haven't added it yet on the page -->
     <script>
-            (function () {
-                const grp = document.querySelector('#acronis-benefits [data-animate-group]');
-                if (!grp) return;
-                const io = new IntersectionObserver((es) => {
-                    es.forEach(e => {
-                        if (!e.isIntersecting) return;
-                        e.target.querySelectorAll('article').forEach((card, i) => {
-                            card.style.opacity = 0;
-                            card.style.transform = 'translateY(10px) scale(.995)';
-                            setTimeout(() => {
-                                card.style.transition = 'opacity .5s ease, transform .5s ease';
-                                card.style.opacity = 1;
-                                card.style.transform = 'translateY(0) scale(1)';
-                            }, 80 * i);
-                        });
-                        io.unobserve(e.target);
+        (function () {
+            const grp = document.querySelector('#acronis-benefits [data-animate-group]');
+            if (!grp) return;
+            const io = new IntersectionObserver((es) => {
+                es.forEach(e => {
+                    if (!e.isIntersecting) return;
+                    e.target.querySelectorAll('article').forEach((card, i) => {
+                        card.style.opacity = 0;
+                        card.style.transform = 'translateY(10px) scale(.995)';
+                        setTimeout(() => {
+                            card.style.transition = 'opacity .5s ease, transform .5s ease';
+                            card.style.opacity = 1;
+                            card.style.transform = 'translateY(0) scale(1)';
+                        }, 80 * i);
                     });
-                }, { threshold: .25 });
-                io.observe(grp);
-            })();
+                    io.unobserve(e.target);
+                });
+            }, { threshold: .25 });
+            io.observe(grp);
+        })();
     </script>
 
     <!-- CTA -->

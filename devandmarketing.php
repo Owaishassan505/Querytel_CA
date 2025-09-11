@@ -22,7 +22,13 @@
           }
         }
       }
+        <!-- Google Tag Manager (noscript) -->
+        < noscript > <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57GG72GW"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+< !--End Google Tag Manager(noscript)-- >
+
     }
+
   </script>
 </head>
 
@@ -31,6 +37,11 @@
 
   <!-- HERO: Code Services (Theme = Orange + Blue) — Responsive -->
   <section class="relative overflow-hidden bg-white">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57GG72GW" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- faint grid -->
     <div aria-hidden="true" class="pointer-events-none absolute inset-0">
       <svg class="absolute inset-0 w-full h-full text-slate-100" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -426,25 +437,25 @@ export const route = {
                 <div class="mt-5 rounded-lg bg-slate-50 p-3 text-[11px] leading-5 text-slate-700 ring-1 ring-slate-100">
                   <?php if ($s['t'] === 'Scope'): ?>
                     <pre><code>Goals:
-                                                                                                                                                                            ✓ Clear definition of success
-                                                                                                                                                                            ✓ Fixed scope from day one</code></pre>
+                                                                                                                                                                                    ✓ Clear definition of success
+                                                                                                                                                                                    ✓ Fixed scope from day one</code></pre>
                   <?php elseif ($s['t'] === 'Design'): ?>
                     <pre><code>Design kit:
-                                                                                                                                                                            ✓ Buttons, forms, layouts
-                                                                                                                                                                            ✓ Empty | Error | Loading states</code></pre>
+                                                                                                                                                                                    ✓ Buttons, forms, layouts
+                                                                                                                                                                                    ✓ Empty | Error | Loading states</code></pre>
                   <?php elseif ($s['t'] === 'Build'): ?>
                     <pre><code>Process:
-                                                                                                                                                                            ✓ Feature branch
-                                                                                                                                                                            ✓ Code review + testing</code></pre>
+                                                                                                                                                                                    ✓ Feature branch
+                                                                                                                                                                                    ✓ Code review + testing</code></pre>
                   <?php elseif ($s['t'] === 'Ship'): ?>
                     <pre><code>Launch flow:
-                                                                                                                                                                            ✓ Preview links
-                                                                                                                                                                            ✓ Gradual rollout
-                                                                                                                                                                            ✓ Real-time logs</code></pre>
+                                                                                                                                                                                    ✓ Preview links
+                                                                                                                                                                                    ✓ Gradual rollout
+                                                                                                                                                                                    ✓ Real-time logs</code></pre>
                   <?php else: ?>
                     <pre><code>After launch:
-                                                                                                                                                                            ✓ Track usage
-                                                                                                                                                                            ✓ Learn → Improve → Repeat</code></pre>
+                                                                                                                                                                                    ✓ Track usage
+                                                                                                                                                                                    ✓ Learn → Improve → Repeat</code></pre>
                   <?php endif; ?>
                 </div>
 

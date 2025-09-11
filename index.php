@@ -13,6 +13,16 @@
   <link rel="canonical" href="https://querytel.com/" />
   <link rel="alternate" hreflang="en-ca" href="https://querytel.com/" />
   <meta name="theme-color" content="#0f172a" />
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-57GG72GW');</script>
+  <!-- End Google Tag Manager -->
 
   <meta property="og:type" content="website" />
   <meta property="og:title" content="QueryTel Inc. — Managed IT, Cybersecurity & Cloud Services in North America" />
@@ -240,6 +250,11 @@
 
 
 <body class="bg-white text-neutral-900 font-sans">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57GG72GW" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
   <!-- NAVBAR -->
   <?php include "navbar.php"; ?>
 
