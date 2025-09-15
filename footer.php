@@ -8,7 +8,7 @@
 
 
             <b>QueryTel</b> <br>
-            <p>Empowering Canadian businesses with reliable managed IT, cybersecurity, and scalable infrastructure since
+            <p>Empowering businesses with reliable managed IT, cybersecurity, and scalable infrastructure since
                 1995.</p>
 
             <div class="mt-4 space-y-1">
@@ -26,7 +26,7 @@
                 <div class="flex space-x-4">
 
                     <!-- LinkedIn -->
-                    <a href="https://www.linkedin.com/company/querytel" target="_blank" rel="noopener noreferrer"
+                    <a href="https://www.linkedin.com/company/querytel-inc" target="_blank" rel="noopener noreferrer"
                         class="text-neutral-500 hover:text-blue-700 transition" aria-label="LinkedIn">
                         <i class="fab fa-linkedin fa-lg"></i>
                     </a>

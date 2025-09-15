@@ -3,18 +3,25 @@
 <html lang="en" class="scroll-smooth">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Code Services — Web, Software & APIs | Querytel Inc</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Code Services — Web, Software & APIs | Querytel Inc</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="icon" href="<?= $base . '/assets/images/querytel-icon.png' ?>" sizes="any" />
+ 
   <script>
     tailwind.config = {
       theme: {
         extend: {
           keyframes: {
-            fadeInUp: { "0%": { opacity: 0, transform: "translateY(16px)" }, "100%": { opacity: 1, transform: "translateY(0)" } },
-            floatY: { "0%,100%": { transform: "translateY(0)" }, "50%": { transform: "translateY(-12px)" } }
+            fadeInUp: {
+              "0%": { opacity: 0, transform: "translateY(16px)" },
+              "100%": { opacity: 1, transform: "translateY(0)" }
+            },
+            floatY: {
+              "0%,100%": { transform: "translateY(0)" },
+              "50%": { transform: "translateY(-12px)" }
+            }
           },
           animation: {
             fadeInUp: "fadeInUp .7s ease-out forwards",
@@ -22,14 +29,15 @@
           }
         }
       }
-        <!-- Google Tag Manager (noscript) -->
-        < noscript > <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57GG72GW"
-          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-< !--End Google Tag Manager(noscript)-- >
-
     }
-
-  </script>
+</script>
+ 
+  <!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57GG72GW"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
 </head>
 
 <body class="bg-white text-neutral-900 font-sans">
