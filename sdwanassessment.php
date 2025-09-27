@@ -1,5 +1,4 @@
 <?php $base = "" ?>
-
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 
@@ -192,7 +191,7 @@
         }
     </style>
     <!-- SAMPLE REPORT -->
- <!-- SAMPLE REPORT -->
+    <!-- SAMPLE REPORT -->
     <section id="sample-report" class="bg-gradient-to-b from-black via-[#0b0d12] to-black py-24">
         <div class="max-w-7xl mx-auto px-6">
             <header class="text-center">
@@ -202,7 +201,7 @@
                 </h2>
                 <div class="mt-6 h-px w-40 mx-auto bg-gradient-to-r from-zinc-600 via-zinc-400 to-zinc-600/60"></div>
             </header>
- 
+
             <div class="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Executive Summary -->
                 <article
@@ -217,7 +216,7 @@
                         <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
                     </div>
                 </article>
- 
+
                 <!-- Utilization -->
                 <article
                     class="card rounded-2xl bg-[#0f131a]/70 ring-1 ring-white/10 backdrop-blur-sm p-6 hover:ring-white/20 transition cursor-pointer"
@@ -231,7 +230,7 @@
                         <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
                     </div>
                 </article>
- 
+
                 <!-- Recommendations -->
                 <article
                     class="card rounded-2xl bg-[#0f131a]/70 ring-1 ring-white/10 backdrop-blur-sm p-6 hover:ring-white/20 transition cursor-pointer"
@@ -248,7 +247,7 @@
             </div>
         </div>
     </section>
- 
+
     <!-- PREMIUM LIGHTBOX -->
     <div id="lightbox" class="fixed inset-0 bg-black/80 hidden items-center justify-center z-[60] p-8 backdrop-blur-md"
         onclick="closeLightbox()">
@@ -269,13 +268,13 @@
             <p id="lightbox-caption" class="mt-6 text-center text-zinc-300 text-sm italic"></p>
         </div>
     </div>
- 
+
     <style>
         .animate-premium {
             transition: all .45s ease-out;
         }
     </style>
- 
+
     <script>
         function openLightbox(src, title = '', caption = '') {
             const lb = document.getElementById("lightbox");
@@ -284,14 +283,14 @@
             document.getElementById("lightbox-title").textContent = title;
             document.getElementById("lightbox-caption").textContent = caption;
             lb.classList.remove("hidden"); lb.classList.add("flex");
- 
+
             // animate expand
             requestAnimationFrame(() => {
                 content.classList.remove("scale-95", "opacity-0");
                 content.classList.add("scale-100", "opacity-100");
             });
         }
- 
+
         function closeLightbox() {
             const lb = document.getElementById("lightbox");
             const content = document.getElementById("lightbox-content");
@@ -299,7 +298,7 @@
             content.classList.remove("scale-100", "opacity-100");
             setTimeout(() => { lb.classList.remove("flex"); lb.classList.add("hidden"); }, 300);
         }
-    </script>    <!-- CTA -->
+    </script> <!-- CTA -->
     <section class="py-16 bg-gray-100 text-center">
         <div class="max-w-3xl mx-auto px-6">
             <h2 class="text-3xl font-semibold mb-4">Need something custom?</h2>

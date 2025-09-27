@@ -89,8 +89,7 @@
                 Security</a>
             <a role="menuitem" href="<?= $base ?>/warehousing-solutions-and-network-infrastructure/"
                 class="hover:text-black transition focus-ring">Warehousing</a>
-            <a role="menuitem" href="<?= $base ?>/devandmarketing/" class="hover:text-black transition focus-ring">Dev &
-                Marketing</a>
+            <a role="menuitem" href="<?= $base ?>/development/" class:text-black transition focus-ring">Development</a>
 
             <div class="nav-hover-group">
                 <button type="button" class="hover:text-black transition focus-ring" aria-haspopup="true"
@@ -245,7 +244,7 @@
             <a class="block py-2" href="<?= $base ?>/aboutus/">About Us</a>
             <a class="block py-2" href="<?= $base ?>/cloud-security/">Cloud Security</a>
             <a class="block py-2" href="<?= $base ?>/warehousing-solutions-and-network-infrastructure/">Warehousing</a>
-            <a class="block py-2" href="<?= $base ?>/devandmarketing/">Development & Marketing</a>
+            <a class="block py-2" href="<?= $base ?>/development/">Development</a>
             <!-- <a class="block py-2" href="<?= $base ?>/SaaS/">SaaS</a> -->
             <a class="block py-2" href="<?= $base ?>/services/">Services</a>
             <details>

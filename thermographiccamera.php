@@ -1,5 +1,4 @@
-<?php $base = "" ?>
-<!DOCTYPE html>
+<?php $base = "" ?><!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 
 <head>
